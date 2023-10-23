@@ -1,6 +1,3 @@
-[submodule "themes/base16"]
-	path = themes/base16
-	url = https://github.com/protogia/hugo-base16-theme.git
 [submodule "themes/toha"]
 	path = themes/toha
 	url = https://github.com/protogia/toha.git
