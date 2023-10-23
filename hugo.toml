@@ -1,3 +1,4 @@
-baseURL = 'https://protogia.github.io'
+baseURL = 'localhost:1313'
 languageCode = 'en-us'
 title = 'protogia.engineering'
+theme = 'base16'
