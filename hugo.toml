@@ -2,3 +2,21 @@ baseURL = 'localhost:1313'
 languageCode = 'en-us'
 title = 'protogia.engineering'
 theme = 'base16'
+
+[Menu]
+ [[menu.Main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+ [[menu.Main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
+ [[menu.Main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects"
+ [[menu.Main]]
+  identifier = "offtopic"
+  name = "Offtopic"
+  url = "/offtopic"
