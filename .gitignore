@@ -3,3 +3,6 @@
 /public/
 /resources/_gen/
 .hugo_build.lock
+
+# hugo-jupyter-notebook-plugin
+__pycache__
