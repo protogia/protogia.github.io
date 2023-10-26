@@ -11,7 +11,7 @@ theme = 'base16'
 [Menu]
    [[menu.Main]]
       identifier = "projects"
-      name = " Projects"
+      name = " Projekte"
       url = "/projects"
    [[menu.Main]]
       identifier = "blog"
