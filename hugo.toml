@@ -3,16 +3,21 @@ languageCode = 'en-us'
 title = 'protogia.engineering'
 theme = 'base16'
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+
 [Menu]
- [[menu.Main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
- [[menu.Main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects"
- [[menu.Main]]
-    identifier = "offtopic"
-    name = "Offtopic"
-    url = "/offtopic"
+   [[menu.Main]]
+      identifier = "projects"
+      name = " Projects"
+      url = "/projects"
+   [[menu.Main]]
+      identifier = "blog"
+      name = "Blog:offtopic"
+      url = "/blog"
+   [[menu.Main]]
+      identifier = "jupyterlite"
+      name = "Dataspace:jupyterlite"
+      url = "https://protogia.github.io/jupyterlite"
