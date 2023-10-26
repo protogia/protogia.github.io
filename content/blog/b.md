@@ -7,3 +7,6 @@ tags: offtopic
 categories: []
 color: '--base0a'
 ---
+
+
+write some blogpost
