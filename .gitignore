@@ -1,8 +1,11 @@
 ### Hugo ###
 # Generated files by hugo
-/public/
-/resources/_gen/
+public/
+resources/_gen/
 .hugo_build.lock
 
 # hugo-jupyter-notebook-plugin
 __pycache__
+
+# media
+static/media/
