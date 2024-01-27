@@ -4,6 +4,7 @@ title = 'protogia.engineering'
 theme = 'base16'
 
 [taxonomies]
+  color = 'color'
   category = 'categories'
   tag = 'tags'
 
