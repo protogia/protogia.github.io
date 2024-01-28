@@ -3,13 +3,13 @@ title: 'A portrait made of data: Braunschweig'
 date: '2023-10-30T14:12:47+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
-categories: [data-analytics, python]
+categories: [data-analytics, python, braunschweig]
 color: 'var(--base0a)'
 ---
 
 # Prologue
 
-The city of Braunschweig has undergone significant changes in recent years. In this blog post, I aim to visualize these changes and their perception in the public using various data sources. This blog post marks the beginning of a series that focuses on a data-based portrait of Braunschweig.
+The city of Braunschweig has undergone significant changes in recent years. I aim to visualize these changes and their perception in the public using various data sources. This blog post marks the beginning of a series that focuses on a data-based portrait of Braunschweig.
 
 To accomplish this, I will initially utilize the following data sources:
 
