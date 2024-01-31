@@ -2,7 +2,7 @@
 title: 'GovData-client'
 date: '2024-01-27T10:37:49+01:00'
 author: 'Giancarlo Rizzo'
-draft: true
+draft: false
 categories: [python, govdata]
 color: 'var(--base09)'
 ---
@@ -17,4 +17,4 @@ You can serve the datasets there and download it manually or just access and ana
 
 # Example
 
-You can find and example on how to use it in the repository to and open it in [google-colab](https://colab.research.google.com/github/protogia/govdata/blob/main/govadata_client_example.ipynb).   
+To get in touch with it you can try the example in the repository and open it in [google-colab](https://colab.research.google.com/github/protogia/govdata/blob/main/govadata_client_example.ipynb).   
