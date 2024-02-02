@@ -4,7 +4,7 @@ date: '2023-11-03T14:34:06+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
 categories: [linux]
-color: 'var(--base0a)'
+color: '#99cc99'
 ---
 
 # Prologue
