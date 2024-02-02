@@ -8,13 +8,20 @@ theme = 'base16'
   category = 'categories'
   tag = 'tags'
 
-
 [Menu]
 [[menu.Main]]
    identifier = "projects"
-   name = " Projects"
+   name = "  Projects"
    url = "/projects"
 [[menu.Main]]
    identifier = "blog"
-   name = "Blog:Offtopic"
+   name = " Blog"
    url = "/blog"
+[[menu.Main]]
+   identifier = "gists"
+   name = " Gists"
+   url = "/gists"
+[[menu.Main]]
+   identifier = "favourites"
+   name = "Favourites"
+   url = "/favourites"
