@@ -4,7 +4,7 @@ date: '2024-01-27T10:37:49+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
 categories: [python, govdata]
-color: 'var(--base09)'
+color: '#f99157'
 ---
 
 # Prologue
