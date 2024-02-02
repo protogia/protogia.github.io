@@ -4,5 +4,5 @@ date: '{{ .Date }}'
 author: 'Giancarlo Rizzo'
 draft: true
 categories: []
-color: '#f99157'
+color: '#66cccc'
 ---
