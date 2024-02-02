@@ -4,7 +4,7 @@ date: '2023-10-30T14:12:47+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
 categories: [data-analytics, python, braunschweig]
-color: 'var(--base0a)'
+color: '#ffcc66'
 ---
 
 # Prologue
