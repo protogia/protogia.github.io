@@ -2,7 +2,7 @@
 title: 'Beautyboot'
 date: '2024-01-31T06:06:35+01:00'
 author: 'Giancarlo Rizzo'
-draft: true
+draft: false
 categories: [linux]
 color: '#f99157'
 ---
@@ -46,5 +46,9 @@ plymouth -R # needs to executed after each theme-change!
 
 ## Create custom themes
 
-Because none of the preeinstalled themes realy catched me, I decided to create a custom theme and moreover I decided to start a theme-creator that should be able to create animations from given media-files and video-urls. Thats how I started [beautyboot](https://github.com/protogia/beautyboot). 
+Because none of the preeinstalled themes really catched me, I decided to create a custom theme and moreover I decided to start a theme-creator that should be able to create animations from given media-files and video-urls. Thats how I started this prohect.
+
+It offers the ability to create animations from local video- and imagefiles and also from provided youtube-URLs within a given timerange.
+
+To get in touch with it check out the documentation: [beautyboot](https://github.com/protogia/beautyboot)
 
