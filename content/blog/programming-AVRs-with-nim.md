@@ -1,5 +1,5 @@
 ---
-title: 'Programming AVRs With Nim'
+title: 'Programming AVRs with Nim'
 date: '2024-02-10T07:19:23+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
