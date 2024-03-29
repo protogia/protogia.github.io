@@ -21,7 +21,4 @@ theme = 'base16'
    identifier = "gists"
    name = " Gists"
    url = "/gists"
-[[menu.Main]]
-   identifier = "favourites"
-   name = "Favourites"
-   url = "/favourites"
+
