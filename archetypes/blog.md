@@ -5,4 +5,5 @@ author: 'Giancarlo Rizzo'
 draft: true
 categories: []
 color: '#ffcc66'
+titleimage: 'content/blog/titleimages/CHANGEME.png'
 ---
