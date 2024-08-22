@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        poetry install
+        poetry install 
 
     - name: Run URL-Validation
       run: |
