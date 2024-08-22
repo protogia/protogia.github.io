@@ -35,11 +35,9 @@ def main():
     visualize_results(df)
     
     if (df['statuscode'] >= 300).any() or df['statuscode'].isnull().any():
-        result = False
+        exit(1)
     else:
-        result = True
-
-    return result
+        exit(0)
 
 def visualize_results(df):
     numerical_column = 'statuscode'
