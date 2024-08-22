@@ -28,4 +28,4 @@ jobs:
 
     - name: Run URL-Validation
       run: |
-        poetry run python url_validation.py
+        poetry run python url_validation.py --only-failure
