@@ -15,6 +15,25 @@ def parse_arguments():
         description='Check external links in files.',
         formatter_class=RichHelpFormatter
     )
+
+    parser.add_argument(
+        "--directory", "-d",
+        type=str,
+        default=".",
+        help="The directory to start scanning from."
+    )
+    
+    parser.add_argument(
+        "--only-failure", "-f",
+        action="store_true",
+        help="Only display URLs that resulted in a failure status code."
+    )
+    
+    parser.add_argument(
+        "--show-redirects", "-r",
+        action="store_false",
+        help="Display information if url validated successfull and is redirect."
+    )    
     
     cli_args = parser.parse_args()
     return cli_args
@@ -23,7 +42,7 @@ def main():
     cli_args = parse_arguments()
     
     # Pfad zum Projektverzeichnis
-    project_dir = Path(".")
+    project_dir = Path(cli_args.directory)
     
     data = []
     for md_file in project_dir.rglob("*.md"):
@@ -32,25 +51,30 @@ def main():
     # create pandas.df with source, destination-url, statuscode, redirect-info
     columns=["source", "url", "statuscode", "is_redirect"]
     df = pd.DataFrame(columns=columns, data=data)
-    visualize_results(df)
+    visualize_results(df, only_failure=cli_args.only_failure, show_redirects=cli_args.show_redirects)
     
     if (df['statuscode'] >= 300).any() or df['statuscode'].isnull().any():
         exit(1)
     else:
         exit(0)
 
-def visualize_results(df):
-    numerical_column = 'statuscode'
+def visualize_results(df, only_failure=False, show_redirects=False):
+
+    if show_redirects:
+        df = df.drop(columns=["is_redirect"])
+    if only_failure:
+        df = df[(df['statuscode'] < 200) | (df['statuscode'] >= 300) | df['statuscode'].isna()]
 
     table = Table(title="Overview of outgoing-urls:")
     for col in df.columns:
-        print(col)
         table.add_column(col)
 
+    numerical_column = 'statuscode'
     for i, row in df.iterrows():
         colored_row = []
         for col in df.columns:
             val = row[col]
+                
             if col == numerical_column:
                 if val < 200:
                     colored_row.append(f"[blue]{val}[blue]")
@@ -62,9 +86,9 @@ def visualize_results(df):
                     colored_row.append(f"[bold red]{val}[/bold red]")
                 elif val >= 500:
                     colored_row.append(f"[bold orange]{val}[/bold orange]")
+                else:
+                    colored_row.append("[red]None[red]")
             else:
-                if val == 'None' or val is None or val == 'NaN':
-                    colored_row.append(f"[red]{val}[red]")
                 colored_row.append(str(val))
 
         table.add_row(*colored_row)
