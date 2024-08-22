@@ -1,4 +1,4 @@
-name: Link Checker
+name: URL-Validation
 
 on:
   push:
@@ -26,6 +26,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run Link Checker
+    - name: Run URL-Validation
       run: |
-        python check_links.py
+        python url_validation.py
