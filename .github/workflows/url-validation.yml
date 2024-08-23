@@ -1,13 +1,11 @@
 name: URL-Validation
 
-
 on:
   push:
     branches:
       - master
   workflow_dispatch:
   
-
 jobs:
   check_links:
     runs-on: ubuntu-latest
@@ -31,4 +29,4 @@ jobs:
 
     - name: Run URL-Validation
       run: |
-        poetry run linkvalidator --only-failure
+        poetry run liva --only-failure
