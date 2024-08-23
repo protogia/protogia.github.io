@@ -147,6 +147,28 @@ files = [
 ]
 
 [[package]]
+name = "linkvalidator"
+version = "0.1.0"
+description = "Search for URL in files, validate them and list all status-codes and statistics."
+optional = false
+python-versions = "^3.11"
+files = []
+develop = false
+
+[package.dependencies]
+argcomplete = "^3.2.3"
+colorama = "^0.4.6"
+pandas = "^2.2.2"
+pretty-errors = "^1.2.25"
+requests = "^2.32.3"
+rich-argparse = "^1.4.0"
+tabulate = "^0.9.0"
+
+[package.source]
+type = "directory"
+url = "linkvalidator"
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -568,4 +590,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "93cccf13af9f8455ef7f77b3a93070bf40f8ec708020253d3cd2adf66841ac53"
+content-hash = "4df8bd90a3327c5ffe1474c2cb1670e494f84fec2dc8b66500e93b5cfdac830f"
