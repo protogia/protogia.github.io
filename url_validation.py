@@ -120,7 +120,7 @@ def check_files_for_urls(file):
         content = file.read()
         links = link_pattern.findall(content)
         for link in links:
-            statuscode, reason = check_link(link)
+            statuscode, reason = check_url(link)
 
             if statuscode:
                 data = [file.name, link, statuscode, reason]
