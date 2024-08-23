@@ -27,7 +27,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        poetry add ./linkvalidator
+        poetry install
 
     - name: Run URL-Validation
       run: |
