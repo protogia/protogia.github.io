@@ -1,9 +1,12 @@
 name: URL-Validation
 
+
 on:
   push:
     branches:
       - master
+  workflow_dispatch: 'on'
+  
 
 jobs:
   check_links:
@@ -28,4 +31,4 @@ jobs:
 
     - name: Run URL-Validation
       run: |
-        poetry run python url_validation.py --only-failure
+        poetry run python urlvalidator/__main__.py --only-failure
