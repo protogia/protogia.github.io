@@ -3,12 +3,14 @@ import requests
 import pandas as pd
 import pretty_errors
 
-from rich import print as richprint
+import rich
 from rich.table import Table
 from pathlib import Path
 from argparse import ArgumentParser
 from rich_argparse import RichHelpFormatter
 from tabulate import tabulate
+
+HTTP_ERRORCODES = [400, 404]
 
 def parse_arguments():
     parser = ArgumentParser(
@@ -30,11 +32,17 @@ def parse_arguments():
     )
     
     parser.add_argument(
-        "--show-redirects", "-r",
+        "--show-reason", "-r",
         action="store_false",
-        help="Display information if url validated successfull and is redirect."
-    )    
+        help="Display HTTPS-Response-Reason."
+    )
     
+    parser.add_argument(
+        "--errorcodes", "-e",
+        action='append',
+        help="Errorcodes which are causing exit-status: 1 (failure)"
+    )
+
     cli_args = parser.parse_args()
     return cli_args
 
@@ -48,20 +56,29 @@ def main():
     for md_file in project_dir.rglob("*.md"):
         data += [result for result in check_files_for_urls(md_file)]
 
-    # create pandas.df with source, destination-url, statuscode, redirect-info
-    columns=["source", "url", "statuscode", "is_redirect"]
+    columns=["source", "url", "statuscode", "reason"]
     df = pd.DataFrame(columns=columns, data=data)
-    visualize_results(df, only_failure=cli_args.only_failure, show_redirects=cli_args.show_redirects)
+
+    visualize_results(df, only_failure=cli_args.only_failure, show_reason=cli_args.show_reason)
+    evaluate_results(df, cli_args.errorcodes, HTTP_ERRORCODES)
     
-    if (df['statuscode'] >= 300).any() or df['statuscode'].isnull().any():
+
+def evaluate_results(df, user_errorcodes, default_errorcodes):
+    if user_errorcodes:
+        errorcodes = user_errorcodes + default_errorcodes
+    else: 
+        errorcodes = default_errorcodes
+
+    if df['statuscode'].isin(errorcodes).any() or df['statuscode'].isnull().any():
         exit(1)
     else:
         exit(0)
 
-def visualize_results(df, only_failure=False, show_redirects=False):
 
-    if show_redirects:
-        df = df.drop(columns=["is_redirect"])
+def visualize_results(df, only_failure=False, show_reason=False):
+
+    if show_reason:
+        df = df.drop(columns=["reason"])
     if only_failure:
         df = df[(df['statuscode'] < 200) | (df['statuscode'] >= 300) | df['statuscode'].isna()]
 
@@ -92,7 +109,7 @@ def visualize_results(df, only_failure=False, show_redirects=False):
                 colored_row.append(str(val))
 
         table.add_row(*colored_row)
-    richprint(table)
+    rich.print(table)
 
 
 def check_files_for_urls(file):
@@ -103,21 +120,20 @@ def check_files_for_urls(file):
         content = file.read()
         links = link_pattern.findall(content)
         for link in links:
-            response = check_link(link)
+            statuscode, reason = check_link(link)
 
-            if response:
-                data = [file.name, link, response.status_code, response.is_redirect]
+            if statuscode:
+                data = [file.name, link, statuscode, reason]
             else:
                 data = [file.name, link, None, None]
             yield data
-          
-                
-def check_link(url):
-    try: 
-        response = requests.head(url, allow_redirects=True, timeout=8)
-        return response
+
+
+def check_url(url):
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=10)
+        return response.status_code, response.reason
     except requests.RequestException as e:
-        # print(e)
         return None
 
 
