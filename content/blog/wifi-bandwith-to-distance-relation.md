@@ -116,7 +116,7 @@ The results are seved into a `result/<measurementfolder>/<time>.csv`-file.
 
 For the evaluation of the measurements I created a Jupyter-Notebook for each the single-accesspoint-measurements and a second one for each of the two-accesspoint-measurements (mesh).
 
-_To ckeck out about the evaluation in detail check take a look at the following notebooks:_
+_To ckeck out about the evaluation in detail take a look at the following notebooks:_
 
 - _[single-ap-evaluation](https://github.com/protogia/WIFI-Mesh-Evaluation/blob/main/evaluation/evaluate_single_AP_connection.ipynb)_
 - _[mesh-evaluation](https://github.com/protogia/WIFI-Mesh-Evaluation/blob/main/evaluation/evaluate_dual_mesh_wlan_connection.ipynb)_
