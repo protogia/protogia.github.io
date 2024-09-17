@@ -2,7 +2,7 @@
 title: 'Wifi-Mesh-Evlauation: Bandwith to Distance Relation'
 date: '2024-08-08T21:45:17+02:00'
 author: 'Giancarlo Rizzo'
-draft: true
+draft: false
 categories: [analysing]
 color: '#ffcc66'
 titleimage: 'content/blog/titleimages/CHANGEME.png'
@@ -114,13 +114,9 @@ The results are seved into a `result/<measurementfolder>/<time>.csv`-file.
 
 # Evaluation
 
-For the evaluation of the measurements I created a Jupyter-Notebook for each the single-accesspoint-measurements and a second one for each of the two-accesspoint-measurements.
+For the evaluation of the measurements I created a Jupyter-Notebook for each the single-accesspoint-measurements and a second one for each of the two-accesspoint-measurements (mesh).
 
 _To ckeck out about the evaluation in detail check take a look at the following notebooks:_
 
-- _[single-ap-evaluation](https://github.com/)_
-- _[two-ap-evaluation](https://github.com/)_
-
-In this blogpost I just want to give an Overview about the **two-accesspoint-measurement**:
-
-...
+- _[single-ap-evaluation](https://github.com/protogia/WIFI-Mesh-Evaluation/blob/main/evaluation/evaluate_single_AP_connection.ipynb)_
+- _[mesh-evaluation](https://github.com/protogia/WIFI-Mesh-Evaluation/blob/main/evaluation/evaluate_dual_mesh_wlan_connection.ipynb)_
