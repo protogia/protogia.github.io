@@ -3,7 +3,7 @@ title: 'Beautyboot'
 date: '2024-01-31T06:06:35+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
-categories: [linux]
+categories: [os]
 color: '#f99157'
 ---
 

@@ -3,7 +3,7 @@ title: 'How to rescue a full remote system without losing data'
 date: '2023-11-03T14:34:06+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
-categories: [linux]
+categories: [troubleshooting]
 color: '#99cc99'
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: 'Wifi Bandwith to Distance Relation'
+title: 'Wifi-Mesh-Evlauation: Bandwith to Distance Relation'
 date: '2024-08-08T21:45:17+02:00'
 author: 'Giancarlo Rizzo'
 draft: true
-categories: []
+categories: [analysing]
 color: '#ffcc66'
 titleimage: 'content/blog/titleimages/CHANGEME.png'
 ---
@@ -18,7 +18,7 @@ The goal of this evaluation was to checkout the minimum distance for a suitable 
 
 # Setup
 
-```
+```bash
 host_a --- connection via wifi --- accesspoint_1 --- lan --- host_b 
                                |-- accesspoint_2 --|
 ```
@@ -116,7 +116,11 @@ The results are seved into a `result/<measurementfolder>/<time>.csv`-file.
 
 For the evaluation of the measurements I created a Jupyter-Notebook for each the single-accesspoint-measurements and a second one for each of the two-accesspoint-measurements.
 
-To read out about the evaluation check take a look at the following notebooks:
+_To ckeck out about the evaluation in detail check take a look at the following notebooks:_
 
-- [single-ap-evaluation](https://github.com/)
-- [two-ap-evaluation](https://github.com/)
+- _[single-ap-evaluation](https://github.com/)_
+- _[two-ap-evaluation](https://github.com/)_
+
+In this blogpost I just want to give an Overview about the **two-accesspoint-measurement**:
+
+...

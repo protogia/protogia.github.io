@@ -3,7 +3,7 @@ title: 'A portrait made of data: Braunschweig'
 date: '2023-10-30T14:12:47+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
-categories: [data-analytics, python, braunschweig]
+categories: [analysing]
 color: '#ffcc66'
 ---
 
