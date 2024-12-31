@@ -147,26 +147,24 @@ files = [
 ]
 
 [[package]]
-name = "linkvalidator"
+name = "liva"
 version = "0.1.0"
 description = "Search for URL in files, validate them and list all status-codes and statistics."
 optional = false
-python-versions = "^3.11"
-files = []
-develop = false
+python-versions = "<4.0,>=3.11"
+files = [
+    {file = "liva-0.1.0-py3-none-any.whl", hash = "sha256:66c4cb245d8e2225d5e59521a337dd9bb1a7cc2be15221c6c839a71c5cdfb927"},
+    {file = "liva-0.1.0.tar.gz", hash = "sha256:c0742609b26b3082da8d707a71beb63d4f67130af0026d2b1a6cb9e2e03125e8"},
+]
 
 [package.dependencies]
-argcomplete = "^3.2.3"
-colorama = "^0.4.6"
-pandas = "^2.2.2"
-pretty-errors = "^1.2.25"
-requests = "^2.32.3"
-rich-argparse = "^1.4.0"
-tabulate = "^0.9.0"
-
-[package.source]
-type = "directory"
-url = "linkvalidator"
+argcomplete = ">=3.2.3,<4.0.0"
+colorama = ">=0.4.6,<0.5.0"
+pandas = ">=2.2.2,<3.0.0"
+pretty-errors = ">=1.2.25,<2.0.0"
+requests = ">=2.32.3,<3.0.0"
+rich-argparse = ">=1.4.0,<2.0.0"
+tabulate = ">=0.9.0,<0.10.0"
 
 [[package]]
 name = "markdown-it-py"
@@ -590,4 +588,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4df8bd90a3327c5ffe1474c2cb1670e494f84fec2dc8b66500e93b5cfdac830f"
+content-hash = "368b7c7b0342acdee34eac979774139f956a4a4877e94e7992badccf24458805"
