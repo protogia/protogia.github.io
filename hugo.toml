@@ -17,8 +17,4 @@ theme = 'base16'
    identifier = "blog"
    name = " Blog"
    url = "/blog"
-[[menu.Main]]
-   identifier = "gists"
-   name = " Gists"
-   url = "/gists"
 
