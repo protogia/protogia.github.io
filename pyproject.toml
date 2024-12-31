@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Helper-scripts for imageprocessing, notebooks etc according to my website-style"
 authors = ["protogia <goldengrizz01@gmail.com>"]
 packages = [{include = "protogia"}]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
