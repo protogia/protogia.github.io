@@ -15,6 +15,9 @@ theme = 'base16'
    url = "/projects"
 [[menu.Main]]
    identifier = "blog"
-   name = " Blog"
+   name = " Evaluations"
    url = "/blog"
+[[menu.Mainabout]]
+   identifier = "about"
+   url = "/about"
 
