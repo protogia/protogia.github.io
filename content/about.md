@@ -1,7 +1,7 @@
 ---
 title: 'About this blog'
 author: 'Giancarlo Rizzo'
-draft: true
+draft: false
 ---
 
 Sometimes in life you ask yourself why things are the way they are. From this point you have different options to find your personal answer to a question.
