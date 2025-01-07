@@ -4,6 +4,7 @@ import argcomplete
 import pretty_errors
 import os
 import nbformat
+import base64
 import nbconvert
 import datetime
 from nbconvert import MarkdownExporter
@@ -60,35 +61,47 @@ def main() -> None:
     if not os.path.isfile(cli_args.file) or not cli_args.file.endswith(".ipynb"):
         raise FileNotFoundError(f"File '{cli_args.file}' does not exist or is not jupyter notebook.")
     
-    try:
-        # convert notebook to markdown
-        with open(cli_args.file, 'r', encoding='utf-8') as f:
-            notebook = nbformat.read(f, as_version=4)
+    # convert notebook to markdown
+    with open(cli_args.file, 'r', encoding='utf-8') as f:
+        notebook = nbformat.read(f, as_version=4)
 
-        markdown_exporter = MarkdownExporter()
-        (body, resources) = markdown_exporter.from_file(cli_args.file)
+    markdown_exporter = MarkdownExporter()
+    (body, resources) = markdown_exporter.from_file(cli_args.file)
 
-        # Determine output path
-        filename = os.path.splitext(os.path.basename(cli_args.file))[0]
-        output_path = os.path.join(cli_args.destination, f"{filename}.md")
+    # Determine output path
+    filename = os.path.splitext(os.path.basename(cli_args.file))[0]
+    output_path = os.path.join(cli_args.destination, f"{filename}.md")
+
+    if 'outputs' in resources:
+        #Create directory for the images
+        image_dir = os.path.splitext(output_path)[0] + "_files"
+        os.makedirs(image_dir, exist_ok=True)
+
+        for output in resources['outputs']:
+            image_path = os.path.join(image_dir, output)
+
+            with open(image_path, 'wb') as image_file:
+                image_file.write(resources["outputs"][output])
+            
+            # Replace the image data in the markdown with a local link
+            # ![png](?)
+            body = body.replace(f"![png]({output})", f"![{image_path}]({image_path})")
+
+    # add metainformation for hugo-webblog
+    if cli_args.destination.endswith("blog"):
+        with open("archetypes/blog.md", "r", encoding='utf-8') as f:
+            metadata = f.read()
+            
+            # replace placeholders for blogpost-title and date
+            title = filename.replace("-", " ").replace(".md", "")
+            metadata = metadata.replace("'{{ replace .File.ContentBaseName `-` ` ` | title }}'", title)
+            metadata = metadata.replace("'{{ .Date }}'", f"'{datetime.datetime.now(datetime.timezone.utc).isoformat()}'")
+        body = metadata + '\n\n' + body
+
+    with open(output_path, 'w', encoding='utf-8') as outfile:
+        outfile.write(body)
+    print(f"Notebook converted to Markdown: {output_path}")
         
-        # add metainformation for hugo-webblog
-        if cli_args.destination.endswith("blog"):
-            with open("archetypes/blog.md", "r", encoding='utf-8') as f:
-                metadata = f.read()
-                
-                # replace placeholders for blogpost-title and date
-                title = filename.replace("-", " ").replace(".md", "")
-                metadata = metadata.replace("'{{ replace .File.ContentBaseName `-` ` ` | title }}'", title)
-                metadata = metadata.replace("'{{ .Date }}'", f"'{datetime.datetime.now(datetime.timezone.utc).isoformat()}'")
-            body = metadata + '\n\n' + body
-
-        with open(output_path, 'w', encoding='utf-8') as outfile:
-            outfile.write(body)
-        print(f"Notebook converted to Markdown: {output_path}")
-        
-    except Exception as e:
-        print(f"An error occurred during conversion: {e}")
 
 
 if __name__=="__main__":
