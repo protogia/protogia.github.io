@@ -85,7 +85,7 @@ def main() -> None:
             
             # Replace the image data in the markdown with a local link
             # ![png](?)
-            body = body.replace(f"![png]({output})", f"![{image_path}]({image_path})")
+            body = body.replace(f"![png]({output})", f"![https://github.com/protogia/protogia.github.io/tree/master/{image_path}](https://github.com/protogia/protogia.github.io/tree/master/{image_path})")
 
     # add metainformation for hugo-webblog
     if cli_args.destination.endswith("blog"):
