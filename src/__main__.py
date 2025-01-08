@@ -4,13 +4,13 @@ import argcomplete
 import pretty_errors
 import os
 import nbformat
-import base64
-import nbconvert
 import datetime
-from nbconvert import MarkdownExporter
 
+from rich import print
+from nbconvert import MarkdownExporter
 from argparse import ArgumentParser, Namespace
 from rich_argparse import RichHelpFormatter
+from websiteconfig import config as hugoconfig
 
 pretty_errors.configure(
     separator_character = '*',
@@ -23,7 +23,6 @@ pretty_errors.configure(
     truncate_code       = True,
     display_locals      = True
 )
-
 
 def parse_arguments() -> Namespace:
     parser = ArgumentParser(
@@ -73,8 +72,8 @@ def main() -> None:
     output_path = os.path.join(cli_args.destination, f"{filename}.md")
 
     if 'outputs' in resources:
-        #Create directory for the images
-        image_dir = os.path.splitext(output_path)[0] + "_files"
+        #Create directory for blogpost-images
+        image_dir = os.path.join(hugoconfig.WEBSITE_IMG_PATH, filename)
         os.makedirs(image_dir, exist_ok=True)
 
         for output in resources['outputs']:
@@ -85,10 +84,11 @@ def main() -> None:
             
             # Replace the image data in the markdown with a local link
             # ![png](?)
-            body = body.replace(f"![png]({output})", f"![https://github.com/protogia/protogia.github.io/tree/master/{image_path}](https://github.com/protogia/protogia.github.io/tree/master/{image_path})")
-
+            body = body.replace(f"![png]({output})", f"![alt-text]({image_path})")
+            body = body.replace(f"![alt-text](static/", f"![alt-text](/") # remove trailing static/ -folderinformation
+                                
     # add metainformation for hugo-webblog
-    if cli_args.destination.endswith("blog"):
+    if "content/blog"  in cli_args.destination:
         with open("archetypes/blog.md", "r", encoding='utf-8') as f:
             metadata = f.read()
             
@@ -100,9 +100,8 @@ def main() -> None:
 
     with open(output_path, 'w', encoding='utf-8') as outfile:
         outfile.write(body)
-    print(f"Notebook converted to Markdown: {output_path}")
+    print(f"[green]Notebook converted to Markdown:[/green] [italic yellow]{output_path}[/italic yellow]")
         
-
 
 if __name__=="__main__":
     main()
