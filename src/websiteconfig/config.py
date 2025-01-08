@@ -1,0 +1,1 @@
+WEBSITE_IMG_PATH="static/img"
