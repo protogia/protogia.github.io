@@ -11,11 +11,11 @@ theme = 'base16'
 [Menu]
 [[menu.Main]]
    identifier = "projects"
-   name = "  Projects"
+   name = "Projects"
    url = "/projects"
 [[menu.Main]]
    identifier = "blog"
-   name = " Evaluations"
+   name = "Evaluations"
    url = "/blog"
 [[menu.Mainabout]]
    identifier = "about"
