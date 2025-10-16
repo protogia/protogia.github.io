@@ -1,0 +1,41 @@
+<header>
+
+  <a class="path" href="{{ .Site.BaseURL }}" style="text-decoration: none;">
+  <div class="protogia">
+      <h1 class="site-title">
+        <span class="base05">[</span>
+
+          <span class="base08">p</span>
+          <span class="base09">r</span>
+          <span class="base0a">o</span>
+          <span class="base0b">t</span>
+          <span class="base0c">o</span>
+          <span class="base0d">g</span>
+          <span class="base0e">i</span>
+          <span class="base0f">a</span>
+        <span class="base05">]</span>
+      </h1>
+  </a>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <ul class="navbar-nav mr-auto">
+      {{ $current := . }}
+      {{ range .Site.Menus.main }}
+      {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+        <li class="nav-item">
+          <a class="nav-link
+          {{ if eq .Name "Projects" }}
+            navbar-item-yellow
+          {{ else if eq .Name "Blog" }}
+            navbar-item-orange
+          {{ else if eq .Name "Favourites" }}
+            navbar-item-lightblue
+          {{ end }}" href="{{.URL | absURL }}">{{.Name}}</a>
+      {{ end }}
+        </li>
+    </ul>
+  </nav>
+
+  </div>
+
+</header>
