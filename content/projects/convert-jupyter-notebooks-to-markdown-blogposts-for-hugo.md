@@ -4,8 +4,7 @@ date: '2025-01-06T13:25:33+01:00'
 author: 'Giancarlo Rizzo'
 draft: true
 categories: []
-color: '#f99157'
-titleimage: 'content/projects/titleimages/CHANGEME.png'
+color: '#a09f93'
 ---
 
 ## Prologue
@@ -16,8 +15,7 @@ The best ready-to-use package to convert notebooks into markdown-files I found i
 
 Here is an overview of the planed hugo-project-structure:
 
-```
-
+```bash
 /-
 -|-/content
    |-/projects

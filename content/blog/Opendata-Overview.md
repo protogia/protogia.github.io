@@ -4,8 +4,7 @@ date: '2024-03-08T21:51:04.407437+00:00'
 author: 'Giancarlo Rizzo'
 draft: false
 categories: []
-color: '#ffcc66'
-titleimage: 'content/blog/titleimages/CHANGEME.png'
+color: '#a09f93'
 ---
 
 <a href="https://colab.research.google.com/github/protogia/Braunschweig/blob/main/opendata-meta-information-overview.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>

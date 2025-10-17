@@ -4,8 +4,7 @@ date: '2024-08-08T21:45:17+02:00'
 author: 'Giancarlo Rizzo'
 draft: false
 categories: [analysing]
-color: '#ffcc66'
-titleimage: 'content/blog/titleimages/CHANGEME.png'
+color: '#a09f93'
 ---
 
 # Prologue
