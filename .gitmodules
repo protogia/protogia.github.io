@@ -1,3 +1,6 @@
 [submodule "notebooks/braunschweig"]
 	path = notebooks/braunschweig
 	url = https://github.com/protogia/Braunschweig.git
+[submodule "themes/formula1"]
+	path = themes/formula1
+	url = https://github.com/protogia/formula1-theme
