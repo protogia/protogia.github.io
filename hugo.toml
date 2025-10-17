@@ -13,8 +13,8 @@ theme = 'formula1'
    identifier = "projects"
    name = "Projects"
    url = "/projects"
-
 [[menu.Main]]
    identifier = "blog"
    name = "Evaluations"
    url = "/blog"
+
