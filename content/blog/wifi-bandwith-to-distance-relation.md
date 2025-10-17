@@ -1,5 +1,5 @@
 ---
-title: 'Wifi-Mesh-Evlauation: Bandwith to Distance Relation'
+title: 'Wifi-Mesh-Evlauation: Building a testsetup'
 date: '2024-08-08T21:45:17+02:00'
 author: 'Giancarlo Rizzo'
 draft: false
@@ -18,8 +18,7 @@ The goal of this evaluation was to checkout the minimum distance for a suitable 
 # Setup
 
 ```bash
-host_a --- connection via wifi --- accesspoint_1 --- lan --- host_b 
-                               |-- accesspoint_2 --|
+host_a --- connection via wifi --- accesspoint_1/2 --- connection via lan --- host_b 
 ```
 
 ## Setup host_b
