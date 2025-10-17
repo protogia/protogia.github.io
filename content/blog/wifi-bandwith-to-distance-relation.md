@@ -24,7 +24,7 @@ host_a --- connection via wifi --- accesspoint_1 --- lan --- host_b
 
 ## Setup host_b
 
-To measure the bandwith between these two hosts (host_a and host_b) I've setup an iperf3-server running as deamon on the stationary _host_b which is listening by default on port 5201.
+To measure the bandwith between these two hosts (_host_a_ and _host_b_) I've setup an iperf3-server running as deamon on the stationary _host_b_ which is listening by default on port 5201.
 
 ```bash
 # on stationary host_b
@@ -37,7 +37,7 @@ On the vehicle-device I needed to setup quite a few things.
 
 - iperf3-client and permanent logging of current bandwith
 - logging of the gps-position of the vehicle
-- loggin  of the latency via icmp between the vehicle (host_a) and the stationary-target (host_b) 
+- loggin  of the latency via icmp between the vehicle (_host_a_) and the stationary-target (_host_b_) 
 
 The hardware was stored in the trunk and the external antennas for the gps-logging and wifi-connection were mounted on the roof.
 
@@ -115,7 +115,7 @@ The results are seved into a `result/<measurementfolder>/<time>.csv`-file.
 
 For the evaluation of the measurements I created a Jupyter-Notebook for each the single-accesspoint-measurements and a second one for each of the two-accesspoint-measurements (mesh).
 
-_To ckeck out about the evaluation in detail take a look at the following notebooks:_
+To ckeck out about the evaluation in detail take a look at the following notebooks:
 
 - _[single-ap-evaluation](https://github.com/protogia/WIFI-Mesh-Evaluation/blob/main/evaluation/evaluate_single_AP_connection.ipynb)_
 - _[mesh-evaluation](https://github.com/protogia/WIFI-Mesh-Evaluation/blob/main/evaluation/evaluate_dual_mesh_wlan_connection.ipynb)_
