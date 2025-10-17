@@ -2,7 +2,7 @@
 title: 'Convert Jupyter Notebooks to Markdown-Blogposts for Hugo'
 date: '2025-01-06T13:25:33+01:00'
 author: 'Giancarlo Rizzo'
-draft: true
+draft: false
 categories: []
 color: '#a09f93'
 ---
@@ -16,21 +16,21 @@ The best ready-to-use package to convert notebooks into markdown-files I found i
 Here is an overview of the planed hugo-project-structure:
 
 ```bash
-/-
--|-/content
-   |-/projects
-   |-/evaluations
-     |-/notebook-example-1.md
-     |-/notebook-example-1.md
--|-/notebooks
-   |-/notebook-example-1.ipynb
-   |-/notebook-example-2.ipynb
+/~
+   /content
+   /projects
+   /evaluations
+      /notebook-example-1.md
+      /notebook-example-1.md
+   /notebooks
+      /notebook-example-1.ipynb
+      /notebook-example-2.ipynb
 
 ```
 
-As you can see i have a folder `notebooks` in which i add `.ipynb`-files which i want to convert and move into the `/content/evaluations/`-folder. Because I can not guaranty if I keep the structure that simple i want to add meta-informations depending on the destination of the created markdown-file. A notebook which will be converted into a `md`-file in the `/content/evaluations/`-folder should get different metainformations then another which will be converted and stored into the `/content/projects/`-folder.
+As you can see i have a folder _notebooks_ in which i add _.ipynb-files_ which i want to convert and move into the folder _/content/evaluations/_. Because I can not guaranty if I keep the structure that simple i want to add meta-informations depending on the destination of the created markdown-file. A notebook which will be converted into a _md-file_ in the folder _/content/evaluations/_ should get different metainformations then another which will be converted and stored into _/content/projects/_.
 
-Furthermore the image-sources of source-notebook have to be stored into a static-folder (in my case: `/static/img/<notebook-filename>/img_xy.png`) and the hyperlinks within the markdown-file have to be replaced with the targeted static files.
+Furthermore the image-sources of source-notebook have to be stored into a static-folder (in my case: _/static/img/notebook-filename/img_xy.png_) and the hyperlinks within the markdown-file have to be replaced with the targeted static files.
 
 ## Project and Future Adjustments
 
