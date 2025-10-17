@@ -4,7 +4,7 @@ date: '2024-01-27T10:37:49+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
 categories: [analysing]
-color: '#f99157'
+color: '#a09f93'
 ---
 
 # Prologue
