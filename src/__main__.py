@@ -5,6 +5,7 @@ import pretty_errors
 import os
 import nbformat
 import datetime
+import json
 
 from rich import print
 from nbconvert import MarkdownExporter
@@ -60,12 +61,78 @@ def main() -> None:
     if not os.path.isfile(cli_args.file) or not cli_args.file.endswith(".ipynb"):
         raise FileNotFoundError(f"File '{cli_args.file}' does not exist or is not jupyter notebook.")
     
-    # convert notebook to markdown
+
     with open(cli_args.file, 'r', encoding='utf-8') as f:
         notebook = nbformat.read(f, as_version=4)
 
+    # export plotly-output-cells to json    
+    plotly_count = 0
+    
+    for cell in notebook.cells:
+        if cell.cell_type == 'code' and hasattr(cell, 'outputs'):
+            
+            new_outputs = [] # new list to store *only* non-plotly outputs
+            for output in cell.outputs:
+                if 'data' in output:
+                    plotly_mime_type = 'application/vnd.plotly.v1+json'
+                    
+                    if plotly_mime_type in output['data']:
+                        # chartdata
+                        chart_data = output['data'][plotly_mime_type]
+                        
+                        # path and filename
+                        plotly_count += 1
+                        
+                        filename = f"plotly_chart_{plotly_count}.json"
+
+                        plotly_dest = os.path.join(
+                            hugoconfig.WEBSITE_PLOTLY_PATH, 
+                            os.path.splitext(os.path.basename(cli_args.file))[0]
+                        )
+                        
+                        if os.path.exists(plotly_dest) == False:
+                            os.mkdir(plotly_dest)
+                        
+                        output_path = os.path.join(
+                            plotly_dest,
+                            filename
+                        )
+                        
+                        # save the file
+                        with open(output_path, 'w', encoding='utf-8') as json_file:
+                            json.dump(chart_data, json_file, indent=4)                         
+                        print(f"Extracted chart from cell {cell.execution_count} to {output_path}")
+                                                
+                        # replace plotly-chart-cell in plaintext-notebook with hugo-placeholder
+                        hugo_json_path = os.path.join(
+                            '/', # Start from Hugo root
+                            os.path.basename(hugoconfig.WEBSITE_PLOTLY_PATH), 
+                            filename
+                        ).replace('\\', '/')
+                        
+                        placeholder = f'{{{{< plotly json="{hugo_json_path}" >}}}}'
+                            
+                        placeholder_output = nbformat.v4.new_output(
+                            output_type='display_data',
+                            data={'text/markdown': placeholder}
+                        )
+                        
+                        new_outputs.append(placeholder_output)                    
+                    else:
+                        new_outputs.append(output)
+                else:
+                    new_outputs.append(output)
+
+            # update cells after plotly-chart-replacement
+            cell.outputs = new_outputs
+            
+    if plotly_count == 0:
+        print(f"No Plotly charts found in the outputs of '{cli_args.file}'.")
+    else:
+        print(f"Successfully extracted {plotly_count} total static/plotly/<projectname>/*.json.")
+
     markdown_exporter = MarkdownExporter()
-    (body, resources) = markdown_exporter.from_file(cli_args.file)
+    (body, resources) = markdown_exporter.from_notebook_node(notebook)
 
     # Determine output path
     filename = os.path.splitext(os.path.basename(cli_args.file))[0]
