@@ -16,6 +16,8 @@ opencv-python = "^4.9.0.80"
 pandas = "^2.2.2"
 pretty-errors = "^1.2.25"
 nbconvert = "^7.16.5"
+nbformat = ">=4.2.0"
+ipykernel = "^7.0.1"
 
 [build-system]
 requires = ["poetry-core"]
