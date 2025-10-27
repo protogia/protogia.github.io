@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'protogia.engineering'
 theme = 'formula1'
 
+[markup]
+  [markup.highlight]
+    noClasses = false
+    guessSyntax = true
+    codeFences = true
+
 [taxonomies]
   color = 'color'
   category = 'categories'
