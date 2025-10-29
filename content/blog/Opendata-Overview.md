@@ -9,8 +9,6 @@ color: '#a09f93'
 
 <a href="https://colab.research.google.com/github/protogia/Braunschweig/blob/main/opendata-meta-information-overview.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-# Opendata Meta Information Overview
-
 ## Prologue
 This notebook is a trys to analyse the metadata informations of the provided [opendata sources](https://www.braunschweig.de/digitalisierung-online-services/open-data.php) from the city of Braunschweig. It uses an python-based govdata-client to extract some informations from the provided metdata.
 

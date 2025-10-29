@@ -7,21 +7,21 @@ categories: [analysing]
 color: '#a09f93'
 ---
 
-# Prologue
+## Prologue
 
 While working for a new project one task was to transfer data from a moving vehicle to a receiving device behind a wifi-mesh. The two accesspoints of the mesh were placed along the street and the question about the bandwith-capabilities depending on the distance to the nearest accesspoint and the distance to the center of the wifi-mesh became important. 
 
-## Expecations
+### Expecations
 
 The goal of this evaluation was to checkout the minimum distance for a suitable connection with acceptable bandwith and latency. Moreover any connectivity-issues during a handover-action between the two accesspoints should be indicated to make sure that this setup could work.
 
-# Setup
+## Setup
 
 ```bash
 host_a --- connection via wifi --- accesspoint_1/2 --- connection via lan --- host_b 
 ```
 
-## Setup host_b
+### Setup host_b
 
 To measure the bandwith between these two hosts (_host_a_ and _host_b_) I've setup an iperf3-server running as deamon on the stationary _host_b_ which is listening by default on port 5201.
 
@@ -30,7 +30,7 @@ To measure the bandwith between these two hosts (_host_a_ and _host_b_) I've set
 sudo iperf3 -s -D
 ```
 
-## Setup host_a
+### Setup host_a
 
 On the vehicle-device I needed to setup quite a few things.
 
@@ -87,7 +87,7 @@ This little script creates three log-files which are containing the starttime-in
 
 This starttime is important for the data-syncing in the next postprocessing to find the correct relation between the gps-position and the latency-measurement and bandwith-measurement.
 
-# Postprocessing
+## Postprocessing
 
 The implementation of postprocessing is about three tasks:
 
@@ -110,7 +110,7 @@ pipenv run python ./evaluation/__main__.py -b -g -i -s -m ./data/<measurementfol
 
 The results are seved into a `result/<measurementfolder>/<time>.csv`-file.
 
-# Evaluation
+## Evaluation
 
 For the evaluation of the measurements I created a Jupyter-Notebook for each the single-accesspoint-measurements and a second one for each of the two-accesspoint-measurements (mesh).
 
