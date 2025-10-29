@@ -5,7 +5,8 @@ theme = 'formula1'
 
 [markup]
   [markup.highlight]
-    noClasses = false
+    style = 'github-dark'
+    noClasses = true
     guessSyntax = true
     codeFences = true
 
