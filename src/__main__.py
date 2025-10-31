@@ -7,6 +7,7 @@ import nbformat
 import datetime
 import json
 import re 
+from bs4 import BeautifulSoup 
 
 from rich import print
 from nbconvert import MarkdownExporter, exporters
@@ -53,6 +54,55 @@ def parse_arguments() -> Namespace:
     return parser.parse_args()
 # ---
 
+## HTML Table to Markdown Conversion
+def html_table_to_markdown(html_string: str) -> str:
+    """Converts a single HTML table (like those from pandas) to a Markdown table."""
+    soup = BeautifulSoup(html_string, 'html.parser')
+    table = soup.find('table', class_='dataframe')
+    
+    if not table:
+        return "" 
+        
+    markdown_lines = []
+    
+    # --- 1. Header Row and Separator ---
+    header_row = []
+    separator_row = []
+    
+    # Extract headers from <thead>
+    for th in table.find('thead').find_all('th'):
+        header_row.append(th.get_text().strip())
+        separator_row.append('---')
+    
+    # Remove the first element if it's the empty index header
+    if header_row and header_row[0] == "":
+        header_row = header_row[1:]
+        separator_row = separator_row[1:]
+
+    # Join the header and separator rows for markdown
+    if header_row:
+        markdown_lines.append(f"| {' | '.join(header_row)} |")
+        markdown_lines.append(f"| {' | '.join(separator_row)} |")
+    
+    # --- 2. Data Rows ---
+    for tr in table.find('tbody').find_all('tr'):
+        data_row = []
+        
+        # Get row index (<th> in <tbody>) and data (<td>)
+        index_th = tr.find('th')
+        if index_th:
+            data_row.append(index_th.get_text().strip())
+        
+        for td in tr.find_all('td'):
+            data_row.append(td.get_text().strip())
+        
+        # Join the data row for markdown
+        markdown_lines.append(f"| {' | '.join(data_row)} |")
+        
+    # Add a newline after the table to ensure it renders correctly after the shortcode
+    return "\n".join(markdown_lines) + "\n"
+# ---
+
 
 def main() -> None:
     cli_args: Namespace = parse_arguments()
@@ -72,20 +122,30 @@ def main() -> None:
 
     # export plotly-output-cells to json    
     plotly_count = 0
+    dataframe_count = 0
     plotly_mime_type = 'application/vnd.plotly.v1+json'
-    for cell in notebook.cells:
+    dataframe_html_mime_type = 'text/html' 
+    
+    # Find the indices of cells that are code cells
+    code_cell_indices = [i for i, cell in enumerate(notebook.cells) if cell.cell_type == 'code']
+    
+    # Iterate in reverse to allow for safe insertion of new cells
+    for cell_index in reversed(code_cell_indices):
+        cell = notebook.cells[cell_index]
+
         if cell.cell_type == 'code' and hasattr(cell, 'outputs'):
             
-            new_outputs = [] # store *only* non-plotly outputs
             placeholder_cell = None
-            
-            for output in cell.outputs:
+            dataframe_cell = None
+            outputs_to_remove = [] 
+
+            for output_idx, output in enumerate(cell.outputs):
                 if 'data' in output:
                     
+                    # 1. Plotly Handling
                     if plotly_mime_type in output['data']:
                         chart_data = output['data'][plotly_mime_type]
                         
-                        # path and filename
                         plotly_count += 1
                         filename = f"plotly_chart_{plotly_count}.json"
 
@@ -101,45 +161,66 @@ def main() -> None:
                             filename
                         )
                         
-                        # save file
                         with open(output_path, 'w', encoding='utf-8') as json_file:
                             json.dump(chart_data, json_file, indent=4)                         
                         print(f"Extracted chart from cell {cell.execution_count} to {output_path}")
                                                 
-                        # replace plotly-chart-cell in plaintext-notebook with hugo-placeholder
                         hugo_json_path = os.path.join(
-                            '/', # Start from Hugo root
+                            '/', 
                             os.path.basename(hugoconfig.WEBSITE_PLOTLY_PATH), 
-                            os.path.basename(os.path.splitext(cli_args.file)[0]), # folder name
+                            os.path.basename(os.path.splitext(cli_args.file)[0]), 
                             filename
                         ).replace('\\', '/')
                         
                         placeholder = f'{{{{< plotly json="{hugo_json_path}" >}}}}'
                             
-                        # Store the placeholder in a new markdown cell
+                        # Plotly placeholder cell: DO NOT ADD A SPECIAL TAG
                         placeholder_cell = nbformat.v4.new_markdown_cell(placeholder)
-                                        
-                    else:
-                        new_outputs.append(output)
-                else:
-                    new_outputs.append(output)
+                        
+                        outputs_to_remove.append(output_idx) 
 
-            # Update the original cell's outputs, removing the plotly output
-            cell.outputs = [out for out in new_outputs if isinstance(out, dict)]
+                    # 2. Dataframe HTML Handling 
+                    elif dataframe_html_mime_type in output['data']:
+                        html_content = output['data'][dataframe_html_mime_type]
+                        
+                        if isinstance(html_content, list):
+                            html_content = "".join(html_content)
+
+                        markdown_table = html_table_to_markdown(html_content)
+                        
+                        if markdown_table:
+                            dataframe_cell = nbformat.v4.new_markdown_cell(markdown_table)
+                            # Dataframe cell: USE A SPECIFIC TAG to keep it in the group
+                            dataframe_cell.metadata['is_dataframe_output'] = True 
+                            dataframe_count += 1
+                            print(f"Extracted dataframe table from cell {cell.execution_count} and converted to Markdown.")
+                            
+                            outputs_to_remove.append(output_idx) 
+                        
+            # --- Apply Changes ---
             
-            # Insert the placeholder cell after the current code cell
+            # 1. Update the original cell's outputs, REMOVING Plotly/Dataframe HTML
+            cell.outputs = [out for idx, out in enumerate(cell.outputs) if idx not in outputs_to_remove]
+            
+            # 2. Insert new cells (Markdown Table first, then Plotly shortcode)
+            if dataframe_cell:
+                # Insert Dataframe Markdown cell
+                notebook.cells.insert(cell_index + 1, dataframe_cell)
+            
             if placeholder_cell:
-                try:
-                    cell_index = notebook.cells.index(cell)
-                    notebook.cells.insert(cell_index + 1, placeholder_cell)
-                except ValueError:
-                    print(f"[red]Error:[/red] Could not find cell in notebook structure.")
-                    pass
+                # Insert Plotly placeholder cell 
+                notebook.cells.insert(cell_index + 1, placeholder_cell)
 
     if plotly_count == 0:
         print(f"No Plotly charts found in the outputs of '{cli_args.file}'.")
     else:
         print(f"Successfully extracted {plotly_count} total static/plotly/<projectname>/*.json.")      
+
+    if dataframe_count == 0:
+        print(f"No dataframe tables found in the outputs of '{cli_args.file}'.")
+    else:
+        print(f"Successfully converted {dataframe_count} dataframe tables to Markdown.")
+
 
     # convert notebook to markdown, applying shortcode grouping
     markdown_exporter = MarkdownExporter()
@@ -156,31 +237,42 @@ def main() -> None:
         cell_markdown = cell_markdown.strip() 
 
         is_code_cell = cell.cell_type == 'code'
+        # CHECK FOR THE DATAFRAME-SPECIFIC METADATA TAG
+        is_dataframe_output = cell.metadata.get('is_dataframe_output', False) 
 
         if is_code_cell:
             if not is_in_group:
                 # Start a new group
-                current_group_content += '{{<details title="">}} \n\n'
+                current_group_content += '{{<details title="Code and Output">}}\n\n' 
                 is_in_group = True
             
             # append the cell content (code and its non-plotly outputs)
             current_group_content += cell_markdown + "\n\n"
         
+        # --- MODIFIED GROUPING LOGIC ---
+        
+        # If it is a Dataframe output, and we are currently in a group, include it.
+        elif is_dataframe_output and is_in_group:
+             current_group_content += cell_markdown + "\n\n"
+             
+        # If it is NOT a code cell AND NOT a dataframe output 
+        # (This catches prose/heading AND the UNTAGGED Plotly shortcode cell)
         else:
-            # this is a separator cell (Markdown or Plotly shortcode)
+            # This cell acts as a separator/group closer
             if is_in_group:
-                # close the previous group
+                # Close the previous group
                 current_group_content += "{{</details>}}\n\n"
                 grouped_markdown.append(current_group_content)
                 current_group_content = ""
                 is_in_group = False
             
-            # now append the current cell itself (Markdown prose/headings/plotly)
+            # Now append the current cell itself (Prose/Heading/Plotly)
             grouped_markdown.append(cell_markdown + "\n\n")
+        # -------------------------------
 
     # If the notebook ends while inside a group, close it
     if is_in_group:
-        current_group_content += "{{/details}}\n\n"
+        current_group_content += "{{</details>}}\n\n"
         grouped_markdown.append(current_group_content)
 
     body = "".join(grouped_markdown).strip()
