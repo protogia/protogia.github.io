@@ -1,6 +1,6 @@
 ---
 title: 'Wifi-Mesh-Evlauation: Analysing Bandwith and Latency Measurements for a two-node WiFi-Mesh'
-date: '2025-10-03T18:12:41.013471+00:00'
+date: '2025-02-03T18:12:41.013471+00:00'
 author: 'Giancarlo Rizzo'
 draft: false
 plotly: true
