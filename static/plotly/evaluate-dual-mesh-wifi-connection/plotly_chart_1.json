@@ -1,0 +1,1170 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "lat": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "lon": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "marker": {
+                "color": {
+                    "bdata": "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",
+                    "dtype": "f8"
+                },
+                "colorbar": {
+                    "title": {
+                        "text": "Latency [ms]"
+                    },
+                    "x": 1
+                },
+                "reversescale": true,
+                "size": 15
+            },
+            "mode": "markers",
+            "name": "Latency",
+            "text": [
+                "Latency: 3.74",
+                "Latency: 154.00",
+                "Latency: 383.00",
+                "Latency: 300.00",
+                "Latency: 13.60",
+                "Latency: 272.00",
+                "Latency: 99.70",
+                "Latency: 71.60",
+                "Latency: 118.00",
+                "Latency: 26.40",
+                "Latency: 16.10",
+                "Latency: 5.22",
+                "Latency: 87.20",
+                "Latency: 106.00",
+                "Latency: 5.92",
+                "Latency: 8.21",
+                "Latency: 59.50",
+                "Latency: 22.50",
+                "Latency: 57.00",
+                "Latency: 46.40",
+                "Latency: 86.60",
+                "Latency: 72.00",
+                "Latency: 55.10",
+                "Latency: 22.70",
+                "Latency: 31.00",
+                "Latency: 33.30",
+                "Latency: 15.80",
+                "Latency: 29.80",
+                "Latency: 21.00",
+                "Latency: 41.70",
+                "Latency: 43.70",
+                "Latency: 21.10",
+                "Latency: 46.50",
+                "Latency: 16.10",
+                "Latency: 47.10",
+                "Latency: 49.60",
+                "Latency: 40.80",
+                "Latency: 48.80",
+                "Latency: 48.10",
+                "Latency: 51.00",
+                "Latency: 64.70",
+                "Latency: 53.10",
+                "Latency: 67.20",
+                "Latency: 120.00",
+                "Latency: 52.10",
+                "Latency: 39.40",
+                "Latency: 48.40",
+                "Latency: 54.10",
+                "Latency: 24.10",
+                "Latency: 22.30",
+                "Latency: 9.32",
+                "Latency: 45.90",
+                "Latency: 74.20",
+                "Latency: 53.30",
+                "Latency: 63.20",
+                "Latency: 115.00",
+                "Latency: 8.76",
+                "Latency: 13.40",
+                "Latency: 276.00",
+                "Latency: 266.00",
+                "Latency: 293.00",
+                "Latency: 372.00",
+                "Latency: 12.10",
+                "Latency: 20.20",
+                "Latency: 90.30",
+                "Latency: 33.90",
+                "Latency: 41.10",
+                "Latency: 32.90",
+                "Latency: 30.70",
+                "Latency: 102.00",
+                "Latency: 86.20",
+                "Latency: 96.30",
+                "Latency: 113.00",
+                "Latency: 71.60",
+                "Latency: 19.20",
+                "Latency: 43.70",
+                "Latency: 37.90",
+                "Latency: 82.20",
+                "Latency: 225.00",
+                "Latency: 58.30",
+                "Latency: 55.00",
+                "Latency: 26.50",
+                "Latency: 11.00",
+                "Latency: 78.90",
+                "Latency: 23.40",
+                "Latency: 34.50",
+                "Latency: 5.66",
+                "Latency: 62.60",
+                "Latency: 167.00",
+                "Latency: 304.00",
+                "Latency: 55.30",
+                "Latency: 44.90",
+                "Latency: 52.40",
+                "Latency: 188.00",
+                "Latency: 280.00",
+                "Latency: 120.00",
+                "Latency: 48.30",
+                "Latency: 140.00",
+                "Latency: 61.00",
+                "Latency: 111.00",
+                "Latency: 9.81",
+                "Latency: 10.50",
+                "Latency: 15.90",
+                "Latency: 28.50",
+                "Latency: 11.80",
+                "Latency: 24.10",
+                "Latency: 26.50",
+                "Latency: 43.70",
+                "Latency: 123.00",
+                "Latency: 22.70",
+                "Latency: 29.40",
+                "Latency: 40.50",
+                "Latency: 2.39",
+                "Latency: 36.00",
+                "Latency: 18.50",
+                "Latency: 43.20",
+                "Latency: 70.90",
+                "Latency: 83.10",
+                "Latency: 79.10",
+                "Latency: 96.90",
+                "Latency: 71.00",
+                "Latency: 77.30",
+                "Latency: 76.50",
+                "Latency: 82.00",
+                "Latency: 83.60",
+                "Latency: 85.30",
+                "Latency: 45.30",
+                "Latency: 83.60",
+                "Latency: 71.70",
+                "Latency: 85.20",
+                "Latency: 32.70",
+                "Latency: 86.60",
+                "Latency: 1.38",
+                "Latency: 15.40",
+                "Latency: 27.00",
+                "Latency: 35.90",
+                "Latency: 29.90",
+                "Latency: 32.30",
+                "Latency: 32.10",
+                "Latency: 34.50",
+                "Latency: 26.30",
+                "Latency: 25.80",
+                "Latency: 34.00",
+                "Latency: 37.60",
+                "Latency: 28.20",
+                "Latency: 39.80",
+                "Latency: 34.50",
+                "Latency: 48.90",
+                "Latency: 32.80",
+                "Latency: 61.80",
+                "Latency: 71.40",
+                "Latency: 77.50",
+                "Latency: 25.00",
+                "Latency: 77.00",
+                "Latency: 83.90",
+                "Latency: 40.20",
+                "Latency: 132.00",
+                "Latency: 245.00",
+                "Latency: 352.00",
+                "Latency: 284.00",
+                "Latency: 342.00",
+                "Latency: 508.00",
+                "Latency: 290.00",
+                "Latency: 350.00",
+                "Latency: 115.00",
+                "Latency: 67.00",
+                "Latency: 113.00",
+                "Latency: 203.00",
+                "Latency: 305.00",
+                "Latency: 52.10",
+                "Latency: 218.00",
+                "Latency: 174.00",
+                "Latency: 338.00",
+                "Latency: 221.00",
+                "Latency: 256.00",
+                "Latency: 308.00",
+                "Latency: 101.00",
+                "Latency: 99.60",
+                "Latency: 106.00",
+                "Latency: 100.00",
+                "Latency: 99.90",
+                "Latency: 106.00",
+                "Latency: 110.00",
+                "Latency: 119.00",
+                "Latency: 163.00",
+                "Latency: 357.00",
+                "Latency: 46.10",
+                "Latency: 39.40",
+                "Latency: 46.60",
+                "Latency: 148.00",
+                "Latency: 285.00",
+                "Latency: 373.00",
+                "Latency: 508.00",
+                "Latency: 77.20",
+                "Latency: 51.00",
+                "Latency: 36.20",
+                "Latency: 44.70",
+                "Latency: 92.40",
+                "Latency: 106.00",
+                "Latency: 71.80",
+                "Latency: 64.10",
+                "Latency: 26.40",
+                "Latency: 30.30",
+                "Latency: 22.80",
+                "Latency: 35.50",
+                "Latency: 34.70",
+                "Latency: 32.30",
+                "Latency: 32.30",
+                "Latency: 30.20",
+                "Latency: 30.00",
+                "Latency: 24.00",
+                "Latency: 23.80",
+                "Latency: 61.50",
+                "Latency: 70.10",
+                "Latency: 87.60",
+                "Latency: 53.30",
+                "Latency: 50.80",
+                "Latency: 52.20",
+                "Latency: 47.70",
+                "Latency: 26.20",
+                "Latency: 43.50",
+                "Latency: 32.70",
+                "Latency: 49.90",
+                "Latency: 27.50",
+                "Latency: 54.80",
+                "Latency: 40.60",
+                "Latency: 60.50",
+                "Latency: 66.50",
+                "Latency: 51.10",
+                "Latency: 33.90",
+                "Latency: 48.00",
+                "Latency: 51.20",
+                "Latency: 53.40",
+                "Latency: 39.60",
+                "Latency: 49.00",
+                "Latency: 71.30",
+                "Latency: 52.30",
+                "Latency: 80.30",
+                "Latency: 184.00",
+                "Latency: 312.00",
+                "Latency: 123.00",
+                "Latency: 111.00",
+                "Latency: 307.00",
+                "Latency: 342.00",
+                "Latency: 1.77",
+                "Latency: 24.40",
+                "Latency: 26.60",
+                "Latency: 27.20",
+                "Latency: 24.80",
+                "Latency: 53.70",
+                "Latency: 39.20",
+                "Latency: 49.50",
+                "Latency: 75.10",
+                "Latency: 38.60",
+                "Latency: 109.00",
+                "Latency: 67.10",
+                "Latency: 80.20",
+                "Latency: 73.70",
+                "Latency: 180.00",
+                "Latency: 87.80",
+                "Latency: 132.00",
+                "Latency: 117.00",
+                "Latency: 386.00",
+                "Latency: 112.00",
+                "Latency: 65.50",
+                "Latency: 452.00",
+                "Latency: 352.00",
+                "Latency: 31.10",
+                "Latency: 166.00",
+                "Latency: 61.40",
+                "Latency: 105.00",
+                "Latency: 112.00",
+                "Latency: 150.00",
+                "Latency: 8.29",
+                "Latency: 10.40",
+                "Latency: 22.20",
+                "Latency: 33.60",
+                "Latency: 380.00",
+                "Latency: 11.20",
+                "Latency: 24.70",
+                "Latency: 25.80",
+                "Latency: 88.10",
+                "Latency: 82.70",
+                "Latency: 261.00",
+                "Latency: 291.00",
+                "Latency: 33.20",
+                "Latency: 82.10",
+                "Latency: 75.50",
+                "Latency: 158.00",
+                "Latency: 336.00",
+                "Latency: 202.00",
+                "Latency: 248.00",
+                "Latency: 77.60",
+                "Latency: 293.00",
+                "Latency: 11.70",
+                "Latency: 16.10",
+                "Latency: 15.60",
+                "Latency: 48.10",
+                "Latency: 34.30",
+                "Latency: 3.81",
+                "Latency: 55.40",
+                "Latency: 188.00",
+                "Latency: 294.00",
+                "Latency: 51.70",
+                "Latency: 52.60",
+                "Latency: 47.50",
+                "Latency: 149.00",
+                "Latency: 259.00",
+                "Latency: 261.00",
+                "Latency: 282.00",
+                "Latency: 288.00",
+                "Latency: 56.60",
+                "Latency: 28.10",
+                "Latency: 94.40",
+                "Latency: 59.30",
+                "Latency: 83.00",
+                "Latency: 91.70",
+                "Latency: 45.90",
+                "Latency: 71.20",
+                "Latency: 78.60",
+                "Latency: 77.90",
+                "Latency: 71.10",
+                "Latency: 82.00",
+                "Latency: 34.90",
+                "Latency: 49.20",
+                "Latency: 50.50",
+                "Latency: 77.80",
+                "Latency: 33.00",
+                "Latency: 37.20",
+                "Latency: 30.00",
+                "Latency: 44.30",
+                "Latency: 49.60",
+                "Latency: 90.90",
+                "Latency: 149.00",
+                "Latency: 50.60",
+                "Latency: 70.80",
+                "Latency: 113.00",
+                "Latency: 16.40",
+                "Latency: 130.00",
+                "Latency: 34.00",
+                "Latency: 89.90",
+                "Latency: 310.00"
+            ],
+            "type": "scattermap"
+        }
+    ],
+    "layout": {
+        "map": {
+            "center": {
+                "lat": 52.315904034847954,
+                "lon": 10.562237796944444
+            },
+            "zoom": 17
+        },
+        "mapbox": {
+            "style": "carto-positron"
+        },
+        "showlegend": false,
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Latency Map"
+        }
+    }
+}
