@@ -16,7 +16,7 @@ To make sure that the setup will suit to the requirements, we have to evaluate t
 
 ## Install dependencies
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 %%capture
@@ -45,7 +45,7 @@ from plotly.subplots import make_subplots
 
 We recorded multiple traces in two different setups. The synced testtraces within _results/bandwithtest_09072024_mesh_wlan-b_ contain additional informations about the latency. For the bandwith evaluation we will use all of them.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 folder = 'results'
@@ -101,7 +101,7 @@ For the evaluation we'll concatenate the single recordings to one dataframe. In 
 
 IQR removes outliers by calculating thresholds of normal distributions. Each value that exceeds this threshold is signed as outlier. As you can see in the next plots the distribution of values for _Bitrate_ and _Latency_ is not a normal distribution. The Shapiro-Wilk-Test confirms this by calculating values for p that do not fulfill _p>0.05_. So IQR is not a suitable method for this dataset.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 # Concatenate all dataframes to plot on a single figure
@@ -178,7 +178,7 @@ Outlier Removal through z-score-method
 
 The z-score measures how many standard deviations a value differs from the mean of a dataset. A common rule for outlier detection is a threshold of _z-score>3_. We'll calculate this for bitrate and latency and as you can see in the next plot all values on the right side of the threshold are identified as outliers.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 combined_df['z_score_bitrate'] = (combined_df['Bitrate'] - combined_df['Bitrate'].mean()) / combined_df['Bitrate'].std()
@@ -322,7 +322,7 @@ plot_distribution_with_outliers(
 
 After we removed the outliers we can start with the evaluation. For this we'll plot the Bitrate over the Distance values in a scatterplot and a heatmap.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 # Create a mask where both columns are marked 'Normal'
@@ -392,7 +392,7 @@ On the right side the heatmap shows the density of the datapoints. The highest d
 
 To discover certain blindspots or shielding issues by near buildings we'll plot the data on a map.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 center_lat = combined_df["Latitude"].mean()
@@ -442,7 +442,7 @@ As already done with the Bitrate Data we'll evaluate the latency of the WiFi con
 
 The next plot shows that the the latency doesn't really increase that much with increasing distance (as the trendline in the left plot is almost horizontal) but the spread in values seems to get higher with the distance. Even though if we consider that the maximum distance for an accurate Bitrate was 120 meters to the center of the testarea, then can assume latencies between 60 milliseconds and 90 milliseconds for the whole WiFi connection.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 ## plottling
@@ -496,7 +496,7 @@ fig.show()
 ## Latency to Position Relation
 In order to check the latency-results in detail we'll also plot the latencies on a map like we did already with the bandwith results. Because we involved the latency measurement just in the second test session, we have to filter out first the _nan-values_ which will result into a slightly different map compared to the bandwith map above.
 
-{{<details title="Code and Output">}}
+{{<details title="show code">}}
 
 ```python
 # filter out traces with nan-values
