@@ -1,0 +1,1803 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "hovertemplate": "Compound=INTERMEDIATE<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "INTERMEDIATE",
+            "marker": {
+                "color": "green",
+                "pattern": {
+                    "shape": ""
+                }
+            },
+            "name": "INTERMEDIATE",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPkA=",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "aJHtfD9lWUC+nxov3eRVQOxRuB6Fy1VATDeJQWD9VUA1XrpJDGJVQFK4HoXrSVVAi2zn+6lhVUC+nxov3SxVQDMzMzMzG1VATDeJQWBFVUC4HoXrUUBVQCuHFtnOF1VAbef7qfEyVUAK16NwPTpVQK5H4XoUNlVA001iEFhpVUDFILByaBlVQLx0kxgERlVAw/UoXI8aVUAtsp3vpxZVQDeJQWDl8FRAhxbZzvcDVUBaZDvfTyVVQKrx0k1iMFVACtejcD2aVkD+1HjpJqlaQAAAAAAAAPh/AAAAAAAA+H8=",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "hovertemplate": "Compound=WET<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "WET",
+            "marker": {
+                "color": "blue",
+                "pattern": {
+                    "shape": ""
+                }
+            },
+            "name": "WET",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAAPEAAAAAAAAA9QA==",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "AAAAAAAA+H+mm8QgsOJfQA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 3",
+            "type": "scatter",
+            "x": [
+                3
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 3",
+            "type": "scatter",
+            "x": [
+                3
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 11",
+            "type": "scatter",
+            "x": [
+                11
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 11",
+            "type": "scatter",
+            "x": [
+                11
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 25",
+            "type": "scatter",
+            "x": [
+                25
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 25",
+            "type": "scatter",
+            "x": [
+                25
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 26",
+            "type": "scatter",
+            "x": [
+                26
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "violet",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: VSCDeployed, Lap 27",
+            "type": "scatter",
+            "x": [
+                27
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "orange",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: VSCEnding, Lap 27",
+            "type": "scatter",
+            "x": [
+                27
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 28",
+            "type": "scatter",
+            "x": [
+                28
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "purple",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: SCDeployed, Lap 29",
+            "type": "scatter",
+            "x": [
+                29
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "red",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Red, Lap 31",
+            "type": "scatter",
+            "x": [
+                31
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 32",
+            "type": "scatter",
+            "x": [
+                32
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 32",
+            "type": "scatter",
+            "x": [
+                32
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 33",
+            "type": "scatter",
+            "x": [
+                33
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 35",
+            "type": "scatter",
+            "x": [
+                35
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 35",
+            "type": "scatter",
+            "x": [
+                35
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 37",
+            "type": "scatter",
+            "x": [
+                37
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 37",
+            "type": "scatter",
+            "x": [
+                37
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 39",
+            "type": "scatter",
+            "x": [
+                39
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "purple",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: SCDeployed, Lap 39",
+            "type": "scatter",
+            "x": [
+                39
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 41",
+            "type": "scatter",
+            "x": [
+                41
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 42",
+            "type": "scatter",
+            "x": [
+                42
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 43",
+            "type": "scatter",
+            "x": [
+                43
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 51",
+            "type": "scatter",
+            "x": [
+                51
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 51",
+            "type": "scatter",
+            "x": [
+                51
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "green",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "AllClear",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "yellow",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "Yellow",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "red",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "Red",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "purple",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "SCDeployed",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "violet",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "VSCDeployed",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "orange",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "VSCEnding",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        }
+    ],
+    "layout": {
+        "barmode": "relative",
+        "legend": {
+            "title": {
+                "text": "Compound"
+            },
+            "tracegroupgap": 0
+        },
+        "shapes": [
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 3,
+                "x1": 3,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 11,
+                "x1": 11,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 25,
+                "x1": 25,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 26,
+                "x1": 26,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "violet",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 27,
+                "x1": 27,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 28,
+                "x1": 28,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "purple",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 29,
+                "x1": 29,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "red",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 31,
+                "x1": 31,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 32,
+                "x1": 32,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 33,
+                "x1": 33,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 35,
+                "x1": 35,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 37,
+                "x1": 37,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 39,
+                "x1": 39,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 41,
+                "x1": 41,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 42,
+                "x1": 42,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 43,
+                "x1": 43,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 51,
+                "x1": 51,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            }
+        ],
+        "showlegend": true,
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "HUL Lap Times by Compound"
+        },
+        "xaxis": {
+            "anchor": "y",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Lap Number"
+            }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Lap Time (seconds)"
+            }
+        }
+    }
+}
