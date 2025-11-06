@@ -16,7 +16,7 @@ To make sure that the setup will suit to the requirements, we have to evaluate t
 
 ## Install dependencies
 
-{{<details title="show code">}}
+{{<details title="Show code">}}
 
 ```python
 %%capture
