@@ -243,7 +243,7 @@ def main() -> None:
         if is_code_cell:
             if not is_in_group:
                 # Start a new group
-                current_group_content += '{{<details title="Code and Output">}}\n\n' 
+                current_group_content += '{{<details title="Show code">}}\n\n' 
                 is_in_group = True
             
             # append the cell content (code and its non-plotly outputs)
