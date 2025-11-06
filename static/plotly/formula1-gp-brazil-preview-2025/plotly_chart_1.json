@@ -5,620 +5,758 @@
     "data": [
         {
             "alignmentgroup": "True",
-            "hovertemplate": "Driver=TSU<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
-            "legendgroup": "TSU",
+            "box": {
+                "visible": true
+            },
+            "hovertemplate": "Condition=Raining<br>Driver=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "Raining",
             "marker": {
-                "color": "#636efa",
-                "pattern": {
-                    "shape": ""
-                }
+                "color": "blue"
             },
-            "name": "TSU",
-            "offsetgroup": "TSU",
+            "name": "Raining",
+            "offsetgroup": "Raining",
             "orientation": "v",
+            "points": "all",
+            "scalegroup": "True",
             "showlegend": true,
-            "textposition": "auto",
-            "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAAPEAAAAAAAABAQA==",
-                "dtype": "f8"
-            },
+            "type": "violin",
+            "x": [
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "VER",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "GAS",
+                "VER",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "GAS",
+                "VER",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "GAS",
+                "VER",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "VER",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "VER",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "VER",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "VER",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "PIA",
+                "VER",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "LAW",
+                "VER",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM"
+            ],
+            "x0": " ",
             "xaxis": "x",
             "y": {
-                "bdata": "ukkMAiunOUDD9ShcDyyWQA==",
+                "bdata": "Gy/dJAahVkAIrBxaZPNWQA4tsp3vb1dA2c73U+OdV0DLoUW2871XQHNoke18/1dA8KfGSzcpWEAX2c73U4NYQA4tsp3vt1hA/Knx0k3KWED6fmq8dHNVQGiR7Xw/jVVAWDm0yHaWVUDy0k1iEJhVQNNNYhBYoVVAz/dT46WzVUAj2/l+asxVQIXrUbge1VVAf2q8dJPIVUBoke18P/VVQIPAyqFFZlVAfT81XrpZVUD+1HjpJoFVQBKDwMqhlVVAhetRuB6NVUCDwMqhRZZVQPT91HjpjlVAmG4Sg8CqVUCPwvUoXI9VQDvfT42XtlVADAIrhxZpVUDD9Shcj0pVQDMzMzMzW1VAokW28/1sVUDD9Shcj4pVQNnO91PjjVVA30+Nl256VUCe76fGS7dVQLByaJHtrFVAGQRWDi2qVUA/NV66SVRVQFTjpZvEQFVA+n5qvHRbVUCmm8QgsFpVQP7UeOkmQVVAgZVDi2xXVUBeukkMAmNVQPCnxks3WVVA+n5qvHSzVUBzaJHtfH9VQDMzMzMzK1VAXrpJDAI7VUBvEoPAyjlVQGIQWDm0QFVAIbByaJFFVUD4U+Olm0RVQM3MzMzMTFVAlkOLbOcTVUAtsp3vp2ZVQFg5tMh2hlVALbKd76c2VUDy0k1iEEBVQKjGSzeJQVVAuB6F61FYVUA730+Nl1ZVQPyp8dJNWlVAc2iR7XxXVUDZzvdT4xVVQOkmMQisVFVAx0s3iUFQVUASg8DKoSVVQJMYBFYOHVVAUrgehetRVUCTGARWDj1VQL6fGi/dRFVAukkMAitPVUD4U+Olm1RVQDVeukkMKlVASgwCK4dOVUBvEoPAyklVQKwcWmQ7D1VAnMQgsHIYVUBoke18PzVVQGDl0CLbKVVAQmDl0CIrVUDP91PjpStVQFYOLbKdN1VAbxKDwMoxVUAfhetRuEZVQNNNYhBYKVVAexSuR+ESVUASg8DKoQVVQNnO91PjJVVAZDvfT40fVUBeukkMAitVQFg5tMh2PlVAKVyPwvUAVUBU46WbxHBVQNNNYhBYQVVAhetRuB5VVUBeukkMAitVQGZmZmZmLlVAXrpJDAJLVUAlBoGVQztVQDEIrBxaPFVAVOOlm8QgVUA9CtejcE1VQIcW2c73S1VAhxbZzvc7VUCyne+nxiNVQI2XbhKDGFVAL90kBoEdVUBxPQrXoyhVQNNNYhBYOVVAfT81XropVUCJQWDl0CpVQGDl0CLbSVVAQmDl0CI7VUAK16NwPSpVQJhuEoPAclVA5dAi2/n+VEDl0CLb+R5VQFTjpZvEMFVAexSuR+FCVUAOLbKd709VQKrx0k1iSFVA5dAi2/k+VUDTTWIQWDlVQFg5tMh2FlVA6SYxCKxcVUA9CtejcC1VQIPAyqFF/lRAdZMYBFYuVUBkO99PjQ9VQNNNYhBYEVVAokW28/0UVUCamZmZmSFVQOxRuB6FI1VAukkMAisPVUACK4cW2S5VQFCNl24SG1VAuB6F61EgVUBeukkMAiNVQFCNl24SG1VAWDm0yHYWVUAdWmQ73w9VQM/3U+OlK1VAi2zn+6khVUDb+X5qvAxVQArXo3A9glVAEoPAyqEVVUD2KFyPwh1VQJqZmZmZEVVAke18PzUOVUBkO99PjQ9VQGQ730+NH1VAAiuHFtkmVUB56SYxCCRVQARWDi2yDVVAK4cW2c63VUDy0k1iEPBUQPhT46WbDFVA30+Nl24KVUA1XrpJDBJVQBBYObTIDlVAw/UoXI/6VEAZBFYOLQJVQG8Sg8DKEVVAqvHSTWIYVUBcj8L1KBRVQAwCK4cW4VRAfT81XrrxVED6fmq8dAtVQO58PzVeAlVAF9nO91MzVUDwp8ZLNxFVQHsUrkfhClVAg8DKoUUGVUB7FK5H4fpUQHE9CtejGFVA",
                 "dtype": "f8"
             },
+            "y0": " ",
             "yaxis": "y"
         },
         {
             "alignmentgroup": "True",
-            "hovertemplate": "Driver=LAW<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
-            "legendgroup": "LAW",
+            "box": {
+                "visible": true
+            },
+            "hovertemplate": "Condition=Not Raining<br>Driver=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "Not Raining",
             "marker": {
-                "color": "#EF553B",
-                "pattern": {
-                    "shape": ""
-                }
+                "color": "orange"
             },
-            "name": "LAW",
-            "offsetgroup": "LAW",
+            "name": "Not Raining",
+            "offsetgroup": "Not Raining",
             "orientation": "v",
+            "points": "all",
+            "scalegroup": "True",
             "showlegend": true,
-            "textposition": "auto",
-            "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAAPEAAAAAAAABAQA==",
-                "dtype": "f8"
-            },
+            "type": "violin",
+            "x": [
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "LEC",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "VER",
+                "LEC",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "VER",
+                "LAW",
+                "PIA",
+                "GAS",
+                "HAM",
+                "LEC",
+                "RUS",
+                "NOR",
+                "TSU",
+                "OCO",
+                "VER",
+                "GAS",
+                "PIA",
+                "LAW",
+                "HAM",
+                "LEC",
+                "RUS",
+                "NOR",
+                "OCO",
+                "TSU",
+                "VER",
+                "GAS",
+                "PIA",
+                "LAW",
+                "LEC",
+                "HAM",
+                "RUS",
+                "NOR",
+                "OCO",
+                "VER",
+                "TSU",
+                "GAS",
+                "LAW",
+                "LEC",
+                "PIA",
+                "HAM",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "TSU",
+                "LEC",
+                "PIA",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "NOR",
+                "RUS",
+                "TSU",
+                "LEC",
+                "PIA",
+                "LAW",
+                "HAM",
+                "OCO",
+                "VER",
+                "GAS",
+                "NOR",
+                "RUS",
+                "TSU",
+                "LEC",
+                "PIA",
+                "LAW",
+                "HAM",
+                "OCO",
+                "VER",
+                "GAS",
+                "NOR",
+                "RUS",
+                "TSU",
+                "LEC",
+                "PIA",
+                "LAW",
+                "HAM",
+                "OCO",
+                "VER",
+                "GAS",
+                "NOR",
+                "RUS",
+                "TSU",
+                "LEC",
+                "PIA",
+                "LAW",
+                "HAM",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "OCO",
+                "VER",
+                "GAS",
+                "RUS",
+                "NOR",
+                "LEC",
+                "PIA",
+                "TSU",
+                "HAM",
+                "LAW",
+                "VER",
+                "OCO",
+                "GAS",
+                "LEC",
+                "RUS",
+                "PIA",
+                "NOR",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "LEC",
+                "RUS",
+                "PIA",
+                "NOR",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "LEC",
+                "RUS",
+                "PIA",
+                "NOR",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM",
+                "VER",
+                "OCO",
+                "GAS",
+                "RUS",
+                "LEC",
+                "NOR",
+                "PIA",
+                "TSU",
+                "LAW",
+                "HAM"
+            ],
+            "x0": " ",
             "xaxis": "x",
             "y": {
-                "bdata": "PQrXo3A9PEDD9ShcjzqWQA==",
+                "bdata": "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",
                 "dtype": "f8"
             },
+            "y0": " ",
             "yaxis": "y"
-        },
-        {
-            "alignmentgroup": "True",
-            "hovertemplate": "Driver=PER<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
-            "legendgroup": "PER",
-            "marker": {
-                "color": "#00cc96",
-                "pattern": {
-                    "shape": ""
-                }
-            },
-            "name": "PER",
-            "offsetgroup": "PER",
-            "orientation": "v",
-            "showlegend": true,
-            "textposition": "auto",
-            "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAAO0AAAAAAAABAQA==",
-                "dtype": "f8"
-            },
-            "xaxis": "x",
-            "y": {
-                "bdata": "f2q8dJOYOkBEi2zn+0SWQA==",
-                "dtype": "f8"
-            },
-            "yaxis": "y"
-        },
-        {
-            "alignmentgroup": "True",
-            "hovertemplate": "Driver=ZHO<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
-            "legendgroup": "ZHO",
-            "marker": {
-                "color": "#ab63fa",
-                "pattern": {
-                    "shape": ""
-                }
-            },
-            "name": "ZHO",
-            "offsetgroup": "ZHO",
-            "orientation": "v",
-            "showlegend": true,
-            "textposition": "auto",
-            "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAAO0AAAAAAAAA8QAAAAAAAAD9AAAAAAAAAQEA=",
-                "dtype": "f8"
-            },
-            "xaxis": "x",
-            "y": {
-                "bdata": "RIts5/tpOUB9PzVeuik7QFyPwvUoDJRAgZVDi2wnUUA=",
-                "dtype": "f8"
-            },
-            "yaxis": "y"
-        },
-        {
-            "alignmentgroup": "True",
-            "hovertemplate": "Driver=HUL<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
-            "legendgroup": "HUL",
-            "marker": {
-                "color": "#FFA15A",
-                "pattern": {
-                    "shape": ""
-                }
-            },
-            "name": "HUL",
-            "offsetgroup": "HUL",
-            "orientation": "v",
-            "showlegend": true,
-            "textposition": "auto",
-            "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAAOUAAAAAAAAA7QAAAAAAAAD1A",
-                "dtype": "f8"
-            },
-            "xaxis": "x",
-            "y": {
-                "bdata": "pHA9CteDOUDpJjEIrIxNQHsUrkfhujxA",
-                "dtype": "f8"
-            },
-            "yaxis": "y"
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 25",
-            "type": "scatter",
-            "x": [
-                25
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 25",
-            "type": "scatter",
-            "x": [
-                25
-            ],
-            "y": [
-                50
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 26",
-            "type": "scatter",
-            "x": [
-                26
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "violet",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: VSCDeployed, Lap 27",
-            "type": "scatter",
-            "x": [
-                27
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "orange",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: VSCEnding, Lap 27",
-            "type": "scatter",
-            "x": [
-                27
-            ],
-            "y": [
-                50
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 28",
-            "type": "scatter",
-            "x": [
-                28
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "purple",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: SCDeployed, Lap 29",
-            "type": "scatter",
-            "x": [
-                29
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "red",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Red, Lap 31",
-            "type": "scatter",
-            "x": [
-                31
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 32",
-            "type": "scatter",
-            "x": [
-                32
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 32",
-            "type": "scatter",
-            "x": [
-                32
-            ],
-            "y": [
-                50
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 33",
-            "type": "scatter",
-            "x": [
-                33
-            ],
-            "y": [
-                0
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "green",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "AllClear",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "yellow",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "Yellow",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "red",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "Red",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "purple",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "SCDeployed",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "violet",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "VSCDeployed",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "orange",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "VSCEnding",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
         }
     ],
     "layout": {
-        "barmode": "group",
         "legend": {
             "title": {
-                "text": "Driver"
+                "text": "Condition"
             },
             "tracegroupgap": 0
         },
-        "shapes": [
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 25,
-                "x1": 25,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 26,
-                "x1": 26,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "violet",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 27,
-                "x1": 27,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 28,
-                "x1": 28,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "purple",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 29,
-                "x1": 29,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "red",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 31,
-                "x1": 31,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 32,
-                "x1": 32,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 33,
-                "x1": 33,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            }
-        ],
         "template": {
             "data": {
                 "bar": [
@@ -1396,8 +1534,9 @@
             }
         },
         "title": {
-            "text": "Individual Pit Stop Durations per Driver"
+            "text": "Lap Time Distribution by Driver and Condition"
         },
+        "violinmode": "group",
         "xaxis": {
             "anchor": "y",
             "domain": [
@@ -1405,7 +1544,7 @@
                 1
             ],
             "title": {
-                "text": "Lap Number"
+                "text": "Driver"
             }
         },
         "yaxis": {
@@ -1415,7 +1554,7 @@
                 1
             ],
             "title": {
-                "text": "Pit Stop Duration (seconds)"
+                "text": "Lap Time (seconds)"
             }
         }
     }

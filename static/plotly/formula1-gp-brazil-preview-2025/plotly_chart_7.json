@@ -4,1276 +4,54 @@
     },
     "data": [
         {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
+            "hovertemplate": "Compound=INTERMEDIATE<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "INTERMEDIATE",
             "marker": {
                 "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
+                "pattern": {
+                    "shape": ""
                 }
             },
             "name": "INTERMEDIATE",
-            "orientation": "h",
+            "orientation": "v",
             "showlegend": true,
+            "textposition": "auto",
             "type": "bar",
-            "x": [
-                32
-            ],
-            "y": [
-                "VER"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAgEdAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEpAAAAAAAAAS0AAAAAAAIBLQAAAAAAAAExAAAAAAACATEAAAAAAAABNQAAAAAAAgE1AAAAAAAAATkAAAAAAAIBOQAAAAAAAAE9AAAAAAACAT0AAAAAAAABQQAAAAAAAQFBAAAAAAACAUEAAAAAAAMBQQAAAAAAAAFFAAAAAAABAUUA=",
+                "dtype": "f8"
             },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "VER"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
+            "xaxis": "x",
+            "y": {
+                "bdata": "VOOlm8RYW0BeukkMAsNVQBsv3SQGeVVAqMZLN4mRVUCHFtnO94NVQPp+arx0k1VAhetRuB51VUBKDAIrh0ZVQNV46SYxUFVA/Knx0k06VUCamZmZmYFVQGQ730+Nf1VAGy/dJAZpVUC4HoXrUXBVQGDl0CLbUVVAvHSTGAQeVUDhehSuRxlVQGZmZmZmdlVA0SLb+X4aVUDFILByaCFVQCcxCKwcGlVAnMQgsHJYVUAnMQisHEpVQDm0yHa+d1VAnMQgsHKQVUD4U+Olm6RVQFK4HoXriVlAAAAAAAAA+H8GgZVDi3RYQBkEVg4tIldAy6FFtvNFVkBiEFg5tPhVQFYOLbKdz1VAWmQ7309NWUBmZmZmZjZbQAwCK4cWQV9A+n5qvHQDX0B3vp8aLw1XQPT91HjpTlVARIts5/tJVUD0/dR46TZVQESLbOf7KVVA/Knx0k36VEAMAiuHFglVQJZDi2zn61RAPQrXo3AFVUAv3SQGgQVVQLbz/dR4AVVAVg4tsp3vVEAnMQisHGJVQJzEILBysFRAfT81XrqxVEAEVg4tsu1UQC/dJAaBxVRAukkMAivHVED2KFyPwq1UQAwCK4cWuVRAHVpkO9+XVED4U+Olm5RUQK5H4XoUjlRAO99PjZe+VED+1HjpJolUQEa28/3UkFRAke18PzWOVEA=",
+                "dtype": "f8"
             },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                32
-            ],
-            "y": [
-                "GAS"
-            ]
+            "yaxis": "y"
         },
         {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "GAS"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "PER"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "WET"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
+            "hovertemplate": "Compound=WET<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "WET",
             "marker": {
                 "color": "blue",
-                "line": {
-                    "color": "white",
-                    "width": 2
+                "pattern": {
+                    "shape": ""
                 }
             },
             "name": "WET",
-            "orientation": "h",
+            "orientation": "v",
             "showlegend": true,
+            "textposition": "auto",
             "type": "bar",
-            "x": [
-                5
-            ],
-            "y": [
-                "PER"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
+            "x": {
+                "bdata": "AAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQA==",
+                "dtype": "f8"
             },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "PER"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
+            "xaxis": "x",
+            "y": {
+                "bdata": "ppvEILAqXkDufD81XmpZQEJg5dAiD2BAKVyPwvXAW0AAAAAAAAD4fw==",
+                "dtype": "f8"
             },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "ALO"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                5
-            ],
-            "y": [
-                "ALO"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "ALO"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                24
-            ],
-            "y": [
-                "LEC"
-            ]
-        },
-        {
-            "base": 24,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                8
-            ],
-            "y": [
-                "LEC"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "LEC"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                1
-            ],
-            "y": [
-                "STR"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                28
-            ],
-            "y": [
-                "TSU"
-            ]
-        },
-        {
-            "base": 28,
-            "customdata": [
-                "WET"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "blue",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "WET",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                4
-            ],
-            "y": [
-                "TSU"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "TSU"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "ZHO"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                1
-            ],
-            "y": [
-                "ZHO"
-            ]
-        },
-        {
-            "base": 28,
-            "customdata": [
-                "WET"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "blue",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "WET",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                3
-            ],
-            "y": [
-                "ZHO"
-            ]
-        },
-        {
-            "base": 31,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                1
-            ],
-            "y": [
-                "ZHO"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "ZHO"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                25
-            ],
-            "y": [
-                "HUL"
-            ]
-        },
-        {
-            "base": 25,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                2
-            ],
-            "y": [
-                "HUL"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "WET"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "blue",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "WET",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                2
-            ],
-            "y": [
-                "HUL"
-            ]
-        },
-        {
-            "base": 29,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                1
-            ],
-            "y": [
-                "HUL"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                28
-            ],
-            "y": [
-                "LAW"
-            ]
-        },
-        {
-            "base": 28,
-            "customdata": [
-                "WET"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "blue",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "WET",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                4
-            ],
-            "y": [
-                "LAW"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "LAW"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                32
-            ],
-            "y": [
-                "OCO"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "OCO"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                28
-            ],
-            "y": [
-                "NOR"
-            ]
-        },
-        {
-            "base": 28,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                4
-            ],
-            "y": [
-                "NOR"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "NOR"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                26
-            ],
-            "y": [
-                "COL"
-            ]
-        },
-        {
-            "base": 26,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                4
-            ],
-            "y": [
-                "COL"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "HAM"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                5
-            ],
-            "y": [
-                "HAM"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "HAM"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "BEA"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                5
-            ],
-            "y": [
-                "BEA"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "BEA"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "SAI"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                5
-            ],
-            "y": [
-                "SAI"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                7
-            ],
-            "y": [
-                "SAI"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                28
-            ],
-            "y": [
-                "RUS"
-            ]
-        },
-        {
-            "base": 28,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                4
-            ],
-            "y": [
-                "RUS"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "RUS"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                32
-            ],
-            "y": [
-                "BOT"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "BOT"
-            ]
-        },
-        {
-            "base": 0,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                27
-            ],
-            "y": [
-                "PIA"
-            ]
-        },
-        {
-            "base": 27,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                5
-            ],
-            "y": [
-                "PIA"
-            ]
-        },
-        {
-            "base": 32,
-            "customdata": [
-                "INTERMEDIATE"
-            ],
-            "hovertemplate": "Driver: %{y}<br>Compound: %{customdata}<br>Laps: %{x}<extra></extra>",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "white",
-                    "width": 2
-                }
-            },
-            "name": "INTERMEDIATE",
-            "orientation": "h",
-            "showlegend": false,
-            "type": "bar",
-            "x": [
-                37
-            ],
-            "y": [
-                "PIA"
-            ]
+            "yaxis": "y"
         },
         {
             "hoverinfo": "text",
@@ -1294,7 +72,7 @@
                 3
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1316,7 +94,7 @@
                 3
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1338,7 +116,7 @@
                 11
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1360,7 +138,7 @@
                 11
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1382,7 +160,7 @@
                 25
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1404,7 +182,7 @@
                 25
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1426,7 +204,7 @@
                 26
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1448,7 +226,7 @@
                 27
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1470,7 +248,7 @@
                 27
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1492,7 +270,7 @@
                 28
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1514,7 +292,7 @@
                 29
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1536,7 +314,7 @@
                 31
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1558,7 +336,7 @@
                 32
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1580,7 +358,7 @@
                 32
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1602,7 +380,7 @@
                 33
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1624,7 +402,7 @@
                 35
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1646,7 +424,7 @@
                 35
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1668,7 +446,7 @@
                 37
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1690,7 +468,7 @@
                 37
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1712,7 +490,7 @@
                 39
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1734,7 +512,7 @@
                 39
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1756,7 +534,7 @@
                 41
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1778,7 +556,7 @@
                 42
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1800,7 +578,7 @@
                 43
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1822,7 +600,7 @@
                 51
             ],
             "y": [
-                -0.2
+                -2
             ]
         },
         {
@@ -1844,7 +622,7 @@
                 51
             ],
             "y": [
-                0.2
+                2
             ]
         },
         {
@@ -1957,12 +735,12 @@
         }
     ],
     "layout": {
-        "barmode": "stack",
-        "height": 800,
+        "barmode": "relative",
         "legend": {
             "title": {
                 "text": "Compound"
-            }
+            },
+            "tracegroupgap": 0
         },
         "shapes": [
             {
@@ -2221,6 +999,7 @@
                 "yref": "y domain"
             }
         ],
+        "showlegend": true,
         "template": {
             "data": {
                 "bar": [
@@ -2998,17 +1777,26 @@
             }
         },
         "title": {
-            "text": "Tyre Strategy per Driver"
+            "text": "PER Lap Times by Compound"
         },
         "xaxis": {
+            "anchor": "y",
+            "domain": [
+                0,
+                1
+            ],
             "title": {
                 "text": "Lap Number"
             }
         },
         "yaxis": {
-            "autorange": "reversed",
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
             "title": {
-                "text": "Driver"
+                "text": "Lap Time (seconds)"
             }
         }
     }

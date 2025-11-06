@@ -4,1079 +4,726 @@
     },
     "data": [
         {
-            "name": "Air Temp",
-            "type": "scatter",
-            "x": [
-                "00:00:22.903000",
-                "00:01:22.903000",
-                "00:02:22.903000",
-                "00:03:22.906000",
-                "00:04:22.910000",
-                "00:05:22.915000",
-                "00:06:22.921000",
-                "00:07:22.904000",
-                "00:08:22.920000",
-                "00:09:22.905000",
-                "00:10:22.924000",
-                "00:11:22.907000",
-                "00:12:22.924000",
-                "00:13:22.917000",
-                "00:14:22.918000",
-                "00:15:22.921000",
-                "00:16:22.913000",
-                "00:17:22.930000",
-                "00:18:22.926000",
-                "00:19:22.931000",
-                "00:20:22.926000",
-                "00:21:22.912000",
-                "00:22:22.926000",
-                "00:23:22.927000",
-                "00:24:22.950000",
-                "00:25:22.951000",
-                "00:26:22.945000",
-                "00:27:22.944000",
-                "00:28:22.951000",
-                "00:29:22.990000",
-                "00:30:22.965000",
-                "00:31:22.971000",
-                "00:32:22.991000",
-                "00:33:23.012000",
-                "00:34:23.017000",
-                "00:35:23.030000",
-                "00:36:23.045000",
-                "00:37:23.054000",
-                "00:38:23.058000",
-                "00:39:23.060000",
-                "00:40:23.057000",
-                "00:41:23.059000",
-                "00:42:23.055000",
-                "00:43:23.055000",
-                "00:44:23.072000",
-                "00:45:23.056000",
-                "00:46:23.072000",
-                "00:47:23.075000",
-                "00:48:23.067000",
-                "00:49:23.068000",
-                "00:50:23.073000",
-                "00:51:23.074000",
-                "00:52:23.075000",
-                "00:53:23.075000",
-                "00:54:23.077000",
-                "00:55:23.069000",
-                "00:56:23.077000",
-                "00:57:23.078000",
-                "00:58:23.076000",
-                "00:59:23.072000",
-                "01:00:23.084000",
-                "01:01:23.076000",
-                "01:02:23.076000",
-                "01:03:23.081000",
-                "01:04:23.077000",
-                "01:05:23.077000",
-                "01:06:23.085000",
-                "01:07:23.079000",
-                "01:08:23.093000",
-                "01:09:23.079000",
-                "01:10:23.078000",
-                "01:11:23.074000",
-                "01:12:23.081000",
-                "01:13:23.085000",
-                "01:14:23.085000",
-                "01:15:23.087000",
-                "01:16:23.093000",
-                "01:17:23.093000",
-                "01:18:23.094000",
-                "01:19:23.097000",
-                "01:20:23.098000",
-                "01:21:23.097000",
-                "01:22:23.084000",
-                "01:23:23.151000",
-                "01:24:23.086000",
-                "01:25:23.104000",
-                "01:26:23.099000",
-                "01:27:23.098000",
-                "01:28:23.109000",
-                "01:29:23.125000",
-                "01:30:23.106000",
-                "01:31:23.126000",
-                "01:32:23.153000",
-                "01:33:23.154000",
-                "01:34:23.168000",
-                "01:35:23.180000",
-                "01:36:23.212000",
-                "01:37:23.199000",
-                "01:38:23.204000",
-                "01:39:23.226000",
-                "01:40:23.227000",
-                "01:41:23.228000",
-                "01:42:23.231000",
-                "01:43:23.211000",
-                "01:44:23.230000",
-                "01:45:23.229000",
-                "01:46:23.244000",
-                "01:47:23.230000",
-                "01:48:23.231000",
-                "01:49:23.271000",
-                "01:50:23.255000",
-                "01:51:23.239000",
-                "01:52:23.272000",
-                "01:53:23.287000",
-                "01:54:23.273000",
-                "01:55:23.289000",
-                "01:56:23.291000",
-                "01:57:23.289000",
-                "01:58:23.288000",
-                "01:59:23.313000",
-                "02:00:23.318000",
-                "02:01:23.328000",
-                "02:02:23.350000",
-                "02:03:23.346000",
-                "02:04:23.335000",
-                "02:05:23.334000",
-                "02:06:23.352000",
-                "02:07:23.350000",
-                "02:08:23.355000",
-                "02:09:23.352000",
-                "02:10:23.369000",
-                "02:11:23.352000",
-                "02:12:23.365000",
-                "02:13:23.370000",
-                "02:14:23.369000",
-                "02:15:23.380000",
-                "02:16:23.382000",
-                "02:17:23.395000",
-                "02:18:23.378000",
-                "02:19:23.395000",
-                "02:20:23.401000",
-                "02:21:23.419000",
-                "02:22:23.417000",
-                "02:23:23.418000",
-                "02:24:23.418000",
-                "02:25:23.439000",
-                "02:26:23.456000",
-                "02:27:23.479000",
-                "02:28:23.484000",
-                "02:29:23.488000",
-                "02:30:23.486000",
-                "02:31:23.496000",
-                "02:32:23.485000",
-                "02:33:23.498000",
-                "02:34:23.482000",
-                "02:35:23.496000",
-                "02:36:23.499000",
-                "02:37:23.497000",
-                "02:38:23.490000",
-                "02:39:23.506000",
-                "02:40:23.502000",
-                "02:41:23.510000",
-                "02:42:23.557000",
-                "02:43:23.522000",
-                "02:44:23.522000",
-                "02:45:23.527000",
-                "02:46:23.539000",
-                "02:47:23.524000",
-                "02:48:23.530000",
-                "02:49:23.755000",
-                "02:50:23.525000",
-                "02:51:23.529000",
-                "02:52:23.537000",
-                "02:53:23.527000",
-                "02:54:23.532000",
-                "02:55:23.526000",
-                "02:56:23.543000",
-                "02:57:23.543000",
-                "02:58:23.542000",
-                "02:59:23.544000",
-                "03:00:23.540000",
-                "03:01:23.544000",
-                "03:02:23.544000",
-                "03:03:23.545000",
-                "03:04:23.535000",
-                "03:05:23.545000",
-                "03:06:23.546000",
-                "03:07:23.548000",
-                "03:08:23.548000",
-                "03:09:23.547000",
-                "03:10:23.547000",
-                "03:11:23.558000",
-                "03:12:23.550000",
-                "03:13:23.566000",
-                "03:14:23.548000",
-                "03:15:23.567000",
-                "03:16:23.548000",
-                "03:17:23.549000",
-                "03:18:23.549000",
-                "03:19:23.568000",
-                "03:20:23.566000"
-            ],
+            "hovertemplate": "Compound=INTERMEDIATE<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "INTERMEDIATE",
+            "marker": {
+                "color": "green",
+                "pattern": {
+                    "shape": ""
+                }
+            },
+            "name": "INTERMEDIATE",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFA",
+                "dtype": "f8"
+            },
             "xaxis": "x",
             "y": {
-                "bdata": "MzMzMzMzNkDNzMzMzEw2QJqZmZmZGTZAmpmZmZkZNkCamZmZmRk2QJqZmZmZGTZAMzMzMzMzNkAAAAAAAAA2QJqZmZmZGTZAzczMzMxMNkAzMzMzMzM2QDMzMzMzMzZAzczMzMxMNkAzMzMzMzM2QM3MzMzMTDZAzczMzMxMNkBmZmZmZmY2QGZmZmZmZjZAAAAAAACANkCamZmZmZk2QJqZmZmZmTZAmpmZmZmZNkCamZmZmZk2QJqZmZmZmTZAMzMzMzOzNkCamZmZmZk2QDMzMzMzszZAmpmZmZmZNkCamZmZmZk2QDMzMzMzszZAZmZmZmbmNkBmZmZmZuY2QM3MzMzMzDZAZmZmZmbmNkBmZmZmZuY2QAAAAAAAADdAAAAAAAAAN0AAAAAAAAA3QAAAAAAAADdAAAAAAAAAN0AAAAAAAAA3QJqZmZmZGTdAmpmZmZkZN0DNzMzMzEw3QDMzMzMzMzdAMzMzMzMzN0DNzMzMzEw3QM3MzMzMTDdAZmZmZmZmN0DNzMzMzEw3QDMzMzMzMzdAMzMzMzMzN0DNzMzMzEw3QM3MzMzMTDdAzczMzMxMN0DNzMzMzEw3QM3MzMzMTDdAMzMzMzMzN0CamZmZmRk3QJqZmZmZGTdAAAAAAAAAN0AAAAAAAAA3QGZmZmZm5jZAzczMzMzMNkDNzMzMzMw2QDMzMzMzszZAAAAAAACANkAAAAAAAIA2QAAAAAAAgDZAAAAAAACANkAAAAAAAIA2QAAAAAAAgDZAAAAAAACANkBmZmZmZmY2QGZmZmZmZjZAZmZmZmZmNkDNzMzMzEw2QDMzMzMzMzZAMzMzMzMzNkAzMzMzMzM2QDMzMzMzMzZAmpmZmZkZNkCamZmZmRk2QDMzMzMzMzZAmpmZmZkZNkCamZmZmRk2QJqZmZmZGTZAmpmZmZkZNkAzMzMzMzM2QDMzMzMzMzZAzczMzMxMNkDNzMzMzEw2QM3MzMzMTDZAzczMzMxMNkAzMzMzMzM2QJqZmZmZGTZAmpmZmZkZNkAAAAAAAAA2QAAAAAAAADZAAAAAAAAANkAAAAAAAAA2QAAAAAAAADZAAAAAAAAANkAAAAAAAAA2QAAAAAAAADZAAAAAAAAANkBmZmZmZuY1QGZmZmZm5jVAZmZmZmbmNUDNzMzMzMw1QDMzMzMzszVAmpmZmZmZNUAAAAAAAIA1QGZmZmZmZjVAzczMzMxMNUCamZmZmRk1QAAAAAAAADVAZmZmZmbmNEDNzMzMzMw0QM3MzMzMzDRAmpmZmZmZNECamZmZmZk0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANECamZmZmZk0QAAAAAAAgDRAmpmZmZmZNECamZmZmZk0QJqZmZmZmTRAmpmZmZmZNECamZmZmZk0QAAAAAAAgDRAAAAAAACANECamZmZmZk0QJqZmZmZmTRAmpmZmZmZNECamZmZmZk0QJqZmZmZmTRAzczMzMzMNEAzMzMzM7M0QDMzMzMzszRAmpmZmZmZNECamZmZmZk0QJqZmZmZmTRAmpmZmZmZNECamZmZmZk0QJqZmZmZmTRAmpmZmZmZNECamZmZmZk0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRAZmZmZmZmNEAAAAAAAIA0QGZmZmZmZjRAZmZmZmZmNEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANECamZmZmZk0QJqZmZmZmTRAmpmZmZmZNECamZmZmZk0QJqZmZmZmTRAMzMzMzOzNEDNzMzMzMw0QDMzMzMzszRAMzMzMzOzNEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANEBmZmZmZmY0QGZmZmZmZjRAZmZmZmZmNEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANEBmZmZmZmY0QGZmZmZmZjRAZmZmZmZmNEBmZmZmZmY0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRAAAAAAACANEAAAAAAAIA0QAAAAAAAgDRA",
+                "bdata": "AAAAAACwWUDFILByaEFWQDeJQWDl4FVAXrpJDAILVkAX2c73U2tWQM/3U+Olo1VATmIQWDm8VUDRItv5fopVQMP1KFyPelVAIbByaJFtVUCJQWDl0GJVQJhuEoPAolVAkxgEVg71VUDTTWIQWMlVQLgehetRmFVAAAAAAACIVUAfhetRuHZVQJMYBFYOZVVA8tJNYhBYVUAIrBxaZENVQHE9CtejgFVAVOOlm8RoVUB56SYxCJxVQC/dJAaBhVVAL90kBoHVVUCuR+F6FA5WQC2yne+nFltA8tJNYhCYX0AAAAAAAAD4fwAAAAAAAPh/WmQ730+lWEA3iUFg5cBXQBBYObTIVldAke18PzVeVkD0/dR46f5VQDEIrBxalFlAke18PzWmW0CLbOf7qaFbQKwcWmQ7P15AH4XrUbieV0CiRbbz/fxVQLByaJHtjFVA001iEFhZVUBEi2zn+0FVQDvfT42XLlVAw/UoXI8aVUBI4XoUrhdVQIcW2c73M1VAXI/C9SgsVUBKDAIrhy5VQDMzMzMzO1VAqMZLN4k5VUAnMQisHCpVQBfZzvdTE1VA/tR46SaBVUDdJAaBlfNUQKAaL90k3lRAg8DKoUXeVEAhsHJoke1UQKJFtvP93FRAKVyPwvXgVEDByqFFtsNUQPLSTWIQyFRAgZVDi2z/VECF61G4HtVUQL6fGi/d7FRA",
                 "dtype": "f8"
             },
             "yaxis": "y"
         },
         {
-            "name": "Track Temp",
-            "type": "scatter",
-            "x": [
-                "00:00:22.903000",
-                "00:01:22.903000",
-                "00:02:22.903000",
-                "00:03:22.906000",
-                "00:04:22.910000",
-                "00:05:22.915000",
-                "00:06:22.921000",
-                "00:07:22.904000",
-                "00:08:22.920000",
-                "00:09:22.905000",
-                "00:10:22.924000",
-                "00:11:22.907000",
-                "00:12:22.924000",
-                "00:13:22.917000",
-                "00:14:22.918000",
-                "00:15:22.921000",
-                "00:16:22.913000",
-                "00:17:22.930000",
-                "00:18:22.926000",
-                "00:19:22.931000",
-                "00:20:22.926000",
-                "00:21:22.912000",
-                "00:22:22.926000",
-                "00:23:22.927000",
-                "00:24:22.950000",
-                "00:25:22.951000",
-                "00:26:22.945000",
-                "00:27:22.944000",
-                "00:28:22.951000",
-                "00:29:22.990000",
-                "00:30:22.965000",
-                "00:31:22.971000",
-                "00:32:22.991000",
-                "00:33:23.012000",
-                "00:34:23.017000",
-                "00:35:23.030000",
-                "00:36:23.045000",
-                "00:37:23.054000",
-                "00:38:23.058000",
-                "00:39:23.060000",
-                "00:40:23.057000",
-                "00:41:23.059000",
-                "00:42:23.055000",
-                "00:43:23.055000",
-                "00:44:23.072000",
-                "00:45:23.056000",
-                "00:46:23.072000",
-                "00:47:23.075000",
-                "00:48:23.067000",
-                "00:49:23.068000",
-                "00:50:23.073000",
-                "00:51:23.074000",
-                "00:52:23.075000",
-                "00:53:23.075000",
-                "00:54:23.077000",
-                "00:55:23.069000",
-                "00:56:23.077000",
-                "00:57:23.078000",
-                "00:58:23.076000",
-                "00:59:23.072000",
-                "01:00:23.084000",
-                "01:01:23.076000",
-                "01:02:23.076000",
-                "01:03:23.081000",
-                "01:04:23.077000",
-                "01:05:23.077000",
-                "01:06:23.085000",
-                "01:07:23.079000",
-                "01:08:23.093000",
-                "01:09:23.079000",
-                "01:10:23.078000",
-                "01:11:23.074000",
-                "01:12:23.081000",
-                "01:13:23.085000",
-                "01:14:23.085000",
-                "01:15:23.087000",
-                "01:16:23.093000",
-                "01:17:23.093000",
-                "01:18:23.094000",
-                "01:19:23.097000",
-                "01:20:23.098000",
-                "01:21:23.097000",
-                "01:22:23.084000",
-                "01:23:23.151000",
-                "01:24:23.086000",
-                "01:25:23.104000",
-                "01:26:23.099000",
-                "01:27:23.098000",
-                "01:28:23.109000",
-                "01:29:23.125000",
-                "01:30:23.106000",
-                "01:31:23.126000",
-                "01:32:23.153000",
-                "01:33:23.154000",
-                "01:34:23.168000",
-                "01:35:23.180000",
-                "01:36:23.212000",
-                "01:37:23.199000",
-                "01:38:23.204000",
-                "01:39:23.226000",
-                "01:40:23.227000",
-                "01:41:23.228000",
-                "01:42:23.231000",
-                "01:43:23.211000",
-                "01:44:23.230000",
-                "01:45:23.229000",
-                "01:46:23.244000",
-                "01:47:23.230000",
-                "01:48:23.231000",
-                "01:49:23.271000",
-                "01:50:23.255000",
-                "01:51:23.239000",
-                "01:52:23.272000",
-                "01:53:23.287000",
-                "01:54:23.273000",
-                "01:55:23.289000",
-                "01:56:23.291000",
-                "01:57:23.289000",
-                "01:58:23.288000",
-                "01:59:23.313000",
-                "02:00:23.318000",
-                "02:01:23.328000",
-                "02:02:23.350000",
-                "02:03:23.346000",
-                "02:04:23.335000",
-                "02:05:23.334000",
-                "02:06:23.352000",
-                "02:07:23.350000",
-                "02:08:23.355000",
-                "02:09:23.352000",
-                "02:10:23.369000",
-                "02:11:23.352000",
-                "02:12:23.365000",
-                "02:13:23.370000",
-                "02:14:23.369000",
-                "02:15:23.380000",
-                "02:16:23.382000",
-                "02:17:23.395000",
-                "02:18:23.378000",
-                "02:19:23.395000",
-                "02:20:23.401000",
-                "02:21:23.419000",
-                "02:22:23.417000",
-                "02:23:23.418000",
-                "02:24:23.418000",
-                "02:25:23.439000",
-                "02:26:23.456000",
-                "02:27:23.479000",
-                "02:28:23.484000",
-                "02:29:23.488000",
-                "02:30:23.486000",
-                "02:31:23.496000",
-                "02:32:23.485000",
-                "02:33:23.498000",
-                "02:34:23.482000",
-                "02:35:23.496000",
-                "02:36:23.499000",
-                "02:37:23.497000",
-                "02:38:23.490000",
-                "02:39:23.506000",
-                "02:40:23.502000",
-                "02:41:23.510000",
-                "02:42:23.557000",
-                "02:43:23.522000",
-                "02:44:23.522000",
-                "02:45:23.527000",
-                "02:46:23.539000",
-                "02:47:23.524000",
-                "02:48:23.530000",
-                "02:49:23.755000",
-                "02:50:23.525000",
-                "02:51:23.529000",
-                "02:52:23.537000",
-                "02:53:23.527000",
-                "02:54:23.532000",
-                "02:55:23.526000",
-                "02:56:23.543000",
-                "02:57:23.543000",
-                "02:58:23.542000",
-                "02:59:23.544000",
-                "03:00:23.540000",
-                "03:01:23.544000",
-                "03:02:23.544000",
-                "03:03:23.545000",
-                "03:04:23.535000",
-                "03:05:23.545000",
-                "03:06:23.546000",
-                "03:07:23.548000",
-                "03:08:23.548000",
-                "03:09:23.547000",
-                "03:10:23.547000",
-                "03:11:23.558000",
-                "03:12:23.550000",
-                "03:13:23.566000",
-                "03:14:23.548000",
-                "03:15:23.567000",
-                "03:16:23.548000",
-                "03:17:23.549000",
-                "03:18:23.549000",
-                "03:19:23.568000",
-                "03:20:23.566000"
-            ],
-            "xaxis": "x",
-            "y": {
-                "bdata": "zczMzMxMO0AzMzMzMzM6QGZmZmZmZjpAZmZmZmZmOkAzMzMzMzM6QDMzMzMzMzpAZmZmZmZmOkBmZmZmZmY6QGZmZmZmZjpAAAAAAACAOkDNzMzMzMw6QGZmZmZm5jpAMzMzMzMzO0BmZmZmZmY7QGZmZmZmZjtAZmZmZmZmO0BmZmZmZuY7QDMzMzMzsztAmpmZmZmZO0AzMzMzM7M7QM3MzMzMzDtAzczMzMxMPEAzMzMzMzM8QAAAAAAAADxAMzMzMzMzPEAAAAAAAIA8QDMzMzMzszxAmpmZmZkZPUCamZmZmRk9QJqZmZmZGT1AmpmZmZkZPUCamZmZmRk9QAAAAAAAAD1AZmZmZmZmPUAAAAAAAIA9QGZmZmZmZj1AZmZmZmZmPUBmZmZmZmY9QGZmZmZmZj1AZmZmZmZmPUDNzMzMzEw9QAAAAAAAAD1AAAAAAACAPECamZmZmZk8QAAAAAAAgDxAAAAAAACAPEAAAAAAAIA8QM3MzMzMzDxAzczMzMzMPEAAAAAAAIA8QGZmZmZmZjxAZmZmZmZmPECamZmZmZk8QJqZmZmZmTxAMzMzMzMzPEBmZmZmZuY7QGZmZmZm5jtAZmZmZmbmO0CamZmZmRk7QGZmZmZm5jpAAAAAAAAAOkBmZmZmZuY5QJqZmZmZmTlAZmZmZmZmOUBmZmZmZmY5QAAAAAAAgDlAAAAAAACAOUAzMzMzMzM5QDMzMzMzMzlAZmZmZmZmOUBmZmZmZmY5QJqZmZmZGTlAmpmZmZkZOUAAAAAAAAA5QJqZmZmZmThAmpmZmZmZOEAAAAAAAIA4QGZmZmZmZjhAmpmZmZmZOEDNzMzMzMw4QGZmZmZm5jhAZmZmZmbmOEBmZmZmZuY4QAAAAAAAADlAAAAAAAAAOUAAAAAAAAA5QGZmZmZm5jhAzczMzMzMOEDNzMzMzMw4QAAAAAAAADlAMzMzMzMzOUDNzMzMzEw5QGZmZmZmZjlAzczMzMxMOUDNzMzMzEw5QM3MzMzMTDlAmpmZmZkZOUCamZmZmRk5QJqZmZmZGTlAZmZmZmbmOEBmZmZmZuY4QGZmZmZm5jhAZmZmZmbmOEBmZmZmZuY4QGZmZmZm5jhAAAAAAAAAOUBmZmZmZuY4QGZmZmZm5jhAMzMzMzOzOECamZmZmZk4QGZmZmZmZjhAMzMzMzMzOECamZmZmRk4QAAAAAAAADhAAAAAAAAAOEDNzMzMzMw3QAAAAAAAgDdAzczMzMxMN0AzMzMzMzM3QM3MzMzMTDdAMzMzMzOzN0AAAAAAAAA4QDMzMzMzMzhAAAAAAACAOECamZmZmZk4QDMzMzMzszhAMzMzMzOzOEAzMzMzM7M4QJqZmZmZGTlAmpmZmZkZOUAAAAAAAAA5QAAAAAAAADlAmpmZmZkZOUAzMzMzMzM5QDMzMzMzMzlAMzMzMzMzOUCamZmZmRk5QJqZmZmZGTlAmpmZmZkZOUBmZmZmZmY5QAAAAAAAgDlAAAAAAACAOUBmZmZmZmY5QDMzMzMzMzlAMzMzMzMzOUDNzMzMzEw5QDMzMzMzMzlAmpmZmZkZOUCamZmZmRk5QJqZmZmZGTlAMzMzMzOzOECamZmZmZk4QM3MzMzMTDhAzczMzMxMOEAzMzMzMzM4QM3MzMzMTDhAzczMzMxMOECamZmZmZk4QAAAAAAAgDhAMzMzMzOzOEAzMzMzM7M4QM3MzMzMzDhAMzMzMzOzOEDNzMzMzMw4QM3MzMzMzDhAzczMzMzMOEDNzMzMzMw4QJqZmZmZGTlAzczMzMxMOUDNzMzMzEw5QJqZmZmZmTlAzczMzMxMOUDNzMzMzEw5QJqZmZmZGTlAZmZmZmbmOEBmZmZmZuY4QJqZmZmZmThAmpmZmZmZOEAzMzMzM7M4QJqZmZmZmThAmpmZmZmZOECamZmZmZk4QDMzMzMzszhAAAAAAACAOEBmZmZmZmY4QGZmZmZmZjhAZmZmZmZmOEAAAAAAAIA4QAAAAAAAgDhAMzMzMzOzOEAzMzMzM7M4QJqZmZmZmThAAAAAAACAOEAAAAAAAIA4QAAAAAAAgDhAAAAAAACAOEAzMzMzMzM4QJqZmZmZGThAAAAAAAAAOEAAAAAAAAA4QJqZmZmZGThA",
-                "dtype": "f8"
-            },
-            "yaxis": "y"
-        },
-        {
-            "name": "Humidity",
-            "type": "scatter",
-            "x": [
-                "00:00:22.903000",
-                "00:01:22.903000",
-                "00:02:22.903000",
-                "00:03:22.906000",
-                "00:04:22.910000",
-                "00:05:22.915000",
-                "00:06:22.921000",
-                "00:07:22.904000",
-                "00:08:22.920000",
-                "00:09:22.905000",
-                "00:10:22.924000",
-                "00:11:22.907000",
-                "00:12:22.924000",
-                "00:13:22.917000",
-                "00:14:22.918000",
-                "00:15:22.921000",
-                "00:16:22.913000",
-                "00:17:22.930000",
-                "00:18:22.926000",
-                "00:19:22.931000",
-                "00:20:22.926000",
-                "00:21:22.912000",
-                "00:22:22.926000",
-                "00:23:22.927000",
-                "00:24:22.950000",
-                "00:25:22.951000",
-                "00:26:22.945000",
-                "00:27:22.944000",
-                "00:28:22.951000",
-                "00:29:22.990000",
-                "00:30:22.965000",
-                "00:31:22.971000",
-                "00:32:22.991000",
-                "00:33:23.012000",
-                "00:34:23.017000",
-                "00:35:23.030000",
-                "00:36:23.045000",
-                "00:37:23.054000",
-                "00:38:23.058000",
-                "00:39:23.060000",
-                "00:40:23.057000",
-                "00:41:23.059000",
-                "00:42:23.055000",
-                "00:43:23.055000",
-                "00:44:23.072000",
-                "00:45:23.056000",
-                "00:46:23.072000",
-                "00:47:23.075000",
-                "00:48:23.067000",
-                "00:49:23.068000",
-                "00:50:23.073000",
-                "00:51:23.074000",
-                "00:52:23.075000",
-                "00:53:23.075000",
-                "00:54:23.077000",
-                "00:55:23.069000",
-                "00:56:23.077000",
-                "00:57:23.078000",
-                "00:58:23.076000",
-                "00:59:23.072000",
-                "01:00:23.084000",
-                "01:01:23.076000",
-                "01:02:23.076000",
-                "01:03:23.081000",
-                "01:04:23.077000",
-                "01:05:23.077000",
-                "01:06:23.085000",
-                "01:07:23.079000",
-                "01:08:23.093000",
-                "01:09:23.079000",
-                "01:10:23.078000",
-                "01:11:23.074000",
-                "01:12:23.081000",
-                "01:13:23.085000",
-                "01:14:23.085000",
-                "01:15:23.087000",
-                "01:16:23.093000",
-                "01:17:23.093000",
-                "01:18:23.094000",
-                "01:19:23.097000",
-                "01:20:23.098000",
-                "01:21:23.097000",
-                "01:22:23.084000",
-                "01:23:23.151000",
-                "01:24:23.086000",
-                "01:25:23.104000",
-                "01:26:23.099000",
-                "01:27:23.098000",
-                "01:28:23.109000",
-                "01:29:23.125000",
-                "01:30:23.106000",
-                "01:31:23.126000",
-                "01:32:23.153000",
-                "01:33:23.154000",
-                "01:34:23.168000",
-                "01:35:23.180000",
-                "01:36:23.212000",
-                "01:37:23.199000",
-                "01:38:23.204000",
-                "01:39:23.226000",
-                "01:40:23.227000",
-                "01:41:23.228000",
-                "01:42:23.231000",
-                "01:43:23.211000",
-                "01:44:23.230000",
-                "01:45:23.229000",
-                "01:46:23.244000",
-                "01:47:23.230000",
-                "01:48:23.231000",
-                "01:49:23.271000",
-                "01:50:23.255000",
-                "01:51:23.239000",
-                "01:52:23.272000",
-                "01:53:23.287000",
-                "01:54:23.273000",
-                "01:55:23.289000",
-                "01:56:23.291000",
-                "01:57:23.289000",
-                "01:58:23.288000",
-                "01:59:23.313000",
-                "02:00:23.318000",
-                "02:01:23.328000",
-                "02:02:23.350000",
-                "02:03:23.346000",
-                "02:04:23.335000",
-                "02:05:23.334000",
-                "02:06:23.352000",
-                "02:07:23.350000",
-                "02:08:23.355000",
-                "02:09:23.352000",
-                "02:10:23.369000",
-                "02:11:23.352000",
-                "02:12:23.365000",
-                "02:13:23.370000",
-                "02:14:23.369000",
-                "02:15:23.380000",
-                "02:16:23.382000",
-                "02:17:23.395000",
-                "02:18:23.378000",
-                "02:19:23.395000",
-                "02:20:23.401000",
-                "02:21:23.419000",
-                "02:22:23.417000",
-                "02:23:23.418000",
-                "02:24:23.418000",
-                "02:25:23.439000",
-                "02:26:23.456000",
-                "02:27:23.479000",
-                "02:28:23.484000",
-                "02:29:23.488000",
-                "02:30:23.486000",
-                "02:31:23.496000",
-                "02:32:23.485000",
-                "02:33:23.498000",
-                "02:34:23.482000",
-                "02:35:23.496000",
-                "02:36:23.499000",
-                "02:37:23.497000",
-                "02:38:23.490000",
-                "02:39:23.506000",
-                "02:40:23.502000",
-                "02:41:23.510000",
-                "02:42:23.557000",
-                "02:43:23.522000",
-                "02:44:23.522000",
-                "02:45:23.527000",
-                "02:46:23.539000",
-                "02:47:23.524000",
-                "02:48:23.530000",
-                "02:49:23.755000",
-                "02:50:23.525000",
-                "02:51:23.529000",
-                "02:52:23.537000",
-                "02:53:23.527000",
-                "02:54:23.532000",
-                "02:55:23.526000",
-                "02:56:23.543000",
-                "02:57:23.543000",
-                "02:58:23.542000",
-                "02:59:23.544000",
-                "03:00:23.540000",
-                "03:01:23.544000",
-                "03:02:23.544000",
-                "03:03:23.545000",
-                "03:04:23.535000",
-                "03:05:23.545000",
-                "03:06:23.546000",
-                "03:07:23.548000",
-                "03:08:23.548000",
-                "03:09:23.547000",
-                "03:10:23.547000",
-                "03:11:23.558000",
-                "03:12:23.550000",
-                "03:13:23.566000",
-                "03:14:23.548000",
-                "03:15:23.567000",
-                "03:16:23.548000",
-                "03:17:23.549000",
-                "03:18:23.549000",
-                "03:19:23.568000",
-                "03:20:23.566000"
-            ],
-            "xaxis": "x",
-            "y": {
-                "bdata": "AAAAAACAVUAAAAAAAMBVQAAAAAAAgFVAAAAAAADAVUAAAAAAAMBVQAAAAAAAwFVAAAAAAAAAVkAAAAAAAIBVQAAAAAAAwFVAAAAAAAAAVkAAAAAAAMBVQAAAAAAAwFVAAAAAAADAVUAAAAAAAMBVQAAAAAAAAFZAAAAAAADAVUAAAAAAAMBVQAAAAAAAwFVAAAAAAADAVUAAAAAAAMBVQAAAAAAAAFZAAAAAAADAVUAAAAAAAMBVQAAAAAAAwFVAAAAAAACAVUAAAAAAAABWQAAAAAAAAFVAAAAAAABAVUAAAAAAAABVQAAAAAAAgFRAAAAAAABAVUAAAAAAAIBUQAAAAAAAgFRAAAAAAAAAVUAAAAAAAIBUQAAAAAAAwFRAAAAAAAAAVEAAAAAAAEBUQAAAAAAAgFRAAAAAAACAVEAAAAAAAABUQAAAAAAAAFRAAAAAAAAAVEAAAAAAAIBUQAAAAAAAgFRAAAAAAABAVEAAAAAAAIBUQAAAAAAAgFRAAAAAAAAAVEAAAAAAAABUQAAAAAAAgFRAAAAAAABAVEAAAAAAAEBUQAAAAAAAQFRAAAAAAABAVEAAAAAAAABUQAAAAAAAAFRAAAAAAABAVEAAAAAAAABUQAAAAAAAAFRAAAAAAADAU0AAAAAAAABUQAAAAAAAQFRAAAAAAABAVEAAAAAAAEBUQAAAAAAAgFRAAAAAAABAVEAAAAAAAMBTQAAAAAAAAFRAAAAAAAAAVEAAAAAAAMBTQAAAAAAAwFNAAAAAAACAU0AAAAAAAIBTQAAAAAAAgFNAAAAAAACAU0AAAAAAAIBTQAAAAAAAQFNAAAAAAACAU0AAAAAAAMBTQAAAAAAAgFNAAAAAAABAU0AAAAAAAIBTQAAAAAAAgFNAAAAAAABAU0AAAAAAAEBTQAAAAAAAAFNAAAAAAADAUkAAAAAAAMBSQAAAAAAAAFNAAAAAAAAAU0AAAAAAAABTQAAAAAAAwFJAAAAAAADAUkAAAAAAAABTQAAAAAAAwFJAAAAAAAAAU0AAAAAAAABTQAAAAAAAQFNAAAAAAABAU0AAAAAAAMBTQAAAAAAAQFRAAAAAAABAVEAAAAAAAIBUQAAAAAAAwFRAAAAAAADAVEAAAAAAAEBVQAAAAAAAQFVAAAAAAABAVUAAAAAAAIBVQAAAAAAAgFVAAAAAAACAVUAAAAAAAMBVQAAAAAAAwFVAAAAAAAAAVkAAAAAAAABWQAAAAAAAAFZAAAAAAABAVkAAAAAAAEBWQAAAAAAAQFZAAAAAAACAVkAAAAAAAEBWQAAAAAAAQFZAAAAAAABAVkAAAAAAAEBWQAAAAAAAQFZAAAAAAABAVkAAAAAAAEBWQAAAAAAAgFZAAAAAAABAVkAAAAAAAEBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAEBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAwFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAQFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAwFZAAAAAAACAVkAAAAAAAMBWQAAAAAAAwFZAAAAAAADAVkAAAAAAAABXQAAAAAAAwFZAAAAAAADAVkAAAAAAAMBWQAAAAAAAgFZAAAAAAADAVkAAAAAAAMBWQAAAAAAAwFZAAAAAAACAVkAAAAAAAMBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAMBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAQFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAEBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAEBWQAAAAAAAQFZAAAAAAABAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAACAVkAAAAAAAIBWQAAAAAAAgFZAAAAAAABAVkAAAAAAAIBWQAAAAAAAQFZAAAAAAABAVkAAAAAAAEBWQAAAAAAAQFZAAAAAAABAVkAAAAAAAEBWQAAAAAAAQFZA",
-                "dtype": "f8"
-            },
-            "yaxis": "y2"
-        },
-        {
-            "name": "Pressure",
-            "type": "scatter",
-            "x": [
-                "00:00:22.903000",
-                "00:01:22.903000",
-                "00:02:22.903000",
-                "00:03:22.906000",
-                "00:04:22.910000",
-                "00:05:22.915000",
-                "00:06:22.921000",
-                "00:07:22.904000",
-                "00:08:22.920000",
-                "00:09:22.905000",
-                "00:10:22.924000",
-                "00:11:22.907000",
-                "00:12:22.924000",
-                "00:13:22.917000",
-                "00:14:22.918000",
-                "00:15:22.921000",
-                "00:16:22.913000",
-                "00:17:22.930000",
-                "00:18:22.926000",
-                "00:19:22.931000",
-                "00:20:22.926000",
-                "00:21:22.912000",
-                "00:22:22.926000",
-                "00:23:22.927000",
-                "00:24:22.950000",
-                "00:25:22.951000",
-                "00:26:22.945000",
-                "00:27:22.944000",
-                "00:28:22.951000",
-                "00:29:22.990000",
-                "00:30:22.965000",
-                "00:31:22.971000",
-                "00:32:22.991000",
-                "00:33:23.012000",
-                "00:34:23.017000",
-                "00:35:23.030000",
-                "00:36:23.045000",
-                "00:37:23.054000",
-                "00:38:23.058000",
-                "00:39:23.060000",
-                "00:40:23.057000",
-                "00:41:23.059000",
-                "00:42:23.055000",
-                "00:43:23.055000",
-                "00:44:23.072000",
-                "00:45:23.056000",
-                "00:46:23.072000",
-                "00:47:23.075000",
-                "00:48:23.067000",
-                "00:49:23.068000",
-                "00:50:23.073000",
-                "00:51:23.074000",
-                "00:52:23.075000",
-                "00:53:23.075000",
-                "00:54:23.077000",
-                "00:55:23.069000",
-                "00:56:23.077000",
-                "00:57:23.078000",
-                "00:58:23.076000",
-                "00:59:23.072000",
-                "01:00:23.084000",
-                "01:01:23.076000",
-                "01:02:23.076000",
-                "01:03:23.081000",
-                "01:04:23.077000",
-                "01:05:23.077000",
-                "01:06:23.085000",
-                "01:07:23.079000",
-                "01:08:23.093000",
-                "01:09:23.079000",
-                "01:10:23.078000",
-                "01:11:23.074000",
-                "01:12:23.081000",
-                "01:13:23.085000",
-                "01:14:23.085000",
-                "01:15:23.087000",
-                "01:16:23.093000",
-                "01:17:23.093000",
-                "01:18:23.094000",
-                "01:19:23.097000",
-                "01:20:23.098000",
-                "01:21:23.097000",
-                "01:22:23.084000",
-                "01:23:23.151000",
-                "01:24:23.086000",
-                "01:25:23.104000",
-                "01:26:23.099000",
-                "01:27:23.098000",
-                "01:28:23.109000",
-                "01:29:23.125000",
-                "01:30:23.106000",
-                "01:31:23.126000",
-                "01:32:23.153000",
-                "01:33:23.154000",
-                "01:34:23.168000",
-                "01:35:23.180000",
-                "01:36:23.212000",
-                "01:37:23.199000",
-                "01:38:23.204000",
-                "01:39:23.226000",
-                "01:40:23.227000",
-                "01:41:23.228000",
-                "01:42:23.231000",
-                "01:43:23.211000",
-                "01:44:23.230000",
-                "01:45:23.229000",
-                "01:46:23.244000",
-                "01:47:23.230000",
-                "01:48:23.231000",
-                "01:49:23.271000",
-                "01:50:23.255000",
-                "01:51:23.239000",
-                "01:52:23.272000",
-                "01:53:23.287000",
-                "01:54:23.273000",
-                "01:55:23.289000",
-                "01:56:23.291000",
-                "01:57:23.289000",
-                "01:58:23.288000",
-                "01:59:23.313000",
-                "02:00:23.318000",
-                "02:01:23.328000",
-                "02:02:23.350000",
-                "02:03:23.346000",
-                "02:04:23.335000",
-                "02:05:23.334000",
-                "02:06:23.352000",
-                "02:07:23.350000",
-                "02:08:23.355000",
-                "02:09:23.352000",
-                "02:10:23.369000",
-                "02:11:23.352000",
-                "02:12:23.365000",
-                "02:13:23.370000",
-                "02:14:23.369000",
-                "02:15:23.380000",
-                "02:16:23.382000",
-                "02:17:23.395000",
-                "02:18:23.378000",
-                "02:19:23.395000",
-                "02:20:23.401000",
-                "02:21:23.419000",
-                "02:22:23.417000",
-                "02:23:23.418000",
-                "02:24:23.418000",
-                "02:25:23.439000",
-                "02:26:23.456000",
-                "02:27:23.479000",
-                "02:28:23.484000",
-                "02:29:23.488000",
-                "02:30:23.486000",
-                "02:31:23.496000",
-                "02:32:23.485000",
-                "02:33:23.498000",
-                "02:34:23.482000",
-                "02:35:23.496000",
-                "02:36:23.499000",
-                "02:37:23.497000",
-                "02:38:23.490000",
-                "02:39:23.506000",
-                "02:40:23.502000",
-                "02:41:23.510000",
-                "02:42:23.557000",
-                "02:43:23.522000",
-                "02:44:23.522000",
-                "02:45:23.527000",
-                "02:46:23.539000",
-                "02:47:23.524000",
-                "02:48:23.530000",
-                "02:49:23.755000",
-                "02:50:23.525000",
-                "02:51:23.529000",
-                "02:52:23.537000",
-                "02:53:23.527000",
-                "02:54:23.532000",
-                "02:55:23.526000",
-                "02:56:23.543000",
-                "02:57:23.543000",
-                "02:58:23.542000",
-                "02:59:23.544000",
-                "03:00:23.540000",
-                "03:01:23.544000",
-                "03:02:23.544000",
-                "03:03:23.545000",
-                "03:04:23.535000",
-                "03:05:23.545000",
-                "03:06:23.546000",
-                "03:07:23.548000",
-                "03:08:23.548000",
-                "03:09:23.547000",
-                "03:10:23.547000",
-                "03:11:23.558000",
-                "03:12:23.550000",
-                "03:13:23.566000",
-                "03:14:23.548000",
-                "03:15:23.567000",
-                "03:16:23.548000",
-                "03:17:23.549000",
-                "03:18:23.549000",
-                "03:19:23.568000",
-                "03:20:23.566000"
-            ],
-            "xaxis": "x",
-            "y": {
-                "bdata": "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",
-                "dtype": "f8"
-            },
-            "yaxis": "y2"
-        },
-        {
-            "name": "Wind Speed",
-            "type": "scatter",
-            "x": [
-                "00:00:22.903000",
-                "00:01:22.903000",
-                "00:02:22.903000",
-                "00:03:22.906000",
-                "00:04:22.910000",
-                "00:05:22.915000",
-                "00:06:22.921000",
-                "00:07:22.904000",
-                "00:08:22.920000",
-                "00:09:22.905000",
-                "00:10:22.924000",
-                "00:11:22.907000",
-                "00:12:22.924000",
-                "00:13:22.917000",
-                "00:14:22.918000",
-                "00:15:22.921000",
-                "00:16:22.913000",
-                "00:17:22.930000",
-                "00:18:22.926000",
-                "00:19:22.931000",
-                "00:20:22.926000",
-                "00:21:22.912000",
-                "00:22:22.926000",
-                "00:23:22.927000",
-                "00:24:22.950000",
-                "00:25:22.951000",
-                "00:26:22.945000",
-                "00:27:22.944000",
-                "00:28:22.951000",
-                "00:29:22.990000",
-                "00:30:22.965000",
-                "00:31:22.971000",
-                "00:32:22.991000",
-                "00:33:23.012000",
-                "00:34:23.017000",
-                "00:35:23.030000",
-                "00:36:23.045000",
-                "00:37:23.054000",
-                "00:38:23.058000",
-                "00:39:23.060000",
-                "00:40:23.057000",
-                "00:41:23.059000",
-                "00:42:23.055000",
-                "00:43:23.055000",
-                "00:44:23.072000",
-                "00:45:23.056000",
-                "00:46:23.072000",
-                "00:47:23.075000",
-                "00:48:23.067000",
-                "00:49:23.068000",
-                "00:50:23.073000",
-                "00:51:23.074000",
-                "00:52:23.075000",
-                "00:53:23.075000",
-                "00:54:23.077000",
-                "00:55:23.069000",
-                "00:56:23.077000",
-                "00:57:23.078000",
-                "00:58:23.076000",
-                "00:59:23.072000",
-                "01:00:23.084000",
-                "01:01:23.076000",
-                "01:02:23.076000",
-                "01:03:23.081000",
-                "01:04:23.077000",
-                "01:05:23.077000",
-                "01:06:23.085000",
-                "01:07:23.079000",
-                "01:08:23.093000",
-                "01:09:23.079000",
-                "01:10:23.078000",
-                "01:11:23.074000",
-                "01:12:23.081000",
-                "01:13:23.085000",
-                "01:14:23.085000",
-                "01:15:23.087000",
-                "01:16:23.093000",
-                "01:17:23.093000",
-                "01:18:23.094000",
-                "01:19:23.097000",
-                "01:20:23.098000",
-                "01:21:23.097000",
-                "01:22:23.084000",
-                "01:23:23.151000",
-                "01:24:23.086000",
-                "01:25:23.104000",
-                "01:26:23.099000",
-                "01:27:23.098000",
-                "01:28:23.109000",
-                "01:29:23.125000",
-                "01:30:23.106000",
-                "01:31:23.126000",
-                "01:32:23.153000",
-                "01:33:23.154000",
-                "01:34:23.168000",
-                "01:35:23.180000",
-                "01:36:23.212000",
-                "01:37:23.199000",
-                "01:38:23.204000",
-                "01:39:23.226000",
-                "01:40:23.227000",
-                "01:41:23.228000",
-                "01:42:23.231000",
-                "01:43:23.211000",
-                "01:44:23.230000",
-                "01:45:23.229000",
-                "01:46:23.244000",
-                "01:47:23.230000",
-                "01:48:23.231000",
-                "01:49:23.271000",
-                "01:50:23.255000",
-                "01:51:23.239000",
-                "01:52:23.272000",
-                "01:53:23.287000",
-                "01:54:23.273000",
-                "01:55:23.289000",
-                "01:56:23.291000",
-                "01:57:23.289000",
-                "01:58:23.288000",
-                "01:59:23.313000",
-                "02:00:23.318000",
-                "02:01:23.328000",
-                "02:02:23.350000",
-                "02:03:23.346000",
-                "02:04:23.335000",
-                "02:05:23.334000",
-                "02:06:23.352000",
-                "02:07:23.350000",
-                "02:08:23.355000",
-                "02:09:23.352000",
-                "02:10:23.369000",
-                "02:11:23.352000",
-                "02:12:23.365000",
-                "02:13:23.370000",
-                "02:14:23.369000",
-                "02:15:23.380000",
-                "02:16:23.382000",
-                "02:17:23.395000",
-                "02:18:23.378000",
-                "02:19:23.395000",
-                "02:20:23.401000",
-                "02:21:23.419000",
-                "02:22:23.417000",
-                "02:23:23.418000",
-                "02:24:23.418000",
-                "02:25:23.439000",
-                "02:26:23.456000",
-                "02:27:23.479000",
-                "02:28:23.484000",
-                "02:29:23.488000",
-                "02:30:23.486000",
-                "02:31:23.496000",
-                "02:32:23.485000",
-                "02:33:23.498000",
-                "02:34:23.482000",
-                "02:35:23.496000",
-                "02:36:23.499000",
-                "02:37:23.497000",
-                "02:38:23.490000",
-                "02:39:23.506000",
-                "02:40:23.502000",
-                "02:41:23.510000",
-                "02:42:23.557000",
-                "02:43:23.522000",
-                "02:44:23.522000",
-                "02:45:23.527000",
-                "02:46:23.539000",
-                "02:47:23.524000",
-                "02:48:23.530000",
-                "02:49:23.755000",
-                "02:50:23.525000",
-                "02:51:23.529000",
-                "02:52:23.537000",
-                "02:53:23.527000",
-                "02:54:23.532000",
-                "02:55:23.526000",
-                "02:56:23.543000",
-                "02:57:23.543000",
-                "02:58:23.542000",
-                "02:59:23.544000",
-                "03:00:23.540000",
-                "03:01:23.544000",
-                "03:02:23.544000",
-                "03:03:23.545000",
-                "03:04:23.535000",
-                "03:05:23.545000",
-                "03:06:23.546000",
-                "03:07:23.548000",
-                "03:08:23.548000",
-                "03:09:23.547000",
-                "03:10:23.547000",
-                "03:11:23.558000",
-                "03:12:23.550000",
-                "03:13:23.566000",
-                "03:14:23.548000",
-                "03:15:23.567000",
-                "03:16:23.548000",
-                "03:17:23.549000",
-                "03:18:23.549000",
-                "03:19:23.568000",
-                "03:20:23.566000"
-            ],
-            "xaxis": "x",
-            "y": {
-                "bdata": "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",
-                "dtype": "f8"
-            },
-            "yaxis": "y2"
-        },
-        {
-            "legendgroup": "Rain",
+            "hovertemplate": "Compound=WET<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "WET",
             "marker": {
                 "color": "blue",
-                "opacity": 0.5,
-                "size": 10
+                "pattern": {
+                    "shape": ""
+                }
+            },
+            "name": "WET",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9A",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "JQaBlUNXYUCsHFpkO1dfQAAAAAAAAPh/",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
             },
             "mode": "markers",
-            "name": "Rain",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 3",
+            "type": "scatter",
+            "x": [
+                3
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 3",
+            "type": "scatter",
+            "x": [
+                3
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 11",
+            "type": "scatter",
+            "x": [
+                11
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 11",
+            "type": "scatter",
+            "x": [
+                11
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 25",
+            "type": "scatter",
+            "x": [
+                25
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 25",
+            "type": "scatter",
+            "x": [
+                25
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 26",
+            "type": "scatter",
+            "x": [
+                26
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "violet",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: VSCDeployed, Lap 27",
+            "type": "scatter",
+            "x": [
+                27
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "orange",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: VSCEnding, Lap 27",
+            "type": "scatter",
+            "x": [
+                27
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 28",
+            "type": "scatter",
+            "x": [
+                28
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "purple",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: SCDeployed, Lap 29",
+            "type": "scatter",
+            "x": [
+                29
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "red",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Red, Lap 31",
+            "type": "scatter",
+            "x": [
+                31
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 32",
+            "type": "scatter",
+            "x": [
+                32
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 32",
+            "type": "scatter",
+            "x": [
+                32
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 33",
+            "type": "scatter",
+            "x": [
+                33
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 35",
+            "type": "scatter",
+            "x": [
+                35
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 35",
+            "type": "scatter",
+            "x": [
+                35
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 37",
+            "type": "scatter",
+            "x": [
+                37
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 37",
+            "type": "scatter",
+            "x": [
+                37
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 39",
+            "type": "scatter",
+            "x": [
+                39
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "purple",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: SCDeployed, Lap 39",
+            "type": "scatter",
+            "x": [
+                39
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 41",
+            "type": "scatter",
+            "x": [
+                41
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 42",
+            "type": "scatter",
+            "x": [
+                42
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 43",
+            "type": "scatter",
+            "x": [
+                43
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 51",
+            "type": "scatter",
+            "x": [
+                51
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 51",
+            "type": "scatter",
+            "x": [
+                51
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "green",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "AllClear",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "yellow",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "Yellow",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "red",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "Red",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "purple",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "SCDeployed",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "violet",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "VSCDeployed",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "orange",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "VSCEnding",
             "showlegend": true,
             "type": "scatter",
             "x": [
@@ -1088,91 +735,271 @@
         }
     ],
     "layout": {
+        "barmode": "relative",
         "legend": {
             "title": {
-                "text": "Metric"
-            }
+                "text": "Compound"
+            },
+            "tracegroupgap": 0
         },
         "shapes": [
             {
-                "fillcolor": "blue",
-                "layer": "below",
+                "layer": "above",
                 "line": {
-                    "width": 0
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
                 },
-                "opacity": 0.2,
-                "type": "rect",
-                "x0": "00:00:22.903000",
-                "x1": "00:18:22.926000",
+                "type": "line",
+                "x0": 3,
+                "x1": 3,
+                "xref": "x",
                 "y0": 0,
-                "y1": 100
+                "y1": 1,
+                "yref": "y domain"
             },
             {
-                "fillcolor": "blue",
-                "layer": "below",
+                "layer": "above",
                 "line": {
-                    "width": 0
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
                 },
-                "opacity": 0.2,
-                "type": "rect",
-                "x0": "00:21:22.912000",
-                "x1": "00:21:22.912000",
+                "type": "line",
+                "x0": 11,
+                "x1": 11,
+                "xref": "x",
                 "y0": 0,
-                "y1": 100
+                "y1": 1,
+                "yref": "y domain"
             },
             {
-                "fillcolor": "blue",
-                "layer": "below",
+                "layer": "above",
                 "line": {
-                    "width": 0
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
                 },
-                "opacity": 0.2,
-                "type": "rect",
-                "x0": "01:12:23.081000",
-                "x1": "02:15:23.380000",
+                "type": "line",
+                "x0": 25,
+                "x1": 25,
+                "xref": "x",
                 "y0": 0,
-                "y1": 100
+                "y1": 1,
+                "yref": "y domain"
             },
             {
-                "fillcolor": "blue",
-                "layer": "below",
+                "layer": "above",
                 "line": {
-                    "width": 0
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
                 },
-                "opacity": 0.2,
-                "type": "rect",
-                "x0": "02:17:23.395000",
-                "x1": "02:37:23.497000",
+                "type": "line",
+                "x0": 26,
+                "x1": 26,
+                "xref": "x",
                 "y0": 0,
-                "y1": 100
+                "y1": 1,
+                "yref": "y domain"
             },
             {
-                "fillcolor": "blue",
-                "layer": "below",
+                "layer": "above",
                 "line": {
-                    "width": 0
+                    "color": "violet",
+                    "dash": "dash",
+                    "width": 2
                 },
-                "opacity": 0.2,
-                "type": "rect",
-                "x0": "02:41:23.510000",
-                "x1": "02:42:23.557000",
+                "type": "line",
+                "x0": 27,
+                "x1": 27,
+                "xref": "x",
                 "y0": 0,
-                "y1": 100
+                "y1": 1,
+                "yref": "y domain"
             },
             {
-                "fillcolor": "blue",
-                "layer": "below",
+                "layer": "above",
                 "line": {
-                    "width": 0
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
                 },
-                "opacity": 0.2,
-                "type": "rect",
-                "x0": "02:44:23.522000",
-                "x1": "02:53:23.527000",
+                "type": "line",
+                "x0": 28,
+                "x1": 28,
+                "xref": "x",
                 "y0": 0,
-                "y1": 100
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "purple",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 29,
+                "x1": 29,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "red",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 31,
+                "x1": 31,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 32,
+                "x1": 32,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 33,
+                "x1": 33,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 35,
+                "x1": 35,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 37,
+                "x1": 37,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 39,
+                "x1": 39,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 41,
+                "x1": 41,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 42,
+                "x1": 42,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 43,
+                "x1": 43,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 51,
+                "x1": 51,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
             }
         ],
+        "showlegend": true,
         "template": {
             "data": {
                 "bar": [
@@ -1950,16 +1777,16 @@
             }
         },
         "title": {
-            "text": "Weather Data During the Race"
+            "text": "ZHO Lap Times by Compound"
         },
         "xaxis": {
             "anchor": "y",
             "domain": [
                 0,
-                0.94
+                1
             ],
             "title": {
-                "text": "Time"
+                "text": "Lap Number"
             }
         },
         "yaxis": {
@@ -1969,15 +1796,7 @@
                 1
             ],
             "title": {
-                "text": "Temperature (\u00b0C)"
-            }
-        },
-        "yaxis2": {
-            "anchor": "x",
-            "overlaying": "y",
-            "side": "right",
-            "title": {
-                "text": "Value"
+                "text": "Lap Time (seconds)"
             }
         }
     }

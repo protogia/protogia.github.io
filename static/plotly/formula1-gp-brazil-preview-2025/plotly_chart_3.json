@@ -4,1002 +4,97 @@
     },
     "data": [
         {
-            "hovertemplate": "Compound=INTERMEDIATE<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
-            "legendgroup": "INTERMEDIATE",
+            "hovertemplate": "Driver=%{x}<br>Percentage Difference (%)=%{marker.color}<extra></extra>",
+            "legendgroup": "",
             "marker": {
-                "color": "green",
+                "color": {
+                    "bdata": "MIEwPlSmDsD3uIDBdrAQwMdU4q/XdhTA9RE2NhezEsDDZWr5No0VwKTCZA58VxHA0hJgPLjNEcC3uSvPgpgVwMtauPWOXxTADBg8o1cfDcA=",
+                    "dtype": "f8"
+                },
+                "coloraxis": "coloraxis",
                 "pattern": {
                     "shape": ""
                 }
             },
-            "name": "INTERMEDIATE",
+            "name": "",
             "orientation": "v",
-            "showlegend": true,
+            "showlegend": false,
             "textposition": "auto",
             "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAACAR0AAAAAAAABIQAAAAAAAgEhAAAAAAAAASUAAAAAAAIBJQAAAAAAAAEpAAAAAAACASkAAAAAAAABLQAAAAAAAgEtAAAAAAAAATEAAAAAAAIBMQAAAAAAAAE1AAAAAAACATUAAAAAAAABOQAAAAAAAgE5AAAAAAAAAT0AAAAAAAIBPQAAAAAAAAFBAAAAAAABAUEAAAAAAAIBQQAAAAAAAwFBAAAAAAAAAUUAAAAAAAEBRQA==",
-                "dtype": "f8"
-            },
+            "x": [
+                "GAS",
+                "HAM",
+                "LAW",
+                "LEC",
+                "NOR",
+                "OCO",
+                "PIA",
+                "RUS",
+                "TSU",
+                "VER"
+            ],
             "xaxis": "x",
             "y": {
-                "bdata": "c2iR7Xz/V0DP91PjpbNVQIPAyqFFllVA2c73U+ONVUCBlUOLbFdVQPhT46WbRFVA/Knx0k1aVUC6SQwCK09VQM/3U+OlK1VAWDm0yHY+VUDhehSuR4FVQEw3iUFgNVVAPQrXo3BNVUB56SYxCDRVQGDl0CLbSVVA5dAi2/k+VUCamZmZmSFVQM/3U+OlK1VAAiuHFtkmVUAZBFYOLQJVQHsUrkfhClVAj8L1KFwXVUAAAAAAAEBVQJzEILByMFVAw/UoXI86VUA5tMh2vg9XQNEi2/l+alhAexSuR+FCXEAAAAAAAAD4f2Q730+N11hAf2q8dJMoV0AlBoGVQ1NWQG3n+6nxAlZAHVpkO9+3VUA730+Nl+ZYQEoMAiuHlltAH4XrUbgWX0A730+Nl3ZfQMHKoUW2o1ZAAAAAAACYVUBI4XoUrkdVQGq8dJMYNFVAYOXQItsZVUDb+X5qvBRVQEJg5dAiA1VAhxbZzvfrVED2KFyPwgVVQNv5fmq8DFVAUI2XbhIDVUA/NV66SfxUQPhT46Wb7FRAcT0K16PYVECiRbbz/bxUQPCnxks38VRAfT81XrrJVEBmZmZmZsZUQG8Sg8DKqVRALbKd76euVECmm8QgsJJUQBfZzvdTm1RAKVyPwvWgVEB9PzVeuqlUQB1aZDvfh1RAtMh2vp+SVEAnMQisHKJUQA==",
+                "bdata": "MIEwPlSmDsD3uIDBdrAQwMdU4q/XdhTA9RE2NhezEsDDZWr5No0VwKTCZA58VxHA0hJgPLjNEcC3uSvPgpgVwMtauPWOXxTADBg8o1cfDcA=",
                 "dtype": "f8"
             },
             "yaxis": "y"
-        },
-        {
-            "hovertemplate": "Compound=WET<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
-            "legendgroup": "WET",
-            "marker": {
-                "color": "blue",
-                "pattern": {
-                    "shape": ""
-                }
-            },
-            "name": "WET",
-            "orientation": "v",
-            "showlegend": true,
-            "textposition": "auto",
-            "type": "bar",
-            "x": {
-                "bdata": "AAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEA=",
-                "dtype": "f8"
-            },
-            "xaxis": "x",
-            "y": {
-                "bdata": "+FPjpZtUX0BeukkMArtcQJZDi2znA1xAAAAAAAAA+H8=",
-                "dtype": "f8"
-            },
-            "yaxis": "y"
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 3",
-            "type": "scatter",
-            "x": [
-                3
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 3",
-            "type": "scatter",
-            "x": [
-                3
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 11",
-            "type": "scatter",
-            "x": [
-                11
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 11",
-            "type": "scatter",
-            "x": [
-                11
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 25",
-            "type": "scatter",
-            "x": [
-                25
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 25",
-            "type": "scatter",
-            "x": [
-                25
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 26",
-            "type": "scatter",
-            "x": [
-                26
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "violet",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: VSCDeployed, Lap 27",
-            "type": "scatter",
-            "x": [
-                27
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "orange",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: VSCEnding, Lap 27",
-            "type": "scatter",
-            "x": [
-                27
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 28",
-            "type": "scatter",
-            "x": [
-                28
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "purple",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: SCDeployed, Lap 29",
-            "type": "scatter",
-            "x": [
-                29
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "red",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Red, Lap 31",
-            "type": "scatter",
-            "x": [
-                31
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 32",
-            "type": "scatter",
-            "x": [
-                32
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 32",
-            "type": "scatter",
-            "x": [
-                32
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 33",
-            "type": "scatter",
-            "x": [
-                33
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 35",
-            "type": "scatter",
-            "x": [
-                35
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 35",
-            "type": "scatter",
-            "x": [
-                35
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 37",
-            "type": "scatter",
-            "x": [
-                37
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 37",
-            "type": "scatter",
-            "x": [
-                37
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 39",
-            "type": "scatter",
-            "x": [
-                39
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "purple",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: SCDeployed, Lap 39",
-            "type": "scatter",
-            "x": [
-                39
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 41",
-            "type": "scatter",
-            "x": [
-                41
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 42",
-            "type": "scatter",
-            "x": [
-                42
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 43",
-            "type": "scatter",
-            "x": [
-                43
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 51",
-            "type": "scatter",
-            "x": [
-                51
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 51",
-            "type": "scatter",
-            "x": [
-                51
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "green",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "AllClear",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "yellow",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "Yellow",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "red",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "Red",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "purple",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "SCDeployed",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "violet",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "VSCDeployed",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
-        },
-        {
-            "legendgroup": "Track Status",
-            "marker": {
-                "color": "orange",
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "name": "VSCEnding",
-            "showlegend": true,
-            "type": "scatter",
-            "x": [
-                null
-            ],
-            "y": [
-                null
-            ]
         }
     ],
     "layout": {
         "barmode": "relative",
-        "legend": {
-            "title": {
-                "text": "Compound"
+        "coloraxis": {
+            "colorbar": {
+                "title": {
+                    "text": "Percentage Difference (%)"
+                }
             },
+            "colorscale": [
+                [
+                    0,
+                    "#0d0887"
+                ],
+                [
+                    0.1111111111111111,
+                    "#46039f"
+                ],
+                [
+                    0.2222222222222222,
+                    "#7201a8"
+                ],
+                [
+                    0.3333333333333333,
+                    "#9c179e"
+                ],
+                [
+                    0.4444444444444444,
+                    "#bd3786"
+                ],
+                [
+                    0.5555555555555556,
+                    "#d8576b"
+                ],
+                [
+                    0.6666666666666666,
+                    "#ed7953"
+                ],
+                [
+                    0.7777777777777778,
+                    "#fb9f3a"
+                ],
+                [
+                    0.8888888888888888,
+                    "#fdca26"
+                ],
+                [
+                    1,
+                    "#f0f921"
+                ]
+            ]
+        },
+        "legend": {
             "tracegroupgap": 0
         },
-        "shapes": [
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 3,
-                "x1": 3,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 11,
-                "x1": 11,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 25,
-                "x1": 25,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 26,
-                "x1": 26,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "violet",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 27,
-                "x1": 27,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 28,
-                "x1": 28,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "purple",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 29,
-                "x1": 29,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "red",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 31,
-                "x1": 31,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 32,
-                "x1": 32,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 33,
-                "x1": 33,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 35,
-                "x1": 35,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 37,
-                "x1": 37,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 39,
-                "x1": 39,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 41,
-                "x1": 41,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 42,
-                "x1": 42,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 43,
-                "x1": 43,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 51,
-                "x1": 51,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            }
-        ],
-        "showlegend": true,
         "template": {
             "data": {
                 "bar": [
@@ -1777,7 +872,7 @@
             }
         },
         "title": {
-            "text": "LAW Lap Times by Compound"
+            "text": "Percentage Difference in Average Lap Times (Raining vs Not Raining)"
         },
         "xaxis": {
             "anchor": "y",
@@ -1786,7 +881,7 @@
                 1
             ],
             "title": {
-                "text": "Lap Number"
+                "text": "Driver"
             }
         },
         "yaxis": {
@@ -1796,7 +891,7 @@
                 1
             ],
             "title": {
-                "text": "Lap Time (seconds)"
+                "text": "Percentage Difference (%)"
             }
         }
     }

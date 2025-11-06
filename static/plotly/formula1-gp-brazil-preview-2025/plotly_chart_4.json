@@ -4,142 +4,139 @@
     },
     "data": [
         {
-            "hovertemplate": "Compound=INTERMEDIATE<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
-            "legendgroup": "INTERMEDIATE",
+            "alignmentgroup": "True",
+            "hovertemplate": "Driver=TSU<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
+            "legendgroup": "TSU",
             "marker": {
-                "color": "green",
+                "color": "#636efa",
                 "pattern": {
                     "shape": ""
                 }
             },
-            "name": "INTERMEDIATE",
+            "name": "TSU",
+            "offsetgroup": "TSU",
             "orientation": "v",
             "showlegend": true,
             "textposition": "auto",
             "type": "bar",
             "x": {
-                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAgEdAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEpAAAAAAAAAS0AAAAAAAIBLQAAAAAAAAExAAAAAAACATEAAAAAAAABNQAAAAAAAgE1AAAAAAAAATkAAAAAAAIBOQAAAAAAAAE9AAAAAAACAT0AAAAAAAABQQAAAAAAAQFBAAAAAAACAUEAAAAAAAMBQQAAAAAAAAFFAAAAAAABAUUA=",
+                "bdata": "AAAAAAAAPEAAAAAAAABAQA==",
                 "dtype": "f8"
             },
             "xaxis": "x",
             "y": {
-                "bdata": "VOOlm8RYW0BeukkMAsNVQBsv3SQGeVVAqMZLN4mRVUCHFtnO94NVQPp+arx0k1VAhetRuB51VUBKDAIrh0ZVQNV46SYxUFVA/Knx0k06VUCamZmZmYFVQGQ730+Nf1VAGy/dJAZpVUC4HoXrUXBVQGDl0CLbUVVAvHSTGAQeVUDhehSuRxlVQGZmZmZmdlVA0SLb+X4aVUDFILByaCFVQCcxCKwcGlVAnMQgsHJYVUAnMQisHEpVQDm0yHa+d1VAnMQgsHKQVUD4U+Olm6RVQFK4HoXriVlAAAAAAAAA+H8GgZVDi3RYQBkEVg4tIldAy6FFtvNFVkBiEFg5tPhVQFYOLbKdz1VAWmQ7309NWUBmZmZmZjZbQAwCK4cWQV9A+n5qvHQDX0B3vp8aLw1XQPT91HjpTlVARIts5/tJVUD0/dR46TZVQESLbOf7KVVA/Knx0k36VEAMAiuHFglVQJZDi2zn61RAPQrXo3AFVUAv3SQGgQVVQLbz/dR4AVVAVg4tsp3vVEAnMQisHGJVQJzEILBysFRAfT81XrqxVEAEVg4tsu1UQC/dJAaBxVRAukkMAivHVED2KFyPwq1UQAwCK4cWuVRAHVpkO9+XVED4U+Olm5RUQK5H4XoUjlRAO99PjZe+VED+1HjpJolUQEa28/3UkFRAke18PzWOVEA=",
+                "bdata": "ukkMAiunOUDD9ShcDyyWQA==",
                 "dtype": "f8"
             },
             "yaxis": "y"
         },
         {
-            "hovertemplate": "Compound=WET<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
-            "legendgroup": "WET",
+            "alignmentgroup": "True",
+            "hovertemplate": "Driver=LAW<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
+            "legendgroup": "LAW",
             "marker": {
-                "color": "blue",
+                "color": "#EF553B",
                 "pattern": {
                     "shape": ""
                 }
             },
-            "name": "WET",
+            "name": "LAW",
+            "offsetgroup": "LAW",
             "orientation": "v",
             "showlegend": true,
             "textposition": "auto",
             "type": "bar",
             "x": {
-                "bdata": "AAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQA==",
+                "bdata": "AAAAAAAAPEAAAAAAAABAQA==",
                 "dtype": "f8"
             },
             "xaxis": "x",
             "y": {
-                "bdata": "ppvEILAqXkDufD81XmpZQEJg5dAiD2BAKVyPwvXAW0AAAAAAAAD4fw==",
+                "bdata": "PQrXo3A9PEDD9ShcjzqWQA==",
                 "dtype": "f8"
             },
             "yaxis": "y"
         },
         {
-            "hoverinfo": "text",
+            "alignmentgroup": "True",
+            "hovertemplate": "Driver=PER<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
+            "legendgroup": "PER",
             "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
+                "color": "#00cc96",
+                "pattern": {
+                    "shape": ""
+                }
             },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 3",
-            "type": "scatter",
-            "x": [
-                3
-            ],
-            "y": [
-                -2
-            ]
+            "name": "PER",
+            "offsetgroup": "PER",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAAO0AAAAAAAABAQA==",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "f2q8dJOYOkBEi2zn+0SWQA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
         },
         {
-            "hoverinfo": "text",
+            "alignmentgroup": "True",
+            "hovertemplate": "Driver=ZHO<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
+            "legendgroup": "ZHO",
             "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
+                "color": "#ab63fa",
+                "pattern": {
+                    "shape": ""
+                }
             },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 3",
-            "type": "scatter",
-            "x": [
-                3
-            ],
-            "y": [
-                2
-            ]
+            "name": "ZHO",
+            "offsetgroup": "ZHO",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAAO0AAAAAAAAA8QAAAAAAAAD9AAAAAAAAAQEA=",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "RIts5/tpOUB9PzVeuik7QFyPwvUoDJRAgZVDi2wnUUA=",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
         },
         {
-            "hoverinfo": "text",
+            "alignmentgroup": "True",
+            "hovertemplate": "Driver=HUL<br>Lap Number=%{x}<br>Pit Stop Duration (seconds)=%{y}<extra></extra>",
+            "legendgroup": "HUL",
             "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
+                "color": "#FFA15A",
+                "pattern": {
+                    "shape": ""
+                }
             },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 11",
-            "type": "scatter",
-            "x": [
-                11
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
+            "name": "HUL",
+            "offsetgroup": "HUL",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAAOUAAAAAAAAA7QAAAAAAAAD1A",
+                "dtype": "f8"
             },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 11",
-            "type": "scatter",
-            "x": [
-                11
-            ],
-            "y": [
-                2
-            ]
+            "xaxis": "x",
+            "y": {
+                "bdata": "pHA9CteDOUDpJjEIrIxNQHsUrkfhujxA",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
         },
         {
             "hoverinfo": "text",
@@ -160,7 +157,7 @@
                 25
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -182,7 +179,7 @@
                 25
             ],
             "y": [
-                2
+                50
             ]
         },
         {
@@ -204,7 +201,7 @@
                 26
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -226,7 +223,7 @@
                 27
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -248,7 +245,7 @@
                 27
             ],
             "y": [
-                2
+                50
             ]
         },
         {
@@ -270,7 +267,7 @@
                 28
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -292,7 +289,7 @@
                 29
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -314,7 +311,7 @@
                 31
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -336,7 +333,7 @@
                 32
             ],
             "y": [
-                -2
+                0
             ]
         },
         {
@@ -358,7 +355,7 @@
                 32
             ],
             "y": [
-                2
+                50
             ]
         },
         {
@@ -380,249 +377,7 @@
                 33
             ],
             "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 35",
-            "type": "scatter",
-            "x": [
-                35
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 35",
-            "type": "scatter",
-            "x": [
-                35
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 37",
-            "type": "scatter",
-            "x": [
-                37
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 37",
-            "type": "scatter",
-            "x": [
-                37
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 39",
-            "type": "scatter",
-            "x": [
-                39
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "purple",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: SCDeployed, Lap 39",
-            "type": "scatter",
-            "x": [
-                39
-            ],
-            "y": [
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 41",
-            "type": "scatter",
-            "x": [
-                41
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 42",
-            "type": "scatter",
-            "x": [
-                42
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 43",
-            "type": "scatter",
-            "x": [
-                43
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "yellow",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: Yellow, Lap 51",
-            "type": "scatter",
-            "x": [
-                51
-            ],
-            "y": [
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "marker": {
-                "color": "green",
-                "line": {
-                    "color": "black",
-                    "width": 1
-                },
-                "size": 10,
-                "symbol": "circle"
-            },
-            "mode": "markers",
-            "showlegend": false,
-            "text": "Track Status: AllClear, Lap 51",
-            "type": "scatter",
-            "x": [
-                51
-            ],
-            "y": [
-                2
+                0
             ]
         },
         {
@@ -735,44 +490,14 @@
         }
     ],
     "layout": {
-        "barmode": "relative",
+        "barmode": "group",
         "legend": {
             "title": {
-                "text": "Compound"
+                "text": "Driver"
             },
             "tracegroupgap": 0
         },
         "shapes": [
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 3,
-                "x1": 3,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 11,
-                "x1": 11,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
             {
                 "layer": "above",
                 "line": {
@@ -892,114 +617,8 @@
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 35,
-                "x1": 35,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 37,
-                "x1": 37,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 39,
-                "x1": 39,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 41,
-                "x1": 41,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 42,
-                "x1": 42,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "green",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 43,
-                "x1": 43,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
-            },
-            {
-                "layer": "above",
-                "line": {
-                    "color": "yellow",
-                    "dash": "dash",
-                    "width": 2
-                },
-                "type": "line",
-                "x0": 51,
-                "x1": 51,
-                "xref": "x",
-                "y0": 0,
-                "y1": 1,
-                "yref": "y domain"
             }
         ],
-        "showlegend": true,
         "template": {
             "data": {
                 "bar": [
@@ -1777,7 +1396,7 @@
             }
         },
         "title": {
-            "text": "PER Lap Times by Compound"
+            "text": "Individual Pit Stop Durations per Driver"
         },
         "xaxis": {
             "anchor": "y",
@@ -1796,7 +1415,7 @@
                 1
             ],
             "title": {
-                "text": "Lap Time (seconds)"
+                "text": "Pit Stop Duration (seconds)"
             }
         }
     }

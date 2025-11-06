@@ -1,8 +1,8 @@
 ---
-title: 'formula1 gp brazil preview 2025'
-date: '2025-11-05T23:32:52.431915+00:00'
+title: 'Formula1 - GP Brazil Preview 2025'
+date: '2025-11-06T15:48:03.728848+00:00'
 author: 'Giancarlo Rizzo'
-draft: true
+draft: false
 plotly: true
 categories: []
 color: '#a09f93'
@@ -23,7 +23,7 @@ In the next steps we'll install necessary packages, do some preconfigurations an
 
 ### Install fastf1
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 %%capture
@@ -36,7 +36,7 @@ import fastf1
 
 ### Preconfiguration
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 # log-config
@@ -66,160 +66,23 @@ import plotly.graph_objects as go
 
 ### Loading and Preparing Data
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 race = fastf1.get_session(2024, "Brazil", identifier="R")
 race.load(telemetry=True)
 ```
 
-    Request for URL https://api.jolpi.ca/ergast/f1/2024/21/results.json failed; using cached response
-    Traceback (most recent call last):
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
-        response = conn.getresponse()
-                   ^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connection.py", line 565, in getresponse
-        httplib_response = super().getresponse()
-                           ^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/http/client.py", line 1428, in getresponse
-        response.begin()
-      File "/usr/lib/python3.12/http/client.py", line 331, in begin
-        version, status, reason = self._read_status()
-                                  ^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/http/client.py", line 292, in _read_status
-        line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/socket.py", line 707, in readinto
-        return self._sock.recv_into(b)
-               ^^^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/ssl.py", line 1252, in recv_into
-        return self.read(nbytes, buffer)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/ssl.py", line 1104, in read
-        return self._sslobj.read(len, buffer)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    TimeoutError: The read operation timed out
-    
-    The above exception was the direct cause of the following exception:
-    
-    Traceback (most recent call last):
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
-        resp = conn.urlopen(
-               ^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
-        retries = retries.increment(
-                  ^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
-        raise reraise(type(error), error, _stacktrace)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
-        raise value
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
-        response = self._make_request(
-                   ^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
-        self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
-        raise ReadTimeoutError(
-    urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.jolpi.ca', port=443): Read timed out. (read timeout=5.0)
-    
-    During handling of the above exception, another exception occurred:
-    
-    Traceback (most recent call last):
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests_cache/session.py", line 286, in _resend
-        response = self._send_and_cache(request, actions, cached_response, **kwargs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests_cache/session.py", line 254, in _send_and_cache
-        response = super().send(request, **kwargs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/fastf1/req.py", line 136, in send
-        return super().send(request, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-        r = adapter.send(request, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests/adapters.py", line 690, in send
-        raise ReadTimeout(e, request=request)
-    requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.jolpi.ca', port=443): Read timed out. (read timeout=5.0)
-    Request for URL https://api.jolpi.ca/ergast/f1/2024/21/laps/1.json failed; using cached response
-    Traceback (most recent call last):
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
-        response = conn.getresponse()
-                   ^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connection.py", line 565, in getresponse
-        httplib_response = super().getresponse()
-                           ^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/http/client.py", line 1428, in getresponse
-        response.begin()
-      File "/usr/lib/python3.12/http/client.py", line 331, in begin
-        version, status, reason = self._read_status()
-                                  ^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/http/client.py", line 292, in _read_status
-        line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/socket.py", line 707, in readinto
-        return self._sock.recv_into(b)
-               ^^^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/ssl.py", line 1252, in recv_into
-        return self.read(nbytes, buffer)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/usr/lib/python3.12/ssl.py", line 1104, in read
-        return self._sslobj.read(len, buffer)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    TimeoutError: The read operation timed out
-    
-    The above exception was the direct cause of the following exception:
-    
-    Traceback (most recent call last):
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
-        resp = conn.urlopen(
-               ^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
-        retries = retries.increment(
-                  ^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
-        raise reraise(type(error), error, _stacktrace)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
-        raise value
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
-        response = self._make_request(
-                   ^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
-        self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
-        raise ReadTimeoutError(
-    urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.jolpi.ca', port=443): Read timed out. (read timeout=5.0)
-    
-    During handling of the above exception, another exception occurred:
-    
-    Traceback (most recent call last):
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests_cache/session.py", line 286, in _resend
-        response = self._send_and_cache(request, actions, cached_response, **kwargs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests_cache/session.py", line 254, in _send_and_cache
-        response = super().send(request, **kwargs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/fastf1/req.py", line 136, in send
-        return super().send(request, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-        r = adapter.send(request, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      File "/home/working/.cache/pypoetry/virtualenvs/formula1-evaluations-04DUQJVu-py3.12/lib/python3.12/site-packages/requests/adapters.py", line 690, in send
-        raise ReadTimeout(e, request=request)
-    requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.jolpi.ca', port=443): Read timed out. (read timeout=5.0)
-
 {{</details>}}
 
 ## Track Overview
-As mentioned the circuit in Sao Paulo has a length of 4.309km seperated into 15 sectors/corners. It contains two highspeed sections as well as small corners with different radius.
+As mentioned the circuit in Sao Paulo has a length of 4.309km seperated by 14 corners. It contains two highspeed sections as well as small corners with different radiuses and elevation levels.
 
-As shown in the next chart especially the section from _corner 3_ up to _corner 7_ as well as _corner 8_ to _corner 12_ are characterized by small radiuses and at the same time by many changes of the gradient.
+As shown in the next chart especially the section from _corner 3_ up to _corner 7_ as well as _corner 8_ to _corner 12_ are characterized by small radiuses and at the same time by many changes of the altitude gradient.
 
-The long high speed sections are also different to each other. While the section from _corner 13_ to _corner 15_ changes the gradient four times, the second section (_sector 3_) has a negative steep hill downwards with a gradient up to -8.75% which makes it hard for the drivers to find the right brake point when entering _corner 4_.
+The long high speed sections are also different to each other. While the section from _corner 13_ to _corner 15_ changes the gradient four times, the second section (_sector 3_) has a negative steep hill downwards with a altitude gradient up to -8.75% which makes it hard for the drivers to find the right brake point when entering _corner 4_.
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 position = race.laps.pick_fastest().get_pos_data()
@@ -308,11 +171,11 @@ fig.show()
 
 {{</details>}}
 
-{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_10.json" >}}
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_13.json" >}}
 
 The following lineplot shows the altitude gradient over all corners to make this special point clearer. If we can trust the data there is a lot of changes in altitude even between the short sections between the corners.
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 import plotly.graph_objects as go
@@ -422,13 +285,13 @@ fig.show()
 
 {{</details>}}
 
-{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_9.json" >}}
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_12.json" >}}
 
 As if the track weren't challenging enough, the GP Brazil is ​​also known for difficult weather conditions. Sao Paulo is characterized by subtropical climate conditions and november is typically the start of summer there. [This leads into an average amount of precipitation of 145l/m² or in simple words: It's raining a lot. Furthermore the average temperature lays between 15,6°C and 24,9°C in this period while the average relative humidity is around 73.7%](https://en.wikipedia.org/wiki/S%C3%A3o_Paulo#cite_ref-NCB-1931-1960_83-0).
 
 The next chart shows the weather conditions for the GP Brazil 2024. Almost half of the race was driven while raining. The temperature was between 23°C at the beginning of the race and 20°C at the end, whereas the track temperature layed between 29,5°C at driest phase of the race and 23,3°C when it was raining.
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 from plotly.subplots import make_subplots
@@ -523,13 +386,15 @@ weather_fig.show()
 
 {{</details>}}
 
-{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_8.json" >}}
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_11.json" >}}
+
+Unforunatly the data for this race does not provide any information about cars beeing off the track (the flag for all datapoints is not indicating any off track situations). Moreover the fastf1-API does not provide any steering data which could be evaluated to detect yawling situations of individual cars.
 
 ## Analysing Tyre-Strategy by driver
 
-In the next step we'll check out the tyre strategies which were choosen by the drivers and their teams. Even though these stongly depend on what happened within the race, I think it can be helpfull to make some basic guess.
+In the next step we'll check out the tyre strategies which were choosen by the drivers and their teams. Even though these stongly depend on what happened within the race, I think it can be helpfull to make some basic guess for this weekend if the conditions are similar.
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 drivers = race.laps['Driver'].unique()
@@ -693,15 +558,15 @@ fig.show()
 
 {{</details>}}
 
-{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_7.json" >}}
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_10.json" >}}
 
-As you can see by hovering above the vertical dash-lines there were three situations that caused a red flag (lap 11,31, 43). All teams decided to take the red flag in lap 31 to make a pit stop and change tires. Because of the beginning rain in lap 26, 5 drivers took the decision to use the wet compound. This could have been the wrong decision as they could have lost time but because of the red flag in lap 31 all drivers had the chance to take the intermediate compund tyres again.
+As you can see by hovering above the vertical dash-lines there were three situations that caused a red flag (lap 11,31, 43). All teams decided to take the red flag in lap 31 to make a pit stop and change tires. Because of the beginning rain in lap 26, 5 drivers took the decision to use the wet compound and 9 drivers took a pitstop for Intermeidate Compound Tyres. This could have been the wrong decision as lost time the remainging drivers like Verstappen decided to keep the first sample of tyres as long as possible. Because of the high probability that under these conditions a red flag phase would force the drivers to do an extra pit stop, this decision gave those drivers an advantage.
 
-In the next plot we will try to compare the average laptime with the Intermediate Compound Tyres and the Wet Compound Tires and moreover evaluating the pit stop time of these drivers.
+Anyway some fortune belongs to the race but we should take a closer look on the decision to use the Wet Compound Tyres and so we should try to check how this option could effect the race. In the next plot we compare the average laptime with the Intermediate Compound Tyres and the Wet Compound Tyres and moreover evaluating the pit stop time of these drivers.
 
 ## Analysing Laptime Performence per Driver
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 # drivers that used wet compound
@@ -874,13 +739,13 @@ for driver in choosen_drivers:
 
 {{</details>}}
 
-{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_6.json" >}}
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_9.json" >}}
 
-The driver specific charts for _Laptime by Compund_ are showing only the laptimes for the drivers that used the wet compound. At the first look it seems like the laptime is increasing when changing on the wet compound tyres but as indicated by thar dashed lines and scatters all laps with this tyres were driven when the Virtual Safety Car was deployed. Therefore the laps driven with the wet compound are not compareable to the others.
+The driver specific charts for _Laptime by Compund_ are showing only the laptimes for the 5 drivers that used the wet compound. At the first look it seems like the laptime is increasing when changing on the wet compound tyres but as indicated by thar dashed lines and scatters all laps with this tyres were driven when the Virtual Safety Car was deployed. Therefore the laps driven with the wet compound are not compareable to the others.
 
 Also the pit stops were effected by the _deployment of the virtual safety car_ in lap 27 and the _red flag_ in lap 31 as you can see by the long pit stops in next chart.
 
-{{<details title="Code and Output">}}
+{{<details title="Show code">}}
 
 ```python
 # Calculate total pit stop time and individual pit stop times for each driver in choosen_drivers
@@ -1002,4 +867,146 @@ fig.show()
 
 {{</details>}}
 
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_4.json" >}}
+
+## Analysing Laptime Performence in rainy and dry phases
+To evaluate the influence of rainy phases during this race we will checkout the laptimes during phases with and without rain per each driver who finished the race within the top ten.
+
+Even though after the rainy phases stoped, the track had mostly a huge amount of water on it, it could be possible that we'll see differences between the two conditions. After filtering the dataset from outliers as good as possible we can take a look at the next chart.
+
+{{<details title="Show code">}}
+
+```python
+results = race.results
+top_ten_drivers = results['Abbreviation'].head(10).tolist()
+```
+
+```python
+top_ten_laps = race.laps[race.laps['Driver'].isin(top_ten_drivers)].copy()
+
+# Convert LapTime to seconds for z-score calculation
+top_ten_laps['LapTimeSeconds'] = top_ten_laps['LapTime'].dt.total_seconds()
+
+# Calculate the Z-score for LapTimeSeconds
+top_ten_laps['LapTimeZScore'] = (top_ten_laps['LapTimeSeconds'] - top_ten_laps['LapTimeSeconds'].mean()) / top_ten_laps['LapTimeSeconds'].std()
+
+# Filter out rows where the absolute Z-score is greater than 3 (a common threshold for outliers)
+top_ten_laps_filtered = top_ten_laps[abs(top_ten_laps['LapTimeZScore']) <= 3].copy()
+```
+
+```python
+weather_data_datetime = race.weather_data['Time']
+
+# Create a copy of weather_data with datetime index for merging
+weather_data_for_merge = race.weather_data.copy()
+weather_data_for_merge['DateTime'] = weather_data_datetime
+
+# Merge the top_ten_laps DataFrame with the race.weather_data DataFrame using merge_asof
+# Sort both dataframes by the datetime column before merging
+top_ten_laps_sorted = top_ten_laps.sort_values(by='DateTime')
+weather_data_for_merge_sorted = weather_data_for_merge.sort_values(by='DateTime')
+
+# Merge using merge_asof to find the closest weather timestamp for each lap time
+# We will merge the weather data *as of* the lap time, meaning we find the last weather entry
+# that occurred before or at the lap time.
+merged_laps_weather = pd.merge_asof(
+    top_ten_laps_sorted,
+    weather_data_for_merge_sorted[['DateTime', 'Rainfall', 'AirTemp', 'TrackTemp', 'Humidity', 'Pressure', 'WindSpeed']],
+    on='DateTime',
+    direction='backward' # Use 'backward' to find the closest timestamp before or at the lap time
+)
+
+# Handle potential missing weather data after the merge
+merged_laps_weather.dropna(subset=['Rainfall'], inplace=True)
+```
+
+```python
+# df for rainy phases and one for dry phases
+rainy_laps_df = merged_laps_weather[merged_laps_weather['Rainfall'] == True].copy()
+dry_laps_df = merged_laps_weather[merged_laps_weather['Rainfall'] == False].copy()
+```
+
+```python
+# Calculate average lap times
+average_rainy_lap_times = rainy_laps_df.groupby('Driver')['LapTime'].mean().dt.total_seconds()
+average_dry_lap_times = dry_laps_df.groupby('Driver')['LapTime'].mean().dt.total_seconds()
+
+# Calculate percentage difference
+# Ensure both Series have the same drivers for calculation
+comparison_df = pd.DataFrame({
+    'RainyAvgLapTime': average_rainy_lap_times,
+    'DryAvgLapTime': average_dry_lap_times
+}).dropna() # Drop drivers who don't have laps in both conditions
+
+comparison_df['PercentageDifference'] = ((comparison_df['RainyAvgLapTime'] - comparison_df['DryAvgLapTime']) / comparison_df['DryAvgLapTime']) * 100
+```
+
+```python
+# Bar chart for average lap times
+fig_avg_lap_times = go.Figure(data=[
+    go.Bar(name='Not Raining', x=comparison_df.index, y=comparison_df['DryAvgLapTime'], marker_color='orange'),
+    go.Bar(name='Raining', x=comparison_df.index, y=comparison_df['RainyAvgLapTime'], marker_color='blue')
+])
+
+fig_avg_lap_times.update_layout(
+    barmode='group',
+    title='Average Lap Times: Rainy vs Dry Conditions',
+    xaxis_title='Driver',
+    yaxis_title='Average Lap Time (seconds)'
+)
+fig_avg_lap_times.show()
+
+# Bar chart for percentage difference in lap times
+fig_percentage_diff = px.bar(comparison_df,
+                             x=comparison_df.index,
+                             y='PercentageDifference',
+                             title='Percentage Difference in Average Lap Times (Raining vs Not Raining)',
+                             labels={'index': 'Driver', 'PercentageDifference': 'Percentage Difference (%)'},
+                             color='PercentageDifference',
+                             color_continuous_scale='Plasma')
+
+fig_percentage_diff.update_layout(xaxis_title='Driver', yaxis_title='Percentage Difference (%)')
+fig_percentage_diff.show()
+```
+
+{{</details>}}
+
+{{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_3.json" >}}
+
+It shows the average Laptime for Laps driven with rain and without rain by each driver. Surprisingly it looks like the average Laptime for phases without rain is 3.5%-5.7% higher then in rainy laps. As this seems strange we should check the distribution of Laptimes in the next chart. By hovering over the data you will instantly see that within the dataset of Laps without rain, there still are laps contained that were likely effected by the Safety Car as the Laptimes are up 50% higher then the average.
+
+But if you compare the values for median for each driver and condition you see the race deciding differences between the drivers, as for example Verstappen drove the most amount of fastest Laps.
+
+{{<details title="Show code">}}
+
+```python
+# Combine rainy and dry laps for plotting
+combined_laps_df = pd.concat([rainy_laps_df.assign(Condition='Raining'),
+                              dry_laps_df.assign(Condition='Not Raining')])
+
+# Violin plot of lap times by driver and condition
+fig_violin = px.violin(combined_laps_df,
+                     y='LapTimeSeconds',
+                     x='Driver',
+                     color='Condition',
+                     box=True, #  box plot inside violin
+                     points='all', # all points
+                     title='Lap Time Distribution by Driver and Condition',
+                     labels={'Driver': 'Driver', 'LapTimeSeconds': 'Lap Time (seconds)', 'Condition': 'Condition'},
+                     color_discrete_map={'Raining': 'blue', 'Not Raining': 'orange'} # Use appropriate colors
+                    )
+
+fig_violin.update_layout(xaxis_title='Driver', yaxis_title='Lap Time (seconds)')
+
+fig_violin.show()
+```
+
+{{</details>}}
+
 {{< plotly json="/plotly/formula1-gp-brazil-preview-2025/plotly_chart_1.json" >}}
+
+## Conclusion
+
+The race in 2024 was spectecular and Verstappen showed his master class by dominating especially the rainy phases of the day simply by making no mistakes. But Interlagos is one of the races which cause a lot of uncertainties and the impact of Wet Compund Tyres could play a bigger role this year and the race could be closer if more teams will choose a better strategy.
+
+Especially what happens in Section 1 of the first lap will be important as the impact of the steep downhill going track from startline to corner 4 makes it hard to find the perfect braking point especially if the car is heavier at the beginning of the race.

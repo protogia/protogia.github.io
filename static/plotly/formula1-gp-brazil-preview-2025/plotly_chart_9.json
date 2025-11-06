@@ -4,6050 +4,727 @@
     },
     "data": [
         {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(251, 163, 56)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 10.00",
-            "type": "scatter",
-            "x": [
-                0,
-                32.596932371006936
-            ],
-            "y": [
-                11,
-                9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(242, 134, 74)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.25",
-            "type": "scatter",
-            "x": [
-                32.596932371006936,
-                56.778950483645914
-            ],
-            "y": [
-                9,
-                5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(231, 112, 90)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.00",
-            "type": "scatter",
-            "x": [
-                56.778950483645914,
-                73.97807836851264
-            ],
-            "y": [
-                5.5,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(227, 105, 94)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.25",
-            "type": "scatter",
-            "x": [
-                73.97807836851264,
-                94.66841427685401
-            ],
-            "y": [
-                4.5,
-                4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(223, 98, 99)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.50",
-            "type": "scatter",
-            "x": [
-                94.66841427685401,
-                106.79812985472309
-            ],
-            "y": [
-                4,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(220, 93, 103)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.00",
-            "type": "scatter",
-            "x": [
-                106.79812985472309,
-                123.97136484408952
-            ],
-            "y": [
-                3,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                123.97136484408952,
-                144.6875420976274
-            ],
-            "y": [
-                3,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(214, 84, 109)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.00",
-            "type": "scatter",
-            "x": [
-                144.6875420976274,
-                169.3330284998066
-            ],
-            "y": [
-                2.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(210, 80, 113)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.50",
-            "type": "scatter",
-            "x": [
-                169.3330284998066,
-                185.32208725884556
-            ],
-            "y": [
-                1.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(212, 82, 111)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.75",
-            "type": "scatter",
-            "x": [
-                185.32208725884556,
-                212.64332441970632
-            ],
-            "y": [
-                1.5,
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(212, 82, 111)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.75",
-            "type": "scatter",
-            "x": [
-                212.64332441970632,
-                225.803871520796
-            ],
-            "y": [
-                2,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(208, 78, 115)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.25",
-            "type": "scatter",
-            "x": [
-                225.803871520796,
-                238.80271762343145
-            ],
-            "y": [
-                1.5,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                238.80271762343145,
-                246.58217775894212
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                246.58217775894212,
-                257.08265393862087
-            ],
-            "y": [
-                0.5,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                257.08265393862087,
-                274.25996455466316
-            ],
-            "y": [
-                0,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(199, 67, 124)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.00",
-            "type": "scatter",
-            "x": [
-                274.25996455466316,
-                285.6195420115935
-            ],
-            "y": [
-                0.5,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                285.6195420115935,
-                296.32374679289325
-            ],
-            "y": [
-                -0.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                296.32374679289325,
-                302.95247216056384
-            ],
-            "y": [
-                -1,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(165, 32, 151)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.00",
-            "type": "scatter",
-            "x": [
-                302.95247216056384,
-                314.51491134959315
-            ],
-            "y": [
-                -2.5,
-                -5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(156, 23, 158)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.00",
-            "type": "scatter",
-            "x": [
-                314.51491134959315,
-                323.31150159809283
-            ],
-            "y": [
-                -5.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(158, 25, 156)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.75",
-            "type": "scatter",
-            "x": [
-                323.31150159809283,
-                326.334744889659
-            ],
-            "y": [
-                -4.5,
-                -5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(156, 23, 158)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.00",
-            "type": "scatter",
-            "x": [
-                326.334744889659,
-                334.6112175682825
-            ],
-            "y": [
-                -5,
-                -5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(156, 23, 158)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.00",
-            "type": "scatter",
-            "x": [
-                334.6112175682825,
-                342.496647169769
-            ],
-            "y": [
-                -5,
-                -5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(133, 11, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.00",
-            "type": "scatter",
-            "x": [
-                342.496647169769,
-                350.09664716976897
-            ],
-            "y": [
-                -5,
-                -9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(110, 1, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.00",
-            "type": "scatter",
-            "x": [
-                350.09664716976897,
-                357.37469635894047
-            ],
-            "y": [
-                -9,
-                -9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(110, 1, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.00",
-            "type": "scatter",
-            "x": [
-                357.37469635894047,
-                361.94416022245883
-            ],
-            "y": [
-                -9,
-                -9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(107, 1, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.25",
-            "type": "scatter",
-            "x": [
-                361.94416022245883,
-                368.9769406114657
-            ],
-            "y": [
-                -9,
-                -9.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(110, 1, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.00",
-            "type": "scatter",
-            "x": [
-                368.9769406114657,
-                373.9988924232616
-            ],
-            "y": [
-                -9.5,
-                -8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(116, 2, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.50",
-            "type": "scatter",
-            "x": [
-                373.9988924232616,
-                380.2614797480021
-            ],
-            "y": [
-                -8.5,
-                -8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(116, 2, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.50",
-            "type": "scatter",
-            "x": [
-                380.2614797480021,
-                385.57655265436944
-            ],
-            "y": [
-                -8.5,
-                -8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(110, 1, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.00",
-            "type": "scatter",
-            "x": [
-                385.57655265436944,
-                392.44459458784655
-            ],
-            "y": [
-                -8.5,
-                -9.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(104, 1, 166)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.50",
-            "type": "scatter",
-            "x": [
-                392.44459458784655,
-                400.38436788435826
-            ],
-            "y": [
-                -9.5,
-                -9.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(119, 4, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.25",
-            "type": "scatter",
-            "x": [
-                400.38436788435826,
-                408.27169949904265
-            ],
-            "y": [
-                -9.5,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(133, 11, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.00",
-            "type": "scatter",
-            "x": [
-                408.27169949904265,
-                412.99186898752504
-            ],
-            "y": [
-                -7,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(127, 8, 165)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.50",
-            "type": "scatter",
-            "x": [
-                412.99186898752504,
-                421.34471281462964
-            ],
-            "y": [
-                -7,
-                -8
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(133, 11, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.00",
-            "type": "scatter",
-            "x": [
-                421.34471281462964,
-                434.34817389235815
-            ],
-            "y": [
-                -8,
-                -6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(139, 14, 162)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.50",
-            "type": "scatter",
-            "x": [
-                434.34817389235815,
-                440.4776110606469
-            ],
-            "y": [
-                -6,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(130, 10, 164)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.25",
-            "type": "scatter",
-            "x": [
-                440.4776110606469,
-                454.60064189683783
-            ],
-            "y": [
-                -7,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(133, 11, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.00",
-            "type": "scatter",
-            "x": [
-                454.60064189683783,
-                470.1807574291437
-            ],
-            "y": [
-                -7.5,
-                -6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(145, 17, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.00",
-            "type": "scatter",
-            "x": [
-                470.1807574291437,
-                487.4885591381996
-            ],
-            "y": [
-                -6.5,
-                -5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(163, 30, 153)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.25",
-            "type": "scatter",
-            "x": [
-                487.4885591381996,
-                501.7910064812245
-            ],
-            "y": [
-                -5.5,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                501.7910064812245,
-                509.0332437046244
-            ],
-            "y": [
-                -3,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                509.0332437046244,
-                517.6460249046783
-            ],
-            "y": [
-                -2,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                517.6460249046783,
-                531.6888166499118
-            ],
-            "y": [
-                -2.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                531.6888166499118,
-                539.9495672211372
-            ],
-            "y": [
-                -2.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                539.9495672211372,
-                551.6512764979906
-            ],
-            "y": [
-                -2.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                551.6512764979906,
-                560.57147828943
-            ],
-            "y": [
-                -2,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                560.57147828943,
-                571.3278717370499
-            ],
-            "y": [
-                -1.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                571.3278717370499,
-                588.7626071809848
-            ],
-            "y": [
-                -2.5,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                588.7626071809848,
-                609.3271397552983
-            ],
-            "y": [
-                -3.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                609.3271397552983,
-                617.9602156845369
-            ],
-            "y": [
-                -2.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(176, 43, 143)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.75",
-            "type": "scatter",
-            "x": [
-                617.9602156845369,
-                635.5741306383455
-            ],
-            "y": [
-                -2,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                635.5741306383455,
-                661.5458460225861
-            ],
-            "y": [
-                -3.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                661.5458460225861,
-                670.8807268466782
-            ],
-            "y": [
-                -2.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                670.8807268466782,
-                685.6972716530761
-            ],
-            "y": [
-                -1.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                685.6972716530761,
-                707.6449366769459
-            ],
-            "y": [
-                -2.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                707.6449366769459,
-                714.7280151037319
-            ],
-            "y": [
-                -2,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                714.7280151037319,
-                733.1087114996794
-            ],
-            "y": [
-                -2,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(170, 36, 148)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.50",
-            "type": "scatter",
-            "x": [
-                733.1087114996794,
-                747.4258341156243
-            ],
-            "y": [
-                -3,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(165, 32, 151)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.00",
-            "type": "scatter",
-            "x": [
-                747.4258341156243,
-                765.198284706356
-            ],
-            "y": [
-                -4,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(170, 36, 148)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.50",
-            "type": "scatter",
-            "x": [
-                765.198284706356,
-                779.4155277583686
-            ],
-            "y": [
-                -4,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(172, 38, 147)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.25",
-            "type": "scatter",
-            "x": [
-                779.4155277583686,
-                794.2832780925652
-            ],
-            "y": [
-                -3,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                794.2832780925652,
-                810.6545944721358
-            ],
-            "y": [
-                -3.5,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(170, 36, 148)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.50",
-            "type": "scatter",
-            "x": [
-                810.6545944721358,
-                830.3485021595401
-            ],
-            "y": [
-                -4,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                830.3485021595401,
-                842.5238871637197
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                842.5238871637197,
-                862.6301051074306
-            ],
-            "y": [
-                -3,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(161, 27, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.50",
-            "type": "scatter",
-            "x": [
-                862.6301051074306,
-                885.9869028331462
-            ],
-            "y": [
-                -4.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(161, 27, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.50",
-            "type": "scatter",
-            "x": [
-                885.9869028331462,
-                906.5317318662632
-            ],
-            "y": [
-                -4.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(165, 32, 151)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.00",
-            "type": "scatter",
-            "x": [
-                906.5317318662632,
-                933.5757700262717
-            ],
-            "y": [
-                -4.5,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(172, 38, 147)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.25",
-            "type": "scatter",
-            "x": [
-                933.5757700262717,
-                939.9546413997984
-            ],
-            "y": [
-                -3.5,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(172, 38, 147)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.25",
-            "type": "scatter",
-            "x": [
-                939.9546413997984,
-                956.1079692303107
-            ],
-            "y": [
-                -3,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(153, 22, 159)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.25",
-            "type": "scatter",
-            "x": [
-                956.1079692303107,
-                970.6358734150168
-            ],
-            "y": [
-                -3.5,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(113, 1, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.75",
-            "type": "scatter",
-            "x": [
-                970.6358734150168,
-                1007.1620284275554
-            ],
-            "y": [
-                -7,
-                -10.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(113, 1, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.75",
-            "type": "scatter",
-            "x": [
-                1007.1620284275554,
-                1036.7758765395452
-            ],
-            "y": [
-                -10.5,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(142, 16, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.25",
-            "type": "scatter",
-            "x": [
-                1036.7758765395452,
-                1051.7405014930814
-            ],
-            "y": [
-                -7,
-                -5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(145, 17, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.00",
-            "type": "scatter",
-            "x": [
-                1051.7405014930814,
-                1073.3268397652387
-            ],
-            "y": [
-                -5.5,
-                -6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(133, 11, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.00",
-            "type": "scatter",
-            "x": [
-                1073.3268397652387,
-                1096.877848236215
-            ],
-            "y": [
-                -6.5,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(119, 4, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.25",
-            "type": "scatter",
-            "x": [
-                1096.877848236215,
-                1127.1727322927682
-            ],
-            "y": [
-                -7.5,
-                -9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(119, 4, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.25",
-            "type": "scatter",
-            "x": [
-                1127.1727322927682,
-                1158.7299818560618
-            ],
-            "y": [
-                -9,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(145, 17, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.00",
-            "type": "scatter",
-            "x": [
-                1158.7299818560618,
-                1187.2790624016766
-            ],
-            "y": [
-                -7.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                1187.2790624016766,
-                1199.1895619713841
-            ],
-            "y": [
-                -4.5,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(176, 43, 143)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.75",
-            "type": "scatter",
-            "x": [
-                1199.1895619713841,
-                1227.8353295470663
-            ],
-            "y": [
-                -3,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                1227.8353295470663,
-                1242.0525725990788
-            ],
-            "y": [
-                -2.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                1242.0525725990788,
-                1258.4537920659354
-            ],
-            "y": [
-                -1.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                1258.4537920659354,
-                1272.3552308403935
-            ],
-            "y": [
-                -1,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                1272.3552308403935,
-                1290.0198848137948
-            ],
-            "y": [
-                -1.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                1290.0198848137948,
-                1312.9198848137946
-            ],
-            "y": [
-                -2.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                1312.9198848137946,
-                1318.86378925448
-            ],
-            "y": [
-                -2,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                1318.86378925448,
-                1331.0293143150766
-            ],
-            "y": [
-                -1.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(172, 38, 147)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.25",
-            "type": "scatter",
-            "x": [
-                1331.0293143150766,
-                1342.956174756953
-            ],
-            "y": [
-                -2.5,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(165, 32, 151)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.00",
-            "type": "scatter",
-            "x": [
-                1342.956174756953,
-                1356.674046311972
-            ],
-            "y": [
-                -4,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(170, 36, 148)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.50",
-            "type": "scatter",
-            "x": [
-                1356.674046311972,
-                1362.741170836819
-            ],
-            "y": [
-                -4,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(170, 36, 148)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.50",
-            "type": "scatter",
-            "x": [
-                1362.741170836819,
-                1370.9637008610875
-            ],
-            "y": [
-                -3,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(150, 20, 159)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.50",
-            "type": "scatter",
-            "x": [
-                1370.9637008610875,
-                1378.8071694815385
-            ],
-            "y": [
-                -4,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(136, 12, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.75",
-            "type": "scatter",
-            "x": [
-                1378.8071694815385,
-                1391.8071694815385
-            ],
-            "y": [
-                -7,
-                -6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(147, 19, 160)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.75",
-            "type": "scatter",
-            "x": [
-                1391.8071694815385,
-                1398.6086399107912
-            ],
-            "y": [
-                -6.5,
-                -5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(147, 19, 160)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.75",
-            "type": "scatter",
-            "x": [
-                1398.6086399107912,
-                1411.055727923656
-            ],
-            "y": [
-                -5,
-                -6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(150, 20, 159)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.50",
-            "type": "scatter",
-            "x": [
-                1411.055727923656,
-                1423.9932701941184
-            ],
-            "y": [
-                -6.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(158, 25, 156)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.75",
-            "type": "scatter",
-            "x": [
-                1423.9932701941184,
-                1428.3796126340105
-            ],
-            "y": [
-                -4.5,
-                -5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(150, 20, 159)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.50",
-            "type": "scatter",
-            "x": [
-                1428.3796126340105,
-                1443.0547616962858
-            ],
-            "y": [
-                -5,
-                -6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(136, 12, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.75",
-            "type": "scatter",
-            "x": [
-                1443.0547616962858,
-                1448.7301471457508
-            ],
-            "y": [
-                -6,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(113, 1, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.75",
-            "type": "scatter",
-            "x": [
-                1448.7301471457508,
-                1464.067682801781
-            ],
-            "y": [
-                -7.5,
-                -10
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(113, 1, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.75",
-            "type": "scatter",
-            "x": [
-                1464.067682801781,
-                1479.9210736062746
-            ],
-            "y": [
-                -10,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(145, 17, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.00",
-            "type": "scatter",
-            "x": [
-                1479.9210736062746,
-                1492.0359405060801
-            ],
-            "y": [
-                -7.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(165, 32, 151)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.00",
-            "type": "scatter",
-            "x": [
-                1492.0359405060801,
-                1499.7365898293515
-            ],
-            "y": [
-                -4.5,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(176, 43, 143)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.75",
-            "type": "scatter",
-            "x": [
-                1499.7365898293515,
-                1515.1378884758942
-            ],
-            "y": [
-                -3.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                1515.1378884758942,
-                1537.0923868759944
-            ],
-            "y": [
-                -2,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(206, 75, 117)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.00",
-            "type": "scatter",
-            "x": [
-                1537.0923868759944,
-                1558.8522122429408
-            ],
-            "y": [
-                0.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(210, 80, 113)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.50",
-            "type": "scatter",
-            "x": [
-                1558.8522122429408,
-                1575.2805414337013
-            ],
-            "y": [
-                1.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(210, 80, 113)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.50",
-            "type": "scatter",
-            "x": [
-                1575.2805414337013,
-                1594.7638676384336
-            ],
-            "y": [
-                1.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(208, 78, 115)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.25",
-            "type": "scatter",
-            "x": [
-                1594.7638676384336,
-                1609.42435876254
-            ],
-            "y": [
-                1.5,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                1609.42435876254,
-                1618.8609895172108
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                1618.8609895172108,
-                1629.7651171760378
-            ],
-            "y": [
-                0.5,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(206, 75, 117)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.00",
-            "type": "scatter",
-            "x": [
-                1629.7651171760378,
-                1647.5203980806025
-            ],
-            "y": [
-                1,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                1647.5203980806025,
-                1661.6235892088541
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(203, 71, 120)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.50",
-            "type": "scatter",
-            "x": [
-                1661.6235892088541,
-                1673.027535894103
-            ],
-            "y": [
-                0.5,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(208, 78, 115)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.25",
-            "type": "scatter",
-            "x": [
-                1673.027535894103,
-                1687.3969478514518
-            ],
-            "y": [
-                0.5,
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(217, 89, 106)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.50",
-            "type": "scatter",
-            "x": [
-                1687.3969478514518,
-                1703.3230270927465
-            ],
-            "y": [
-                2,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                1703.3230270927465,
-                1717.6104341353137
-            ],
-            "y": [
-                3,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(224, 100, 98)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.75",
-            "type": "scatter",
-            "x": [
-                1717.6104341353137,
-                1728.2935984605497
-            ],
-            "y": [
-                2.5,
-                5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(238, 124, 81)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.25",
-            "type": "scatter",
-            "x": [
-                1728.2935984605497,
-                1747.7422487993267
-            ],
-            "y": [
-                5,
-                7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(245, 142, 69)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 8.00",
-            "type": "scatter",
-            "x": [
-                1747.7422487993267,
-                1759.7855041731862
-            ],
-            "y": [
-                7.5,
-                8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(251, 163, 56)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 10.00",
-            "type": "scatter",
-            "x": [
-                1759.7855041731862,
-                1778.0135046120715
-            ],
-            "y": [
-                8.5,
-                11.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 181, 48)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 11.50",
-            "type": "scatter",
-            "x": [
-                1778.0135046120715,
-                1797.929578522358
-            ],
-            "y": [
-                11.5,
-                11.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(251, 169, 53)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 10.50",
-            "type": "scatter",
-            "x": [
-                1797.929578522358,
-                1815.0143670782636
-            ],
-            "y": [
-                11.5,
-                9.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(246, 144, 68)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 8.25",
-            "type": "scatter",
-            "x": [
-                1815.0143670782636,
-                1828.9929220822687
-            ],
-            "y": [
-                9.5,
-                7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(248, 152, 63)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 9.00",
-            "type": "scatter",
-            "x": [
-                1828.9929220822687,
-                1838.367355398475
-            ],
-            "y": [
-                7,
-                11
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(253, 198, 40)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 13.00",
-            "type": "scatter",
-            "x": [
-                1838.367355398475,
-                1865.077091451083
-            ],
-            "y": [
-                11,
-                15
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 207, 37)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 13.75",
-            "type": "scatter",
-            "x": [
-                1865.077091451083,
-                1887.265376648457
-            ],
-            "y": [
-                15,
-                12.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 181, 48)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 11.50",
-            "type": "scatter",
-            "x": [
-                1887.265376648457,
-                1908.5937614911968
-            ],
-            "y": [
-                12.5,
-                10.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(251, 166, 55)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 10.25",
-            "type": "scatter",
-            "x": [
-                1908.5937614911968,
-                1923.9055216774063
-            ],
-            "y": [
-                10.5,
-                10
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(249, 155, 61)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 9.25",
-            "type": "scatter",
-            "x": [
-                1923.9055216774063,
-                1945.4466451392873
-            ],
-            "y": [
-                10,
-                8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(241, 131, 76)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.00",
-            "type": "scatter",
-            "x": [
-                1945.4466451392873,
-                1962.134964407566
-            ],
-            "y": [
-                8.5,
-                5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(236, 119, 85)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.75",
-            "type": "scatter",
-            "x": [
-                1962.134964407566,
-                1975.6597564577235
-            ],
-            "y": [
-                5.5,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(241, 131, 76)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.00",
-            "type": "scatter",
-            "x": [
-                1975.6597564577235,
-                1991.9582226432271
-            ],
-            "y": [
-                6,
-                8
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(243, 137, 73)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.50",
-            "type": "scatter",
-            "x": [
-                1991.9582226432271,
-                2016.5462278490181
-            ],
-            "y": [
-                8,
-                7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(239, 126, 80)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.50",
-            "type": "scatter",
-            "x": [
-                2016.5462278490181,
-                2025.0315092232565
-            ],
-            "y": [
-                7,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(243, 137, 73)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.50",
-            "type": "scatter",
-            "x": [
-                2025.0315092232565,
-                2035.1557375889147
-            ],
-            "y": [
-                6,
-                9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(248, 152, 63)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 9.00",
-            "type": "scatter",
-            "x": [
-                2035.1557375889147,
-                2050.8815126095615
-            ],
-            "y": [
-                9,
-                9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(247, 147, 66)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 8.50",
-            "type": "scatter",
-            "x": [
-                2050.8815126095615,
-                2060.3736145896287
-            ],
-            "y": [
-                9,
-                8
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(238, 124, 81)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.25",
-            "type": "scatter",
-            "x": [
-                2060.3736145896287,
-                2072.993044053753
-            ],
-            "y": [
-                8,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(233, 114, 88)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.25",
-            "type": "scatter",
-            "x": [
-                2072.993044053753,
-                2073.977929833932
-            ],
-            "y": [
-                4.5,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(242, 134, 74)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.25",
-            "type": "scatter",
-            "x": [
-                2073.977929833932,
-                2090.214000787214
-            ],
-            "y": [
-                6,
-                8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(245, 142, 69)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 8.00",
-            "type": "scatter",
-            "x": [
-                2090.214000787214,
-                2098.6193562228873
-            ],
-            "y": [
-                8.5,
-                7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(243, 137, 73)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.50",
-            "type": "scatter",
-            "x": [
-                2098.6193562228873,
-                2114.892647223788
-            ],
-            "y": [
-                7.5,
-                7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(242, 134, 74)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.25",
-            "type": "scatter",
-            "x": [
-                2114.892647223788,
-                2124.5352609773304
-            ],
-            "y": [
-                7.5,
-                7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(240, 129, 78)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.75",
-            "type": "scatter",
-            "x": [
-                2124.5352609773304,
-                2146.892586398767
-            ],
-            "y": [
-                7,
-                6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(230, 109, 91)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.75",
-            "type": "scatter",
-            "x": [
-                2146.892586398767,
-                2160.8130748959425
-            ],
-            "y": [
-                6.5,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(214, 84, 109)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.00",
-            "type": "scatter",
-            "x": [
-                2160.8130748959425,
-                2171.091693480169
-            ],
-            "y": [
-                3,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                2171.091693480169,
-                2178.371803369449
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(203, 71, 120)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.50",
-            "type": "scatter",
-            "x": [
-                2178.371803369449,
-                2191.153430808864
-            ],
-            "y": [
-                0.5,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                2191.153430808864,
-                2209.078831780669
-            ],
-            "y": [
-                0.5,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                2209.078831780669,
-                2223.8436548409027
-            ],
-            "y": [
-                0,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(203, 71, 120)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.50",
-            "type": "scatter",
-            "x": [
-                2223.8436548409027,
-                2229.266753586085
-            ],
-            "y": [
-                0.5,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                2229.266753586085,
-                2240.3888037568045
-            ],
-            "y": [
-                0.5,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(199, 67, 124)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.00",
-            "type": "scatter",
-            "x": [
-                2240.3888037568045,
-                2246.5888037568047
-            ],
-            "y": [
-                0,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(197, 64, 126)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.25",
-            "type": "scatter",
-            "x": [
-                2246.5888037568047,
-                2262.7681115293885
-            ],
-            "y": [
-                0,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                2262.7681115293885,
-                2274.72511784368
-            ],
-            "y": [
-                -0.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(191, 58, 132)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.00",
-            "type": "scatter",
-            "x": [
-                2274.72511784368,
-                2283.248614778624
-            ],
-            "y": [
-                -1,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                2283.248614778624,
-                2288.2225468248025
-            ],
-            "y": [
-                -1,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                2288.2225468248025,
-                2291.923897929467
-            ],
-            "y": [
-                -1.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                2291.923897929467,
-                2297.305347548296
-            ],
-            "y": [
-                -1,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                2297.305347548296,
-                2304.2407639020557
-            ],
-            "y": [
-                -0.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                2304.2407639020557,
-                2309.3397834156485
-            ],
-            "y": [
-                -1,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(188, 54, 135)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.50",
-            "type": "scatter",
-            "x": [
-                2309.3397834156485,
-                2313.4410027465306
-            ],
-            "y": [
-                -1.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                2313.4410027465306,
-                2317.0631568017857
-            ],
-            "y": [
-                -1.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2317.0631568017857,
-                2325.7723473497067
-            ],
-            "y": [
-                -2.5,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2325.7723473497067,
-                2333.742918220102
-            ],
-            "y": [
-                -3.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2333.742918220102,
-                2335.978986197602
-            ],
-            "y": [
-                -2.5,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                2335.978986197602,
-                2344.833928320507
-            ],
-            "y": [
-                -3.5,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                2344.833928320507,
-                2350.7398575446005
-            ],
-            "y": [
-                -4,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                2350.7398575446005,
-                2358.7003851653053
-            ],
-            "y": [
-                -3.5,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(163, 30, 153)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.25",
-            "type": "scatter",
-            "x": [
-                2358.7003851653053,
-                2364.477927895567
-            ],
-            "y": [
-                -4,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(163, 30, 153)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.25",
-            "type": "scatter",
-            "x": [
-                2364.477927895567,
-                2371.629151567079
-            ],
-            "y": [
-                -4.5,
-                -4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(156, 23, 158)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.00",
-            "type": "scatter",
-            "x": [
-                2371.629151567079,
-                2376.9178186959502
-            ],
-            "y": [
-                -4,
-                -6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(142, 16, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.25",
-            "type": "scatter",
-            "x": [
-                2376.9178186959502,
-                2388.6898193755287
-            ],
-            "y": [
-                -6,
-                -6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(133, 11, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.00",
-            "type": "scatter",
-            "x": [
-                2388.6898193755287,
-                2394.098146288725
-            ],
-            "y": [
-                -6.5,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(119, 4, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.25",
-            "type": "scatter",
-            "x": [
-                2394.098146288725,
-                2405.403454776334
-            ],
-            "y": [
-                -7.5,
-                -9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(127, 8, 165)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.50",
-            "type": "scatter",
-            "x": [
-                2405.403454776334,
-                2413.0356235375707
-            ],
-            "y": [
-                -9,
-                -6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(161, 27, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.50",
-            "type": "scatter",
-            "x": [
-                2413.0356235375707,
-                2420.4632745794547
-            ],
-            "y": [
-                -6,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                2420.4632745794547,
-                2425.9850496563663
-            ],
-            "y": [
-                -3,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                2425.9850496563663,
-                2430.367971056529
-            ],
-            "y": [
-                -1.5,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                2430.367971056529,
-                2441.1383006707974
-            ],
-            "y": [
-                -2.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(191, 58, 132)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.00",
-            "type": "scatter",
-            "x": [
-                2441.1383006707974,
-                2446.0546000921104
-            ],
-            "y": [
-                -1.5,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(195, 62, 128)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.50",
-            "type": "scatter",
-            "x": [
-                2446.0546000921104,
-                2450.6546000921103
-            ],
-            "y": [
-                -0.5,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                2450.6546000921103,
-                2456.9195821351814
-            ],
-            "y": [
-                -0.5,
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                2456.9195821351814,
-                2468.56775795803
-            ],
-            "y": [
-                2,
-                3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(226, 102, 96)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.00",
-            "type": "scatter",
-            "x": [
-                2468.56775795803,
-                2474.9755656954703
-            ],
-            "y": [
-                3.5,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(226, 102, 96)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.00",
-            "type": "scatter",
-            "x": [
-                2474.9755656954703,
-                2489.4876296424077
-            ],
-            "y": [
-                4.5,
-                3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(220, 93, 103)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.00",
-            "type": "scatter",
-            "x": [
-                2489.4876296424077,
-                2492.8714145055455
-            ],
-            "y": [
-                3.5,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(217, 89, 106)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.50",
-            "type": "scatter",
-            "x": [
-                2492.8714145055455,
-                2506.334326523382
-            ],
-            "y": [
-                2.5,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(223, 98, 99)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.50",
-            "type": "scatter",
-            "x": [
-                2506.334326523382,
-                2510.0879913992067
-            ],
-            "y": [
-                2.5,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(239, 126, 80)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.50",
-            "type": "scatter",
-            "x": [
-                2510.0879913992067,
-                2526.2199472632674
-            ],
-            "y": [
-                4.5,
-                8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(246, 144, 68)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 8.25",
-            "type": "scatter",
-            "x": [
-                2526.2199472632674,
-                2544.8277413291958
-            ],
-            "y": [
-                8.5,
-                8
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(244, 139, 71)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.75",
-            "type": "scatter",
-            "x": [
-                2544.8277413291958,
-                2560.500966906594
-            ],
-            "y": [
-                8,
-                7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(241, 131, 76)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.00",
-            "type": "scatter",
-            "x": [
-                2560.500966906594,
-                2576.201285374701
-            ],
-            "y": [
-                7.5,
-                6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(236, 119, 85)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.75",
-            "type": "scatter",
-            "x": [
-                2576.201285374701,
-                2587.2692571852904
-            ],
-            "y": [
-                6.5,
-                5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(231, 112, 90)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.00",
-            "type": "scatter",
-            "x": [
-                2587.2692571852904,
-                2598.314618202478
-            ],
-            "y": [
-                5,
-                5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(234, 116, 86)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.50",
-            "type": "scatter",
-            "x": [
-                2598.314618202478,
-                2608.0675664746673
-            ],
-            "y": [
-                5,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(239, 126, 80)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.50",
-            "type": "scatter",
-            "x": [
-                2608.0675664746673,
-                2624.5872517016924
-            ],
-            "y": [
-                6,
-                7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(241, 131, 76)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.00",
-            "type": "scatter",
-            "x": [
-                2624.5872517016924,
-                2638.5658067056975
-            ],
-            "y": [
-                7,
-                7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(236, 119, 85)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.75",
-            "type": "scatter",
-            "x": [
-                2638.5658067056975,
-                2653.666800050508
-            ],
-            "y": [
-                7,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(220, 93, 103)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.00",
-            "type": "scatter",
-            "x": [
-                2653.666800050508,
-                2661.9818466529023
-            ],
-            "y": [
-                4.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(208, 78, 115)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.25",
-            "type": "scatter",
-            "x": [
-                2661.9818466529023,
-                2667.9851790608236
-            ],
-            "y": [
-                1.5,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                2667.9851790608236,
-                2676.0604499541128
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(203, 71, 120)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.50",
-            "type": "scatter",
-            "x": [
-                2676.0604499541128,
-                2680.9112230883666
-            ],
-            "y": [
-                0.5,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                2680.9112230883666,
-                2690.840976358212
-            ],
-            "y": [
-                0.5,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(206, 75, 117)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.00",
-            "type": "scatter",
-            "x": [
-                2690.840976358212,
-                2695.4420631863427
-            ],
-            "y": [
-                1,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                2695.4420631863427,
-                2701.532219177777
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                2701.532219177777,
-                2706.1647131065374
-            ],
-            "y": [
-                0.5,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                2706.1647131065374,
-                2708.2670927107
-            ],
-            "y": [
-                0,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(199, 67, 124)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.00",
-            "type": "scatter",
-            "x": [
-                2708.2670927107,
-                2711.9684438153645
-            ],
-            "y": [
-                0.5,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(191, 58, 132)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.00",
-            "type": "scatter",
-            "x": [
-                2711.9684438153645,
-                2716.2439554806506
-            ],
-            "y": [
-                -0.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                2716.2439554806506,
-                2720.545118114172
-            ],
-            "y": [
-                -1.5,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                2720.545118114172,
-                2726.6778173567573
-            ],
-            "y": [
-                0,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(197, 64, 126)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.25",
-            "type": "scatter",
-            "x": [
-                2726.6778173567573,
-                2732.508769251602
-            ],
-            "y": [
-                0.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                2732.508769251602,
-                2739.569222494844
-            ],
-            "y": [
-                -1,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                2739.569222494844,
-                2746.653006794214
-            ],
-            "y": [
-                -1.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                2746.653006794214,
-                2753.582653249842
-            ],
-            "y": [
-                -2,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2753.582653249842,
-                2761.0156876235014
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2761.0156876235014,
-                2765.561014894447
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2765.561014894447,
-                2772.90199575534
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                2772.90199575534,
-                2779.40199575534
-            ],
-            "y": [
-                -3,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                2779.40199575534,
-                2784.182163116427
-            ],
-            "y": [
-                -2,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                2784.182163116427,
-                2789.9023029748573
-            ],
-            "y": [
-                -1.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(142, 16, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.25",
-            "type": "scatter",
-            "x": [
-                2789.9023029748573,
-                2806.176515705432
-            ],
-            "y": [
-                -4.5,
-                -8
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(127, 8, 165)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.50",
-            "type": "scatter",
-            "x": [
-                2806.176515705432,
-                2824.145934171259
-            ],
-            "y": [
-                -8,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(139, 14, 162)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.50",
-            "type": "scatter",
-            "x": [
-                2824.145934171259,
-                2834.3762811839465
-            ],
-            "y": [
-                -7,
-                -6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(136, 12, 163)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.75",
-            "type": "scatter",
-            "x": [
-                2834.3762811839465,
-                2845.9010371466557
-            ],
-            "y": [
-                -6,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(127, 8, 165)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -7.50",
-            "type": "scatter",
-            "x": [
-                2845.9010371466557,
-                2854.870429545252
-            ],
-            "y": [
-                -7.5,
-                -7.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(113, 1, 168)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -8.75",
-            "type": "scatter",
-            "x": [
-                2854.870429545252,
-                2865.1864365246993
-            ],
-            "y": [
-                -7.5,
-                -10
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(60, 4, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -13.00",
-            "type": "scatter",
-            "x": [
-                2865.1864365246993,
-                2878.8363449493004
-            ],
-            "y": [
-                -10,
-                -16
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(32, 6, 143)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -14.75",
-            "type": "scatter",
-            "x": [
-                2878.8363449493004,
-                2901.373869214401
-            ],
-            "y": [
-                -16,
-                -13.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(74, 3, 160)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -12.00",
-            "type": "scatter",
-            "x": [
-                2901.373869214401,
-                2910.088225186015
-            ],
-            "y": [
-                -13.5,
-                -10.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(56, 4, 153)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -13.25",
-            "type": "scatter",
-            "x": [
-                2910.088225186015,
-                2923.4871057362698
-            ],
-            "y": [
-                -10.5,
-                -16
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(21, 7, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -15.50",
-            "type": "scatter",
-            "x": [
-                2923.4871057362698,
-                2942.8718935865404
-            ],
-            "y": [
-                -16,
-                -15
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(60, 4, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -13.00",
-            "type": "scatter",
-            "x": [
-                2942.8718935865404,
-                2953.4742518147837
-            ],
-            "y": [
-                -15,
-                -11
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(83, 2, 162)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -11.25",
-            "type": "scatter",
-            "x": [
-                2953.4742518147837,
-                2962.9257067292397
-            ],
-            "y": [
-                -11,
-                -11.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(107, 1, 167)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -9.25",
-            "type": "scatter",
-            "x": [
-                2962.9257067292397,
-                2980.0268762798873
-            ],
-            "y": [
-                -11.5,
-                -7
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(142, 16, 161)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -6.25",
-            "type": "scatter",
-            "x": [
-                2980.0268762798873,
-                2987.5275429169274
-            ],
-            "y": [
-                -7,
-                -5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(147, 19, 160)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -5.75",
-            "type": "scatter",
-            "x": [
-                2987.5275429169274,
-                3006.794094242995
-            ],
-            "y": [
-                -5.5,
-                -6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(161, 27, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.50",
-            "type": "scatter",
-            "x": [
-                3006.794094242995,
-                3018.616530540138
-            ],
-            "y": [
-                -6,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(190, 56, 133)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.25",
-            "type": "scatter",
-            "x": [
-                3018.616530540138,
-                3042.5089979723643
-            ],
-            "y": [
-                -3,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(214, 84, 109)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.00",
-            "type": "scatter",
-            "x": [
-                3042.5089979723643,
-                3071.338323320003
-            ],
-            "y": [
-                0.5,
-                3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(224, 100, 98)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.75",
-            "type": "scatter",
-            "x": [
-                3071.338323320003,
-                3082.0569986112873
-            ],
-            "y": [
-                3.5,
-                4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(227, 105, 94)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.25",
-            "type": "scatter",
-            "x": [
-                3082.0569986112873,
-                3100.7508478671252
-            ],
-            "y": [
-                4,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(226, 102, 96)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.00",
-            "type": "scatter",
-            "x": [
-                3100.7508478671252,
-                3112.001625618019
-            ],
-            "y": [
-                4.5,
-                3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(221, 96, 101)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.25",
-            "type": "scatter",
-            "x": [
-                3112.001625618019,
-                3122.16135002373
-            ],
-            "y": [
-                3.5,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(220, 93, 103)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.00",
-            "type": "scatter",
-            "x": [
-                3122.16135002373,
-                3131.650817869716
-            ],
-            "y": [
-                3,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                3131.650817869716,
-                3142.83339360163
-            ],
-            "y": [
-                3,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(214, 84, 109)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.00",
-            "type": "scatter",
-            "x": [
-                3142.83339360163,
-                3151.514983317805
-            ],
-            "y": [
-                2.5,
-                1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(208, 78, 115)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.25",
-            "type": "scatter",
-            "x": [
-                3151.514983317805,
-                3158.034185723008
-            ],
-            "y": [
-                1.5,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(204, 73, 119)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.75",
-            "type": "scatter",
-            "x": [
-                3158.034185723008,
-                3164.8496094075635
-            ],
-            "y": [
-                1,
-                0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(201, 69, 122)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.25",
-            "type": "scatter",
-            "x": [
-                3164.8496094075635,
-                3174.6908491668623
-            ],
-            "y": [
-                0.5,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(203, 71, 120)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 0.50",
-            "type": "scatter",
-            "x": [
-                3174.6908491668623,
-                3182.6218011904216
-            ],
-            "y": [
-                0,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(212, 82, 111)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.75",
-            "type": "scatter",
-            "x": [
-                3182.6218011904216,
-                3189.9899759983373
-            ],
-            "y": [
-                1,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                3189.9899759983373,
-                3199.9664483207566
-            ],
-            "y": [
-                2.5,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(217, 89, 106)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.50",
-            "type": "scatter",
-            "x": [
-                3199.9664483207566,
-                3210.3056939412068
-            ],
-            "y": [
-                3,
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(215, 86, 108)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.25",
-            "type": "scatter",
-            "x": [
-                3210.3056939412068,
-                3212.0086325777997
-            ],
-            "y": [
-                2,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                3212.0086325777997,
-                3219.449062672895
-            ],
-            "y": [
-                2.5,
-                3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(218, 91, 104)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.75",
-            "type": "scatter",
-            "x": [
-                3219.449062672895,
-                3224.664424597057
-            ],
-            "y": [
-                3,
-                2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(221, 96, 101)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.25",
-            "type": "scatter",
-            "x": [
-                3224.664424597057,
-                3230.035644197855
-            ],
-            "y": [
-                2.5,
-                4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(226, 102, 96)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.00",
-            "type": "scatter",
-            "x": [
-                3230.035644197855,
-                3236.252556614803
-            ],
-            "y": [
-                4,
-                4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(226, 102, 96)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 4.00",
-            "type": "scatter",
-            "x": [
-                3236.252556614803,
-                3242.1618712958807
-            ],
-            "y": [
-                4,
-                4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(238, 124, 81)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.25",
-            "type": "scatter",
-            "x": [
-                3242.1618712958807,
-                3250.2030154930703
-            ],
-            "y": [
-                4,
-                8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(249, 155, 61)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 9.25",
-            "type": "scatter",
-            "x": [
-                3250.2030154930703,
-                3264.847126937607
-            ],
-            "y": [
-                8.5,
-                10
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(244, 139, 71)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.75",
-            "type": "scatter",
-            "x": [
-                3264.847126937607,
-                3276.772310374351
-            ],
-            "y": [
-                10,
-                5.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(236, 119, 85)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.75",
-            "type": "scatter",
-            "x": [
-                3276.772310374351,
-                3281.017307429709
-            ],
-            "y": [
-                5.5,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(245, 142, 69)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 8.00",
-            "type": "scatter",
-            "x": [
-                3281.017307429709,
-                3292.395356471614
-            ],
-            "y": [
-                6,
-                10
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(251, 163, 56)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 10.00",
-            "type": "scatter",
-            "x": [
-                3292.395356471614,
-                3307.3298802336894
-            ],
-            "y": [
-                10,
-                10
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 189, 44)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 12.25",
-            "type": "scatter",
-            "x": [
-                3307.3298802336894,
-                3318.4519304044093
-            ],
-            "y": [
-                10,
-                14.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(245, 230, 35)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 15.50",
-            "type": "scatter",
-            "x": [
-                3318.4519304044093,
-                3338.7519304044094
-            ],
-            "y": [
-                14.5,
-                16.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(249, 217, 36)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 14.50",
-            "type": "scatter",
-            "x": [
-                3338.7519304044094,
-                3351.200625115101
-            ],
-            "y": [
-                16.5,
-                12.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(253, 192, 43)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 12.50",
-            "type": "scatter",
-            "x": [
-                3351.200625115101,
-                3363.9018061625475
-            ],
-            "y": [
-                12.5,
-                12.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 189, 44)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 12.25",
-            "type": "scatter",
-            "x": [
-                3363.9018061625475,
-                3377.103699966089
-            ],
-            "y": [
-                12.5,
-                12
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 181, 48)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 11.50",
-            "type": "scatter",
-            "x": [
-                3377.103699966089,
-                3387.0077395459784
-            ],
-            "y": [
-                12,
-                11
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 204, 38)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 13.50",
-            "type": "scatter",
-            "x": [
-                3387.0077395459784,
-                3399.765482293032
-            ],
-            "y": [
-                11,
-                16
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(242, 243, 34)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 16.50",
-            "type": "scatter",
-            "x": [
-                3399.765482293032,
-                3419.1058545748683
-            ],
-            "y": [
-                16,
-                17
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(248, 220, 36)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 14.75",
-            "type": "scatter",
-            "x": [
-                3419.1058545748683,
-                3432.292590334714
-            ],
-            "y": [
-                17,
-                12.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(248, 220, 36)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 14.75",
-            "type": "scatter",
-            "x": [
-                3432.292590334714,
-                3447.1334124143696
-            ],
-            "y": [
-                12.5,
-                17
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(241, 246, 33)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 16.75",
-            "type": "scatter",
-            "x": [
-                3447.1334124143696,
-                3476.125307833607
-            ],
-            "y": [
-                17,
-                16.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(252, 204, 38)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 13.50",
-            "type": "scatter",
-            "x": [
-                3476.125307833607,
-                3495.8719531183133
-            ],
-            "y": [
-                16.5,
-                10.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(250, 157, 59)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 9.50",
-            "type": "scatter",
-            "x": [
-                3495.8719531183133,
-                3513.068464392406
-            ],
-            "y": [
-                10.5,
-                8.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(242, 134, 74)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.25",
-            "type": "scatter",
-            "x": [
-                3513.068464392406,
-                3527.628684170967
-            ],
-            "y": [
-                8.5,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(243, 137, 73)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.50",
-            "type": "scatter",
-            "x": [
-                3527.628684170967,
-                3539.3440586848274
-            ],
-            "y": [
-                6,
-                9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(248, 152, 63)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 9.00",
-            "type": "scatter",
-            "x": [
-                3539.3440586848274,
-                3575.8376197607213
-            ],
-            "y": [
-                9,
-                9
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(243, 137, 73)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 7.50",
-            "type": "scatter",
-            "x": [
-                3575.8376197607213,
-                3591.3617944569814
-            ],
-            "y": [
-                9,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(237, 121, 83)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.00",
-            "type": "scatter",
-            "x": [
-                3591.3617944569814,
-                3614.1339265486413
-            ],
-            "y": [
-                6,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(231, 112, 90)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.00",
-            "type": "scatter",
-            "x": [
-                3614.1339265486413,
-                3633.958406365272
-            ],
-            "y": [
-                6,
-                4
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(217, 89, 106)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 2.50",
-            "type": "scatter",
-            "x": [
-                3633.958406365272,
-                3663.322329808845
-            ],
-            "y": [
-                4,
-                1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(195, 62, 128)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.50",
-            "type": "scatter",
-            "x": [
-                3663.322329808845,
-                3678.73693327439
-            ],
-            "y": [
-                1,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(176, 43, 143)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.75",
-            "type": "scatter",
-            "x": [
-                3678.73693327439,
-                3714.953642125417
-            ],
-            "y": [
-                -2,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(170, 36, 148)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.50",
-            "type": "scatter",
-            "x": [
-                3714.953642125417,
-                3748.450656917783
-            ],
-            "y": [
-                -3.5,
-                -3.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(172, 38, 147)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.25",
-            "type": "scatter",
-            "x": [
-                3748.450656917783,
-                3766.044121613516
-            ],
-            "y": [
-                -3.5,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                3766.044121613516,
-                3785.405164973831
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                3785.405164973831,
-                3801.6646237594114
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(176, 43, 143)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.75",
-            "type": "scatter",
-            "x": [
-                3801.6646237594114,
-                3822.8270905343406
-            ],
-            "y": [
-                -3,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                3822.8270905343406,
-                3840.8459695227793
-            ],
-            "y": [
-                -2.5,
-                -1
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(193, 60, 130)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -0.75",
-            "type": "scatter",
-            "x": [
-                3840.8459695227793,
-                3847.4079814093884
-            ],
-            "y": [
-                -1,
-                -0.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(191, 58, 132)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.00",
-            "type": "scatter",
-            "x": [
-                3847.4079814093884,
-                3863.9294825518396
-            ],
-            "y": [
-                -0.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(185, 51, 137)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.75",
-            "type": "scatter",
-            "x": [
-                3863.9294825518396,
-                3887.0162753130703
-            ],
-            "y": [
-                -1.5,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(181, 47, 140)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.25",
-            "type": "scatter",
-            "x": [
-                3887.0162753130703,
-                3901.138952113167
-            ],
-            "y": [
-                -2,
-                -2.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(183, 49, 138)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.00",
-            "type": "scatter",
-            "x": [
-                3901.138952113167,
-                3922.7502917292113
-            ],
-            "y": [
-                -2.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(188, 54, 135)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.50",
-            "type": "scatter",
-            "x": [
-                3922.7502917292113,
-                3926.0518065330552
-            ],
-            "y": [
-                -1.5,
-                -1.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                3926.0518065330552,
-                3942.6521077351417
-            ],
-            "y": [
-                -1.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(161, 27, 155)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -4.50",
-            "type": "scatter",
-            "x": [
-                3942.6521077351417,
-                3987.4014094056706
-            ],
-            "y": [
-                -4.5,
-                -4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(167, 34, 150)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.75",
-            "type": "scatter",
-            "x": [
-                3987.4014094056706,
-                4007.5113571927736
-            ],
-            "y": [
-                -4.5,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(174, 40, 145)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -3.00",
-            "type": "scatter",
-            "x": [
-                4007.5113571927736,
-                4022.730424181259
-            ],
-            "y": [
-                -3,
-                -3
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(179, 45, 142)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -2.50",
-            "type": "scatter",
-            "x": [
-                4022.730424181259,
-                4054.8223234706434
-            ],
-            "y": [
-                -3,
-                -2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(191, 58, 132)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: -1.00",
-            "type": "scatter",
-            "x": [
-                4054.8223234706434,
-                4075.143740744052
-            ],
-            "y": [
-                -2,
-                0
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(206, 75, 117)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 1.00",
-            "type": "scatter",
-            "x": [
-                4075.143740744052,
-                4105.757626482389
-            ],
-            "y": [
-                0,
-                2
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(221, 96, 101)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 3.25",
-            "type": "scatter",
-            "x": [
-                4105.757626482389,
-                4133.04810101106
-            ],
-            "y": [
-                2,
-                4.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(234, 116, 86)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 5.50",
-            "type": "scatter",
-            "x": [
-                4133.04810101106,
-                4160.407194563296
-            ],
-            "y": [
-                4.5,
-                6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(239, 126, 80)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.50",
-            "type": "scatter",
-            "x": [
-                4160.407194563296,
-                4182.041426696654
-            ],
-            "y": [
-                6.5,
-                6.5
-            ]
-        },
-        {
-            "hoverinfo": "text",
-            "line": {
-                "color": "rgb(238, 124, 81)",
-                "width": 2
-            },
-            "mode": "lines",
-            "showlegend": false,
-            "text": "Altitude Gradient: 6.25",
-            "type": "scatter",
-            "x": [
-                4182.041426696654,
-                4207.823009270267
-            ],
-            "y": [
-                6.5,
-                6
-            ]
-        },
-        {
-            "hoverinfo": "none",
+            "hovertemplate": "Compound=INTERMEDIATE<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "INTERMEDIATE",
             "marker": {
-                "cmax": 17,
-                "cmin": -16,
-                "color": {
-                    "bdata": "AAAAAAAAJkAAAAAAAAAiQAAAAAAAABZAAAAAAAAAEkAAAAAAAAAQQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAEQAAAAAAAAPg/AAAAAAAA+D8AAAAAAAAAQAAAAAAAAPg/AAAAAAAA8D8AAAAAAADgPwAAAAAAAAAAAAAAAAAA4D8AAAAAAADgvwAAAAAAAPC/AAAAAAAABMAAAAAAAAAWwAAAAAAAABLAAAAAAAAAFMAAAAAAAAAUwAAAAAAAABTAAAAAAAAAIsAAAAAAAAAiwAAAAAAAACLAAAAAAAAAI8AAAAAAAAAhwAAAAAAAACHAAAAAAAAAIcAAAAAAAAAjwAAAAAAAACPAAAAAAAAAHMAAAAAAAAAcwAAAAAAAACDAAAAAAAAAGMAAAAAAAAAcwAAAAAAAAB7AAAAAAAAAGsAAAAAAAAAWwAAAAAAAAAjAAAAAAAAAAMAAAAAAAAAEwAAAAAAAAATAAAAAAAAABMAAAAAAAAAAwAAAAAAAAPi/AAAAAAAABMAAAAAAAAAMwAAAAAAAAATAAAAAAAAAAMAAAAAAAAAMwAAAAAAAAATAAAAAAAAA+L8AAAAAAAAEwAAAAAAAAADAAAAAAAAAAMAAAAAAAAAIwAAAAAAAABDAAAAAAAAAEMAAAAAAAAAIwAAAAAAAAAzAAAAAAAAAEMAAAAAAAAAIwAAAAAAAAAjAAAAAAAAAEsAAAAAAAAASwAAAAAAAABLAAAAAAAAADMAAAAAAAAAIwAAAAAAAAAzAAAAAAAAAHMAAAAAAAAAlwAAAAAAAABzAAAAAAAAAFsAAAAAAAAAawAAAAAAAAB7AAAAAAAAAIsAAAAAAAAAewAAAAAAAABLAAAAAAAAACMAAAAAAAAAEwAAAAAAAAPi/AAAAAAAA8L8AAAAAAAD4vwAAAAAAAATAAAAAAAAAAMAAAAAAAAD4vwAAAAAAAATAAAAAAAAAEMAAAAAAAAAQwAAAAAAAAAjAAAAAAAAAEMAAAAAAAAAcwAAAAAAAABrAAAAAAAAAFMAAAAAAAAAawAAAAAAAABLAAAAAAAAAFMAAAAAAAAAYwAAAAAAAAB7AAAAAAAAAJMAAAAAAAAAewAAAAAAAABLAAAAAAAAADMAAAAAAAAAAwAAAAAAAAOA/AAAAAAAA+D8AAAAAAAD4PwAAAAAAAPg/AAAAAAAA8D8AAAAAAADgPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADgPwAAAAAAAOA/AAAAAAAAAEAAAAAAAAAIQAAAAAAAAARAAAAAAAAAFEAAAAAAAAAeQAAAAAAAACFAAAAAAAAAJ0AAAAAAAAAnQAAAAAAAACNAAAAAAAAAHEAAAAAAAAAmQAAAAAAAAC5AAAAAAAAAKUAAAAAAAAAlQAAAAAAAACRAAAAAAAAAIUAAAAAAAAAWQAAAAAAAABhAAAAAAAAAIEAAAAAAAAAcQAAAAAAAABhAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACBAAAAAAAAAEkAAAAAAAAAYQAAAAAAAACFAAAAAAAAAHkAAAAAAAAAeQAAAAAAAABxAAAAAAAAAGkAAAAAAAAAIQAAAAAAAAPA/AAAAAAAA4D8AAAAAAADgPwAAAAAAAAAAAAAAAAAA4D8AAAAAAADgPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADgvwAAAAAAAPC/AAAAAAAA8L8AAAAAAAD4vwAAAAAAAPC/AAAAAAAA4L8AAAAAAADwvwAAAAAAAPi/AAAAAAAA+L8AAAAAAAAEwAAAAAAAAAzAAAAAAAAABMAAAAAAAAAMwAAAAAAAABDAAAAAAAAADMAAAAAAAAAQwAAAAAAAABLAAAAAAAAAEMAAAAAAAAAYwAAAAAAAABrAAAAAAAAAHsAAAAAAAAAiwAAAAAAAABjAAAAAAAAACMAAAAAAAAD4vwAAAAAAAATAAAAAAAAA+L8AAAAAAADgvwAAAAAAAOC/AAAAAAAAAEAAAAAAAAAMQAAAAAAAABJAAAAAAAAADEAAAAAAAAAEQAAAAAAAAARAAAAAAAAAEkAAAAAAAAAhQAAAAAAAACBAAAAAAAAAHkAAAAAAAAAaQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAYQAAAAAAAABxAAAAAAAAAHEAAAAAAAAASQAAAAAAAAPg/AAAAAAAA8D8AAAAAAADgPwAAAAAAAOA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAOA/AAAAAAAAAAAAAAAAAADgPwAAAAAAAOC/AAAAAAAA+L8AAAAAAAAAAAAAAAAAAOA/AAAAAAAA8L8AAAAAAAD4vwAAAAAAAADAAAAAAAAACMAAAAAAAAAIwAAAAAAAAAjAAAAAAAAACMAAAAAAAAAAwAAAAAAAAPi/AAAAAAAAEsAAAAAAAAAgwAAAAAAAABzAAAAAAAAAGMAAAAAAAAAewAAAAAAAAB7AAAAAAAAAJMAAAAAAAAAwwAAAAAAAACvAAAAAAAAAJcAAAAAAAAAwwAAAAAAAAC7AAAAAAAAAJsAAAAAAAAAnwAAAAAAAABzAAAAAAAAAFsAAAAAAAAAYwAAAAAAAAAjAAAAAAAAA4D8AAAAAAAAMQAAAAAAAABBAAAAAAAAAEkAAAAAAAAAMQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAEQAAAAAAAAPg/AAAAAAAA8D8AAAAAAADgPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAEQAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAEQAAAAAAAAAhAAAAAAAAABEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAhQAAAAAAAACRAAAAAAAAAFkAAAAAAAAAYQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAtQAAAAAAAgDBAAAAAAAAAKUAAAAAAAAApQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAwQAAAAAAAADFAAAAAAAAAKUAAAAAAAAAxQAAAAAAAgDBAAAAAAAAAJUAAAAAAAAAhQAAAAAAAABhAAAAAAAAAIkAAAAAAAAAiQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAQQAAAAAAAAPA/AAAAAAAAAMAAAAAAAAAMwAAAAAAAAAzAAAAAAAAACMAAAAAAAAAIwAAAAAAAAAjAAAAAAAAABMAAAAAAAADwvwAAAAAAAOC/AAAAAAAA+L8AAAAAAAAAwAAAAAAAAATAAAAAAAAA+L8AAAAAAAD4vwAAAAAAABLAAAAAAAAAEsAAAAAAAAAIwAAAAAAAAAjAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEkAAAAAAAAAaQAAAAAAAABpAAAAAAAAAGEA=",
-                    "dtype": "f8"
+                "color": "green",
+                "pattern": {
+                    "shape": ""
+                }
+            },
+            "name": "INTERMEDIATE",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPkA=",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "aJHtfD9lWUC+nxov3eRVQOxRuB6Fy1VATDeJQWD9VUA1XrpJDGJVQFK4HoXrSVVAi2zn+6lhVUC+nxov3SxVQDMzMzMzG1VATDeJQWBFVUC4HoXrUUBVQCuHFtnOF1VAbef7qfEyVUAK16NwPTpVQK5H4XoUNlVA001iEFhpVUDFILByaBlVQLx0kxgERlVAw/UoXI8aVUAtsp3vpxZVQDeJQWDl8FRAhxbZzvcDVUBaZDvfTyVVQKrx0k1iMFVACtejcD2aVkD+1HjpJqlaQAAAAAAAAPh/AAAAAAAA+H8=",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "hovertemplate": "Compound=WET<br>LapNumber=%{x}<br>Lap Time (seconds)=%{y}<extra></extra>",
+            "legendgroup": "WET",
+            "marker": {
+                "color": "blue",
+                "pattern": {
+                    "shape": ""
+                }
+            },
+            "name": "WET",
+            "orientation": "v",
+            "showlegend": true,
+            "textposition": "auto",
+            "type": "bar",
+            "x": {
+                "bdata": "AAAAAAAAPEAAAAAAAAA9QA==",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "AAAAAAAA+H+mm8QgsOJfQA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
                 },
-                "colorbar": {
-                    "title": {
-                        "text": "Altitude Gradient"
-                    }
-                },
-                "colorscale": [
-                    [
-                        0,
-                        "#0d0887"
-                    ],
-                    [
-                        0.1111111111111111,
-                        "#46039f"
-                    ],
-                    [
-                        0.2222222222222222,
-                        "#7201a8"
-                    ],
-                    [
-                        0.3333333333333333,
-                        "#9c179e"
-                    ],
-                    [
-                        0.4444444444444444,
-                        "#bd3786"
-                    ],
-                    [
-                        0.5555555555555556,
-                        "#d8576b"
-                    ],
-                    [
-                        0.6666666666666666,
-                        "#ed7953"
-                    ],
-                    [
-                        0.7777777777777778,
-                        "#fb9f3a"
-                    ],
-                    [
-                        0.8888888888888888,
-                        "#fdca26"
-                    ],
-                    [
-                        1,
-                        "#f0f921"
-                    ]
-                ],
-                "showscale": true
+                "size": 10,
+                "symbol": "circle"
             },
             "mode": "markers",
             "showlegend": false,
+            "text": "Track Status: Yellow, Lap 3",
+            "type": "scatter",
+            "x": [
+                3
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 3",
+            "type": "scatter",
+            "x": [
+                3
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 11",
+            "type": "scatter",
+            "x": [
+                11
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 11",
+            "type": "scatter",
+            "x": [
+                11
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 25",
+            "type": "scatter",
+            "x": [
+                25
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 25",
+            "type": "scatter",
+            "x": [
+                25
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 26",
+            "type": "scatter",
+            "x": [
+                26
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "violet",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: VSCDeployed, Lap 27",
+            "type": "scatter",
+            "x": [
+                27
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "orange",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: VSCEnding, Lap 27",
+            "type": "scatter",
+            "x": [
+                27
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 28",
+            "type": "scatter",
+            "x": [
+                28
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "purple",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: SCDeployed, Lap 29",
+            "type": "scatter",
+            "x": [
+                29
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "red",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Red, Lap 31",
+            "type": "scatter",
+            "x": [
+                31
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 32",
+            "type": "scatter",
+            "x": [
+                32
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 32",
+            "type": "scatter",
+            "x": [
+                32
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 33",
+            "type": "scatter",
+            "x": [
+                33
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 35",
+            "type": "scatter",
+            "x": [
+                35
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 35",
+            "type": "scatter",
+            "x": [
+                35
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 37",
+            "type": "scatter",
+            "x": [
+                37
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 37",
+            "type": "scatter",
+            "x": [
+                37
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 39",
+            "type": "scatter",
+            "x": [
+                39
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "purple",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: SCDeployed, Lap 39",
+            "type": "scatter",
+            "x": [
+                39
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 41",
+            "type": "scatter",
+            "x": [
+                41
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 42",
+            "type": "scatter",
+            "x": [
+                42
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 43",
+            "type": "scatter",
+            "x": [
+                43
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "yellow",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: Yellow, Lap 51",
+            "type": "scatter",
+            "x": [
+                51
+            ],
+            "y": [
+                -2
+            ]
+        },
+        {
+            "hoverinfo": "text",
+            "marker": {
+                "color": "green",
+                "line": {
+                    "color": "black",
+                    "width": 1
+                },
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "showlegend": false,
+            "text": "Track Status: AllClear, Lap 51",
+            "type": "scatter",
+            "x": [
+                51
+            ],
+            "y": [
+                2
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "green",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "AllClear",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "yellow",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "Yellow",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "red",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "Red",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "purple",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "SCDeployed",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "violet",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "VSCDeployed",
+            "showlegend": true,
+            "type": "scatter",
+            "x": [
+                null
+            ],
+            "y": [
+                null
+            ]
+        },
+        {
+            "legendgroup": "Track Status",
+            "marker": {
+                "color": "orange",
+                "size": 10,
+                "symbol": "circle"
+            },
+            "mode": "markers",
+            "name": "VSCEnding",
+            "showlegend": true,
             "type": "scatter",
             "x": [
                 null
@@ -6058,370 +735,271 @@
         }
     ],
     "layout": {
-        "annotations": [
-            {
-                "showarrow": false,
-                "text": "C-1",
-                "x": 342.496647169769,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
+        "barmode": "relative",
+        "legend": {
+            "title": {
+                "text": "Compound"
             },
-            {
-                "showarrow": false,
-                "text": "C-2",
-                "x": 440.4776110606469,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-3",
-                "x": 635.5741306383455,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-4",
-                "x": 1378.8071694815385,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-5",
-                "x": 1537.0923868759944,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-6",
-                "x": 1991.9582226432271,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-7",
-                "x": 2124.5352609773304,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-8",
-                "x": 2283.248614778624,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-9",
-                "x": 2413.0356235375707,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-10",
-                "x": 2701.532219177777,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-11",
-                "x": 2910.088225186015,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-12",
-                "x": 3199.9664483207566,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-13",
-                "x": 3307.3298802336894,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-14",
-                "x": 3575.8376197607213,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            },
-            {
-                "showarrow": false,
-                "text": "C-15",
-                "x": 3987.4014094056706,
-                "xanchor": "left",
-                "xref": "x",
-                "y": 1,
-                "yanchor": "top",
-                "yref": "y domain"
-            }
-        ],
+            "tracegroupgap": 0
+        },
         "shapes": [
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 342.496647169769,
-                "x1": 342.496647169769,
+                "x0": 3,
+                "x1": 3,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 440.4776110606469,
-                "x1": 440.4776110606469,
+                "x0": 11,
+                "x1": 11,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 635.5741306383455,
-                "x1": 635.5741306383455,
+                "x0": 25,
+                "x1": 25,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 1378.8071694815385,
-                "x1": 1378.8071694815385,
+                "x0": 26,
+                "x1": 26,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "violet",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 1537.0923868759944,
-                "x1": 1537.0923868759944,
+                "x0": 27,
+                "x1": 27,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "green",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 1991.9582226432271,
-                "x1": 1991.9582226432271,
+                "x0": 28,
+                "x1": 28,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "purple",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 2124.5352609773304,
-                "x1": 2124.5352609773304,
+                "x0": 29,
+                "x1": 29,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
                     "color": "red",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 2283.248614778624,
-                "x1": 2283.248614778624,
+                "x0": 31,
+                "x1": 31,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "green",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 2413.0356235375707,
-                "x1": 2413.0356235375707,
+                "x0": 32,
+                "x1": 32,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "green",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 2701.532219177777,
-                "x1": 2701.532219177777,
+                "x0": 33,
+                "x1": 33,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 2910.088225186015,
-                "x1": 2910.088225186015,
+                "x0": 35,
+                "x1": 35,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 3199.9664483207566,
-                "x1": 3199.9664483207566,
+                "x0": 37,
+                "x1": 37,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 3307.3298802336894,
-                "x1": 3307.3298802336894,
+                "x0": 39,
+                "x1": 39,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "green",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 3575.8376197607213,
-                "x1": 3575.8376197607213,
+                "x0": 41,
+                "x1": 41,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             },
             {
+                "layer": "above",
                 "line": {
-                    "color": "red",
+                    "color": "yellow",
                     "dash": "dash",
-                    "width": 1
+                    "width": 2
                 },
                 "type": "line",
-                "x0": 3987.4014094056706,
-                "x1": 3987.4014094056706,
+                "x0": 42,
+                "x1": 42,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "green",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 43,
+                "x1": 43,
+                "xref": "x",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y domain"
+            },
+            {
+                "layer": "above",
+                "line": {
+                    "color": "yellow",
+                    "dash": "dash",
+                    "width": 2
+                },
+                "type": "line",
+                "x0": 51,
+                "x1": 51,
                 "xref": "x",
                 "y0": 0,
                 "y1": 1,
                 "yref": "y domain"
             }
         ],
+        "showlegend": true,
         "template": {
             "data": {
                 "bar": [
@@ -7199,16 +1777,26 @@
             }
         },
         "title": {
-            "text": "Altitude Gradient Along the Track with Corners"
+            "text": "HUL Lap Times by Compound"
         },
         "xaxis": {
+            "anchor": "y",
+            "domain": [
+                0,
+                1
+            ],
             "title": {
-                "text": "Distance along Track [m]"
+                "text": "Lap Number"
             }
         },
         "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
             "title": {
-                "text": "Altitude Gradient [%]"
+                "text": "Lap Time (seconds)"
             }
         }
     }
