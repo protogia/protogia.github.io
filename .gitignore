@@ -12,3 +12,6 @@ static/media/
 
 # custom
 notebooks/
+
+### Python ###
+.env

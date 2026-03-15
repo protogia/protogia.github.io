@@ -18,10 +18,16 @@ theme = 'formula1'
 [Menu]
 [[menu.Main]]
    identifier = "projects"
-   name = "Projects"
+   name = " Projects"
    url = "/projects"
 [[menu.Main]]
    identifier = "blog"
-   name = "Evaluations"
+   name = " Evaluations"
    url = "/blog"
+[[menu.Main]]
+   identifier = "aboutthisblog"
+   name = "About"
+   url = "/aboutthisblog"
 
+[params]
+aboutSection = "aboutthisblog/info"
