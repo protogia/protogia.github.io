@@ -18,6 +18,7 @@ pretty-errors = "^1.2.25"
 nbconvert = "^7.16.5"
 nbformat = ">=4.2.0"
 ipykernel = "^7.0.1"
+plotly = "^6.6.0"
 
 [build-system]
 requires = ["poetry-core"]
