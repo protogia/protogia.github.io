@@ -18,16 +18,21 @@ theme = 'formula1'
 [Menu]
 [[menu.Main]]
    identifier = "projects"
-   name = " Projects"
+   name = "Projects"
    url = "/projects"
+   weight = 1
+
 [[menu.Main]]
    identifier = "blog"
-   name = " Evaluations"
+   name = "Evaluations"
    url = "/blog"
+   weight = 2
+
 [[menu.Main]]
    identifier = "aboutthisblog"
    name = "About"
    url = "/aboutthisblog"
+   weight = 3
 
 [params]
 aboutSection = "aboutthisblog/info"
