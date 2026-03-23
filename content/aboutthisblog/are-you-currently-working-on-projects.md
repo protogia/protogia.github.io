@@ -2,7 +2,7 @@
 title: 'Are you currently working on specific projects?'
 date: '2026-03-18T23:02:56+01:00'
 author: ''
-draft: true
+draft: false
 plotly: true
 color: '#a09f93'
 ---
