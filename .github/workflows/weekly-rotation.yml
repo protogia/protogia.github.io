@@ -28,19 +28,22 @@ jobs:
           export PATH="$HOME/.local/bin:$PATH"
 
       - name: Lock dependencies
+        working-directory: ./css-rotator
         run: |
           export PATH="$HOME/.local/bin:$PATH"
           poetry lock
 
       - name: Install dependencies
+        working-directory: ./css-rotator
         run: |
           export PATH="$HOME/.local/bin:$PATH"
           poetry install
 
       - name: Run script
+        working-directory: ./css-rotator
         run: |
           export PATH="$HOME/.local/bin:$PATH"
-          poetry run python css-rotator/__main__.py
+          poetry run python __main__.py
 
       - name: Commit and push changes
         run: |
