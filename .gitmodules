@@ -4,3 +4,6 @@
 [submodule "themes/formula1"]
 	path = themes/formula1
 	url = https://github.com/protogia/formula1-theme
+[submodule "css-rotator"]
+	path = css-rotator
+	url = https://github.com/protogia/css-rotator.git
