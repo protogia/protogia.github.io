@@ -37,7 +37,7 @@ jobs:
         working-directory: ./css-rotator
         run: |
           export PATH="$HOME/.local/bin:$PATH"
-          poetry install
+          poetry install --no-root
 
       - name: Run script
         working-directory: ./css-rotator
