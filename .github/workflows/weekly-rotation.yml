@@ -8,8 +8,10 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
-      CSS_VAR_PATH: "../themes/formula1/static/css/variables.css"
+      CSS_VAR_PATH: "../static/css/variables.css"
 
     steps:
       - name: Checkout Repository
