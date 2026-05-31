@@ -1,9 +1,9 @@
-/* Theme: grey - Generated */
+/* Theme: yellow - Generated */
 :root {
-  --bg: #121212;
-  --h1: #E0E0E0;
+  --bg: #1e1a00;
+  --h1: #FFD54F;
   --h2: #A09F93;
   --text: #FFFFFF;
-  --accent: #FF3E3E;
-  --code-bg: #000000;
+  --accent: #7B61FF;
+  --code-bg: #0f0d00;
 }
