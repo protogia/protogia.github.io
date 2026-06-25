@@ -1,0 +1,1641 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "name": "Air Temp",
+            "type": "scatter",
+            "x": [
+                "00:01:01.035000",
+                "00:02:01.033000",
+                "00:03:01.033000",
+                "00:04:01.035000",
+                "00:05:01.034000",
+                "00:06:01.035000",
+                "00:07:01.043000",
+                "00:08:01.037000",
+                "00:09:01.036000",
+                "00:10:01.043000",
+                "00:11:01.035000",
+                "00:12:01.037000",
+                "00:13:01.036000",
+                "00:14:01.036000",
+                "00:15:01.036000",
+                "00:16:01.049000",
+                "00:17:01.042000",
+                "00:18:01.058000",
+                "00:19:01.067000",
+                "00:20:01.080000",
+                "00:21:01.103000",
+                "00:22:01.093000",
+                "00:23:01.093000",
+                "00:24:01.109000",
+                "00:25:01.125000",
+                "00:26:01.139000",
+                "00:27:01.132000",
+                "00:28:01.129000",
+                "00:29:01.157000",
+                "00:30:01.176000",
+                "00:31:01.180000",
+                "00:32:01.179000",
+                "00:33:01.177000",
+                "00:34:01.170000",
+                "00:35:01.173000",
+                "00:36:01.166000",
+                "00:37:01.179000",
+                "00:38:01.181000",
+                "00:39:01.174000",
+                "00:40:01.184000",
+                "00:41:01.180000",
+                "00:42:01.186000",
+                "00:43:01.189000",
+                "00:44:01.195000",
+                "00:45:01.219000",
+                "00:46:01.238000",
+                "00:47:01.238000",
+                "00:48:01.238000",
+                "00:49:01.235000",
+                "00:50:01.247000",
+                "00:51:01.270000",
+                "00:52:01.286000",
+                "00:53:01.289000",
+                "00:54:01.269000",
+                "00:55:01.282000",
+                "00:56:01.290000",
+                "00:57:01.288000",
+                "00:58:01.301000",
+                "00:59:01.321000",
+                "01:00:01.326000",
+                "01:01:01.324000",
+                "01:02:01.326000",
+                "01:03:01.327000",
+                "01:04:01.330000",
+                "01:05:01.325000",
+                "01:06:01.326000",
+                "01:07:01.323000",
+                "01:08:01.335000",
+                "01:09:01.334000",
+                "01:10:01.342000",
+                "01:11:01.324000",
+                "01:12:01.335000",
+                "01:13:01.330000",
+                "01:14:01.336000",
+                "01:15:01.340000",
+                "01:16:01.338000",
+                "01:17:01.331000",
+                "01:18:01.337000",
+                "01:19:01.338000",
+                "01:20:01.338000",
+                "01:21:01.338000",
+                "01:22:01.338000",
+                "01:23:01.357000",
+                "01:24:01.360000",
+                "01:25:01.378000",
+                "01:26:01.371000",
+                "01:27:01.382000",
+                "01:28:01.440000",
+                "01:29:01.408000",
+                "01:30:01.410000",
+                "01:31:01.412000",
+                "01:32:01.412000",
+                "01:33:01.410000",
+                "01:34:01.432000",
+                "01:35:01.442000",
+                "01:36:01.455000",
+                "01:37:01.456000",
+                "01:38:01.483000",
+                "01:39:01.478000",
+                "01:40:01.476000",
+                "01:41:01.479000",
+                "01:42:01.466000",
+                "01:43:01.482000",
+                "01:44:01.481000",
+                "01:45:01.469000",
+                "01:46:01.481000",
+                "01:47:01.485000",
+                "01:48:01.475000",
+                "01:49:01.487000",
+                "01:50:01.487000",
+                "01:51:01.481000",
+                "01:52:01.489000",
+                "01:53:01.479000",
+                "01:54:01.480000",
+                "01:55:01.490000",
+                "01:56:01.494000",
+                "01:57:01.495000",
+                "01:58:01.492000",
+                "01:59:01.496000",
+                "02:00:01.488000",
+                "02:01:01.615000",
+                "02:02:01.619000",
+                "02:03:01.639000",
+                "02:04:01.642000",
+                "02:05:01.656000",
+                "02:06:01.667000",
+                "02:07:01.667000",
+                "02:08:01.679000",
+                "02:09:01.673000",
+                "02:10:01.663000",
+                "02:11:01.667000",
+                "02:12:01.663000",
+                "02:13:01.680000",
+                "02:14:01.687000",
+                "02:15:01.699000",
+                "02:16:01.719000",
+                "02:17:01.717000",
+                "02:18:01.719000",
+                "02:19:01.727000",
+                "02:20:01.720000",
+                "02:21:01.745000",
+                "02:22:01.766000",
+                "02:23:01.755000",
+                "02:24:01.764000",
+                "02:25:01.769000",
+                "02:26:01.763000",
+                "02:27:01.765000",
+                "02:28:01.774000",
+                "02:29:01.801000",
+                "02:30:01.804000",
+                "02:31:01.810000",
+                "02:32:01.811000"
+            ],
+            "xaxis": "x",
+            "y": {
+                "bdata": "ZmZmZmbmMUBmZmZmZuYxQGZmZmZm5jFAAAAAAAAAMkBmZmZmZuYxQGZmZmZm5jFAZmZmZmbmMUBmZmZmZuYxQM3MzMzMzDFAzczMzMzMMUCamZmZmZkxQAAAAAAAgDFAZmZmZmZmMUAzMzMzMzMxQJqZmZmZGTFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUCamZmZmRkxQJqZmZmZGTFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAZmZmZmbmMEDNzMzMzMwwQM3MzMzMzDBAzczMzMzMMEAzMzMzM7MwQDMzMzMzszBAmpmZmZmZMECamZmZmZkwQJqZmZmZmTBAMzMzMzOzMEBmZmZmZuYwQAAAAAAAADFAAAAAAAAAMUCamZmZmRkxQJqZmZmZGTFAmpmZmZkZMUAzMzMzMzMxQM3MzMzMTDFAzczMzMxMMUBmZmZmZmYxQAAAAAAAgDFAZmZmZmZmMUBmZmZmZmYxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQAAAAAAAgDFAAAAAAACAMUBmZmZmZmYxQGZmZmZmZjFAZmZmZmZmMUBmZmZmZmYxQM3MzMzMTDFAzczMzMxMMUDNzMzMzEwxQDMzMzMzMzFAzczMzMxMMUDNzMzMzEwxQM3MzMzMTDFAzczMzMxMMUDNzMzMzEwxQM3MzMzMTDFAZmZmZmZmMUAAAAAAAIAxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQJqZmZmZmTFAmpmZmZmZMUCamZmZmZkxQJqZmZmZmTFAmpmZmZmZMUCamZmZmZkxQDMzMzMzszFAMzMzMzOzMUAzMzMzM7MxQDMzMzMzszFAMzMzMzOzMUAzMzMzM7MxQJqZmZmZmTFAmpmZmZmZMUAAAAAAAIAxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQAAAAAAAgDFAZmZmZmZmMUAAAAAAAIAxQAAAAAAAgDFAZmZmZmZmMUBmZmZmZmYxQGZmZmZmZjFAzczMzMxMMUDNzMzMzEwxQM3MzMzMTDFAMzMzMzMzMUAzMzMzMzMxQDMzMzMzMzFAMzMzMzMzMUAzMzMzMzMxQDMzMzMzMzFAMzMzMzMzMUAzMzMzMzMxQJqZmZmZGTFAmpmZmZkZMUCamZmZmRkxQJqZmZmZGTFAMzMzMzMzMUAzMzMzMzMxQDMzMzMzMzFAzczMzMxMMUBmZmZmZmYxQAAAAAAAgDFAAAAAAACAMUAAAAAAAIAxQAAAAAAAgDFAZmZmZmZmMUBmZmZmZmYxQAAAAAAAgDFAAAAAAACAMUBmZmZmZmYxQAAAAAAAgDFAAAAAAACAMUBmZmZmZmYxQM3MzMzMTDFAMzMzMzMzMUDNzMzMzEwxQM3MzMzMTDFAMzMzMzMzMUDNzMzMzEwxQM3MzMzMTDFAMzMzMzMzMUAzMzMzMzMxQDMzMzMzMzFAMzMzMzMzMUBmZmZmZmYxQGZmZmZmZjFAZmZmZmZmMUBmZmZmZmYxQA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "name": "Track Temp",
+            "type": "scatter",
+            "x": [
+                "00:01:01.035000",
+                "00:02:01.033000",
+                "00:03:01.033000",
+                "00:04:01.035000",
+                "00:05:01.034000",
+                "00:06:01.035000",
+                "00:07:01.043000",
+                "00:08:01.037000",
+                "00:09:01.036000",
+                "00:10:01.043000",
+                "00:11:01.035000",
+                "00:12:01.037000",
+                "00:13:01.036000",
+                "00:14:01.036000",
+                "00:15:01.036000",
+                "00:16:01.049000",
+                "00:17:01.042000",
+                "00:18:01.058000",
+                "00:19:01.067000",
+                "00:20:01.080000",
+                "00:21:01.103000",
+                "00:22:01.093000",
+                "00:23:01.093000",
+                "00:24:01.109000",
+                "00:25:01.125000",
+                "00:26:01.139000",
+                "00:27:01.132000",
+                "00:28:01.129000",
+                "00:29:01.157000",
+                "00:30:01.176000",
+                "00:31:01.180000",
+                "00:32:01.179000",
+                "00:33:01.177000",
+                "00:34:01.170000",
+                "00:35:01.173000",
+                "00:36:01.166000",
+                "00:37:01.179000",
+                "00:38:01.181000",
+                "00:39:01.174000",
+                "00:40:01.184000",
+                "00:41:01.180000",
+                "00:42:01.186000",
+                "00:43:01.189000",
+                "00:44:01.195000",
+                "00:45:01.219000",
+                "00:46:01.238000",
+                "00:47:01.238000",
+                "00:48:01.238000",
+                "00:49:01.235000",
+                "00:50:01.247000",
+                "00:51:01.270000",
+                "00:52:01.286000",
+                "00:53:01.289000",
+                "00:54:01.269000",
+                "00:55:01.282000",
+                "00:56:01.290000",
+                "00:57:01.288000",
+                "00:58:01.301000",
+                "00:59:01.321000",
+                "01:00:01.326000",
+                "01:01:01.324000",
+                "01:02:01.326000",
+                "01:03:01.327000",
+                "01:04:01.330000",
+                "01:05:01.325000",
+                "01:06:01.326000",
+                "01:07:01.323000",
+                "01:08:01.335000",
+                "01:09:01.334000",
+                "01:10:01.342000",
+                "01:11:01.324000",
+                "01:12:01.335000",
+                "01:13:01.330000",
+                "01:14:01.336000",
+                "01:15:01.340000",
+                "01:16:01.338000",
+                "01:17:01.331000",
+                "01:18:01.337000",
+                "01:19:01.338000",
+                "01:20:01.338000",
+                "01:21:01.338000",
+                "01:22:01.338000",
+                "01:23:01.357000",
+                "01:24:01.360000",
+                "01:25:01.378000",
+                "01:26:01.371000",
+                "01:27:01.382000",
+                "01:28:01.440000",
+                "01:29:01.408000",
+                "01:30:01.410000",
+                "01:31:01.412000",
+                "01:32:01.412000",
+                "01:33:01.410000",
+                "01:34:01.432000",
+                "01:35:01.442000",
+                "01:36:01.455000",
+                "01:37:01.456000",
+                "01:38:01.483000",
+                "01:39:01.478000",
+                "01:40:01.476000",
+                "01:41:01.479000",
+                "01:42:01.466000",
+                "01:43:01.482000",
+                "01:44:01.481000",
+                "01:45:01.469000",
+                "01:46:01.481000",
+                "01:47:01.485000",
+                "01:48:01.475000",
+                "01:49:01.487000",
+                "01:50:01.487000",
+                "01:51:01.481000",
+                "01:52:01.489000",
+                "01:53:01.479000",
+                "01:54:01.480000",
+                "01:55:01.490000",
+                "01:56:01.494000",
+                "01:57:01.495000",
+                "01:58:01.492000",
+                "01:59:01.496000",
+                "02:00:01.488000",
+                "02:01:01.615000",
+                "02:02:01.619000",
+                "02:03:01.639000",
+                "02:04:01.642000",
+                "02:05:01.656000",
+                "02:06:01.667000",
+                "02:07:01.667000",
+                "02:08:01.679000",
+                "02:09:01.673000",
+                "02:10:01.663000",
+                "02:11:01.667000",
+                "02:12:01.663000",
+                "02:13:01.680000",
+                "02:14:01.687000",
+                "02:15:01.699000",
+                "02:16:01.719000",
+                "02:17:01.717000",
+                "02:18:01.719000",
+                "02:19:01.727000",
+                "02:20:01.720000",
+                "02:21:01.745000",
+                "02:22:01.766000",
+                "02:23:01.755000",
+                "02:24:01.764000",
+                "02:25:01.769000",
+                "02:26:01.763000",
+                "02:27:01.765000",
+                "02:28:01.774000",
+                "02:29:01.801000",
+                "02:30:01.804000",
+                "02:31:01.810000",
+                "02:32:01.811000"
+            ],
+            "xaxis": "x",
+            "y": {
+                "bdata": "mpmZmZlZQECamZmZmVlAQGZmZmZmZkBAZmZmZmZmQEBmZmZmZiZAQJqZmZmZGUBAmpmZmZmZP0AzMzMzMzM/QDMzMzMzsz5AZmZmZmZmPkAAAAAAAAA+QM3MzMzMzD1AMzMzMzOzPUAzMzMzM7M9QDMzMzMzsz1AmpmZmZmZPUAAAAAAAIA9QAAAAAAAgD1AAAAAAACAPUAAAAAAAIA9QM3MzMzMzD1AzczMzMzMPUAzMzMzM7M9QJqZmZmZmT1AZmZmZmZmPUBmZmZmZmY9QM3MzMzMTD1AZmZmZmZmPUAAAAAAAIA9QM3MzMzMzD1AzczMzMzMPUDNzMzMzMw9QGZmZmZm5j1AmpmZmZkZPkBmZmZmZmY+QGZmZmZmZj5AZmZmZmZmPkAAAAAAAIA+QGZmZmZmZj5AZmZmZmZmPkAzMzMzM7M+QAAAAAAAAD9AmpmZmZkZP0BmZmZmZuY+QM3MzMzMzD5AAAAAAAAAP0AzMzMzMzM/QJqZmZmZGT9AMzMzMzOzPkAzMzMzM7M+QM3MzMzMzD5AZmZmZmbmPkBmZmZmZuY+QM3MzMzMzD5AmpmZmZkZP0AzMzMzM7M+QM3MzMzMzD5AMzMzMzOzPkAzMzMzM7M+QJqZmZmZmT5AAAAAAACAPkAAAAAAAIA+QAAAAAAAgD5AAAAAAACAPkBmZmZmZmY+QAAAAAAAgD5AZmZmZmZmPkDNzMzMzEw+QAAAAAAAgD5AAAAAAACAPkAzMzMzMzM+QJqZmZmZGT5AmpmZmZkZPkCamZmZmRk+QDMzMzMzMz5AzczMzMxMPkBmZmZmZmY+QGZmZmZmZj5AMzMzMzOzPkAzMzMzM7M+QM3MzMzMzD5AAAAAAAAAP0BmZmZmZuY+QM3MzMzMTD9AzczMzMxMP0BmZmZmZmY/QGZmZmZmZj9AMzMzMzOzP0AzMzMzM7M/QAAAAAAAgD9AmpmZmZkZP0CamZmZmRk/QM3MzMzMzD5AAAAAAAAAP0CamZmZmRk/QDMzMzMzMz9AmpmZmZkZP0AAAAAAAAA/QM3MzMzMzD5AZmZmZmbmPkBmZmZmZuY+QM3MzMzMzD5AZmZmZmZmPkDNzMzMzEw+QM3MzMzMTD5AzczMzMxMPkDNzMzMzEw+QDMzMzMzMz5AMzMzMzMzPkCamZmZmRk+QM3MzMzMTD5AzczMzMxMPkAzMzMzMzM+QDMzMzMzMz5AMzMzMzMzPkAzMzMzMzM+QAAAAAAAAD5AMzMzMzMzPkDNzMzMzEw+QJqZmZmZmT5AmpmZmZmZPkAAAAAAAIA+QGZmZmZmZj5AmpmZmZmZPkDNzMzMzMw+QDMzMzMzMz9AZmZmZmZmP0BmZmZmZmY/QGZmZmZmZj9AAAAAAACAP0BmZmZmZmY/QJqZmZmZGT9AmpmZmZkZP0BmZmZmZmY/QM3MzMzMzD9AzczMzMzMP0AzMzMzMzM/QDMzMzMzMz9AAAAAAAAAP0AAAAAAAAA/QGZmZmZm5j5AAAAAAAAAP0AAAAAAAAA/QAAAAAAAAD9AAAAAAAAAP0AzMzMzMzM/QM3MzMzMTD9AzczMzMxMP0AAAAAAAIA/QAAAAAAAgD9AzczMzMxMP0BmZmZmZmY/QA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "name": "Humidity",
+            "type": "scatter",
+            "x": [
+                "00:01:01.035000",
+                "00:02:01.033000",
+                "00:03:01.033000",
+                "00:04:01.035000",
+                "00:05:01.034000",
+                "00:06:01.035000",
+                "00:07:01.043000",
+                "00:08:01.037000",
+                "00:09:01.036000",
+                "00:10:01.043000",
+                "00:11:01.035000",
+                "00:12:01.037000",
+                "00:13:01.036000",
+                "00:14:01.036000",
+                "00:15:01.036000",
+                "00:16:01.049000",
+                "00:17:01.042000",
+                "00:18:01.058000",
+                "00:19:01.067000",
+                "00:20:01.080000",
+                "00:21:01.103000",
+                "00:22:01.093000",
+                "00:23:01.093000",
+                "00:24:01.109000",
+                "00:25:01.125000",
+                "00:26:01.139000",
+                "00:27:01.132000",
+                "00:28:01.129000",
+                "00:29:01.157000",
+                "00:30:01.176000",
+                "00:31:01.180000",
+                "00:32:01.179000",
+                "00:33:01.177000",
+                "00:34:01.170000",
+                "00:35:01.173000",
+                "00:36:01.166000",
+                "00:37:01.179000",
+                "00:38:01.181000",
+                "00:39:01.174000",
+                "00:40:01.184000",
+                "00:41:01.180000",
+                "00:42:01.186000",
+                "00:43:01.189000",
+                "00:44:01.195000",
+                "00:45:01.219000",
+                "00:46:01.238000",
+                "00:47:01.238000",
+                "00:48:01.238000",
+                "00:49:01.235000",
+                "00:50:01.247000",
+                "00:51:01.270000",
+                "00:52:01.286000",
+                "00:53:01.289000",
+                "00:54:01.269000",
+                "00:55:01.282000",
+                "00:56:01.290000",
+                "00:57:01.288000",
+                "00:58:01.301000",
+                "00:59:01.321000",
+                "01:00:01.326000",
+                "01:01:01.324000",
+                "01:02:01.326000",
+                "01:03:01.327000",
+                "01:04:01.330000",
+                "01:05:01.325000",
+                "01:06:01.326000",
+                "01:07:01.323000",
+                "01:08:01.335000",
+                "01:09:01.334000",
+                "01:10:01.342000",
+                "01:11:01.324000",
+                "01:12:01.335000",
+                "01:13:01.330000",
+                "01:14:01.336000",
+                "01:15:01.340000",
+                "01:16:01.338000",
+                "01:17:01.331000",
+                "01:18:01.337000",
+                "01:19:01.338000",
+                "01:20:01.338000",
+                "01:21:01.338000",
+                "01:22:01.338000",
+                "01:23:01.357000",
+                "01:24:01.360000",
+                "01:25:01.378000",
+                "01:26:01.371000",
+                "01:27:01.382000",
+                "01:28:01.440000",
+                "01:29:01.408000",
+                "01:30:01.410000",
+                "01:31:01.412000",
+                "01:32:01.412000",
+                "01:33:01.410000",
+                "01:34:01.432000",
+                "01:35:01.442000",
+                "01:36:01.455000",
+                "01:37:01.456000",
+                "01:38:01.483000",
+                "01:39:01.478000",
+                "01:40:01.476000",
+                "01:41:01.479000",
+                "01:42:01.466000",
+                "01:43:01.482000",
+                "01:44:01.481000",
+                "01:45:01.469000",
+                "01:46:01.481000",
+                "01:47:01.485000",
+                "01:48:01.475000",
+                "01:49:01.487000",
+                "01:50:01.487000",
+                "01:51:01.481000",
+                "01:52:01.489000",
+                "01:53:01.479000",
+                "01:54:01.480000",
+                "01:55:01.490000",
+                "01:56:01.494000",
+                "01:57:01.495000",
+                "01:58:01.492000",
+                "01:59:01.496000",
+                "02:00:01.488000",
+                "02:01:01.615000",
+                "02:02:01.619000",
+                "02:03:01.639000",
+                "02:04:01.642000",
+                "02:05:01.656000",
+                "02:06:01.667000",
+                "02:07:01.667000",
+                "02:08:01.679000",
+                "02:09:01.673000",
+                "02:10:01.663000",
+                "02:11:01.667000",
+                "02:12:01.663000",
+                "02:13:01.680000",
+                "02:14:01.687000",
+                "02:15:01.699000",
+                "02:16:01.719000",
+                "02:17:01.717000",
+                "02:18:01.719000",
+                "02:19:01.727000",
+                "02:20:01.720000",
+                "02:21:01.745000",
+                "02:22:01.766000",
+                "02:23:01.755000",
+                "02:24:01.764000",
+                "02:25:01.769000",
+                "02:26:01.763000",
+                "02:27:01.765000",
+                "02:28:01.774000",
+                "02:29:01.801000",
+                "02:30:01.804000",
+                "02:31:01.810000",
+                "02:32:01.811000"
+            ],
+            "xaxis": "x",
+            "y": {
+                "bdata": "AAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAwFFAAAAAAADAUUAAAAAAAMBRQAAAAAAAAFJAAAAAAABAUkAAAAAAAIBSQAAAAAAAQFJAAAAAAABAUkAAAAAAAEBSQAAAAAAAQFJAAAAAAABAUkAAAAAAAEBSQAAAAAAAgFJAAAAAAACAUkAAAAAAAMBSQAAAAAAAgFJAAAAAAABAUkAAAAAAAEBSQAAAAAAAQFJAAAAAAACAUkAAAAAAAMBSQAAAAAAAgFJAAAAAAADAUkAAAAAAAMBSQAAAAAAAwFJAAAAAAABAUkAAAAAAAEBSQAAAAAAAAFJAAAAAAAAAUkAAAAAAAABSQAAAAAAAwFFAAAAAAADAUUAAAAAAAABSQAAAAAAAAFJAAAAAAABAUkAAAAAAAABSQAAAAAAAwFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAwFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAABAUUAAAAAAAEBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAQFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAADAUUAAAAAAAMBRQAAAAAAAwFFAAAAAAACAUUAAAAAAAMBRQAAAAAAAwFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAEBRQAAAAAAAQFFAAAAAAABAUUAAAAAAAEBRQAAAAAAAQFFAAAAAAAAAUUAAAAAAAABRQAAAAAAAAFFAAAAAAADAUEAAAAAAAABRQAAAAAAAAFFAAAAAAAAAUUAAAAAAAEBRQAAAAAAAAFFAAAAAAADAUEAAAAAAAMBQQAAAAAAAAFFAAAAAAADAUEAAAAAAAMBQQAAAAAAAQFFAAAAAAAAAUUAAAAAAAABRQAAAAAAAAFFAAAAAAAAAUUAAAAAAAMBQQAAAAAAAAFFAAAAAAAAAUUAAAAAAAABRQAAAAAAAAFFAAAAAAAAAUUAAAAAAAEBRQAAAAAAAQFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAwFFAAAAAAADAUUAAAAAAAMBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAMBRQAAAAAAAwFFAAAAAAADAUUAAAAAAAMBRQAAAAAAAwFFAAAAAAADAUUAAAAAAAMBRQAAAAAAAgFFAAAAAAABAUUAAAAAAAEBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAMBRQAAAAAAAwFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAIBRQAAAAAAAwFFAAAAAAADAUUAAAAAAAMBRQAAAAAAAgFFAAAAAAACAUUAAAAAAAABSQAAAAAAAAFJAAAAAAAAAUkAAAAAAAABSQAAAAAAAAFJAAAAAAAAAUkAAAAAAAABSQAAAAAAAAFJAAAAAAAAAUkAAAAAAAMBRQAAAAAAAwFFAAAAAAAAAUkAAAAAAAMBRQAAAAAAAwFFAAAAAAACAUUAAAAAAAIBRQA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y2"
+        },
+        {
+            "name": "Pressure",
+            "type": "scatter",
+            "x": [
+                "00:01:01.035000",
+                "00:02:01.033000",
+                "00:03:01.033000",
+                "00:04:01.035000",
+                "00:05:01.034000",
+                "00:06:01.035000",
+                "00:07:01.043000",
+                "00:08:01.037000",
+                "00:09:01.036000",
+                "00:10:01.043000",
+                "00:11:01.035000",
+                "00:12:01.037000",
+                "00:13:01.036000",
+                "00:14:01.036000",
+                "00:15:01.036000",
+                "00:16:01.049000",
+                "00:17:01.042000",
+                "00:18:01.058000",
+                "00:19:01.067000",
+                "00:20:01.080000",
+                "00:21:01.103000",
+                "00:22:01.093000",
+                "00:23:01.093000",
+                "00:24:01.109000",
+                "00:25:01.125000",
+                "00:26:01.139000",
+                "00:27:01.132000",
+                "00:28:01.129000",
+                "00:29:01.157000",
+                "00:30:01.176000",
+                "00:31:01.180000",
+                "00:32:01.179000",
+                "00:33:01.177000",
+                "00:34:01.170000",
+                "00:35:01.173000",
+                "00:36:01.166000",
+                "00:37:01.179000",
+                "00:38:01.181000",
+                "00:39:01.174000",
+                "00:40:01.184000",
+                "00:41:01.180000",
+                "00:42:01.186000",
+                "00:43:01.189000",
+                "00:44:01.195000",
+                "00:45:01.219000",
+                "00:46:01.238000",
+                "00:47:01.238000",
+                "00:48:01.238000",
+                "00:49:01.235000",
+                "00:50:01.247000",
+                "00:51:01.270000",
+                "00:52:01.286000",
+                "00:53:01.289000",
+                "00:54:01.269000",
+                "00:55:01.282000",
+                "00:56:01.290000",
+                "00:57:01.288000",
+                "00:58:01.301000",
+                "00:59:01.321000",
+                "01:00:01.326000",
+                "01:01:01.324000",
+                "01:02:01.326000",
+                "01:03:01.327000",
+                "01:04:01.330000",
+                "01:05:01.325000",
+                "01:06:01.326000",
+                "01:07:01.323000",
+                "01:08:01.335000",
+                "01:09:01.334000",
+                "01:10:01.342000",
+                "01:11:01.324000",
+                "01:12:01.335000",
+                "01:13:01.330000",
+                "01:14:01.336000",
+                "01:15:01.340000",
+                "01:16:01.338000",
+                "01:17:01.331000",
+                "01:18:01.337000",
+                "01:19:01.338000",
+                "01:20:01.338000",
+                "01:21:01.338000",
+                "01:22:01.338000",
+                "01:23:01.357000",
+                "01:24:01.360000",
+                "01:25:01.378000",
+                "01:26:01.371000",
+                "01:27:01.382000",
+                "01:28:01.440000",
+                "01:29:01.408000",
+                "01:30:01.410000",
+                "01:31:01.412000",
+                "01:32:01.412000",
+                "01:33:01.410000",
+                "01:34:01.432000",
+                "01:35:01.442000",
+                "01:36:01.455000",
+                "01:37:01.456000",
+                "01:38:01.483000",
+                "01:39:01.478000",
+                "01:40:01.476000",
+                "01:41:01.479000",
+                "01:42:01.466000",
+                "01:43:01.482000",
+                "01:44:01.481000",
+                "01:45:01.469000",
+                "01:46:01.481000",
+                "01:47:01.485000",
+                "01:48:01.475000",
+                "01:49:01.487000",
+                "01:50:01.487000",
+                "01:51:01.481000",
+                "01:52:01.489000",
+                "01:53:01.479000",
+                "01:54:01.480000",
+                "01:55:01.490000",
+                "01:56:01.494000",
+                "01:57:01.495000",
+                "01:58:01.492000",
+                "01:59:01.496000",
+                "02:00:01.488000",
+                "02:01:01.615000",
+                "02:02:01.619000",
+                "02:03:01.639000",
+                "02:04:01.642000",
+                "02:05:01.656000",
+                "02:06:01.667000",
+                "02:07:01.667000",
+                "02:08:01.679000",
+                "02:09:01.673000",
+                "02:10:01.663000",
+                "02:11:01.667000",
+                "02:12:01.663000",
+                "02:13:01.680000",
+                "02:14:01.687000",
+                "02:15:01.699000",
+                "02:16:01.719000",
+                "02:17:01.717000",
+                "02:18:01.719000",
+                "02:19:01.727000",
+                "02:20:01.720000",
+                "02:21:01.745000",
+                "02:22:01.766000",
+                "02:23:01.755000",
+                "02:24:01.764000",
+                "02:25:01.769000",
+                "02:26:01.763000",
+                "02:27:01.765000",
+                "02:28:01.774000",
+                "02:29:01.801000",
+                "02:30:01.804000",
+                "02:31:01.810000",
+                "02:32:01.811000"
+            ],
+            "xaxis": "x",
+            "y": {
+                "bdata": "MzMzMzMPjUAzMzMzMw+NQAAAAAAAEI1AMzMzMzMPjUAAAAAAABCNQAAAAAAAEI1AMzMzMzMPjUAzMzMzMw+NQAAAAAAAEI1AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUBmZmZmZg6NQGZmZmZmDo1AAAAAAAAQjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUAAAAAAABCNQDMzMzMzD41AMzMzMzMPjUAAAAAAABCNQDMzMzMzD41AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUBmZmZmZg6NQDMzMzMzD41AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUAzMzMzMw+NQGZmZmZmDo1AZmZmZmYOjUBmZmZmZg6NQGZmZmZmDo1AMzMzMzMPjUBmZmZmZg6NQGZmZmZmDo1AZmZmZmYOjUAzMzMzMw+NQGZmZmZmDo1AmpmZmZkNjUBmZmZmZg6NQGZmZmZmDo1AMzMzMzMPjUBmZmZmZg6NQGZmZmZmDo1AMzMzMzMPjUBmZmZmZg6NQDMzMzMzD41AZmZmZmYOjUAzMzMzMw+NQDMzMzMzD41AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AZmZmZmYOjUAzMzMzMw+NQDMzMzMzD41AZmZmZmYOjUAzMzMzMw+NQGZmZmZmDo1AMzMzMzMPjUAzMzMzMw+NQDMzMzMzD41AZmZmZmYOjUBmZmZmZg6NQGZmZmZmDo1AZmZmZmYOjUBmZmZmZg6NQJqZmZmZDY1AZmZmZmYOjUCamZmZmQ2NQJqZmZmZDY1AmpmZmZkNjUCamZmZmQ2NQJqZmZmZDY1AzczMzMwMjUDNzMzMzAyNQM3MzMzMDI1AmpmZmZkNjUDNzMzMzAyNQJqZmZmZDY1AmpmZmZkNjUCamZmZmQ2NQM3MzMzMDI1AzczMzMwMjUDNzMzMzAyNQM3MzMzMDI1AmpmZmZkNjUDNzMzMzAyNQM3MzMzMDI1AzczMzMwMjUDNzMzMzAyNQM3MzMzMDI1AzczMzMwMjUDNzMzMzAyNQAAAAAAADI1AAAAAAAAMjUDNzMzMzAyNQDMzMzMzC41AAAAAAAAMjUAzMzMzMwuNQDMzMzMzC41AzczMzMwMjUAAAAAAAAyNQAAAAAAADI1AAAAAAAAMjUBmZmZmZgqNQDMzMzMzC41AMzMzMzMLjUAzMzMzMwuNQDMzMzMzC41AMzMzMzMLjUAzMzMzMwuNQDMzMzMzC41AAAAAAAAMjUAzMzMzMwuNQDMzMzMzC41AAAAAAAAMjUAzMzMzMwuNQAAAAAAADI1AAAAAAAAMjUAzMzMzMwuNQDMzMzMzC41AMzMzMzMLjUAzMzMzMwuNQAAAAAAADI1AAAAAAAAMjUAAAAAAAAyNQAAAAAAADI1AAAAAAAAMjUAzMzMzMwuNQDMzMzMzC41AMzMzMzMLjUAzMzMzMwuNQAAAAAAADI1AAAAAAAAMjUAAAAAAAAyNQAAAAAAADI1AMzMzMzMLjUAzMzMzMwuNQA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y2"
+        },
+        {
+            "name": "Wind Speed",
+            "type": "scatter",
+            "x": [
+                "00:01:01.035000",
+                "00:02:01.033000",
+                "00:03:01.033000",
+                "00:04:01.035000",
+                "00:05:01.034000",
+                "00:06:01.035000",
+                "00:07:01.043000",
+                "00:08:01.037000",
+                "00:09:01.036000",
+                "00:10:01.043000",
+                "00:11:01.035000",
+                "00:12:01.037000",
+                "00:13:01.036000",
+                "00:14:01.036000",
+                "00:15:01.036000",
+                "00:16:01.049000",
+                "00:17:01.042000",
+                "00:18:01.058000",
+                "00:19:01.067000",
+                "00:20:01.080000",
+                "00:21:01.103000",
+                "00:22:01.093000",
+                "00:23:01.093000",
+                "00:24:01.109000",
+                "00:25:01.125000",
+                "00:26:01.139000",
+                "00:27:01.132000",
+                "00:28:01.129000",
+                "00:29:01.157000",
+                "00:30:01.176000",
+                "00:31:01.180000",
+                "00:32:01.179000",
+                "00:33:01.177000",
+                "00:34:01.170000",
+                "00:35:01.173000",
+                "00:36:01.166000",
+                "00:37:01.179000",
+                "00:38:01.181000",
+                "00:39:01.174000",
+                "00:40:01.184000",
+                "00:41:01.180000",
+                "00:42:01.186000",
+                "00:43:01.189000",
+                "00:44:01.195000",
+                "00:45:01.219000",
+                "00:46:01.238000",
+                "00:47:01.238000",
+                "00:48:01.238000",
+                "00:49:01.235000",
+                "00:50:01.247000",
+                "00:51:01.270000",
+                "00:52:01.286000",
+                "00:53:01.289000",
+                "00:54:01.269000",
+                "00:55:01.282000",
+                "00:56:01.290000",
+                "00:57:01.288000",
+                "00:58:01.301000",
+                "00:59:01.321000",
+                "01:00:01.326000",
+                "01:01:01.324000",
+                "01:02:01.326000",
+                "01:03:01.327000",
+                "01:04:01.330000",
+                "01:05:01.325000",
+                "01:06:01.326000",
+                "01:07:01.323000",
+                "01:08:01.335000",
+                "01:09:01.334000",
+                "01:10:01.342000",
+                "01:11:01.324000",
+                "01:12:01.335000",
+                "01:13:01.330000",
+                "01:14:01.336000",
+                "01:15:01.340000",
+                "01:16:01.338000",
+                "01:17:01.331000",
+                "01:18:01.337000",
+                "01:19:01.338000",
+                "01:20:01.338000",
+                "01:21:01.338000",
+                "01:22:01.338000",
+                "01:23:01.357000",
+                "01:24:01.360000",
+                "01:25:01.378000",
+                "01:26:01.371000",
+                "01:27:01.382000",
+                "01:28:01.440000",
+                "01:29:01.408000",
+                "01:30:01.410000",
+                "01:31:01.412000",
+                "01:32:01.412000",
+                "01:33:01.410000",
+                "01:34:01.432000",
+                "01:35:01.442000",
+                "01:36:01.455000",
+                "01:37:01.456000",
+                "01:38:01.483000",
+                "01:39:01.478000",
+                "01:40:01.476000",
+                "01:41:01.479000",
+                "01:42:01.466000",
+                "01:43:01.482000",
+                "01:44:01.481000",
+                "01:45:01.469000",
+                "01:46:01.481000",
+                "01:47:01.485000",
+                "01:48:01.475000",
+                "01:49:01.487000",
+                "01:50:01.487000",
+                "01:51:01.481000",
+                "01:52:01.489000",
+                "01:53:01.479000",
+                "01:54:01.480000",
+                "01:55:01.490000",
+                "01:56:01.494000",
+                "01:57:01.495000",
+                "01:58:01.492000",
+                "01:59:01.496000",
+                "02:00:01.488000",
+                "02:01:01.615000",
+                "02:02:01.619000",
+                "02:03:01.639000",
+                "02:04:01.642000",
+                "02:05:01.656000",
+                "02:06:01.667000",
+                "02:07:01.667000",
+                "02:08:01.679000",
+                "02:09:01.673000",
+                "02:10:01.663000",
+                "02:11:01.667000",
+                "02:12:01.663000",
+                "02:13:01.680000",
+                "02:14:01.687000",
+                "02:15:01.699000",
+                "02:16:01.719000",
+                "02:17:01.717000",
+                "02:18:01.719000",
+                "02:19:01.727000",
+                "02:20:01.720000",
+                "02:21:01.745000",
+                "02:22:01.766000",
+                "02:23:01.755000",
+                "02:24:01.764000",
+                "02:25:01.769000",
+                "02:26:01.763000",
+                "02:27:01.765000",
+                "02:28:01.774000",
+                "02:29:01.801000",
+                "02:30:01.804000",
+                "02:31:01.810000",
+                "02:32:01.811000"
+            ],
+            "xaxis": "x",
+            "y": {
+                "bdata": "AAAAAAAA8D/NzMzMzMz0PwAAAAAAAPg/AAAAAAAAAEBmZmZmZmb+P83MzMzMzPw/AAAAAAAAAECamZmZmZkFQJqZmZmZmQFAzczMzMzMAEAzMzMzMzP7PzMzMzMzMwNAmpmZmZmZAUAzMzMzMzP7PzMzMzMzM/s/MzMzMzMzA0CamZmZmZkBQAAAAAAAAPg/mpmZmZmZ+T+amZmZmZnpPzMzMzMzM+M/AAAAAAAA8D/NzMzMzMzsP83MzMzMzPQ/MzMzMzMz8z/NzMzMzMz8PwAAAAAAAPA/AAAAAAAA8D8zMzMzMzP7P83MzMzMzOw/mpmZmZmZ+T/NzMzMzMz8P5qZmZmZmfk/mpmZmZmZAUBmZmZmZmbmP83MzMzMzPQ/MzMzMzMz8z/NzMzMzMwAQDMzMzMzMwNAmpmZmZmZ+T9mZmZmZmbmPzMzMzMzM+M/AAAAAAAA8D+amZmZmZnxP83MzMzMzOw/zczMzMzM7D+amZmZmZnxP5qZmZmZmfE/ZmZmZmZm/j+amZmZmZnxP83MzMzMzOw/mpmZmZmZ2T9mZmZmZmb2P5qZmZmZmfE/MzMzMzMz4z8zMzMzMzP7P5qZmZmZmdk/MzMzMzMz+z9mZmZmZmb+P5qZmZmZmfE/ZmZmZmZm9j/NzMzMzMz8P83MzMzMzPQ/zczMzMzM9D8AAAAAAAD4P83MzMzMzPw/AAAAAAAAAEAzMzMzMzP7PwAAAAAAAPA/MzMzMzMz8z8AAAAAAAD4P83MzMzMzOw/zczMzMzM7D/NzMzMzMwAQM3MzMzMzPw/MzMzMzMz8z/NzMzMzMz0P83MzMzMzOw/MzMzMzMz4z8AAAAAAAD4P5qZmZmZmdk/AAAAAAAAAEBmZmZmZmb+PwAAAAAAAPg/mpmZmZmZAUDNzMzMzMz0P5qZmZmZmfE/AAAAAAAA+D9mZmZmZmb+P83MzMzMzPQ/mpmZmZmZ+T+amZmZmZn5P83MzMzMzPw/AAAAAAAA+D8zMzMzMzP7P2ZmZmZmZvY/ZmZmZmZm5j+amZmZmZnxPwAAAAAAAPg/mpmZmZmZ8T8AAAAAAAD4PzMzMzMzM+M/MzMzMzMz+z8zMzMzMzMDQM3MzMzMzPQ/MzMzMzMz+z8zMzMzMzMDQAAAAAAAAPA/MzMzMzMz+z9mZmZmZmb2PwAAAAAAAPA/MzMzMzMz8z8zMzMzMzP7P83MzMzMzPQ/AAAAAAAA+D/NzMzMzMz8PwAAAAAAAABAmpmZmZmZ+T+amZmZmZnxP83MzMzMzOw/AAAAAAAA8D+amZmZmZkBQGZmZmZmZv4/zczMzMzM9D+amZmZmZkFQDMzMzMzM/M/ZmZmZmZm/j8zMzMzMzP7P83MzMzMzOw/MzMzMzMz+z8AAAAAAAAAQDMzMzMzM/s/MzMzMzMz+z9mZmZmZmb+P83MzMzMzPw/ZmZmZmZmBkAzMzMzMzMHQM3MzMzMzPw/mpmZmZmZBUAAAAAAAAAEQGZmZmZmZvY/mpmZmZmZ+T9mZmZmZmb2P83MzMzMzABAZmZmZmZm/j/NzMzMzMz8P2ZmZmZmZvY/ZmZmZmZm/j+amZmZmZnxP83MzMzMzABAAAAAAAAA8D9mZmZmZmbmPw==",
+                "dtype": "f8"
+            },
+            "yaxis": "y2"
+        }
+    ],
+    "layout": {
+        "legend": {
+            "title": {
+                "text": "Metric"
+            }
+        },
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Weather Data During the Race"
+        },
+        "xaxis": {
+            "anchor": "y",
+            "domain": [
+                0,
+                0.94
+            ],
+            "title": {
+                "text": "Time"
+            }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Temperature (\u00b0C)"
+            }
+        },
+        "yaxis2": {
+            "anchor": "x",
+            "overlaying": "y",
+            "side": "right",
+            "title": {
+                "text": "Value"
+            }
+        }
+    }
+}

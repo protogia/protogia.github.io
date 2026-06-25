@@ -1,0 +1,2184 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "alignmentgroup": "True",
+            "boxpoints": "all",
+            "customdata": [
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "MEDIUM"
+                ],
+                [
+                    13,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "SOFT"
+                ],
+                [
+                    12,
+                    "SOFT"
+                ],
+                [
+                    13,
+                    "SOFT"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    13,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    12,
+                    "SOFT"
+                ],
+                [
+                    11,
+                    "SOFT"
+                ],
+                [
+                    13,
+                    "SOFT"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "SOFT"
+                ],
+                [
+                    11,
+                    "SOFT"
+                ],
+                [
+                    12,
+                    "SOFT"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    13,
+                    "SOFT"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    13,
+                    "SOFT"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    13,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    13,
+                    "SOFT"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "SOFT"
+                ],
+                [
+                    13,
+                    "SOFT"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    14,
+                    "MEDIUM"
+                ],
+                [
+                    13,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    10,
+                    "MEDIUM"
+                ],
+                [
+                    9,
+                    "MEDIUM"
+                ],
+                [
+                    8,
+                    "MEDIUM"
+                ],
+                [
+                    7,
+                    "MEDIUM"
+                ],
+                [
+                    12,
+                    "MEDIUM"
+                ],
+                [
+                    11,
+                    "MEDIUM"
+                ]
+            ],
+            "hovertemplate": "QualifyingRound=SQ2<br>Driver=%{x}<br>LapTimeSeconds=%{y}<br>LapNumber=%{customdata[0]}<br>Compound=%{customdata[1]}<extra></extra>",
+            "legendgroup": "SQ2",
+            "marker": {
+                "color": "#636efa"
+            },
+            "name": "SQ2",
+            "notched": false,
+            "offsetgroup": "SQ2",
+            "orientation": "v",
+            "showlegend": true,
+            "type": "box",
+            "x": [
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA"
+            ],
+            "x0": " ",
+            "xaxis": "x",
+            "y": {
+                "bdata": "46WbxCBoUUB9PzVeuglbQFyPwvUoFFhAAAAAAAAA+H8dWmQ731dRQAisHFpkc1pAc2iR7XzPVkCHFtnO9/NaQDVeukkMUlxApHA9CtdLX0DHSzeJQWBRQAAAAAAAAPh/9ihcj8JVUUAhsHJokW1YQAAAAAAAAPh/yXa+nxrfU0CHFtnO9/teQEw3iUFghVFA/tR46SbBV0CLbOf7qUlfQLTIdr6fWlFArkfhehQmW0AAAAAAAAD4fwAAAAAAAPh/5/up8dIlXkCF61G4Hp1cQDm0yHa+31dAf2q8dJNYUUAAAAAAAAD4f90kBoGVY1FAAAAAAAAA+H9xPQrXo2BYQAAAAAAAAPh/hetRuB5VUUBEi2zn+8FZQAAAAAAAAPh/ObTIdr5fUUDwp8ZLN/FcQAAAAAAAAPh/aJHtfD9tUUDFILByaEldQHWTGARWtlxA/Knx0k2qV0AAAAAAAAD4f4XrUbgeZVFAqvHSTWJwUUDFILByaGlRQAAAAAAAAPh/LbKd76deWUAAAAAAAAD4f4PAyqFFflFAL90kBoElWEBt5/up8WpRQAAAAAAAAPh/AAAAAAAA+H9OYhBYOYRYQNv5fmq8lFFAw/UoXI9iWEACK4cW2W5RQAAAAAAAAPh/dZMYBFZGWEAAAAAAAAD4fwAAAAAAAPh/mpmZmZlxUUCPwvUoXG9YQMHKoUW2c1FAarx0kxjUW0AAAAAAAAD4f9ejcD0KP11A9P3UeOlmUUCkcD0K13tRQAAAAAAAAPh/qvHSTWL4WECwcmiR7XRRQAaBlUOL/FhA16NwPQpvUUAAAAAAAAD4fwAAAAAAAPh/dZMYBFaOUUDsUbgehUNZQAAAAAAAAPh/O99PjZcWWkCyne+nxntRQAAAAAAAAPh/DAIrhxZZW0CWQ4ts53NRQAAAAAAAAPh/gZVDi2xnWkAAAAAAAAD4fzeJQWDlkFFAz/dT46WrV0B56SYxCHRRQEoMAiuHdlFAAAAAAAAA+H+oxks3idldQH0/NV66oV1A7FG4HoWDUUCkcD0K12NZQAAAAAAAAPh/WmQ7308FWUASg8DKoX1RQFCNl24Se1FAAAAAAAAA+H/HSzeJQWBZQAAAAAAAAPh/x0s3iUHAWEAGgZVDi3xRQAAAAAAAAPh/oBov3SRGWUB56SYxCIxRQA==",
+                "dtype": "f8"
+            },
+            "y0": " ",
+            "yaxis": "y"
+        },
+        {
+            "alignmentgroup": "True",
+            "boxpoints": "all",
+            "customdata": [
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    6,
+                    "MEDIUM"
+                ],
+                [
+                    1,
+                    "MEDIUM"
+                ],
+                [
+                    2,
+                    "MEDIUM"
+                ],
+                [
+                    3,
+                    "MEDIUM"
+                ],
+                [
+                    4,
+                    "MEDIUM"
+                ],
+                [
+                    5,
+                    "MEDIUM"
+                ]
+            ],
+            "hovertemplate": "QualifyingRound=SQ1<br>Driver=%{x}<br>LapTimeSeconds=%{y}<br>LapNumber=%{customdata[0]}<br>Compound=%{customdata[1]}<extra></extra>",
+            "legendgroup": "SQ1",
+            "marker": {
+                "color": "#EF553B"
+            },
+            "name": "SQ1",
+            "notched": false,
+            "offsetgroup": "SQ1",
+            "orientation": "v",
+            "showlegend": true,
+            "type": "box",
+            "x": [
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "TSU",
+                "TSU",
+                "TSU",
+                "TSU",
+                "TSU",
+                "TSU",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI"
+            ],
+            "x0": " ",
+            "xaxis": "x",
+            "y": {
+                "bdata": "c2iR7XzHWkCiRbbz/fxbQJZDi2znk1FAAAAAAAAA+H+wcmiR7WxRQMUgsHJo+VxAy6FFtvM9VkAAAAAAAAD4f0Jg5dAik11Aj8L1KFwvXUAAAAAAAAD4f6rx0k1imFFADAIrhxYRWkAMAiuHFoFRQAwCK4cWkV1A/Knx0k2SUUAAAAAAAAD4f6jGSzeJ8VxAAAAAAAAA+H9QjZduEoNRQI/C9Shc315Ay6FFtvPdYUAAAAAAAAD4f/hT46WbXFFAAAAAAAAA+H+0yHa+n5pRQOkmMQisZFpAYhBYObSAUUCTGARWDqVZQAAAAAAAAPh/AAAAAAAA+H9MN4lBYH1ZQAIrhxbZhlFAXI/C9SjcX0CiRbbz/eRdQGZmZmZmflFAvp8aL92UUUAAAAAAAAD4fx1aZDvfR1tAvp8aL92cUUAAAAAAAAD4f65H4XoURlhAAAAAAAAA+H9U46WbxLBRQNNNYhBYoVlA4XoUrkeZUUAbL90kBnlaQB+F61G4dlxAAAAAAAAA+H+mm8QgsJpRQI2XbhKDSFpAAAAAAAAA+H+uR+F6FIZRQKAaL90kRlhAqMZLN4lpWEBaZDvfT5VRQFK4HoXriVlAbxKDwMqxUUAAAAAAAAD4fwAAAAAAAPh/w/UoXI9SXUCHFtnO90NbQLgehetRmFFAeekmMQg0W0B56SYxCKxRQAAAAAAAAPh/ukkMAiu3UUAAAAAAAAD4f5qZmZmZkVFAhxbZzvdrW0AX2c73UwNaQAAAAAAAAPh//tR46SbpWUCR7Xw/NYZRQNNNYhBYEV1AUrgeheuRUUAAAAAAAAD4f4GVQ4tsQ2BAH4XrUbguWUBt5/up8fJYQAAAAAAAAPh/dZMYBFauUUAAAAAAAAD4f9nO91PjjVFATmIQWDmEUUDZzvdT47VRQClcj8L1mFlA8KfGSzeRWkAAAAAAAAD4fwAAAAAAAPh/HVpkO9+vXEAAAAAAAAD4f2Dl0CLbUVxATmIQWDmcUUCwcmiR7cRRQMP1KFyP+llApHA9CtcDVUAAAAAAAAD4f7TIdr6fqlFAqMZLN4npV0AAAAAAAAD4f1pkO99PDVpAO99PjZfWUUAAAAAAAAD4fwAAAAAAAPh/PzVeukmsUUDVeOkmMYBZQCuHFtnOt1FAFK5H4XrcWEAAAAAAAAD4f+Olm8QguFFAhetRuB7FWUAAAAAAAAD4f05iEFg5fFdAAAAAAAAA+H9I4XoUrsdRQKabxCCwWl1AAAAAAAAA+H9OYhBYOdRRQA==",
+                "dtype": "f8"
+            },
+            "y0": " ",
+            "yaxis": "y"
+        },
+        {
+            "alignmentgroup": "True",
+            "boxpoints": "all",
+            "customdata": [
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    16,
+                    "SOFT"
+                ],
+                [
+                    17,
+                    "SOFT"
+                ],
+                [
+                    18,
+                    "SOFT"
+                ],
+                [
+                    19,
+                    "SOFT"
+                ],
+                [
+                    20,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    16,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    16,
+                    "SOFT"
+                ],
+                [
+                    17,
+                    "SOFT"
+                ],
+                [
+                    18,
+                    "SOFT"
+                ],
+                [
+                    19,
+                    "SOFT"
+                ],
+                [
+                    16,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    19,
+                    "SOFT"
+                ],
+                [
+                    18,
+                    "SOFT"
+                ],
+                [
+                    17,
+                    "SOFT"
+                ],
+                [
+                    16,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ],
+                [
+                    15,
+                    "SOFT"
+                ]
+            ],
+            "hovertemplate": "QualifyingRound=SQ3<br>Driver=%{x}<br>LapTimeSeconds=%{y}<br>LapNumber=%{customdata[0]}<br>Compound=%{customdata[1]}<extra></extra>",
+            "legendgroup": "SQ3",
+            "marker": {
+                "color": "#00cc96"
+            },
+            "name": "SQ3",
+            "notched": false,
+            "offsetgroup": "SQ3",
+            "orientation": "v",
+            "showlegend": true,
+            "type": "box",
+            "x": [
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "ANT",
+                "ANT",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "RUS",
+                "RUS",
+                "VER",
+                "STR",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "HAD",
+                "HUL"
+            ],
+            "x0": " ",
+            "xaxis": "x",
+            "y": {
+                "bdata": "AAAAAAAA+H/TTWIQWFFRQJzEILBy0FtAj8L1KFwnWkBkO99PjU9RQIts5/upmVhA9P3UeOleUUB/arx0k6haQH9qvHSTaFFATmIQWDncWkACK4cW2ZZaQAisHFpkW1FAI9v5fmrsWUAAAAAAAAD4f0jhehSuX1FAAAAAAAAA+H8tsp3vp+5YQAAAAAAAAPh/PzVeukl0UUAAAAAAAAD4f2iR7Xw/zVhAZmZmZmZuUUAAAAAAAAD4f1pkO99PlVlA",
+                "dtype": "f8"
+            },
+            "y0": " ",
+            "yaxis": "y"
+        }
+    ],
+    "layout": {
+        "boxmode": "group",
+        "legend": {
+            "title": {
+                "text": "Qualifying Round"
+            },
+            "tracegroupgap": 0
+        },
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Lap Time Performance per Driver and Qualifying Round"
+        },
+        "xaxis": {
+            "anchor": "y",
+            "categoryarray": [
+                "NOR",
+                "ANT",
+                "PIA",
+                "RUS",
+                "ALO",
+                "VER",
+                "STR",
+                "LEC",
+                "HAD",
+                "HUL",
+                "HAM",
+                "ALB",
+                "GAS",
+                "BOR",
+                "BEA",
+                "COL",
+                "LAW",
+                "TSU",
+                "OCO",
+                "SAI"
+            ],
+            "categoryorder": "array",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Driver"
+            }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Lap Time (seconds)"
+            }
+        }
+    }
+}

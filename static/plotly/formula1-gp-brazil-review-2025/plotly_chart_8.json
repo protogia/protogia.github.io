@@ -1,0 +1,1568 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "VER",
+            "text": [
+                "Driver: VER<br>Lap: 1.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 2.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 3.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 4.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 5.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 6.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 7.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 8.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 9.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 10.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 11.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 12.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 13.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 14.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 15.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 16.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 17.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 18.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 19.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 20.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 21.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 22.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 23.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 24.0<br>Position: 4.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "GAS",
+            "text": [
+                "Driver: GAS<br>Lap: 1.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 2.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 3.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 4.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 5.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 6.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 7.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 8.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 9.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 10.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 11.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 12.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 13.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 14.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 15.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 16.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 17.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 18.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 19.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 20.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 21.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 22.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 23.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 24.0<br>Position: 8.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "ANT",
+            "text": [
+                "Driver: ANT<br>Lap: 1.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 2.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 3.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 4.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 5.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 6.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 7.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 8.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 9.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 10.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 11.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 12.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 13.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 14.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 15.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 16.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 17.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 18.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 19.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 20.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 21.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 22.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 23.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 24.0<br>Position: 2.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "ALO",
+            "text": [
+                "Driver: ALO<br>Lap: 1.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 2.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 3.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 4.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 5.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 6.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 7.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 8.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 9.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 10.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 11.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 12.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 13.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 14.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 15.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 16.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 17.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 18.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 19.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 20.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 21.0<br>Position: 5.0",
+                "Driver: ALO<br>Lap: 22.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 23.0<br>Position: 6.0",
+                "Driver: ALO<br>Lap: 24.0<br>Position: 6.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "LEC",
+            "text": [
+                "Driver: LEC<br>Lap: 1.0<br>Position: 7.0",
+                "Driver: LEC<br>Lap: 2.0<br>Position: 7.0",
+                "Driver: LEC<br>Lap: 3.0<br>Position: 7.0",
+                "Driver: LEC<br>Lap: 4.0<br>Position: 7.0",
+                "Driver: LEC<br>Lap: 5.0<br>Position: 7.0",
+                "Driver: LEC<br>Lap: 6.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 7.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 8.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 9.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 10.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 11.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 12.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 13.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 14.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 15.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 16.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 17.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 18.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 19.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 20.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 21.0<br>Position: 6.0",
+                "Driver: LEC<br>Lap: 22.0<br>Position: 5.0",
+                "Driver: LEC<br>Lap: 23.0<br>Position: 5.0",
+                "Driver: LEC<br>Lap: 24.0<br>Position: 5.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "STR",
+            "text": [
+                "Driver: STR<br>Lap: 1.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 2.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 3.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 4.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 5.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 6.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 7.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 8.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 9.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 10.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 11.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 12.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 13.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 14.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 15.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 16.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 17.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 18.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 19.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 20.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 21.0<br>Position: 8.0",
+                "Driver: STR<br>Lap: 22.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 23.0<br>Position: 9.0",
+                "Driver: STR<br>Lap: 24.0<br>Position: 9.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "TSU",
+            "text": [
+                "Driver: TSU<br>Lap: 1.0<br>Position: 19.0",
+                "Driver: TSU<br>Lap: 2.0<br>Position: 19.0",
+                "Driver: TSU<br>Lap: 3.0<br>Position: 19.0",
+                "Driver: TSU<br>Lap: 4.0<br>Position: 19.0",
+                "Driver: TSU<br>Lap: 5.0<br>Position: 19.0",
+                "Driver: TSU<br>Lap: 6.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 7.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 8.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 9.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 10.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 11.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 12.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 13.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 14.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 15.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 16.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 17.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 18.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 19.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 20.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 21.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 22.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 23.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 24.0<br>Position: 14.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAM0AAAAAAAAAzQAAAAAAAADNAAAAAAAAAM0AAAAAAAAAzQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAACxA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "ALB",
+            "text": [
+                "Driver: ALB<br>Lap: 1.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 2.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 3.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 4.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 5.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 6.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 7.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 8.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 9.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 10.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 11.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 12.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 13.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 14.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 15.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 16.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 17.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 18.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 19.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 20.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 21.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 22.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 23.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 24.0<br>Position: 17.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAADFA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "HUL",
+            "text": [
+                "Driver: HUL<br>Lap: 1.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 2.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 3.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 4.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 5.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 6.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 7.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 8.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 9.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 10.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 11.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 12.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 13.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 14.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 15.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 16.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 17.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 18.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 19.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 20.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 21.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 22.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 23.0<br>Position: 18.0",
+                "Driver: HUL<br>Lap: 24.0<br>Position: 16.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADBA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "LAW",
+            "text": [
+                "Driver: LAW<br>Lap: 1.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 2.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 3.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 4.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 5.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 6.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 7.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 8.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 9.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 10.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 11.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 12.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 13.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 14.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 15.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 16.0<br>Position: 13.0",
+                "Driver: LAW<br>Lap: 17.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 18.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 19.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 20.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 21.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 22.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 23.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 24.0<br>Position: 13.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAACpA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "OCO",
+            "text": [
+                "Driver: OCO<br>Lap: 1.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 2.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 3.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 4.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 5.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 6.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 7.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 8.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 9.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 10.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 11.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 12.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 13.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 14.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 15.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 16.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 17.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 18.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 19.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 20.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 21.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 22.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 23.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 24.0<br>Position: 11.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACZA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "NOR",
+            "text": [
+                "Driver: NOR<br>Lap: 1.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 2.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 3.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 4.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 5.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 6.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 7.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 8.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 9.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 10.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 11.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 12.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 13.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 14.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 15.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 16.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 17.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 18.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 19.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 20.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 21.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 22.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 23.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 24.0<br>Position: 1.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "COL",
+            "text": [
+                "Driver: COL<br>Lap: 1.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 2.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 3.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 4.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 5.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 6.0<br>Position: nan"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAAPh/",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "HAM",
+            "text": [
+                "Driver: HAM<br>Lap: 1.0<br>Position: 8.0",
+                "Driver: HAM<br>Lap: 2.0<br>Position: 8.0",
+                "Driver: HAM<br>Lap: 3.0<br>Position: 8.0",
+                "Driver: HAM<br>Lap: 4.0<br>Position: 8.0",
+                "Driver: HAM<br>Lap: 5.0<br>Position: 8.0",
+                "Driver: HAM<br>Lap: 6.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 7.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 8.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 9.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 10.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 11.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 12.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 13.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 14.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 15.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 16.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 17.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 18.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 19.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 20.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 21.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 22.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 23.0<br>Position: 7.0",
+                "Driver: HAM<br>Lap: 24.0<br>Position: 7.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "BOR",
+            "text": [
+                "Driver: BOR<br>Lap: 1.0<br>Position: 15.0",
+                "Driver: BOR<br>Lap: 2.0<br>Position: 15.0",
+                "Driver: BOR<br>Lap: 3.0<br>Position: 15.0",
+                "Driver: BOR<br>Lap: 4.0<br>Position: 15.0",
+                "Driver: BOR<br>Lap: 5.0<br>Position: 15.0",
+                "Driver: BOR<br>Lap: 6.0<br>Position: 12.0",
+                "Driver: BOR<br>Lap: 7.0<br>Position: 12.0",
+                "Driver: BOR<br>Lap: 8.0<br>Position: 12.0",
+                "Driver: BOR<br>Lap: 9.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 10.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 11.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 12.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 13.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 14.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 15.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 16.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 17.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 18.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 19.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 20.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 21.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 22.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 23.0<br>Position: 11.0",
+                "Driver: BOR<br>Lap: 24.0<br>Position: nan"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAAPh/",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "SAI",
+            "text": [
+                "Driver: SAI<br>Lap: 1.0<br>Position: 20.0",
+                "Driver: SAI<br>Lap: 2.0<br>Position: 20.0",
+                "Driver: SAI<br>Lap: 3.0<br>Position: 20.0",
+                "Driver: SAI<br>Lap: 4.0<br>Position: 20.0",
+                "Driver: SAI<br>Lap: 5.0<br>Position: 20.0",
+                "Driver: SAI<br>Lap: 6.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 7.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 8.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 9.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 10.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 11.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 12.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 13.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 14.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 15.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 16.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 17.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 18.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 19.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 20.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 21.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 22.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 23.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 24.0<br>Position: 15.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAANEAAAAAAAAA0QAAAAAAAADRAAAAAAAAANEAAAAAAAAA0QAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAAC5A",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "HAD",
+            "text": [
+                "Driver: HAD<br>Lap: 1.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 2.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 3.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 4.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 5.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 6.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 7.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 8.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 9.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 10.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 11.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 12.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 13.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 14.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 15.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 16.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 17.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 18.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 19.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 20.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 21.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 22.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 23.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 24.0<br>Position: 10.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACRA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "RUS",
+            "text": [
+                "Driver: RUS<br>Lap: 1.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 2.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 3.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 4.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 5.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 6.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 7.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 8.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 9.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 10.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 11.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 12.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 13.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 14.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 15.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 16.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 17.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 18.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 19.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 20.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 21.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 22.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 23.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 24.0<br>Position: 3.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhA",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "PIA",
+            "text": [
+                "Driver: PIA<br>Lap: 1.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 2.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 3.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 4.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 5.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 6.0<br>Position: nan"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAPh/",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "BEA",
+            "text": [
+                "Driver: BEA<br>Lap: 1.0<br>Position: 18.0",
+                "Driver: BEA<br>Lap: 2.0<br>Position: 18.0",
+                "Driver: BEA<br>Lap: 3.0<br>Position: 18.0",
+                "Driver: BEA<br>Lap: 4.0<br>Position: 18.0",
+                "Driver: BEA<br>Lap: 5.0<br>Position: 18.0",
+                "Driver: BEA<br>Lap: 6.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 7.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 8.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 9.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 10.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 11.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 12.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 13.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 14.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 15.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 16.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 17.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 18.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 19.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 20.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 21.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 22.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 23.0<br>Position: 14.0",
+                "Driver: BEA<br>Lap: 24.0<br>Position: 12.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAAChA",
+                "dtype": "f8"
+            }
+        }
+    ],
+    "layout": {
+        "legend": {
+            "title": {
+                "text": "Driver"
+            }
+        },
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Driver Positions Per Lap"
+        },
+        "xaxis": {
+            "title": {
+                "text": "Lap Number"
+            }
+        },
+        "yaxis": {
+            "autorange": "reversed",
+            "title": {
+                "text": "Position"
+            }
+        }
+    }
+}

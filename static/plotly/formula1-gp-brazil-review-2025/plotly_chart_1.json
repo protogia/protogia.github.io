@@ -1,0 +1,2375 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "VER",
+            "text": [
+                "Driver: VER<br>Lap: 1.0<br>Position: 18.0",
+                "Driver: VER<br>Lap: 2.0<br>Position: 17.0",
+                "Driver: VER<br>Lap: 3.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 4.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 5.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 6.0<br>Position: 13.0",
+                "Driver: VER<br>Lap: 7.0<br>Position: 17.0",
+                "Driver: VER<br>Lap: 8.0<br>Position: 18.0",
+                "Driver: VER<br>Lap: 9.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 10.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 11.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 12.0<br>Position: 16.0",
+                "Driver: VER<br>Lap: 13.0<br>Position: 14.0",
+                "Driver: VER<br>Lap: 14.0<br>Position: 14.0",
+                "Driver: VER<br>Lap: 15.0<br>Position: 13.0",
+                "Driver: VER<br>Lap: 16.0<br>Position: 13.0",
+                "Driver: VER<br>Lap: 17.0<br>Position: 10.0",
+                "Driver: VER<br>Lap: 18.0<br>Position: 8.0",
+                "Driver: VER<br>Lap: 19.0<br>Position: 6.0",
+                "Driver: VER<br>Lap: 20.0<br>Position: 6.0",
+                "Driver: VER<br>Lap: 21.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 22.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 23.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 24.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 25.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 26.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 27.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 28.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 29.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 30.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 31.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 32.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 33.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 34.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 35.0<br>Position: 11.0",
+                "Driver: VER<br>Lap: 36.0<br>Position: 9.0",
+                "Driver: VER<br>Lap: 37.0<br>Position: 6.0",
+                "Driver: VER<br>Lap: 38.0<br>Position: 6.0",
+                "Driver: VER<br>Lap: 39.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 40.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 41.0<br>Position: 5.0",
+                "Driver: VER<br>Lap: 42.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 43.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 44.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 45.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 46.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 47.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 48.0<br>Position: 2.0",
+                "Driver: VER<br>Lap: 49.0<br>Position: 2.0",
+                "Driver: VER<br>Lap: 50.0<br>Position: 2.0",
+                "Driver: VER<br>Lap: 51.0<br>Position: 1.0",
+                "Driver: VER<br>Lap: 52.0<br>Position: 1.0",
+                "Driver: VER<br>Lap: 53.0<br>Position: 1.0",
+                "Driver: VER<br>Lap: 54.0<br>Position: 1.0",
+                "Driver: VER<br>Lap: 55.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 56.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 57.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 58.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 59.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 60.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 61.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 62.0<br>Position: 4.0",
+                "Driver: VER<br>Lap: 63.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 64.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 65.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 66.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 67.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 68.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 69.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 70.0<br>Position: 3.0",
+                "Driver: VER<br>Lap: 71.0<br>Position: 3.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAMkAAAAAAAAAxQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAACpAAAAAAAAAMUAAAAAAAAAyQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAALEAAAAAAAAAsQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAkQAAAAAAAACBAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAACEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAFEAAAAAAAAAmQAAAAAAAACJAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "GAS",
+            "text": [
+                "Driver: GAS<br>Lap: 1.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 2.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 3.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 4.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 5.0<br>Position: 9.0",
+                "Driver: GAS<br>Lap: 6.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 7.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 8.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 9.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 10.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 11.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 12.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 13.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 14.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 15.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 16.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 17.0<br>Position: 7.0",
+                "Driver: GAS<br>Lap: 18.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 19.0<br>Position: 16.0",
+                "Driver: GAS<br>Lap: 20.0<br>Position: 15.0",
+                "Driver: GAS<br>Lap: 21.0<br>Position: 15.0",
+                "Driver: GAS<br>Lap: 22.0<br>Position: 14.0",
+                "Driver: GAS<br>Lap: 23.0<br>Position: 14.0",
+                "Driver: GAS<br>Lap: 24.0<br>Position: 14.0",
+                "Driver: GAS<br>Lap: 25.0<br>Position: 13.0",
+                "Driver: GAS<br>Lap: 26.0<br>Position: 13.0",
+                "Driver: GAS<br>Lap: 27.0<br>Position: 13.0",
+                "Driver: GAS<br>Lap: 28.0<br>Position: 13.0",
+                "Driver: GAS<br>Lap: 29.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 30.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 31.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 32.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 33.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 34.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 35.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 36.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 37.0<br>Position: 7.0",
+                "Driver: GAS<br>Lap: 38.0<br>Position: 7.0",
+                "Driver: GAS<br>Lap: 39.0<br>Position: 8.0",
+                "Driver: GAS<br>Lap: 40.0<br>Position: 16.0",
+                "Driver: GAS<br>Lap: 41.0<br>Position: 15.0",
+                "Driver: GAS<br>Lap: 42.0<br>Position: 15.0",
+                "Driver: GAS<br>Lap: 43.0<br>Position: 14.0",
+                "Driver: GAS<br>Lap: 44.0<br>Position: 14.0",
+                "Driver: GAS<br>Lap: 45.0<br>Position: 14.0",
+                "Driver: GAS<br>Lap: 46.0<br>Position: 13.0",
+                "Driver: GAS<br>Lap: 47.0<br>Position: 13.0",
+                "Driver: GAS<br>Lap: 48.0<br>Position: 12.0",
+                "Driver: GAS<br>Lap: 49.0<br>Position: 12.0",
+                "Driver: GAS<br>Lap: 50.0<br>Position: 12.0",
+                "Driver: GAS<br>Lap: 51.0<br>Position: 12.0",
+                "Driver: GAS<br>Lap: 52.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 53.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 54.0<br>Position: 11.0",
+                "Driver: GAS<br>Lap: 55.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 56.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 57.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 58.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 59.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 60.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 61.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 62.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 63.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 64.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 65.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 66.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 67.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 68.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 69.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 70.0<br>Position: 10.0",
+                "Driver: GAS<br>Lap: 71.0<br>Position: 10.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAIEAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAcQAAAAAAAACZAAAAAAAAAMEAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAMEAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "ANT",
+            "text": [
+                "Driver: ANT<br>Lap: 1.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 2.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 3.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 4.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 5.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 6.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 7.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 8.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 9.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 10.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 11.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 12.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 13.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 14.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 15.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 16.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 17.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 18.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 19.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 20.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 21.0<br>Position: 4.0",
+                "Driver: ANT<br>Lap: 22.0<br>Position: 11.0",
+                "Driver: ANT<br>Lap: 23.0<br>Position: 9.0",
+                "Driver: ANT<br>Lap: 24.0<br>Position: 8.0",
+                "Driver: ANT<br>Lap: 25.0<br>Position: 7.0",
+                "Driver: ANT<br>Lap: 26.0<br>Position: 7.0",
+                "Driver: ANT<br>Lap: 27.0<br>Position: 7.0",
+                "Driver: ANT<br>Lap: 28.0<br>Position: 7.0",
+                "Driver: ANT<br>Lap: 29.0<br>Position: 6.0",
+                "Driver: ANT<br>Lap: 30.0<br>Position: 5.0",
+                "Driver: ANT<br>Lap: 31.0<br>Position: 5.0",
+                "Driver: ANT<br>Lap: 32.0<br>Position: 5.0",
+                "Driver: ANT<br>Lap: 33.0<br>Position: 5.0",
+                "Driver: ANT<br>Lap: 34.0<br>Position: 4.0",
+                "Driver: ANT<br>Lap: 35.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 36.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 37.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 38.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 39.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 40.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 41.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 42.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 43.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 44.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 45.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 46.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 47.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 48.0<br>Position: 6.0",
+                "Driver: ANT<br>Lap: 49.0<br>Position: 5.0",
+                "Driver: ANT<br>Lap: 50.0<br>Position: 4.0",
+                "Driver: ANT<br>Lap: 51.0<br>Position: 4.0",
+                "Driver: ANT<br>Lap: 52.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 53.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 54.0<br>Position: 3.0",
+                "Driver: ANT<br>Lap: 55.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 56.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 57.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 58.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 59.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 60.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 61.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 62.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 63.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 64.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 65.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 66.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 67.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 68.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 69.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 70.0<br>Position: 2.0",
+                "Driver: ANT<br>Lap: 71.0<br>Position: 2.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAABBAAAAAAAAAJkAAAAAAAAAiQAAAAAAAACBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAEEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAIQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAQQAAAAAAAABBAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "ALO",
+            "text": [
+                "Driver: ALO<br>Lap: 1.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 2.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 3.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 4.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 5.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 6.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 7.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 8.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 9.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 10.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 11.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 12.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 13.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 14.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 15.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 16.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 17.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 18.0<br>Position: 9.0",
+                "Driver: ALO<br>Lap: 19.0<br>Position: 7.0",
+                "Driver: ALO<br>Lap: 20.0<br>Position: 7.0",
+                "Driver: ALO<br>Lap: 21.0<br>Position: 8.0",
+                "Driver: ALO<br>Lap: 22.0<br>Position: 7.0",
+                "Driver: ALO<br>Lap: 23.0<br>Position: 7.0",
+                "Driver: ALO<br>Lap: 24.0<br>Position: 7.0",
+                "Driver: ALO<br>Lap: 25.0<br>Position: 8.0",
+                "Driver: ALO<br>Lap: 26.0<br>Position: 8.0",
+                "Driver: ALO<br>Lap: 27.0<br>Position: 8.0",
+                "Driver: ALO<br>Lap: 28.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 29.0<br>Position: 17.0",
+                "Driver: ALO<br>Lap: 30.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 31.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 32.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 33.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 34.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 35.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 36.0<br>Position: 13.0",
+                "Driver: ALO<br>Lap: 37.0<br>Position: 12.0",
+                "Driver: ALO<br>Lap: 38.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 39.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 40.0<br>Position: 9.0",
+                "Driver: ALO<br>Lap: 41.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 42.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 43.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 44.0<br>Position: 10.0",
+                "Driver: ALO<br>Lap: 45.0<br>Position: 11.0",
+                "Driver: ALO<br>Lap: 46.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 47.0<br>Position: 16.0",
+                "Driver: ALO<br>Lap: 48.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 49.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 50.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 51.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 52.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 53.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 54.0<br>Position: 15.0",
+                "Driver: ALO<br>Lap: 55.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 56.0<br>Position: 13.0",
+                "Driver: ALO<br>Lap: 57.0<br>Position: 13.0",
+                "Driver: ALO<br>Lap: 58.0<br>Position: 13.0",
+                "Driver: ALO<br>Lap: 59.0<br>Position: 13.0",
+                "Driver: ALO<br>Lap: 60.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 61.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 62.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 63.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 64.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 65.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 66.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 67.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 68.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 69.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 70.0<br>Position: 14.0",
+                "Driver: ALO<br>Lap: 71.0<br>Position: 14.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACJAAAAAAAAAHEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAJkAAAAAAAAAxQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACpAAAAAAAAAKEAAAAAAAAAmQAAAAAAAACRAAAAAAAAAIkAAAAAAAAAkQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACZAAAAAAAAALkAAAAAAAAAwQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "LEC",
+            "text": [
+                "Driver: LEC<br>Lap: 1.0<br>Position: 3.0",
+                "Driver: LEC<br>Lap: 2.0<br>Position: 3.0",
+                "Driver: LEC<br>Lap: 3.0<br>Position: 3.0",
+                "Driver: LEC<br>Lap: 4.0<br>Position: 3.0",
+                "Driver: LEC<br>Lap: 5.0<br>Position: 3.0",
+                "Driver: LEC<br>Lap: 6.0<br>Position: nan"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhA",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAPh/",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "STR",
+            "text": [
+                "Driver: STR<br>Lap: 1.0<br>Position: 15.0",
+                "Driver: STR<br>Lap: 2.0<br>Position: 14.0",
+                "Driver: STR<br>Lap: 3.0<br>Position: 14.0",
+                "Driver: STR<br>Lap: 4.0<br>Position: 14.0",
+                "Driver: STR<br>Lap: 5.0<br>Position: 15.0",
+                "Driver: STR<br>Lap: 6.0<br>Position: 18.0",
+                "Driver: STR<br>Lap: 7.0<br>Position: 18.0",
+                "Driver: STR<br>Lap: 8.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 9.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 10.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 11.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 12.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 13.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 14.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 15.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 16.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 17.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 18.0<br>Position: 14.0",
+                "Driver: STR<br>Lap: 19.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 20.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 21.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 22.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 23.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 24.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 25.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 26.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 27.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 28.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 29.0<br>Position: 14.0",
+                "Driver: STR<br>Lap: 30.0<br>Position: 18.0",
+                "Driver: STR<br>Lap: 31.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 32.0<br>Position: 17.0",
+                "Driver: STR<br>Lap: 33.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 34.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 35.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 36.0<br>Position: 15.0",
+                "Driver: STR<br>Lap: 37.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 38.0<br>Position: 15.0",
+                "Driver: STR<br>Lap: 39.0<br>Position: 14.0",
+                "Driver: STR<br>Lap: 40.0<br>Position: 13.0",
+                "Driver: STR<br>Lap: 41.0<br>Position: 13.0",
+                "Driver: STR<br>Lap: 42.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 43.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 44.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 45.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 46.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 47.0<br>Position: 11.0",
+                "Driver: STR<br>Lap: 48.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 49.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 50.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 51.0<br>Position: 10.0",
+                "Driver: STR<br>Lap: 52.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 53.0<br>Position: 12.0",
+                "Driver: STR<br>Lap: 54.0<br>Position: 13.0",
+                "Driver: STR<br>Lap: 55.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 56.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 57.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 58.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 59.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 60.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 61.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 62.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 63.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 64.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 65.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 66.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 67.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 68.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 69.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 70.0<br>Position: 16.0",
+                "Driver: STR<br>Lap: 71.0<br>Position: 16.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAALkAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAuQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAACxAAAAAAAAAKEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAmQAAAAAAAACRAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAsQAAAAAAAADJAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAuQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACpAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "TSU",
+            "text": [
+                "Driver: TSU<br>Lap: 1.0<br>Position: 14.0",
+                "Driver: TSU<br>Lap: 2.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 3.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 4.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 5.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 6.0<br>Position: 15.0",
+                "Driver: TSU<br>Lap: 7.0<br>Position: 14.0",
+                "Driver: TSU<br>Lap: 8.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 9.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 10.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 11.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 12.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 13.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 14.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 15.0<br>Position: 14.0",
+                "Driver: TSU<br>Lap: 16.0<br>Position: 14.0",
+                "Driver: TSU<br>Lap: 17.0<br>Position: 13.0",
+                "Driver: TSU<br>Lap: 18.0<br>Position: 12.0",
+                "Driver: TSU<br>Lap: 19.0<br>Position: 10.0",
+                "Driver: TSU<br>Lap: 20.0<br>Position: 9.0",
+                "Driver: TSU<br>Lap: 21.0<br>Position: 9.0",
+                "Driver: TSU<br>Lap: 22.0<br>Position: 8.0",
+                "Driver: TSU<br>Lap: 23.0<br>Position: 8.0",
+                "Driver: TSU<br>Lap: 24.0<br>Position: 12.0",
+                "Driver: TSU<br>Lap: 25.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 26.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 27.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 28.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 29.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 30.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 31.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 32.0<br>Position: 18.0",
+                "Driver: TSU<br>Lap: 33.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 34.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 35.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 36.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 37.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 38.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 39.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 40.0<br>Position: 15.0",
+                "Driver: TSU<br>Lap: 41.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 42.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 43.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 44.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 45.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 46.0<br>Position: 16.0",
+                "Driver: TSU<br>Lap: 47.0<br>Position: 15.0",
+                "Driver: TSU<br>Lap: 48.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 49.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 50.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 51.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 52.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 53.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 54.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 55.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 56.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 57.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 58.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 59.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 60.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 61.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 62.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 63.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 64.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 65.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 66.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 67.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 68.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 69.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 70.0<br>Position: 17.0",
+                "Driver: TSU<br>Lap: 71.0<br>Position: 17.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAALEAAAAAAAAAwQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACxAAAAAAAAALEAAAAAAAAAqQAAAAAAAAChAAAAAAAAAJEAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAgQAAAAAAAAChAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADFAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAwQAAAAAAAADBAAAAAAAAALkAAAAAAAAAwQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAuQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "ALB",
+            "text": [
+                "Driver: ALB<br>Lap: 1.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 2.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 3.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 4.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 5.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 6.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 7.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 8.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 9.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 10.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 11.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 12.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 13.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 14.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 15.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 16.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 17.0<br>Position: 8.0",
+                "Driver: ALB<br>Lap: 18.0<br>Position: 6.0",
+                "Driver: ALB<br>Lap: 19.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 20.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 21.0<br>Position: 6.0",
+                "Driver: ALB<br>Lap: 22.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 23.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 24.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 25.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 26.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 27.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 28.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 29.0<br>Position: 5.0",
+                "Driver: ALB<br>Lap: 30.0<br>Position: 6.0",
+                "Driver: ALB<br>Lap: 31.0<br>Position: 6.0",
+                "Driver: ALB<br>Lap: 32.0<br>Position: 6.0",
+                "Driver: ALB<br>Lap: 33.0<br>Position: 6.0",
+                "Driver: ALB<br>Lap: 34.0<br>Position: 7.0",
+                "Driver: ALB<br>Lap: 35.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 36.0<br>Position: 16.0",
+                "Driver: ALB<br>Lap: 37.0<br>Position: 15.0",
+                "Driver: ALB<br>Lap: 38.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 39.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 40.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 41.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 42.0<br>Position: 10.0",
+                "Driver: ALB<br>Lap: 43.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 44.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 45.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 46.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 47.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 48.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 49.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 50.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 51.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 52.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 53.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 54.0<br>Position: 9.0",
+                "Driver: ALB<br>Lap: 55.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 56.0<br>Position: 15.0",
+                "Driver: ALB<br>Lap: 57.0<br>Position: 15.0",
+                "Driver: ALB<br>Lap: 58.0<br>Position: 15.0",
+                "Driver: ALB<br>Lap: 59.0<br>Position: 14.0",
+                "Driver: ALB<br>Lap: 60.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 61.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 62.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 63.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 64.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 65.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 66.0<br>Position: 13.0",
+                "Driver: ALB<br>Lap: 67.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 68.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 69.0<br>Position: 12.0",
+                "Driver: ALB<br>Lap: 70.0<br>Position: 11.0",
+                "Driver: ALB<br>Lap: 71.0<br>Position: 11.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAgQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAiQAAAAAAAADBAAAAAAAAALkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACRAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAJkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAsQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAmQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "HUL",
+            "text": [
+                "Driver: HUL<br>Lap: 1.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 2.0<br>Position: 13.0",
+                "Driver: HUL<br>Lap: 3.0<br>Position: 13.0",
+                "Driver: HUL<br>Lap: 4.0<br>Position: 13.0",
+                "Driver: HUL<br>Lap: 5.0<br>Position: 13.0",
+                "Driver: HUL<br>Lap: 6.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 7.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 8.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 9.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 10.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 11.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 12.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 13.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 14.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 15.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 16.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 17.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 18.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 19.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 20.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 21.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 22.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 23.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 24.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 25.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 26.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 27.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 28.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 29.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 30.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 31.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 32.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 33.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 34.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 35.0<br>Position: 4.0",
+                "Driver: HUL<br>Lap: 36.0<br>Position: 6.0",
+                "Driver: HUL<br>Lap: 37.0<br>Position: 14.0",
+                "Driver: HUL<br>Lap: 38.0<br>Position: 12.0",
+                "Driver: HUL<br>Lap: 39.0<br>Position: 11.0",
+                "Driver: HUL<br>Lap: 40.0<br>Position: 10.0",
+                "Driver: HUL<br>Lap: 41.0<br>Position: 9.0",
+                "Driver: HUL<br>Lap: 42.0<br>Position: 9.0",
+                "Driver: HUL<br>Lap: 43.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 44.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 45.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 46.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 47.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 48.0<br>Position: 7.0",
+                "Driver: HUL<br>Lap: 49.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 50.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 51.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 52.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 53.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 54.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 55.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 56.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 57.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 58.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 59.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 60.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 61.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 62.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 63.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 64.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 65.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 66.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 67.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 68.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 69.0<br>Position: 8.0",
+                "Driver: HUL<br>Lap: 70.0<br>Position: 9.0",
+                "Driver: HUL<br>Lap: 71.0<br>Position: 9.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAKEAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACRAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAQQAAAAAAAABhAAAAAAAAALEAAAAAAAAAoQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIkAAAAAAAAAiQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "LAW",
+            "text": [
+                "Driver: LAW<br>Lap: 1.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 2.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 3.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 4.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 5.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 6.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 7.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 8.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 9.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 10.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 11.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 12.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 13.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 14.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 15.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 16.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 17.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 18.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 19.0<br>Position: 9.0",
+                "Driver: LAW<br>Lap: 20.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 21.0<br>Position: 16.0",
+                "Driver: LAW<br>Lap: 22.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 23.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 24.0<br>Position: 15.0",
+                "Driver: LAW<br>Lap: 25.0<br>Position: 14.0",
+                "Driver: LAW<br>Lap: 26.0<br>Position: 14.0",
+                "Driver: LAW<br>Lap: 27.0<br>Position: 14.0",
+                "Driver: LAW<br>Lap: 28.0<br>Position: 14.0",
+                "Driver: LAW<br>Lap: 29.0<br>Position: 11.0",
+                "Driver: LAW<br>Lap: 30.0<br>Position: 11.0",
+                "Driver: LAW<br>Lap: 31.0<br>Position: 11.0",
+                "Driver: LAW<br>Lap: 32.0<br>Position: 11.0",
+                "Driver: LAW<br>Lap: 33.0<br>Position: 11.0",
+                "Driver: LAW<br>Lap: 34.0<br>Position: 11.0",
+                "Driver: LAW<br>Lap: 35.0<br>Position: 10.0",
+                "Driver: LAW<br>Lap: 36.0<br>Position: 10.0",
+                "Driver: LAW<br>Lap: 37.0<br>Position: 8.0",
+                "Driver: LAW<br>Lap: 38.0<br>Position: 8.0",
+                "Driver: LAW<br>Lap: 39.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 40.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 41.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 42.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 43.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 44.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 45.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 46.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 47.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 48.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 49.0<br>Position: 4.0",
+                "Driver: LAW<br>Lap: 50.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 51.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 52.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 53.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 54.0<br>Position: 5.0",
+                "Driver: LAW<br>Lap: 55.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 56.0<br>Position: 6.0",
+                "Driver: LAW<br>Lap: 57.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 58.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 59.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 60.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 61.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 62.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 63.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 64.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 65.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 66.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 67.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 68.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 69.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 70.0<br>Position: 7.0",
+                "Driver: LAW<br>Lap: 71.0<br>Position: 7.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAIkAAAAAAAAAwQAAAAAAAADBAAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAkQAAAAAAAACRAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "OCO",
+            "text": [
+                "Driver: OCO<br>Lap: 1.0<br>Position: 19.0",
+                "Driver: OCO<br>Lap: 2.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 3.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 4.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 5.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 6.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 7.0<br>Position: 15.0",
+                "Driver: OCO<br>Lap: 8.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 9.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 10.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 11.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 12.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 13.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 14.0<br>Position: 18.0",
+                "Driver: OCO<br>Lap: 15.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 16.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 17.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 18.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 19.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 20.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 21.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 22.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 23.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 24.0<br>Position: 17.0",
+                "Driver: OCO<br>Lap: 25.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 26.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 27.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 28.0<br>Position: 16.0",
+                "Driver: OCO<br>Lap: 29.0<br>Position: 15.0",
+                "Driver: OCO<br>Lap: 30.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 31.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 32.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 33.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 34.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 35.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 36.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 37.0<br>Position: 11.0",
+                "Driver: OCO<br>Lap: 38.0<br>Position: 9.0",
+                "Driver: OCO<br>Lap: 39.0<br>Position: 9.0",
+                "Driver: OCO<br>Lap: 40.0<br>Position: 8.0",
+                "Driver: OCO<br>Lap: 41.0<br>Position: 8.0",
+                "Driver: OCO<br>Lap: 42.0<br>Position: 8.0",
+                "Driver: OCO<br>Lap: 43.0<br>Position: 7.0",
+                "Driver: OCO<br>Lap: 44.0<br>Position: 7.0",
+                "Driver: OCO<br>Lap: 45.0<br>Position: 7.0",
+                "Driver: OCO<br>Lap: 46.0<br>Position: 7.0",
+                "Driver: OCO<br>Lap: 47.0<br>Position: 10.0",
+                "Driver: OCO<br>Lap: 48.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 49.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 50.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 51.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 52.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 53.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 54.0<br>Position: 14.0",
+                "Driver: OCO<br>Lap: 55.0<br>Position: 13.0",
+                "Driver: OCO<br>Lap: 56.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 57.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 58.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 59.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 60.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 61.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 62.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 63.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 64.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 65.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 66.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 67.0<br>Position: 11.0",
+                "Driver: OCO<br>Lap: 68.0<br>Position: 11.0",
+                "Driver: OCO<br>Lap: 69.0<br>Position: 11.0",
+                "Driver: OCO<br>Lap: 70.0<br>Position: 12.0",
+                "Driver: OCO<br>Lap: 71.0<br>Position: 12.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAM0AAAAAAAAAyQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADBAAAAAAAAALkAAAAAAAAAwQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADBAAAAAAAAALEAAAAAAAAAqQAAAAAAAACpAAAAAAAAAMEAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAuQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAkQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAKEAAAAAAAAAoQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "NOR",
+            "text": [
+                "Driver: NOR<br>Lap: 1.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 2.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 3.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 4.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 5.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 6.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 7.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 8.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 9.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 10.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 11.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 12.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 13.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 14.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 15.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 16.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 17.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 18.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 19.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 20.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 21.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 22.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 23.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 24.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 25.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 26.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 27.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 28.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 29.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 30.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 31.0<br>Position: 4.0",
+                "Driver: NOR<br>Lap: 32.0<br>Position: 3.0",
+                "Driver: NOR<br>Lap: 33.0<br>Position: 3.0",
+                "Driver: NOR<br>Lap: 34.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 35.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 36.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 37.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 38.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 39.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 40.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 41.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 42.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 43.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 44.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 45.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 46.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 47.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 48.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 49.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 50.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 51.0<br>Position: 3.0",
+                "Driver: NOR<br>Lap: 52.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 53.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 54.0<br>Position: 2.0",
+                "Driver: NOR<br>Lap: 55.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 56.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 57.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 58.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 59.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 60.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 61.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 62.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 63.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 64.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 65.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 66.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 67.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 68.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 69.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 70.0<br>Position: 1.0",
+                "Driver: NOR<br>Lap: 71.0<br>Position: 1.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAAEEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAAhAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPw==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "COL",
+            "text": [
+                "Driver: COL<br>Lap: 1.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 2.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 3.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 4.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 5.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 6.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 7.0<br>Position: 13.0",
+                "Driver: COL<br>Lap: 8.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 9.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 10.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 11.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 12.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 13.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 14.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 15.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 16.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 17.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 18.0<br>Position: 13.0",
+                "Driver: COL<br>Lap: 19.0<br>Position: 11.0",
+                "Driver: COL<br>Lap: 20.0<br>Position: 10.0",
+                "Driver: COL<br>Lap: 21.0<br>Position: 10.0",
+                "Driver: COL<br>Lap: 22.0<br>Position: 9.0",
+                "Driver: COL<br>Lap: 23.0<br>Position: 10.0",
+                "Driver: COL<br>Lap: 24.0<br>Position: 9.0",
+                "Driver: COL<br>Lap: 25.0<br>Position: 9.0",
+                "Driver: COL<br>Lap: 26.0<br>Position: 9.0",
+                "Driver: COL<br>Lap: 27.0<br>Position: 10.0",
+                "Driver: COL<br>Lap: 28.0<br>Position: 9.0",
+                "Driver: COL<br>Lap: 29.0<br>Position: 12.0",
+                "Driver: COL<br>Lap: 30.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 31.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 32.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 33.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 34.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 35.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 36.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 37.0<br>Position: 13.0",
+                "Driver: COL<br>Lap: 38.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 39.0<br>Position: 13.0",
+                "Driver: COL<br>Lap: 40.0<br>Position: 12.0",
+                "Driver: COL<br>Lap: 41.0<br>Position: 12.0",
+                "Driver: COL<br>Lap: 42.0<br>Position: 13.0",
+                "Driver: COL<br>Lap: 43.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 44.0<br>Position: 17.0",
+                "Driver: COL<br>Lap: 45.0<br>Position: 17.0",
+                "Driver: COL<br>Lap: 46.0<br>Position: 17.0",
+                "Driver: COL<br>Lap: 47.0<br>Position: 17.0",
+                "Driver: COL<br>Lap: 48.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 49.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 50.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 51.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 52.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 53.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 54.0<br>Position: 16.0",
+                "Driver: COL<br>Lap: 55.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 56.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 57.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 58.0<br>Position: 14.0",
+                "Driver: COL<br>Lap: 59.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 60.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 61.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 62.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 63.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 64.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 65.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 66.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 67.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 68.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 69.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 70.0<br>Position: 15.0",
+                "Driver: COL<br>Lap: 71.0<br>Position: 15.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAMEAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAsQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAACpAAAAAAAAAJkAAAAAAAAAkQAAAAAAAACRAAAAAAAAAIkAAAAAAAAAkQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACRAAAAAAAAAIkAAAAAAAAAoQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAsQAAAAAAAACpAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACpAAAAAAAAAMEAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAAMEAAAAAAAAAwQAAAAAAAADBAAAAAAAAALkAAAAAAAAAsQAAAAAAAACxAAAAAAAAALEAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "HAM",
+            "text": [
+                "Driver: HAM<br>Lap: 1.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 2.0<br>Position: 19.0",
+                "Driver: HAM<br>Lap: 3.0<br>Position: 19.0",
+                "Driver: HAM<br>Lap: 4.0<br>Position: 19.0",
+                "Driver: HAM<br>Lap: 5.0<br>Position: 19.0",
+                "Driver: HAM<br>Lap: 6.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 7.0<br>Position: 16.0",
+                "Driver: HAM<br>Lap: 8.0<br>Position: 15.0",
+                "Driver: HAM<br>Lap: 9.0<br>Position: 15.0",
+                "Driver: HAM<br>Lap: 10.0<br>Position: 15.0",
+                "Driver: HAM<br>Lap: 11.0<br>Position: 15.0",
+                "Driver: HAM<br>Lap: 12.0<br>Position: 15.0",
+                "Driver: HAM<br>Lap: 13.0<br>Position: 16.0",
+                "Driver: HAM<br>Lap: 14.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 15.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 16.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 17.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 18.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 19.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 20.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 21.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 22.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 23.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 24.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 25.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 26.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 27.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 28.0<br>Position: 17.0",
+                "Driver: HAM<br>Lap: 29.0<br>Position: 16.0",
+                "Driver: HAM<br>Lap: 30.0<br>Position: 14.0",
+                "Driver: HAM<br>Lap: 31.0<br>Position: 14.0",
+                "Driver: HAM<br>Lap: 32.0<br>Position: 15.0",
+                "Driver: HAM<br>Lap: 33.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 34.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 35.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 36.0<br>Position: 18.0",
+                "Driver: HAM<br>Lap: 37.0<br>Position: 18.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkA=",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAMUAAAAAAAAAzQAAAAAAAADNAAAAAAAAAM0AAAAAAAAAzQAAAAAAAADFAAAAAAAAAMEAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAwQAAAAAAAACxAAAAAAAAALEAAAAAAAAAuQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAyQAAAAAAAADJAAAAAAAAAMkA=",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "BOR",
+            "text": [
+                "Driver: BOR<br>Lap: 1.0<br>Position: nan"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8=",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAA+H8=",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "SAI",
+            "text": [
+                "Driver: SAI<br>Lap: 1.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 2.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 3.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 4.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 5.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 6.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 7.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 8.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 9.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 10.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 11.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 12.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 13.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 14.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 15.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 16.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 17.0<br>Position: 14.0",
+                "Driver: SAI<br>Lap: 18.0<br>Position: 18.0",
+                "Driver: SAI<br>Lap: 19.0<br>Position: 18.0",
+                "Driver: SAI<br>Lap: 20.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 21.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 22.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 23.0<br>Position: 16.0",
+                "Driver: SAI<br>Lap: 24.0<br>Position: 16.0",
+                "Driver: SAI<br>Lap: 25.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 26.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 27.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 28.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 29.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 30.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 31.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 32.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 33.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 34.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 35.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 36.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 37.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 38.0<br>Position: 10.0",
+                "Driver: SAI<br>Lap: 39.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 40.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 41.0<br>Position: 17.0",
+                "Driver: SAI<br>Lap: 42.0<br>Position: 16.0",
+                "Driver: SAI<br>Lap: 43.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 44.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 45.0<br>Position: 15.0",
+                "Driver: SAI<br>Lap: 46.0<br>Position: 14.0",
+                "Driver: SAI<br>Lap: 47.0<br>Position: 14.0",
+                "Driver: SAI<br>Lap: 48.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 49.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 50.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 51.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 52.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 53.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 54.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 55.0<br>Position: 12.0",
+                "Driver: SAI<br>Lap: 56.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 57.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 58.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 59.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 60.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 61.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 62.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 63.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 64.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 65.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 66.0<br>Position: 11.0",
+                "Driver: SAI<br>Lap: 67.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 68.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 69.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 70.0<br>Position: 13.0",
+                "Driver: SAI<br>Lap: 71.0<br>Position: 13.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAKkAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAsQAAAAAAAADJAAAAAAAAAMkAAAAAAAAAxQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAwQAAAAAAAADBAAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAkQAAAAAAAADFAAAAAAAAAMUAAAAAAAAAxQAAAAAAAADBAAAAAAAAALkAAAAAAAAAuQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAsQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKkAAAAAAAAAqQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "HAD",
+            "text": [
+                "Driver: HAD<br>Lap: 1.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 2.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 3.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 4.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 5.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 6.0<br>Position: 4.0",
+                "Driver: HAD<br>Lap: 7.0<br>Position: 4.0",
+                "Driver: HAD<br>Lap: 8.0<br>Position: 4.0",
+                "Driver: HAD<br>Lap: 9.0<br>Position: 4.0",
+                "Driver: HAD<br>Lap: 10.0<br>Position: 4.0",
+                "Driver: HAD<br>Lap: 11.0<br>Position: 4.0",
+                "Driver: HAD<br>Lap: 12.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 13.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 14.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 15.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 16.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 17.0<br>Position: 5.0",
+                "Driver: HAD<br>Lap: 18.0<br>Position: 7.0",
+                "Driver: HAD<br>Lap: 19.0<br>Position: 15.0",
+                "Driver: HAD<br>Lap: 20.0<br>Position: 14.0",
+                "Driver: HAD<br>Lap: 21.0<br>Position: 14.0",
+                "Driver: HAD<br>Lap: 22.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 23.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 24.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 25.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 26.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 27.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 28.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 29.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 30.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 31.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 32.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 33.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 34.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 35.0<br>Position: 7.0",
+                "Driver: HAD<br>Lap: 36.0<br>Position: 7.0",
+                "Driver: HAD<br>Lap: 37.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 38.0<br>Position: 17.0",
+                "Driver: HAD<br>Lap: 39.0<br>Position: 15.0",
+                "Driver: HAD<br>Lap: 40.0<br>Position: 14.0",
+                "Driver: HAD<br>Lap: 41.0<br>Position: 14.0",
+                "Driver: HAD<br>Lap: 42.0<br>Position: 14.0",
+                "Driver: HAD<br>Lap: 43.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 44.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 45.0<br>Position: 13.0",
+                "Driver: HAD<br>Lap: 46.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 47.0<br>Position: 12.0",
+                "Driver: HAD<br>Lap: 48.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 49.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 50.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 51.0<br>Position: 11.0",
+                "Driver: HAD<br>Lap: 52.0<br>Position: 10.0",
+                "Driver: HAD<br>Lap: 53.0<br>Position: 10.0",
+                "Driver: HAD<br>Lap: 54.0<br>Position: 10.0",
+                "Driver: HAD<br>Lap: 55.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 56.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 57.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 58.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 59.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 60.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 61.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 62.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 63.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 64.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 65.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 66.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 67.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 68.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 69.0<br>Position: 9.0",
+                "Driver: HAD<br>Lap: 70.0<br>Position: 8.0",
+                "Driver: HAD<br>Lap: 71.0<br>Position: 8.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABxAAAAAAAAALkAAAAAAAAAsQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKEAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAcQAAAAAAAABxAAAAAAAAAIkAAAAAAAAAxQAAAAAAAAC5AAAAAAAAALEAAAAAAAAAsQAAAAAAAACxAAAAAAAAAKkAAAAAAAAAqQAAAAAAAACpAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACZAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACRAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIkAAAAAAAAAiQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAgQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "RUS",
+            "text": [
+                "Driver: RUS<br>Lap: 1.0<br>Position: 7.0",
+                "Driver: RUS<br>Lap: 2.0<br>Position: 7.0",
+                "Driver: RUS<br>Lap: 3.0<br>Position: 7.0",
+                "Driver: RUS<br>Lap: 4.0<br>Position: 7.0",
+                "Driver: RUS<br>Lap: 5.0<br>Position: 7.0",
+                "Driver: RUS<br>Lap: 6.0<br>Position: 6.0",
+                "Driver: RUS<br>Lap: 7.0<br>Position: 6.0",
+                "Driver: RUS<br>Lap: 8.0<br>Position: 6.0",
+                "Driver: RUS<br>Lap: 9.0<br>Position: 5.0",
+                "Driver: RUS<br>Lap: 10.0<br>Position: 5.0",
+                "Driver: RUS<br>Lap: 11.0<br>Position: 5.0",
+                "Driver: RUS<br>Lap: 12.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 13.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 14.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 15.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 16.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 17.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 18.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 19.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 20.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 21.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 22.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 23.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 24.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 25.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 26.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 27.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 28.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 29.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 30.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 31.0<br>Position: 2.0",
+                "Driver: RUS<br>Lap: 32.0<br>Position: 2.0",
+                "Driver: RUS<br>Lap: 33.0<br>Position: 2.0",
+                "Driver: RUS<br>Lap: 34.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 35.0<br>Position: 6.0",
+                "Driver: RUS<br>Lap: 36.0<br>Position: 5.0",
+                "Driver: RUS<br>Lap: 37.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 38.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 39.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 40.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 41.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 42.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 43.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 44.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 45.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 46.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 47.0<br>Position: 2.0",
+                "Driver: RUS<br>Lap: 48.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 49.0<br>Position: 6.0",
+                "Driver: RUS<br>Lap: 50.0<br>Position: 6.0",
+                "Driver: RUS<br>Lap: 51.0<br>Position: 5.0",
+                "Driver: RUS<br>Lap: 52.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 53.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 54.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 55.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 56.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 57.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 58.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 59.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 60.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 61.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 62.0<br>Position: 3.0",
+                "Driver: RUS<br>Lap: 63.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 64.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 65.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 66.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 67.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 68.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 69.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 70.0<br>Position: 4.0",
+                "Driver: RUS<br>Lap: 71.0<br>Position: 4.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAACEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAAQAAAAAAAAAhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABRAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAAAhAAAAAAAAACEAAAAAAAAAIQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "PIA",
+            "text": [
+                "Driver: PIA<br>Lap: 1.0<br>Position: 4.0",
+                "Driver: PIA<br>Lap: 2.0<br>Position: 4.0",
+                "Driver: PIA<br>Lap: 3.0<br>Position: 4.0",
+                "Driver: PIA<br>Lap: 4.0<br>Position: 4.0",
+                "Driver: PIA<br>Lap: 5.0<br>Position: 4.0",
+                "Driver: PIA<br>Lap: 6.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 7.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 8.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 9.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 10.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 11.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 12.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 13.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 14.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 15.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 16.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 17.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 18.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 19.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 20.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 21.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 22.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 23.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 24.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 25.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 26.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 27.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 28.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 29.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 30.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 31.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 32.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 33.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 34.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 35.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 36.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 37.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 38.0<br>Position: 1.0",
+                "Driver: PIA<br>Lap: 39.0<br>Position: 7.0",
+                "Driver: PIA<br>Lap: 40.0<br>Position: 6.0",
+                "Driver: PIA<br>Lap: 41.0<br>Position: 6.0",
+                "Driver: PIA<br>Lap: 42.0<br>Position: 6.0",
+                "Driver: PIA<br>Lap: 43.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 44.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 45.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 46.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 47.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 48.0<br>Position: 4.0",
+                "Driver: PIA<br>Lap: 49.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 50.0<br>Position: 3.0",
+                "Driver: PIA<br>Lap: 51.0<br>Position: 2.0",
+                "Driver: PIA<br>Lap: 52.0<br>Position: 7.0",
+                "Driver: PIA<br>Lap: 53.0<br>Position: 6.0",
+                "Driver: PIA<br>Lap: 54.0<br>Position: 6.0",
+                "Driver: PIA<br>Lap: 55.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 56.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 57.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 58.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 59.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 60.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 61.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 62.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 63.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 64.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 65.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 66.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 67.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 68.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 69.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 70.0<br>Position: 5.0",
+                "Driver: PIA<br>Lap: 71.0<br>Position: 5.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAEEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAABxAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABBAAAAAAAAACEAAAAAAAAAIQAAAAAAAAABAAAAAAAAAHEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABRAAAAAAAAAFEAAAAAAAAAUQA==",
+                "dtype": "f8"
+            }
+        },
+        {
+            "hoverinfo": "text",
+            "mode": "lines+markers",
+            "name": "BEA",
+            "text": [
+                "Driver: BEA<br>Lap: 1.0<br>Position: 9.0",
+                "Driver: BEA<br>Lap: 2.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 3.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 4.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 5.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 6.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 7.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 8.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 9.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 10.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 11.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 12.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 13.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 14.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 15.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 16.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 17.0<br>Position: 9.0",
+                "Driver: BEA<br>Lap: 18.0<br>Position: 15.0",
+                "Driver: BEA<br>Lap: 19.0<br>Position: 13.0",
+                "Driver: BEA<br>Lap: 20.0<br>Position: 12.0",
+                "Driver: BEA<br>Lap: 21.0<br>Position: 12.0",
+                "Driver: BEA<br>Lap: 22.0<br>Position: 12.0",
+                "Driver: BEA<br>Lap: 23.0<br>Position: 12.0",
+                "Driver: BEA<br>Lap: 24.0<br>Position: 11.0",
+                "Driver: BEA<br>Lap: 25.0<br>Position: 10.0",
+                "Driver: BEA<br>Lap: 26.0<br>Position: 10.0",
+                "Driver: BEA<br>Lap: 27.0<br>Position: 9.0",
+                "Driver: BEA<br>Lap: 28.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 29.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 30.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 31.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 32.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 33.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 34.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 35.0<br>Position: 5.0",
+                "Driver: BEA<br>Lap: 36.0<br>Position: 4.0",
+                "Driver: BEA<br>Lap: 37.0<br>Position: 5.0",
+                "Driver: BEA<br>Lap: 38.0<br>Position: 5.0",
+                "Driver: BEA<br>Lap: 39.0<br>Position: 4.0",
+                "Driver: BEA<br>Lap: 40.0<br>Position: 4.0",
+                "Driver: BEA<br>Lap: 41.0<br>Position: 4.0",
+                "Driver: BEA<br>Lap: 42.0<br>Position: 5.0",
+                "Driver: BEA<br>Lap: 43.0<br>Position: 11.0",
+                "Driver: BEA<br>Lap: 44.0<br>Position: 11.0",
+                "Driver: BEA<br>Lap: 45.0<br>Position: 10.0",
+                "Driver: BEA<br>Lap: 46.0<br>Position: 10.0",
+                "Driver: BEA<br>Lap: 47.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 48.0<br>Position: 8.0",
+                "Driver: BEA<br>Lap: 49.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 50.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 51.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 52.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 53.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 54.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 55.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 56.0<br>Position: 7.0",
+                "Driver: BEA<br>Lap: 57.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 58.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 59.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 60.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 61.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 62.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 63.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 64.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 65.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 66.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 67.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 68.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 69.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 70.0<br>Position: 6.0",
+                "Driver: BEA<br>Lap: 71.0<br>Position: 6.0"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBKQAAAAAAAAEtAAAAAAACAS0AAAAAAAABMQAAAAAAAgExAAAAAAAAATUAAAAAAAIBNQAAAAAAAAE5AAAAAAACATkAAAAAAAABPQAAAAAAAgE9AAAAAAAAAUEAAAAAAAEBQQAAAAAAAgFBAAAAAAADAUEAAAAAAAABRQAAAAAAAQFFAAAAAAACAUUAAAAAAAMBRQA==",
+                "dtype": "f8"
+            },
+            "y": {
+                "bdata": "AAAAAAAAIkAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAiQAAAAAAAAC5AAAAAAAAAKkAAAAAAAAAoQAAAAAAAAChAAAAAAAAAKEAAAAAAAAAoQAAAAAAAACZAAAAAAAAAJEAAAAAAAAAkQAAAAAAAACJAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAIEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAFEAAAAAAAAAUQAAAAAAAABBAAAAAAAAAEEAAAAAAAAAQQAAAAAAAABRAAAAAAAAAJkAAAAAAAAAmQAAAAAAAACRAAAAAAAAAJEAAAAAAAAAgQAAAAAAAACBAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAGEAAAAAAAAAcQAAAAAAAABxAAAAAAAAAHEAAAAAAAAAcQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAYQA==",
+                "dtype": "f8"
+            }
+        }
+    ],
+    "layout": {
+        "legend": {
+            "title": {
+                "text": "Driver"
+            }
+        },
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Driver Positions Per Lap (Grand Prix Race)"
+        },
+        "xaxis": {
+            "title": {
+                "text": "Lap Number"
+            }
+        },
+        "yaxis": {
+            "autorange": "reversed",
+            "title": {
+                "text": "Position"
+            }
+        }
+    }
+}
