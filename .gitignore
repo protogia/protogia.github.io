@@ -12,6 +12,7 @@ static/media/
 
 # custom
 notebooks/
+nb2hugo-markdown
 
 ### Python ###
 .env
