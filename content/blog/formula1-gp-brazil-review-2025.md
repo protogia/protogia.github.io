@@ -6,6 +6,7 @@ draft: false
 plotly: true
 code_options: true
 categories: []
+colab_url: 'https://colab.research.google.com/github/protogia/formula1-evaluations/blob/main/gp-brazil-2025-review.ipynb'
 color: '#a09f93'
 ---
 

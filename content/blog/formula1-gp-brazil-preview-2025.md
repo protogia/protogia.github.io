@@ -5,6 +5,7 @@ author: 'Giancarlo Rizzo'
 draft: false
 plotly: true
 code_options: true
+colab_url: 'https://colab.research.google.com/github/protogia/formula1-evaluations/blob/main/gp-brazil-2025-preview.ipynb'
 categories: []
 color: '#a09f93'
 ---
