@@ -3,6 +3,8 @@ title: 'Convert Jupyter Notebooks to Markdown-Blogposts for Hugo'
 date: '2025-01-06T13:25:33+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
+plotly: false
+code_options: false
 categories: []
 color: '#a09f93'
 ---

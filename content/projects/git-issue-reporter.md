@@ -3,6 +3,8 @@ title: 'Git Issue Reporter'
 date: '2026-03-27T22:17:16+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
+plotly: false
+code_options: false
 categories: []
 color: '#a09f93'
 ---

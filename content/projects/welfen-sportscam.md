@@ -3,6 +3,8 @@ title: 'Welfen Sportscam'
 date: '2026-02-17T18:15:44+01:00'
 author: 'Giancarlo Rizzo'
 draft: true
+plotly: false
+code_options: false
 categories: []
 color: '#a09f93'
 ---

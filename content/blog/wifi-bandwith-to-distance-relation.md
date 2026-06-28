@@ -3,6 +3,8 @@ title: 'Wifi-Mesh-Evlauation: Building a testsetup'
 date: '2024-08-08T21:45:17+02:00'
 author: 'Giancarlo Rizzo'
 draft: false
+plotly: false
+code_options: false
 categories: [analysing]
 color: '#a09f93'
 ---

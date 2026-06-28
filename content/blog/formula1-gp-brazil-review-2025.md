@@ -4,6 +4,7 @@ date: '2025-12-12T12:24:21.119885+00:00'
 author: 'Giancarlo Rizzo'
 draft: false
 plotly: true
+code_options: true
 categories: []
 color: '#a09f93'
 ---

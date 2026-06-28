@@ -3,6 +3,8 @@ title: 'GovData-client'
 date: '2024-01-27T10:37:49+01:00'
 author: 'Giancarlo Rizzo'
 draft: false
+plotly: false
+code_options: false
 categories: [analysing]
 color: '#a09f93'
 ---
