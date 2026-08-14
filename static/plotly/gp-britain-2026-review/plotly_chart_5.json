@@ -1,0 +1,3479 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "hovertemplate": "Distance: %{x:.1f} m<br>Brake: %{y:.2f} %<extra></extra>",
+            "legendgroup": "l1",
+            "line": {
+                "color": "red"
+            },
+            "mode": "lines",
+            "name": "VER L46",
+            "type": "scatter",
+            "x": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "xaxis": "x2",
+            "y": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "yaxis": "y2"
+        },
+        {
+            "hovertemplate": "Distance: %{x:.1f} m<br>Brake: %{y:.2f} %<extra></extra>",
+            "legendgroup": "l2",
+            "line": {
+                "color": "lightblue"
+            },
+            "mode": "lines",
+            "name": "VER L47",
+            "type": "scatter",
+            "x": {
+                "bdata": "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awIFEcWes0AxMzMzw56zQDEzMzPDnrNAnTppSsOes0AxMzMzw56zQM6xCy3DnrNAMTMzM8Oes0CYTVwzw56zQDEzMzPDnrNAMTMzM8Oes0DOKDYzw56zQDEzMzPDnrNA39MyM8Oes0AxMzMzw56zQDEzMzPDnrNAfCszM8Oes0CPJzMzw56zQDEzMzPDnrNAxDQzM8Oes0AxMzMzw56zQBYzMzPDnrNAMTMzM8Oes0A1MzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDMzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDMzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDMzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AyMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNALzMzM8Oes0AxMzMzw56zQDIzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMzMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AwMzMzw56zQDEzMzPDnrNAMjMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDEzMzPDnrNAMDMzM8Oes0AxMzMzw56zQDAzMzPDnrNAMTMzM8Oes0AxMzMzw56zQDIzMzPDnrNA",
+                "dtype": "f8"
+            },
+            "xaxis": "x2",
+            "y": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "yaxis": "y2"
+        },
+        {
+            "hovertemplate": "Brake Difference: %{marker.color:.2f} %<extra></extra>",
+            "marker": {
+                "cmax": 1,
+                "cmid": 0,
+                "cmin": -1,
+                "color": {
+                    "bdata": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVn0/JgXnjvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADp5WTFQwsu/HSxbkoHl2r8AAAAAAADwvwAAAAAAAPC/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/AAAAAAAA8D+8bUsPFeftvwAAAAAAAPC/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAADwP+oVgVwgP9E/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACRB//fJA98/698tf9RN4z8ciV7OSBnuPw7PokbTgtK/MMZzHXZw4r8AAAAAAADwvwAAAAAAAPC/AAAAAAAA8L8AAAAAAADwvwAAAAAAAPC/AAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                    "dtype": "f8"
+                },
+                "colorbar": {
+                    "thickness": 15,
+                    "ticktext": [
+                        "VER L47",
+                        "Equal",
+                        "VER L46"
+                    ],
+                    "tickvals": [
+                        -1,
+                        0,
+                        1
+                    ],
+                    "title": {
+                        "side": "top",
+                        "text": "Higher Brake"
+                    },
+                    "x": -0.15
+                },
+                "colorscale": [
+                    [
+                        0,
+                        "rgb(103,0,31)"
+                    ],
+                    [
+                        0.1,
+                        "rgb(178,24,43)"
+                    ],
+                    [
+                        0.2,
+                        "rgb(214,96,77)"
+                    ],
+                    [
+                        0.3,
+                        "rgb(244,165,130)"
+                    ],
+                    [
+                        0.4,
+                        "rgb(253,219,199)"
+                    ],
+                    [
+                        0.5,
+                        "rgb(247,247,247)"
+                    ],
+                    [
+                        0.6,
+                        "rgb(209,229,240)"
+                    ],
+                    [
+                        0.7,
+                        "rgb(146,197,222)"
+                    ],
+                    [
+                        0.8,
+                        "rgb(67,147,195)"
+                    ],
+                    [
+                        0.9,
+                        "rgb(33,102,172)"
+                    ],
+                    [
+                        1,
+                        "rgb(5,48,97)"
+                    ]
+                ],
+                "reversescale": true,
+                "showscale": true,
+                "size": 4
+            },
+            "mode": "lines+markers",
+            "name": "Track Map",
+            "showlegend": true,
+            "type": "scatter",
+            "x": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "DUtxWOvymsCsEUg58ZqYwBESBah7DZfAThN70u33lMCPIAg7Db2SwDJ54RTswpDArupHzYUSjsC1YAA+c3yLwAwV2agZBYbAwJ2vgWGEgcDNFLWKgQB+wMm1+rXDeXTA8f6wGCGyb8BeeLCVXiNFwA4pKg4mRlRAcFE7oRaMcEANqYA73sx8QMCP/YaIioNAXDYTUZohi0BvYHL/+NWSQKhYOW5g3ZRA/6rNLyISmEDYHJD60TGcQKnbt2HuXKBANLUKFS3toUCHyoPLuKykQMrxfXLGPqZA6RQrHj2xpkDta6OhHuGoQLa+79a/S6pAPd2Edo0Rq0DQAYXscOKrQNiAjaYgp6xAPOjkiqpUrUAVqe018ZyuQPIz/CtAJrBANcPG+yaJsEAgk3OkQ8awQMXezRKgRLFAX4LeUSeGsUCdifeWjPWxQOAu8lkWdbJA+li6v2rOskAapZhu8QOzQHNq0m8WSrNAs50qJbmMs0DwrRSCPJ6zQDU/xpeB17NAwoop3v3xs0Dz4P+UIw+0QILjGRgVI7RASHQfpuMxtED3LAiS0ka0QJ6F8TH0XrRAvyMidYVltEBItfH5fJG0QMky6HpBvLRAx30IEhXktEDzcUBihgu1QH4G7WuNLLVA5hPQvopStUCDDEH/SXW1QIq6bk8YqrVAue+dD1ICtkCCvoyguzG2QBUc4qQMd7ZA4HETbrGCtkAnAl0C9LG2QJ/iYHMB3rZATV0fAiICt0Aa8TnOYS63QC+D0+5sVLdAZbgZ8v9ut0Dehfvcl463QB5vapRLmLdAEWPTccW3t0DT6S/0r8m3QIezamMP17dAVi0QNprnt0C+gP321ui3QBV55yZk1bdAtDpgB4ywt0AGIl4qC0a3QJCDHyEr9rZAbm/W4YKYtkAZOAGkuiK2QFQmtEED8rVAb9KAb7JntUDClLJ5XqO0QL4bVFe4E7RAYNqtxr8ts0Aeo046IRqyQG/tGoz1hrFASOEjoA//sECSIEE1OZuwQA4kOVnzA7BA6/gaKMA8q0A2E9IaeSCqQCKPYRBdgqhA5xfP2KtFpkA2rDhA/W+kQCUXfYO05qJAHnRdla8WokBWsuqY2CmhQNDbmc8kzZ5AO1ees5pqnUCUz1jr1CWaQL/zE0Ay5ZZATzZJgisxlUD8by1akeyTQJrBu0PMrZBAfBZnDmXDjUAtC/+S2QmIQLWIsyeNaIdA9XB7aJeigkBrLCDLyNV9QGkTMd/SmnZAL6fqtckpakCklIY6P6piQFrGSzXTSUxAb5yZdReR87/cDxBfE+ZPwJIMTKSr5F3A8HHwZY7CYcDyBk81lY9jwABiXB6cr2TAdydEr/TnZMDabU67rUZlwEzeo+emuWbAkwwIufQ7aMBZ9oLAoYdrwJVle56KqHHAOnT7Az88dsDLxfRx4yV8wI8GJCg/GoDAuaT9KNOVgcCbF5QqTnKEwLe18QMEhofA8wU3U+YzicC+LCn4e6mLwP23acH20YzACSdkuJjejsDeAseybVSQwNp1nLMSFZHAqpRRW9JzkcBA0QECd5qRwHdYRJXHmZHAmFjG25FRkcBx2+8rccuQwDWQtqmE7Y/Ak89MG/WNj8DrTIc7ebaNwEW8ujYghozA8OxUG/4qicDAMIcALUqFwMr+vVGVWoLAbJQhTt4egMCrtbRpbAV3wNwZCC7n0XXAcTa3GWlnasDMv2bDbUc9wLAJGHhaVVVAxSos1HI7c0AsxSlz5Nh5QPNN7Qm/toFA7Cc9nDhIhUDJ2ua4yECMQKd7mdb+xJBARb5Upzi4kkCDaCXLALCUQB4vf5qlrpdA39rDx5R2mkD3vWON2b+cQOu64VvvUJ9A421SqVStoEDS7ab0JKSjQICy4Pvds6VA7nR9XShCp0Bto2gCT9CoQAU1UbcMwqpAKgYss1Fpq0DMxTF92VytQMQhQEV2069AMhipvryvsEDx8j+t7WSxQChg3fBIKbJAtt6yNhe8skBMUnDnbEazQB5J9VgMrLVAHfhC/2UNtkDSO0QSbrS2QK1CMX3nCrdAl86qiw2Ot0BwxuteQfK3QHypUX63D7hAt9W4kFZ5uEC05p3MIMO4QKGk2JtB27hA4UDqcXb6uEAn5P+H4Um5QKgOfU3MablAdqeMzJd8uUBNKeaL0qS5QH7ukT3lvrlAKY6emT/duUD1IMMmzuq5QIuIApE2/blA7YpGmZ4HukDmQ/7ANjC6QDQarYtib7pAYnT5MLimukAVyowB59y6QPIhlWeGFbtAjBkA935ku0CIljOtc6K7QDeiL97ZILxA3/MurDttvEBWwyjFT368QE507T5EZbxA1YD4L99HvECldylW6yi8QNKUkqlsE7xAv9HG/tfZu0Ceomu2M9C7QK5bwdZBzrtAJlxmjXTru0BPT5gsHz+8QPzObOTTr7xAE7ndFMQKvUDmWuby+TK9QPMovFkxZr1Av1U1M1unvUDHbyoR6ci9QAGCs4hT071AYoHpI47NvUD3HbCQp6e9QJFGbY5UdL1A5Pftb3EjvUBcszU6waq8QMcgj/+zwrpA22E9e9klukC+y+7h+K+5QNXO6xPlGrlAYSMw5JSMuED9yqUNWTe4QGerQq10urdAZRarWgNFt0Ag3agNV822QO1ZrRlYc7ZAxkpCSuI5tkCSPfawevO1QFe1/jispbVAL6aTaTZstUD56RqgfSq1QJzhvFb6pbRAgNwBZKx2tEBG8rOwoBC0QCzRFZLU57NAzPBphwVas0CUE1o5dgizQGDRHfzdtrJA+FDqh78SskC6zw3KzquxQIos6qM/WbFAayJ7WJkTsUBHVBdrAcCwQCrAn6Vpa7BAGW8NZzwrsEANoPsYWJyvQBD4efnSQq9ACwqe3XUnrkAjcKH3GJKtQE8KLf2bCa1Aqq7/zypfrECOYZPxlFKrQHZ8WM5jrqpAbThsBFXKqUCEoN1QwRKpQBx51tBXVqhApx8lCpu7p0Cov1zlUeumQIGbCC4zOaZA6teWcdzapEDtqh/W3BykQBx0Tr0XZKNAWMoqs6OSokBSAQgT53mhQGzCzZpUHaFATegtjfhenkAhKVE78e2bQFOzc57oRZpAUtdWvwKUmUCMBd3w272XQHizp0wtqZZAjfdQmE3FlUDPdlLF+myUQAJtgkjp6JJAVWevONadkUB4GRX6m5eQQGfueK9FhY5A7WWN0XCuh0Anaeq16I2FQA5q2OhAWYJAAAOHq9m6f0CjgloRpbJ6QDmIGNcMJnVAAHGtGb4OaECvchf3dUpUQBNiUTAeETpAIAwNYplkSMD5OBsrOGxswItvqUavo3TAdJlHMW49ecAbGfalF3F9wNXwM10GSoHAoRhdm4Cug8Ah90WTeoWFwOwEkTbAiofAxvQiNc58isAyP1reQDyMwDZEsCNYuo3Adjv+DMoGj8Cl7WT6wOSQwFL8pLh29ZHANUwK/wrTksBlyppXBvCTwI5Zl9g2XpXA37rF0rvMlsBv+cRZ3GKYwF/dHdsIJJrAfTL5pfQMnMAN6tXYBDGdwJEjwQYfFZ7A23cj3nhan8AcETukBYWgwL9i8kbw86DAZylq1gRlocB00SwZb5qhwNxnWmAO2aHA1NRBRFnyocBVlKco/gyiwMUAlIgXEaLARdJ7uM0FosAnV0JTBt6hwAxbwRlWlKHAd5g4VbhBocANB5LnID+gwISd7bRyAqDAwfk2O97QnsBgCW+0pT2dwA==",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        }
+    ],
+    "layout": {
+        "annotations": [
+            {
+                "showarrow": false,
+                "text": "C-1",
+                "x": 431.588805793175,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-2",
+                "x": 609.2847369369221,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-3",
+                "x": 862.5597222222224,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-4",
+                "x": 1034.268012815617,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-5",
+                "x": 1240.6835350375288,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-6",
+                "x": 1971.1537575583407,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-7",
+                "x": 2183.5664804730072,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-8",
+                "x": 2534.116200233565,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-9",
+                "x": 3060.948799389008,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-10",
+                "x": 3608.5800514624357,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-11",
+                "x": 3706.964483560091,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-12",
+                "x": 3855.151215149201,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-13",
+                "x": 3988.3265944630753,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-14",
+                "x": 4142.453808206628,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-15",
+                "x": 4997.980472542977,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-16",
+                "x": 5440.943291673448,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-17",
+                "x": 5534.689859369758,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "showarrow": false,
+                "text": "C-18",
+                "x": 5691.637798747352,
+                "xanchor": "left",
+                "xref": "x2",
+                "y": 1,
+                "yanchor": "top",
+                "yref": "y2 domain"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "1",
+                "x": -4542.700502171225,
+                "xref": "x",
+                "y": 1034.600590310922,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "2",
+                "x": -4556.856022248807,
+                "xref": "x",
+                "y": 2612.874896614133,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "3",
+                "x": -6060.638525384505,
+                "xref": "x",
+                "y": 4636.633543270209,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "4",
+                "x": -4933.15233154307,
+                "xref": "x",
+                "y": 5633.971631327864,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "5",
+                "x": -6672.548676145474,
+                "xref": "x",
+                "y": 6003.079338840032,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "6",
+                "x": -10925.621256216073,
+                "xref": "x",
+                "y": 250.23974261398916,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "7",
+                "x": -9514.810147510358,
+                "xref": "x",
+                "y": -898.8612953318737,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "8",
+                "x": -12380.598598887238,
+                "xref": "x",
+                "y": 329.462601750073,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "9",
+                "x": -13145.016789127909,
+                "xref": "x",
+                "y": 5438.4520426433355,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "10",
+                "x": -8030.346968509445,
+                "xref": "x",
+                "y": 7019.851314328222,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "11",
+                "x": -7164.932290774835,
+                "xref": "x",
+                "y": 7289.3811272371895,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "12",
+                "x": -5727.446810672311,
+                "xref": "x",
+                "y": 7141.161480605953,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "13",
+                "x": -4432.380853878229,
+                "xref": "x",
+                "y": 7626.436473671193,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "14",
+                "x": -3382.3263321414993,
+                "xref": "x",
+                "y": 6692.845672667548,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "15",
+                "x": 4013.0218413557363,
+                "xref": "x",
+                "y": 2540.552226730058,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "16",
+                "x": 1014.8134485651761,
+                "xref": "x",
+                "y": -585.3688232066075,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "17",
+                "x": 1196.251918847959,
+                "xref": "x",
+                "y": -1397.1551315637735,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "18",
+                "x": 186.2498662566074,
+                "xref": "x",
+                "y": -2304.2378813812747,
+                "yref": "y"
+            }
+        ],
+        "height": 500,
+        "legend": {
+            "orientation": "h",
+            "x": 0.5,
+            "xanchor": "center",
+            "y": 1.02,
+            "yanchor": "bottom"
+        },
+        "margin": {
+            "b": 50,
+            "l": 100,
+            "r": 50,
+            "t": 80
+        },
+        "shapes": [
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 431.588805793175,
+                "x1": 431.588805793175,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 609.2847369369221,
+                "x1": 609.2847369369221,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 862.5597222222224,
+                "x1": 862.5597222222224,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 1034.268012815617,
+                "x1": 1034.268012815617,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 1240.6835350375288,
+                "x1": 1240.6835350375288,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 1971.1537575583407,
+                "x1": 1971.1537575583407,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 2183.5664804730072,
+                "x1": 2183.5664804730072,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 2534.116200233565,
+                "x1": 2534.116200233565,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 3060.948799389008,
+                "x1": 3060.948799389008,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 3608.5800514624357,
+                "x1": 3608.5800514624357,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 3706.964483560091,
+                "x1": 3706.964483560091,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 3855.151215149201,
+                "x1": 3855.151215149201,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 3988.3265944630753,
+                "x1": 3988.3265944630753,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 4142.453808206628,
+                "x1": 4142.453808206628,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 4997.980472542977,
+                "x1": 4997.980472542977,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 5440.943291673448,
+                "x1": 5440.943291673448,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 5534.689859369758,
+                "x1": 5534.689859369758,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            },
+            {
+                "line": {
+                    "color": "grey",
+                    "dash": "dash",
+                    "width": 1
+                },
+                "type": "line",
+                "x0": 5691.637798747352,
+                "x1": 5691.637798747352,
+                "xref": "x2",
+                "y0": 0,
+                "y1": 1,
+                "yref": "y2 domain"
+            }
+        ],
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "white",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "white",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "#C8D4E3",
+                            "linecolor": "#C8D4E3",
+                            "minorgridcolor": "#C8D4E3",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "#C8D4E3",
+                            "linecolor": "#C8D4E3",
+                            "minorgridcolor": "#C8D4E3",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "white",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "#C8D4E3"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "#EBF0F8",
+                        "linecolor": "#EBF0F8",
+                        "ticks": ""
+                    },
+                    "bgcolor": "white",
+                    "radialaxis": {
+                        "gridcolor": "#EBF0F8",
+                        "linecolor": "#EBF0F8",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "white",
+                        "gridcolor": "#DFE8F3",
+                        "gridwidth": 2,
+                        "linecolor": "#EBF0F8",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "#EBF0F8"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "white",
+                        "gridcolor": "#DFE8F3",
+                        "gridwidth": 2,
+                        "linecolor": "#EBF0F8",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "#EBF0F8"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "white",
+                        "gridcolor": "#DFE8F3",
+                        "gridwidth": 2,
+                        "linecolor": "#EBF0F8",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "#EBF0F8"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "#DFE8F3",
+                        "linecolor": "#A2B1C6",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "#DFE8F3",
+                        "linecolor": "#A2B1C6",
+                        "ticks": ""
+                    },
+                    "bgcolor": "white",
+                    "caxis": {
+                        "gridcolor": "#DFE8F3",
+                        "linecolor": "#A2B1C6",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "#EBF0F8",
+                    "linecolor": "#EBF0F8",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "#EBF0F8",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "#EBF0F8",
+                    "linecolor": "#EBF0F8",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "#EBF0F8",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Brake Analysis: VER (Lap 46) vs VER (Lap 47)",
+            "x": 0.5,
+            "xanchor": "center"
+        },
+        "xaxis": {
+            "anchor": "y",
+            "domain": [
+                0,
+                0.38
+            ],
+            "visible": false
+        },
+        "xaxis2": {
+            "anchor": "y2",
+            "domain": [
+                0.43,
+                1
+            ],
+            "range": [
+                0,
+                5833.857866870429
+            ],
+            "title": {
+                "text": "Distance (m)"
+            }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "scaleanchor": "x",
+            "scaleratio": 1,
+            "visible": false
+        },
+        "yaxis2": {
+            "anchor": "x2",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Brake [%]"
+            }
+        }
+    }
+}

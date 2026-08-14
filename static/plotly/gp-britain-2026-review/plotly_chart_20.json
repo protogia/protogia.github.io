@@ -1,0 +1,2859 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "hoverinfo": "text",
+            "line": {
+                "color": "#FF79C6",
+                "width": 4
+            },
+            "marker": {
+                "cmax": 6.5,
+                "cmin": 0,
+                "color": {
+                    "bdata": "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",
+                    "dtype": "f8"
+                },
+                "colorbar": {
+                    "len": 0.85,
+                    "thickness": 12,
+                    "title": {
+                        "text": "Lateral G (g)"
+                    },
+                    "x": 0.435,
+                    "y": 0.5
+                },
+                "colorscale": [
+                    [
+                        0,
+                        "#000004"
+                    ],
+                    [
+                        0.1111111111111111,
+                        "#180f3d"
+                    ],
+                    [
+                        0.2222222222222222,
+                        "#440f76"
+                    ],
+                    [
+                        0.3333333333333333,
+                        "#721f81"
+                    ],
+                    [
+                        0.4444444444444444,
+                        "#9e2f7f"
+                    ],
+                    [
+                        0.5555555555555556,
+                        "#cd4071"
+                    ],
+                    [
+                        0.6666666666666666,
+                        "#f1605d"
+                    ],
+                    [
+                        0.7777777777777778,
+                        "#fd9668"
+                    ],
+                    [
+                        0.8888888888888888,
+                        "#feca8d"
+                    ],
+                    [
+                        1,
+                        "#fcfdbf"
+                    ]
+                ],
+                "opacity": 0.85,
+                "size": 5
+            },
+            "mode": "lines+markers",
+            "showlegend": false,
+            "text": [
+                "Lat G: 0.28g",
+                "Lat G: 0.40g",
+                "Lat G: 1.08g",
+                "Lat G: 1.15g",
+                "Lat G: 0.42g",
+                "Lat G: 0.42g",
+                "Lat G: 0.27g",
+                "Lat G: 0.27g",
+                "Lat G: 0.36g",
+                "Lat G: 0.35g",
+                "Lat G: 0.22g",
+                "Lat G: 0.27g",
+                "Lat G: 0.58g",
+                "Lat G: 0.61g",
+                "Lat G: 0.71g",
+                "Lat G: 0.74g",
+                "Lat G: 0.46g",
+                "Lat G: 0.46g",
+                "Lat G: 0.20g",
+                "Lat G: 0.38g",
+                "Lat G: 0.48g",
+                "Lat G: 0.45g",
+                "Lat G: 0.35g",
+                "Lat G: 0.39g",
+                "Lat G: 0.44g",
+                "Lat G: 0.38g",
+                "Lat G: 1.10g",
+                "Lat G: 1.16g",
+                "Lat G: 0.44g",
+                "Lat G: 0.63g",
+                "Lat G: 0.56g",
+                "Lat G: 4.45g",
+                "Lat G: 4.37g",
+                "Lat G: 2.02g",
+                "Lat G: 2.48g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.25g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.77g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.06g",
+                "Lat G: 2.29g",
+                "Lat G: 4.36g",
+                "Lat G: 4.15g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 0.22g",
+                "Lat G: 0.39g",
+                "Lat G: 2.71g",
+                "Lat G: 2.75g",
+                "Lat G: 1.09g",
+                "Lat G: 1.40g",
+                "Lat G: 1.98g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 5.53g",
+                "Lat G: 5.99g",
+                "Lat G: 4.34g",
+                "Lat G: 2.35g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.66g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.21g",
+                "Lat G: 0.83g",
+                "Lat G: 0.34g",
+                "Lat G: 0.38g",
+                "Lat G: 1.12g",
+                "Lat G: 1.08g",
+                "Lat G: 0.31g",
+                "Lat G: 1.95g",
+                "Lat G: 2.00g",
+                "Lat G: 4.06g",
+                "Lat G: 3.85g",
+                "Lat G: 2.68g",
+                "Lat G: 2.65g",
+                "Lat G: 2.79g",
+                "Lat G: 2.96g",
+                "Lat G: 4.05g",
+                "Lat G: 3.95g",
+                "Lat G: 4.00g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.11g",
+                "Lat G: 4.60g",
+                "Lat G: 4.56g",
+                "Lat G: 2.02g",
+                "Lat G: 3.45g",
+                "Lat G: 4.02g",
+                "Lat G: 3.23g",
+                "Lat G: 3.37g",
+                "Lat G: 3.31g",
+                "Lat G: 2.16g",
+                "Lat G: 2.22g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.58g",
+                "Lat G: 1.63g",
+                "Lat G: 0.72g",
+                "Lat G: 0.32g",
+                "Lat G: 0.33g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.34g",
+                "Lat G: 2.42g",
+                "Lat G: 1.55g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.43g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.36g",
+                "Lat G: 2.56g",
+                "Lat G: 2.58g",
+                "Lat G: 5.56g",
+                "Lat G: 5.40g",
+                "Lat G: 3.22g",
+                "Lat G: 4.43g",
+                "Lat G: 3.98g",
+                "Lat G: 3.44g",
+                "Lat G: 3.25g",
+                "Lat G: 1.54g",
+                "Lat G: 2.16g",
+                "Lat G: 2.20g",
+                "Lat G: 0.72g",
+                "Lat G: 0.77g",
+                "Lat G: 0.81g",
+                "Lat G: 1.04g",
+                "Lat G: 1.84g",
+                "Lat G: 1.95g",
+                "Lat G: 0.96g",
+                "Lat G: 1.29g",
+                "Lat G: 1.36g",
+                "Lat G: 0.80g",
+                "Lat G: 0.99g",
+                "Lat G: 2.29g",
+                "Lat G: 2.33g",
+                "Lat G: 1.31g",
+                "Lat G: 1.21g",
+                "Lat G: 4.85g",
+                "Lat G: 5.19g",
+                "Lat G: 2.92g",
+                "Lat G: 3.00g",
+                "Lat G: 1.70g",
+                "Lat G: 2.89g",
+                "Lat G: 3.12g",
+                "Lat G: 3.34g",
+                "Lat G: 4.65g",
+                "Lat G: 4.55g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.32g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.23g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 0.26g",
+                "Lat G: 0.37g",
+                "Lat G: 0.29g",
+                "Lat G: 0.26g",
+                "Lat G: 0.43g",
+                "Lat G: 0.46g",
+                "Lat G: 1.13g",
+                "Lat G: 1.11g",
+                "Lat G: 0.62g",
+                "Lat G: 0.64g",
+                "Lat G: 0.16g",
+                "Lat G: 0.17g",
+                "Lat G: 0.12g",
+                "Lat G: 0.03g",
+                "Lat G: 0.02g",
+                "Lat G: 0.01g",
+                "Lat G: 0.09g",
+                "Lat G: 0.09g",
+                "Lat G: 0.09g",
+                "Lat G: 0.12g",
+                "Lat G: 0.10g",
+                "Lat G: 1.54g",
+                "Lat G: 1.54g",
+                "Lat G: 0.06g",
+                "Lat G: 0.05g",
+                "Lat G: 0.03g",
+                "Lat G: 0.00g",
+                "Lat G: 0.40g",
+                "Lat G: 0.41g",
+                "Lat G: 0.09g",
+                "Lat G: 0.09g",
+                "Lat G: 0.03g",
+                "Lat G: 0.06g",
+                "Lat G: 0.08g",
+                "Lat G: 1.71g",
+                "Lat G: 1.71g",
+                "Lat G: 0.59g",
+                "Lat G: 0.59g",
+                "Lat G: 0.08g",
+                "Lat G: 0.09g",
+                "Lat G: 0.29g",
+                "Lat G: 0.33g",
+                "Lat G: 0.22g",
+                "Lat G: 0.89g",
+                "Lat G: 1.02g",
+                "Lat G: 1.10g",
+                "Lat G: 1.34g",
+                "Lat G: 1.14g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.84g",
+                "Lat G: 2.96g",
+                "Lat G: 2.78g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 5.31g",
+                "Lat G: 5.21g",
+                "Lat G: 6.02g",
+                "Lat G: 5.92g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.84g",
+                "Lat G: 4.10g",
+                "Lat G: 3.11g",
+                "Lat G: 1.92g",
+                "Lat G: 0.82g",
+                "Lat G: 5.58g",
+                "Lat G: 5.74g",
+                "Lat G: 0.39g",
+                "Lat G: 1.30g",
+                "Lat G: 1.43g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.16g",
+                "Lat G: 6.20g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.82g",
+                "Lat G: 5.98g",
+                "Lat G: 6.23g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 5.09g",
+                "Lat G: 4.90g",
+                "Lat G: 5.14g",
+                "Lat G: 5.39g",
+                "Lat G: 1.71g",
+                "Lat G: 2.34g",
+                "Lat G: 4.62g",
+                "Lat G: 4.65g",
+                "Lat G: 2.69g",
+                "Lat G: 2.98g",
+                "Lat G: 3.40g",
+                "Lat G: 2.74g",
+                "Lat G: 1.84g",
+                "Lat G: 2.37g",
+                "Lat G: 2.13g",
+                "Lat G: 3.85g",
+                "Lat G: 3.89g",
+                "Lat G: 1.89g",
+                "Lat G: 1.96g",
+                "Lat G: 3.08g",
+                "Lat G: 3.16g",
+                "Lat G: 1.95g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.51g",
+                "Lat G: 3.09g",
+                "Lat G: 3.41g",
+                "Lat G: 2.39g",
+                "Lat G: 5.17g",
+                "Lat G: 5.12g",
+                "Lat G: 1.06g",
+                "Lat G: 4.47g",
+                "Lat G: 4.39g",
+                "Lat G: 1.37g",
+                "Lat G: 1.42g",
+                "Lat G: 1.42g",
+                "Lat G: 2.54g",
+                "Lat G: 2.61g",
+                "Lat G: 1.44g",
+                "Lat G: 1.48g",
+                "Lat G: 1.18g",
+                "Lat G: 3.50g",
+                "Lat G: 3.92g",
+                "Lat G: 4.63g",
+                "Lat G: 4.61g",
+                "Lat G: 1.27g",
+                "Lat G: 1.30g",
+                "Lat G: 1.02g",
+                "Lat G: 1.55g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.32g",
+                "Lat G: 2.31g",
+                "Lat G: 1.78g",
+                "Lat G: 4.28g",
+                "Lat G: 4.42g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.01g",
+                "Lat G: 3.00g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.73g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.12g",
+                "Lat G: 3.11g",
+                "Lat G: 0.84g",
+                "Lat G: 0.78g",
+                "Lat G: 0.39g",
+                "Lat G: 0.35g",
+                "Lat G: 0.86g",
+                "Lat G: 0.84g",
+                "Lat G: 0.32g",
+                "Lat G: 0.29g",
+                "Lat G: 0.20g",
+                "Lat G: 0.24g",
+                "Lat G: 0.03g",
+                "Lat G: 0.07g",
+                "Lat G: 0.78g",
+                "Lat G: 0.78g",
+                "Lat G: 0.19g",
+                "Lat G: 0.51g",
+                "Lat G: 0.45g",
+                "Lat G: 0.61g",
+                "Lat G: 2.21g",
+                "Lat G: 2.21g",
+                "Lat G: 0.52g",
+                "Lat G: 1.43g",
+                "Lat G: 1.55g",
+                "Lat G: 2.53g",
+                "Lat G: 3.12g",
+                "Lat G: 4.80g",
+                "Lat G: 5.24g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 4.33g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.35g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.36g",
+                "Lat G: 2.76g",
+                "Lat G: 2.59g",
+                "Lat G: 3.07g",
+                "Lat G: 2.80g",
+                "Lat G: 0.44g",
+                "Lat G: 0.53g",
+                "Lat G: 0.67g",
+                "Lat G: 3.80g",
+                "Lat G: 3.76g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.99g",
+                "Lat G: 2.93g",
+                "Lat G: 1.76g",
+                "Lat G: 1.70g",
+                "Lat G: 0.55g",
+                "Lat G: 0.60g",
+                "Lat G: 0.58g",
+                "Lat G: 0.35g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 0.59g",
+                "Lat G: 0.53g",
+                "Lat G: 0.29g",
+                "Lat G: 0.22g",
+                "Lat G: 0.43g",
+                "Lat G: 1.58g",
+                "Lat G: 1.73g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.14g",
+                "Lat G: 2.76g",
+                "Lat G: 2.50g",
+                "Lat G: 2.60g",
+                "Lat G: 2.70g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.61g",
+                "Lat G: 2.61g",
+                "Lat G: 2.59g",
+                "Lat G: 2.70g",
+                "Lat G: 2.72g",
+                "Lat G: 1.85g",
+                "Lat G: 2.71g",
+                "Lat G: 2.68g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.89g",
+                "Lat G: 3.80g",
+                "Lat G: 6.50g",
+                "Lat G: 6.22g",
+                "Lat G: 1.76g",
+                "Lat G: 1.64g",
+                "Lat G: 1.16g",
+                "Lat G: 0.46g",
+                "Lat G: 0.97g",
+                "Lat G: 1.53g",
+                "Lat G: 4.56g",
+                "Lat G: 5.18g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 4.66g",
+                "Lat G: 4.47g",
+                "Lat G: 4.28g",
+                "Lat G: 4.38g",
+                "Lat G: 6.09g",
+                "Lat G: 5.99g",
+                "Lat G: 1.15g",
+                "Lat G: 0.66g",
+                "Lat G: 0.85g",
+                "Lat G: 1.51g",
+                "Lat G: 5.41g",
+                "Lat G: 5.23g",
+                "Lat G: 2.57g",
+                "Lat G: 5.89g",
+                "Lat G: 5.81g",
+                "Lat G: 2.85g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.66g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 4.14g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 4.54g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.81g",
+                "Lat G: 4.50g",
+                "Lat G: 4.88g",
+                "Lat G: 3.80g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 0.33g",
+                "Lat G: 1.25g",
+                "Lat G: 1.96g",
+                "Lat G: 1.99g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.18g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.01g",
+                "Lat G: 2.24g",
+                "Lat G: 1.80g",
+                "Lat G: 0.92g",
+                "Lat G: 0.95g",
+                "Lat G: 0.92g",
+                "Lat G: 4.04g",
+                "Lat G: 4.01g",
+                "Lat G: 1.20g",
+                "Lat G: 1.13g",
+                "Lat G: 0.75g",
+                "Lat G: 0.66g",
+                "Lat G: 0.26g",
+                "Lat G: 0.14g",
+                "Lat G: 0.07g",
+                "Lat G: 0.09g",
+                "Lat G: 0.05g",
+                "Lat G: 0.28g",
+                "Lat G: 0.27g",
+                "Lat G: 0.07g",
+                "Lat G: 0.04g",
+                "Lat G: 0.03g",
+                "Lat G: 0.04g",
+                "Lat G: 0.03g",
+                "Lat G: 0.50g",
+                "Lat G: 0.50g",
+                "Lat G: 0.02g",
+                "Lat G: 0.08g",
+                "Lat G: 0.08g",
+                "Lat G: 0.02g",
+                "Lat G: 0.02g",
+                "Lat G: 0.08g",
+                "Lat G: 0.08g",
+                "Lat G: 0.02g",
+                "Lat G: 0.02g",
+                "Lat G: 0.02g",
+                "Lat G: 0.22g",
+                "Lat G: 0.22g",
+                "Lat G: 0.07g",
+                "Lat G: 0.06g",
+                "Lat G: 0.15g",
+                "Lat G: 0.16g",
+                "Lat G: 0.11g",
+                "Lat G: 2.85g",
+                "Lat G: 2.88g",
+                "Lat G: 0.69g",
+                "Lat G: 0.67g",
+                "Lat G: 0.03g",
+                "Lat G: 0.12g",
+                "Lat G: 0.12g",
+                "Lat G: 3.96g",
+                "Lat G: 4.02g",
+                "Lat G: 0.67g",
+                "Lat G: 0.65g",
+                "Lat G: 1.95g",
+                "Lat G: 1.95g",
+                "Lat G: 3.08g",
+                "Lat G: 3.20g",
+                "Lat G: 1.82g",
+                "Lat G: 1.89g",
+                "Lat G: 1.79g",
+                "Lat G: 1.96g",
+                "Lat G: 1.46g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.31g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 4.78g",
+                "Lat G: 5.66g",
+                "Lat G: 4.76g",
+                "Lat G: 5.04g",
+                "Lat G: 5.08g",
+                "Lat G: 6.50g",
+                "Lat G: 6.44g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 5.13g",
+                "Lat G: 5.12g",
+                "Lat G: 5.11g",
+                "Lat G: 5.26g",
+                "Lat G: 3.79g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.10g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.80g",
+                "Lat G: 2.56g",
+                "Lat G: 1.91g",
+                "Lat G: 2.16g",
+                "Lat G: 1.86g",
+                "Lat G: 0.52g",
+                "Lat G: 0.21g",
+                "Lat G: 0.35g",
+                "Lat G: 2.48g",
+                "Lat G: 2.48g",
+                "Lat G: 1.78g",
+                "Lat G: 1.88g",
+                "Lat G: 2.07g",
+                "Lat G: 1.99g",
+                "Lat G: 1.20g",
+                "Lat G: 1.21g",
+                "Lat G: 2.17g",
+                "Lat G: 2.10g",
+                "Lat G: 0.28g",
+                "Lat G: 0.27g",
+                "Lat G: 0.21g",
+                "Lat G: 0.42g",
+                "Lat G: 0.41g",
+                "Lat G: 0.22g",
+                "Lat G: 0.24g",
+                "Lat G: 0.85g",
+                "Lat G: 0.88g",
+                "Lat G: 0.85g",
+                "Lat G: 1.47g",
+                "Lat G: 1.40g",
+                "Lat G: 2.78g",
+                "Lat G: 2.73g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.51g",
+                "Lat G: 1.66g",
+                "Lat G: 6.13g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 3.95g",
+                "Lat G: 3.88g",
+                "Lat G: 3.73g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.51g",
+                "Lat G: 2.30g",
+                "Lat G: 1.28g",
+                "Lat G: 1.61g",
+                "Lat G: 2.49g",
+                "Lat G: 2.84g",
+                "Lat G: 2.54g",
+                "Lat G: 2.14g",
+                "Lat G: 1.47g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.42g",
+                "Lat G: 2.14g",
+                "Lat G: 4.07g",
+                "Lat G: 4.32g",
+                "Lat G: 3.05g",
+                "Lat G: 2.42g",
+                "Lat G: 4.68g",
+                "Lat G: 4.69g",
+                "Lat G: 1.51g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 1.78g",
+                "Lat G: 1.26g",
+                "Lat G: 1.63g",
+                "Lat G: 1.73g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 2.38g",
+                "Lat G: 4.76g",
+                "Lat G: 4.94g",
+                "Lat G: 6.50g",
+                "Lat G: 6.50g",
+                "Lat G: 4.58g",
+                "Lat G: 4.59g",
+                "Lat G: 4.80g",
+                "Lat G: 4.73g",
+                "Lat G: 2.38g",
+                "Lat G: 1.71g",
+                "Lat G: 4.20g",
+                "Lat G: 4.16g",
+                "Lat G: 1.40g",
+                "Lat G: 1.05g",
+                "Lat G: 3.58g",
+                "Lat G: 3.39g",
+                "Lat G: 2.04g",
+                "Lat G: 2.92g",
+                "Lat G: 3.40g"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "xaxis": "x",
+            "y": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "yaxis": "y"
+        },
+        {
+            "hoverinfo": "text",
+            "line": {
+                "color": "#FF79C6",
+                "width": 4
+            },
+            "marker": {
+                "cmax": 317,
+                "cmin": 87,
+                "color": {
+                    "bdata": "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",
+                    "dtype": "f8"
+                },
+                "colorbar": {
+                    "len": 0.85,
+                    "thickness": 12,
+                    "title": {
+                        "text": "Speed (km/h)"
+                    },
+                    "x": 1.01,
+                    "y": 0.5
+                },
+                "colorscale": [
+                    [
+                        0,
+                        "#30123b"
+                    ],
+                    [
+                        0.07142857142857142,
+                        "#4145ab"
+                    ],
+                    [
+                        0.14285714285714285,
+                        "#4675ed"
+                    ],
+                    [
+                        0.21428571428571427,
+                        "#39a2fc"
+                    ],
+                    [
+                        0.2857142857142857,
+                        "#1bcfd4"
+                    ],
+                    [
+                        0.35714285714285715,
+                        "#24eca6"
+                    ],
+                    [
+                        0.42857142857142855,
+                        "#61fc6c"
+                    ],
+                    [
+                        0.5,
+                        "#a4fc3b"
+                    ],
+                    [
+                        0.5714285714285714,
+                        "#d1e834"
+                    ],
+                    [
+                        0.6428571428571429,
+                        "#f3c63a"
+                    ],
+                    [
+                        0.7142857142857143,
+                        "#fe9b2d"
+                    ],
+                    [
+                        0.7857142857142857,
+                        "#f36315"
+                    ],
+                    [
+                        0.8571428571428571,
+                        "#d93806"
+                    ],
+                    [
+                        0.9285714285714286,
+                        "#b11901"
+                    ],
+                    [
+                        1,
+                        "#7a0402"
+                    ]
+                ],
+                "opacity": 0.85,
+                "size": 5
+            },
+            "mode": "lines+markers",
+            "showlegend": false,
+            "text": [
+                "Speed: 265.1 km/h",
+                "Speed: 268.9 km/h",
+                "Speed: 271.2 km/h",
+                "Speed: 272.0 km/h",
+                "Speed: 275.6 km/h",
+                "Speed: 277.0 km/h",
+                "Speed: 279.2 km/h",
+                "Speed: 281.0 km/h",
+                "Speed: 284.3 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 290.8 km/h",
+                "Speed: 292.4 km/h",
+                "Speed: 293.0 km/h",
+                "Speed: 296.4 km/h",
+                "Speed: 297.0 km/h",
+                "Speed: 300.4 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 305.9 km/h",
+                "Speed: 306.7 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 308.4 km/h",
+                "Speed: 309.0 km/h",
+                "Speed: 310.8 km/h",
+                "Speed: 311.0 km/h",
+                "Speed: 313.0 km/h",
+                "Speed: 313.0 km/h",
+                "Speed: 313.0 km/h",
+                "Speed: 313.0 km/h",
+                "Speed: 312.6 km/h",
+                "Speed: 312.1 km/h",
+                "Speed: 312.0 km/h",
+                "Speed: 311.4 km/h",
+                "Speed: 311.0 km/h",
+                "Speed: 311.0 km/h",
+                "Speed: 311.0 km/h",
+                "Speed: 310.7 km/h",
+                "Speed: 310.0 km/h",
+                "Speed: 307.5 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 300.9 km/h",
+                "Speed: 300.0 km/h",
+                "Speed: 299.5 km/h",
+                "Speed: 298.0 km/h",
+                "Speed: 295.9 km/h",
+                "Speed: 295.0 km/h",
+                "Speed: 294.0 km/h",
+                "Speed: 293.9 km/h",
+                "Speed: 292.2 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 291.1 km/h",
+                "Speed: 291.0 km/h",
+                "Speed: 290.4 km/h",
+                "Speed: 290.0 km/h",
+                "Speed: 288.1 km/h",
+                "Speed: 286.5 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 285.7 km/h",
+                "Speed: 284.0 km/h",
+                "Speed: 283.7 km/h",
+                "Speed: 283.0 km/h",
+                "Speed: 282.6 km/h",
+                "Speed: 282.0 km/h",
+                "Speed: 281.0 km/h",
+                "Speed: 280.1 km/h",
+                "Speed: 280.0 km/h",
+                "Speed: 279.2 km/h",
+                "Speed: 278.1 km/h",
+                "Speed: 278.0 km/h",
+                "Speed: 277.0 km/h",
+                "Speed: 276.6 km/h",
+                "Speed: 272.0 km/h",
+                "Speed: 270.5 km/h",
+                "Speed: 268.0 km/h",
+                "Speed: 266.7 km/h",
+                "Speed: 263.0 km/h",
+                "Speed: 261.4 km/h",
+                "Speed: 253.0 km/h",
+                "Speed: 233.9 km/h",
+                "Speed: 228.0 km/h",
+                "Speed: 208.5 km/h",
+                "Speed: 206.0 km/h",
+                "Speed: 187.0 km/h",
+                "Speed: 182.7 km/h",
+                "Speed: 173.0 km/h",
+                "Speed: 167.7 km/h",
+                "Speed: 157.0 km/h",
+                "Speed: 153.5 km/h",
+                "Speed: 143.2 km/h",
+                "Speed: 140.0 km/h",
+                "Speed: 138.8 km/h",
+                "Speed: 130.0 km/h",
+                "Speed: 128.9 km/h",
+                "Speed: 125.0 km/h",
+                "Speed: 121.4 km/h",
+                "Speed: 120.0 km/h",
+                "Speed: 115.6 km/h",
+                "Speed: 111.8 km/h",
+                "Speed: 110.0 km/h",
+                "Speed: 109.4 km/h",
+                "Speed: 108.4 km/h",
+                "Speed: 108.0 km/h",
+                "Speed: 110.0 km/h",
+                "Speed: 111.0 km/h",
+                "Speed: 116.9 km/h",
+                "Speed: 117.0 km/h",
+                "Speed: 122.0 km/h",
+                "Speed: 122.6 km/h",
+                "Speed: 127.0 km/h",
+                "Speed: 130.6 km/h",
+                "Speed: 135.0 km/h",
+                "Speed: 140.8 km/h",
+                "Speed: 141.0 km/h",
+                "Speed: 133.1 km/h",
+                "Speed: 131.0 km/h",
+                "Speed: 126.0 km/h",
+                "Speed: 117.0 km/h",
+                "Speed: 116.5 km/h",
+                "Speed: 107.0 km/h",
+                "Speed: 106.8 km/h",
+                "Speed: 103.8 km/h",
+                "Speed: 98.1 km/h",
+                "Speed: 98.0 km/h",
+                "Speed: 94.0 km/h",
+                "Speed: 91.3 km/h",
+                "Speed: 90.0 km/h",
+                "Speed: 88.0 km/h",
+                "Speed: 87.8 km/h",
+                "Speed: 87.0 km/h",
+                "Speed: 87.6 km/h",
+                "Speed: 88.0 km/h",
+                "Speed: 88.7 km/h",
+                "Speed: 89.0 km/h",
+                "Speed: 90.6 km/h",
+                "Speed: 93.0 km/h",
+                "Speed: 93.7 km/h",
+                "Speed: 99.0 km/h",
+                "Speed: 101.8 km/h",
+                "Speed: 107.0 km/h",
+                "Speed: 110.9 km/h",
+                "Speed: 114.0 km/h",
+                "Speed: 115.3 km/h",
+                "Speed: 118.0 km/h",
+                "Speed: 126.0 km/h",
+                "Speed: 129.4 km/h",
+                "Speed: 141.0 km/h",
+                "Speed: 149.0 km/h",
+                "Speed: 158.0 km/h",
+                "Speed: 161.6 km/h",
+                "Speed: 169.0 km/h",
+                "Speed: 174.2 km/h",
+                "Speed: 184.0 km/h",
+                "Speed: 185.4 km/h",
+                "Speed: 198.9 km/h",
+                "Speed: 202.0 km/h",
+                "Speed: 207.2 km/h",
+                "Speed: 214.0 km/h",
+                "Speed: 217.0 km/h",
+                "Speed: 217.0 km/h",
+                "Speed: 217.0 km/h",
+                "Speed: 220.3 km/h",
+                "Speed: 237.0 km/h",
+                "Speed: 237.3 km/h",
+                "Speed: 240.8 km/h",
+                "Speed: 243.0 km/h",
+                "Speed: 244.0 km/h",
+                "Speed: 250.0 km/h",
+                "Speed: 250.6 km/h",
+                "Speed: 253.0 km/h",
+                "Speed: 256.9 km/h",
+                "Speed: 257.0 km/h",
+                "Speed: 261.6 km/h",
+                "Speed: 262.0 km/h",
+                "Speed: 266.8 km/h",
+                "Speed: 267.0 km/h",
+                "Speed: 273.0 km/h",
+                "Speed: 275.3 km/h",
+                "Speed: 277.0 km/h",
+                "Speed: 279.2 km/h",
+                "Speed: 280.0 km/h",
+                "Speed: 281.9 km/h",
+                "Speed: 285.2 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 288.4 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 292.2 km/h",
+                "Speed: 294.0 km/h",
+                "Speed: 294.7 km/h",
+                "Speed: 296.0 km/h",
+                "Speed: 297.0 km/h",
+                "Speed: 297.1 km/h",
+                "Speed: 299.9 km/h",
+                "Speed: 300.0 km/h",
+                "Speed: 302.0 km/h",
+                "Speed: 302.4 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 304.9 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 305.7 km/h",
+                "Speed: 306.5 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 307.9 km/h",
+                "Speed: 308.9 km/h",
+                "Speed: 309.0 km/h",
+                "Speed: 309.0 km/h",
+                "Speed: 309.3 km/h",
+                "Speed: 310.0 km/h",
+                "Speed: 309.0 km/h",
+                "Speed: 308.7 km/h",
+                "Speed: 308.0 km/h",
+                "Speed: 307.9 km/h",
+                "Speed: 307.1 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 305.2 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 298.1 km/h",
+                "Speed: 297.0 km/h",
+                "Speed: 294.4 km/h",
+                "Speed: 292.2 km/h",
+                "Speed: 291.0 km/h",
+                "Speed: 287.4 km/h",
+                "Speed: 285.0 km/h",
+                "Speed: 280.2 km/h",
+                "Speed: 273.0 km/h",
+                "Speed: 270.0 km/h",
+                "Speed: 239.4 km/h",
+                "Speed: 237.0 km/h",
+                "Speed: 222.0 km/h",
+                "Speed: 217.7 km/h",
+                "Speed: 208.4 km/h",
+                "Speed: 208.0 km/h",
+                "Speed: 194.8 km/h",
+                "Speed: 185.0 km/h",
+                "Speed: 181.2 km/h",
+                "Speed: 177.2 km/h",
+                "Speed: 177.0 km/h",
+                "Speed: 169.8 km/h",
+                "Speed: 168.0 km/h",
+                "Speed: 167.3 km/h",
+                "Speed: 167.0 km/h",
+                "Speed: 167.0 km/h",
+                "Speed: 167.0 km/h",
+                "Speed: 170.2 km/h",
+                "Speed: 171.0 km/h",
+                "Speed: 172.8 km/h",
+                "Speed: 175.0 km/h",
+                "Speed: 177.8 km/h",
+                "Speed: 181.0 km/h",
+                "Speed: 181.2 km/h",
+                "Speed: 185.0 km/h",
+                "Speed: 184.3 km/h",
+                "Speed: 184.0 km/h",
+                "Speed: 171.0 km/h",
+                "Speed: 168.8 km/h",
+                "Speed: 160.0 km/h",
+                "Speed: 157.9 km/h",
+                "Speed: 152.0 km/h",
+                "Speed: 151.5 km/h",
+                "Speed: 145.0 km/h",
+                "Speed: 140.8 km/h",
+                "Speed: 139.0 km/h",
+                "Speed: 128.9 km/h",
+                "Speed: 128.0 km/h",
+                "Speed: 124.0 km/h",
+                "Speed: 123.5 km/h",
+                "Speed: 122.0 km/h",
+                "Speed: 121.2 km/h",
+                "Speed: 118.0 km/h",
+                "Speed: 115.6 km/h",
+                "Speed: 114.0 km/h",
+                "Speed: 114.0 km/h",
+                "Speed: 114.0 km/h",
+                "Speed: 115.9 km/h",
+                "Speed: 117.0 km/h",
+                "Speed: 118.7 km/h",
+                "Speed: 123.0 km/h",
+                "Speed: 124.1 km/h",
+                "Speed: 125.0 km/h",
+                "Speed: 128.0 km/h",
+                "Speed: 130.0 km/h",
+                "Speed: 134.0 km/h",
+                "Speed: 140.0 km/h",
+                "Speed: 141.7 km/h",
+                "Speed: 143.0 km/h",
+                "Speed: 148.0 km/h",
+                "Speed: 158.7 km/h",
+                "Speed: 159.0 km/h",
+                "Speed: 160.3 km/h",
+                "Speed: 163.0 km/h",
+                "Speed: 166.6 km/h",
+                "Speed: 171.0 km/h",
+                "Speed: 181.0 km/h",
+                "Speed: 182.3 km/h",
+                "Speed: 189.1 km/h",
+                "Speed: 198.0 km/h",
+                "Speed: 199.0 km/h",
+                "Speed: 203.0 km/h",
+                "Speed: 207.7 km/h",
+                "Speed: 213.0 km/h",
+                "Speed: 217.9 km/h",
+                "Speed: 220.0 km/h",
+                "Speed: 227.2 km/h",
+                "Speed: 230.0 km/h",
+                "Speed: 236.9 km/h",
+                "Speed: 240.0 km/h",
+                "Speed: 241.0 km/h",
+                "Speed: 249.1 km/h",
+                "Speed: 250.0 km/h",
+                "Speed: 256.0 km/h",
+                "Speed: 258.3 km/h",
+                "Speed: 263.0 km/h",
+                "Speed: 267.9 km/h",
+                "Speed: 270.8 km/h",
+                "Speed: 271.0 km/h",
+                "Speed: 272.9 km/h",
+                "Speed: 274.0 km/h",
+                "Speed: 278.5 km/h",
+                "Speed: 281.0 km/h",
+                "Speed: 282.1 km/h",
+                "Speed: 284.5 km/h",
+                "Speed: 285.0 km/h",
+                "Speed: 287.9 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 291.7 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 296.6 km/h",
+                "Speed: 297.0 km/h",
+                "Speed: 298.6 km/h",
+                "Speed: 300.8 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 302.7 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 305.4 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 308.0 km/h",
+                "Speed: 310.0 km/h",
+                "Speed: 310.3 km/h",
+                "Speed: 310.9 km/h",
+                "Speed: 311.0 km/h",
+                "Speed: 311.9 km/h",
+                "Speed: 312.0 km/h",
+                "Speed: 313.5 km/h",
+                "Speed: 314.0 km/h",
+                "Speed: 315.2 km/h",
+                "Speed: 316.0 km/h",
+                "Speed: 316.0 km/h",
+                "Speed: 316.2 km/h",
+                "Speed: 317.0 km/h",
+                "Speed: 315.6 km/h",
+                "Speed: 315.0 km/h",
+                "Speed: 315.5 km/h",
+                "Speed: 316.0 km/h",
+                "Speed: 315.6 km/h",
+                "Speed: 314.0 km/h",
+                "Speed: 312.0 km/h",
+                "Speed: 311.7 km/h",
+                "Speed: 310.0 km/h",
+                "Speed: 309.6 km/h",
+                "Speed: 309.0 km/h",
+                "Speed: 308.3 km/h",
+                "Speed: 307.0 km/h",
+                "Speed: 305.2 km/h",
+                "Speed: 302.0 km/h",
+                "Speed: 301.2 km/h",
+                "Speed: 299.3 km/h",
+                "Speed: 299.0 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 284.7 km/h",
+                "Speed: 284.0 km/h",
+                "Speed: 282.8 km/h",
+                "Speed: 282.0 km/h",
+                "Speed: 282.8 km/h",
+                "Speed: 283.0 km/h",
+                "Speed: 283.0 km/h",
+                "Speed: 283.0 km/h",
+                "Speed: 283.0 km/h",
+                "Speed: 284.5 km/h",
+                "Speed: 285.0 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 286.2 km/h",
+                "Speed: 287.0 km/h",
+                "Speed: 287.4 km/h",
+                "Speed: 288.0 km/h",
+                "Speed: 288.8 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 290.8 km/h",
+                "Speed: 291.0 km/h",
+                "Speed: 291.8 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 292.5 km/h",
+                "Speed: 293.0 km/h",
+                "Speed: 293.0 km/h",
+                "Speed: 293.0 km/h",
+                "Speed: 293.0 km/h",
+                "Speed: 292.6 km/h",
+                "Speed: 292.3 km/h",
+                "Speed: 292.0 km/h",
+                "Speed: 291.0 km/h",
+                "Speed: 290.9 km/h",
+                "Speed: 290.0 km/h",
+                "Speed: 289.9 km/h",
+                "Speed: 289.1 km/h",
+                "Speed: 289.0 km/h",
+                "Speed: 288.4 km/h",
+                "Speed: 288.0 km/h",
+                "Speed: 288.0 km/h",
+                "Speed: 288.0 km/h",
+                "Speed: 287.7 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 286.0 km/h",
+                "Speed: 285.7 km/h",
+                "Speed: 285.0 km/h",
+                "Speed: 285.0 km/h",
+                "Speed: 284.0 km/h",
+                "Speed: 283.7 km/h",
+                "Speed: 282.0 km/h",
+                "Speed: 282.0 km/h",
+                "Speed: 282.0 km/h",
+                "Speed: 280.0 km/h",
+                "Speed: 279.9 km/h",
+                "Speed: 278.7 km/h",
+                "Speed: 278.0 km/h",
+                "Speed: 274.0 km/h",
+                "Speed: 273.7 km/h",
+                "Speed: 272.7 km/h",
+                "Speed: 271.5 km/h",
+                "Speed: 271.0 km/h",
+                "Speed: 271.0 km/h",
+                "Speed: 271.0 km/h",
+                "Speed: 270.5 km/h",
+                "Speed: 270.0 km/h",
+                "Speed: 268.9 km/h",
+                "Speed: 261.0 km/h",
+                "Speed: 260.9 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 259.7 km/h",
+                "Speed: 259.0 km/h",
+                "Speed: 255.7 km/h",
+                "Speed: 252.0 km/h",
+                "Speed: 251.8 km/h",
+                "Speed: 251.0 km/h",
+                "Speed: 250.1 km/h",
+                "Speed: 249.0 km/h",
+                "Speed: 247.4 km/h",
+                "Speed: 242.0 km/h",
+                "Speed: 240.7 km/h",
+                "Speed: 237.0 km/h",
+                "Speed: 231.3 km/h",
+                "Speed: 229.0 km/h",
+                "Speed: 226.3 km/h",
+                "Speed: 224.0 km/h",
+                "Speed: 223.2 km/h",
+                "Speed: 221.0 km/h",
+                "Speed: 219.0 km/h",
+                "Speed: 219.1 km/h",
+                "Speed: 220.0 km/h",
+                "Speed: 219.5 km/h",
+                "Speed: 219.3 km/h",
+                "Speed: 219.0 km/h",
+                "Speed: 225.0 km/h",
+                "Speed: 225.3 km/h",
+                "Speed: 231.0 km/h",
+                "Speed: 234.1 km/h",
+                "Speed: 235.0 km/h",
+                "Speed: 236.3 km/h",
+                "Speed: 243.8 km/h",
+                "Speed: 244.0 km/h",
+                "Speed: 248.0 km/h",
+                "Speed: 248.9 km/h",
+                "Speed: 250.0 km/h",
+                "Speed: 252.2 km/h",
+                "Speed: 256.5 km/h",
+                "Speed: 257.0 km/h",
+                "Speed: 257.7 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.5 km/h",
+                "Speed: 263.2 km/h",
+                "Speed: 265.0 km/h",
+                "Speed: 266.0 km/h",
+                "Speed: 267.7 km/h",
+                "Speed: 269.0 km/h",
+                "Speed: 270.6 km/h",
+                "Speed: 275.5 km/h",
+                "Speed: 276.0 km/h",
+                "Speed: 281.0 km/h",
+                "Speed: 282.1 km/h",
+                "Speed: 284.0 km/h",
+                "Speed: 285.1 km/h",
+                "Speed: 287.0 km/h",
+                "Speed: 288.4 km/h",
+                "Speed: 291.0 km/h",
+                "Speed: 291.9 km/h",
+                "Speed: 293.0 km/h",
+                "Speed: 293.9 km/h",
+                "Speed: 294.0 km/h",
+                "Speed: 295.2 km/h",
+                "Speed: 296.8 km/h",
+                "Speed: 298.0 km/h",
+                "Speed: 298.7 km/h",
+                "Speed: 299.0 km/h",
+                "Speed: 300.9 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 301.9 km/h",
+                "Speed: 302.0 km/h",
+                "Speed: 304.7 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 305.0 km/h",
+                "Speed: 304.4 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 304.0 km/h",
+                "Speed: 303.5 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 303.0 km/h",
+                "Speed: 302.1 km/h",
+                "Speed: 302.0 km/h",
+                "Speed: 302.0 km/h",
+                "Speed: 301.9 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 301.0 km/h",
+                "Speed: 300.3 km/h",
+                "Speed: 299.0 km/h",
+                "Speed: 299.0 km/h",
+                "Speed: 298.4 km/h",
+                "Speed: 290.0 km/h",
+                "Speed: 278.0 km/h",
+                "Speed: 276.1 km/h",
+                "Speed: 266.0 km/h",
+                "Speed: 261.9 km/h",
+                "Speed: 257.0 km/h",
+                "Speed: 255.0 km/h",
+                "Speed: 251.6 km/h",
+                "Speed: 246.7 km/h",
+                "Speed: 244.0 km/h",
+                "Speed: 237.7 km/h",
+                "Speed: 237.0 km/h",
+                "Speed: 236.4 km/h",
+                "Speed: 236.0 km/h",
+                "Speed: 236.0 km/h",
+                "Speed: 236.0 km/h",
+                "Speed: 236.8 km/h",
+                "Speed: 238.9 km/h",
+                "Speed: 239.0 km/h",
+                "Speed: 239.0 km/h",
+                "Speed: 241.0 km/h",
+                "Speed: 241.0 km/h",
+                "Speed: 241.0 km/h",
+                "Speed: 241.9 km/h",
+                "Speed: 243.0 km/h",
+                "Speed: 244.0 km/h",
+                "Speed: 245.0 km/h",
+                "Speed: 247.8 km/h",
+                "Speed: 249.0 km/h",
+                "Speed: 249.8 km/h",
+                "Speed: 251.0 km/h",
+                "Speed: 251.4 km/h",
+                "Speed: 253.4 km/h",
+                "Speed: 254.0 km/h",
+                "Speed: 257.5 km/h",
+                "Speed: 258.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.2 km/h",
+                "Speed: 261.0 km/h",
+                "Speed: 260.9 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 260.0 km/h",
+                "Speed: 254.0 km/h",
+                "Speed: 236.6 km/h",
+                "Speed: 223.0 km/h",
+                "Speed: 196.0 km/h",
+                "Speed: 191.2 km/h",
+                "Speed: 174.0 km/h",
+                "Speed: 173.1 km/h",
+                "Speed: 139.6 km/h",
+                "Speed: 139.0 km/h",
+                "Speed: 133.7 km/h",
+                "Speed: 123.0 km/h",
+                "Speed: 117.7 km/h",
+                "Speed: 116.0 km/h",
+                "Speed: 105.0 km/h",
+                "Speed: 104.8 km/h",
+                "Speed: 104.2 km/h",
+                "Speed: 103.0 km/h",
+                "Speed: 102.7 km/h",
+                "Speed: 102.1 km/h",
+                "Speed: 102.0 km/h",
+                "Speed: 106.5 km/h",
+                "Speed: 107.0 km/h",
+                "Speed: 111.0 km/h",
+                "Speed: 113.0 km/h",
+                "Speed: 124.0 km/h",
+                "Speed: 124.9 km/h",
+                "Speed: 126.0 km/h",
+                "Speed: 126.6 km/h",
+                "Speed: 128.0 km/h",
+                "Speed: 130.0 km/h",
+                "Speed: 130.0 km/h",
+                "Speed: 130.0 km/h",
+                "Speed: 132.1 km/h",
+                "Speed: 134.0 km/h",
+                "Speed: 134.9 km/h",
+                "Speed: 136.0 km/h",
+                "Speed: 141.2 km/h",
+                "Speed: 145.4 km/h",
+                "Speed: 147.0 km/h",
+                "Speed: 152.3 km/h",
+                "Speed: 157.0 km/h",
+                "Speed: 157.4 km/h",
+                "Speed: 165.0 km/h",
+                "Speed: 165.5 km/h",
+                "Speed: 178.0 km/h",
+                "Speed: 178.2 km/h",
+                "Speed: 180.4 km/h",
+                "Speed: 184.0 km/h",
+                "Speed: 192.4 km/h",
+                "Speed: 198.0 km/h",
+                "Speed: 203.2 km/h",
+                "Speed: 204.0 km/h",
+                "Speed: 210.0 km/h",
+                "Speed: 211.0 km/h",
+                "Speed: 213.0 km/h",
+                "Speed: 216.3 km/h",
+                "Speed: 218.0 km/h",
+                "Speed: 226.0 km/h",
+                "Speed: 226.2 km/h",
+                "Speed: 230.0 km/h",
+                "Speed: 231.4 km/h",
+                "Speed: 234.0 km/h",
+                "Speed: 234.3 km/h",
+                "Speed: 235.0 km/h",
+                "Speed: 237.9 km/h",
+                "Speed: 242.0 km/h",
+                "Speed: 243.0 km/h",
+                "Speed: 245.0 km/h",
+                "Speed: 248.2 km/h",
+                "Speed: 253.0 km/h",
+                "Speed: 252.0 km/h",
+                "Speed: 250.0 km/h",
+                "Speed: 248.8 km/h",
+                "Speed: 248.1 km/h"
+            ],
+            "type": "scatter",
+            "x": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "xaxis": "x2",
+            "y": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "yaxis": "y2"
+        }
+    ],
+    "layout": {
+        "annotations": [
+            {
+                "font": {
+                    "size": 16
+                },
+                "showarrow": false,
+                "text": "Lat G",
+                "x": 0.2125,
+                "xanchor": "center",
+                "xref": "paper",
+                "y": 1,
+                "yanchor": "bottom",
+                "yref": "paper"
+            },
+            {
+                "font": {
+                    "size": 16
+                },
+                "showarrow": false,
+                "text": "Speed",
+                "x": 0.7875,
+                "xanchor": "center",
+                "xref": "paper",
+                "y": 1,
+                "yanchor": "bottom",
+                "yref": "paper"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "1",
+                "x": -4542.700502171225,
+                "xref": "x",
+                "y": 1034.600590310922,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "2",
+                "x": -4556.856022248807,
+                "xref": "x",
+                "y": 2612.874896614133,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "3",
+                "x": -6060.638525384505,
+                "xref": "x",
+                "y": 4636.633543270209,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "4",
+                "x": -4933.15233154307,
+                "xref": "x",
+                "y": 5633.971631327864,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "5",
+                "x": -6672.548676145474,
+                "xref": "x",
+                "y": 6003.079338840032,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "6",
+                "x": -10925.621256216073,
+                "xref": "x",
+                "y": 250.23974261398916,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "7",
+                "x": -9514.810147510358,
+                "xref": "x",
+                "y": -898.8612953318737,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "8",
+                "x": -12380.598598887238,
+                "xref": "x",
+                "y": 329.462601750073,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "9",
+                "x": -13145.016789127909,
+                "xref": "x",
+                "y": 5438.4520426433355,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "10",
+                "x": -8030.346968509445,
+                "xref": "x",
+                "y": 7019.851314328222,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "11",
+                "x": -7164.932290774835,
+                "xref": "x",
+                "y": 7289.3811272371895,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "12",
+                "x": -5727.446810672311,
+                "xref": "x",
+                "y": 7141.161480605953,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "13",
+                "x": -4432.380853878229,
+                "xref": "x",
+                "y": 7626.436473671193,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "14",
+                "x": -3382.3263321414993,
+                "xref": "x",
+                "y": 6692.845672667548,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "15",
+                "x": 4013.0218413557363,
+                "xref": "x",
+                "y": 2540.552226730058,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "16",
+                "x": 1014.8134485651761,
+                "xref": "x",
+                "y": -585.3688232066075,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "17",
+                "x": 1196.251918847959,
+                "xref": "x",
+                "y": -1397.1551315637735,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "18",
+                "x": 186.2498662566074,
+                "xref": "x",
+                "y": -2304.2378813812747,
+                "yref": "y"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "1",
+                "x": -4542.700502171225,
+                "xref": "x2",
+                "y": 1034.600590310922,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "2",
+                "x": -4556.856022248807,
+                "xref": "x2",
+                "y": 2612.874896614133,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "3",
+                "x": -6060.638525384505,
+                "xref": "x2",
+                "y": 4636.633543270209,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "4",
+                "x": -4933.15233154307,
+                "xref": "x2",
+                "y": 5633.971631327864,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "5",
+                "x": -6672.548676145474,
+                "xref": "x2",
+                "y": 6003.079338840032,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "6",
+                "x": -10925.621256216073,
+                "xref": "x2",
+                "y": 250.23974261398916,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "7",
+                "x": -9514.810147510358,
+                "xref": "x2",
+                "y": -898.8612953318737,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "8",
+                "x": -12380.598598887238,
+                "xref": "x2",
+                "y": 329.462601750073,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "9",
+                "x": -13145.016789127909,
+                "xref": "x2",
+                "y": 5438.4520426433355,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "10",
+                "x": -8030.346968509445,
+                "xref": "x2",
+                "y": 7019.851314328222,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "11",
+                "x": -7164.932290774835,
+                "xref": "x2",
+                "y": 7289.3811272371895,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "12",
+                "x": -5727.446810672311,
+                "xref": "x2",
+                "y": 7141.161480605953,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "13",
+                "x": -4432.380853878229,
+                "xref": "x2",
+                "y": 7626.436473671193,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "14",
+                "x": -3382.3263321414993,
+                "xref": "x2",
+                "y": 6692.845672667548,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "15",
+                "x": 4013.0218413557363,
+                "xref": "x2",
+                "y": 2540.552226730058,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "16",
+                "x": 1014.8134485651761,
+                "xref": "x2",
+                "y": -585.3688232066075,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "17",
+                "x": 1196.251918847959,
+                "xref": "x2",
+                "y": -1397.1551315637735,
+                "yref": "y2"
+            },
+            {
+                "bgcolor": "grey",
+                "font": {
+                    "color": "white",
+                    "size": 10
+                },
+                "showarrow": false,
+                "text": "18",
+                "x": 186.2498662566074,
+                "xref": "x2",
+                "y": -2304.2378813812747,
+                "yref": "y2"
+            }
+        ],
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "xaxis": {
+            "anchor": "y",
+            "domain": [
+                0,
+                0.425
+            ],
+            "showgrid": false,
+            "showticklabels": false,
+            "zeroline": false
+        },
+        "xaxis2": {
+            "anchor": "y2",
+            "domain": [
+                0.575,
+                1
+            ],
+            "showgrid": false,
+            "showticklabels": false,
+            "zeroline": false
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "scaleanchor": "x",
+            "scaleratio": 1,
+            "showgrid": false,
+            "showticklabels": false,
+            "zeroline": false
+        },
+        "yaxis2": {
+            "anchor": "x2",
+            "domain": [
+                0,
+                1
+            ],
+            "scaleanchor": "x2",
+            "scaleratio": 1,
+            "showgrid": false,
+            "showticklabels": false,
+            "zeroline": false
+        }
+    }
+}

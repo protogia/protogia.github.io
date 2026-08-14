@@ -1,0 +1,1309 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "mode": "lines",
+            "name": "HAM Speed",
+            "type": "scatter",
+            "x": [
+                20091000000,
+                20093000000,
+                20313000000,
+                20451000000,
+                20612000000,
+                20851000000,
+                20912000000,
+                21011000000,
+                21112000000,
+                21171000000,
+                21352000000,
+                21371000000,
+                21532000000,
+                21691000000,
+                21792000000,
+                21851000000,
+                22092000000,
+                22251000000,
+                22451000000,
+                22512000000,
+                22692000000,
+                22811000000,
+                22892000000,
+                23091000000,
+                23252000000,
+                23331000000,
+                23611000000,
+                23732000000,
+                23811000000,
+                23912000000,
+                24131000000,
+                24252000000,
+                24291000000,
+                24432000000,
+                24571000000,
+                24612000000,
+                24731000000,
+                24792000000,
+                25012000000,
+                25131000000,
+                25353000000,
+                25370000000,
+                25473000000,
+                25610000000,
+                25770000000,
+                25793000000,
+                26113000000,
+                26211000000,
+                26333000000,
+                26451000000,
+                26553000000,
+                26733000000,
+                26811000000,
+                26993000000,
+                27232000000,
+                27251000000,
+                27411000000,
+                27412000000,
+                27571000000,
+                27612000000,
+                27792000000,
+                27811000000,
+                27952000000,
+                28051000000,
+                28692000000,
+                28731000000,
+                28852000000,
+                29091000000,
+                29232000000,
+                29291000000,
+                29492000000,
+                29611000000,
+                29732000000,
+                29811000000,
+                29892000000,
+                30091000000,
+                30192000000,
+                30392000000,
+                30451000000,
+                30512000000,
+                30611000000,
+                30811000000,
+                30892000000,
+                31192000000,
+                31291000000,
+                31352000000,
+                31451000000,
+                31732000000,
+                31771000000,
+                31993000000,
+                32011000000,
+                32170000000,
+                32233000000,
+                32413000000,
+                32491000000,
+                32613000000,
+                32691000000,
+                32853000000,
+                33051000000,
+                33073000000,
+                33293000000,
+                33371000000,
+                33473000000,
+                33593000000,
+                33651000000,
+                33872000000,
+                33931000000,
+                34132000000,
+                34291000000,
+                34372000000,
+                34552000000,
+                34571000000,
+                34652000000,
+                34811000000,
+                34832000000
+            ],
+            "y": {
+                "bdata": "AAAAAACAXkBzCMFPwYZeQGvLGf3utmBAAAAAAACgYUA957hkZuBhQAAAAAAAQGJAAAAAAABAYkAAAAAAAEBiQF8IOe//02NAAAAAAADAZECPfRwPrqdlQAAAAAAAwGVAtrUqLjOBZkAAAAAAAEBnQJEQQMXM9WdAAAAAAABgaEAC36eJwqdpQAAAAAAAgGpAAAAAAABAa0D83kuGiGBrQPzeS4aIwGtAAAAAAAAAbEBR+/sX1GVsQAAAAAAAYG1AjhtaQET2bUAAAAAAAEBuQAAAAAAAwG5AYdgnoXANb0AAAAAAAEBvQG6tistMXm9AAAAAAACgb0AAAAAAAKBvQAAAAAAAoG9ApGZZQR2wb0AAAAAAAMBvQP+9ypAZNnBAAAAAAAAwcUC+igjWoz5xQItX1aJwc3FAAAAAAACQcUCRyWHsK+lxQAAAAAAA8HFAH+ZKvLv9cUAAAAAAABByQAAAAAAAYHJAv6bIvgFlckA5NEqsqqpyQAAAAAAAwHJAu9bep6rockAAAAAAABBzQIDonyMiInNAxFukICJCc0AAAAAAAFBzQPfnV0cXcXNAYYAlooucc0AAAAAAAKBzQAAAAAAAoHNAzzkumRmgc0AAAAAAALBzQIomdLu7snNAiiZ0u7u+c0AAAAAAAMBzQGqiPczM0nNAAAAAAADgc0AAAAAAAOBzQAAAAAAA4HNA6qfbtWDlc0AAAAAAAPBzQKaUvq1H+3NAAAAAAAAAdEAY42gz8/VzQAAAAAAA8HNADPskFK75c0AAAAAAAAB0QMp0XSy+9nNAAAAAAADgc0B0t8DgghFzQObTh1KfeHFAAAAAAAAAcUDovTEEAMNwQAAAAAAAYHBAAAAAAACAbkD1IE5xZq1tQPUgTnFmoWpAAAAAAACgaUAyCAfWzBlpQAAAAAAAQGhADWMcbWZ+ZkAAAAAAAEBmQKCeiI+ZNWVAAAAAAAAgZUAAAAAAAABkQPhPcY4J1GNAD4rrFG5WY0AAAAAAACBjQAocfYrr0WJAAAAAAACgYkBF5sPSzCxiQAAAAAAAoGFAOA32y8ydYUBijKPNzIdhQAAAAAAAgGFAAAAAAACAYUAAAAAAAIBhQAAAAAAAgGFAoqHnesXLYUAAAAAAAOBhQNNEe5iZFWJAAAAAAABAYkBEQ8/1indiQPqwqqz48mJAAAAAAAAAY0AQLDT9/zVjQAAAAAAAoGNAAAAAAACgY0A=",
+                "dtype": "f8"
+            }
+        },
+        {
+            "mode": "lines",
+            "name": "VER Speed",
+            "type": "scatter",
+            "x": [
+                20037000000,
+                20115000000,
+                20315000000,
+                20317000000,
+                20537000000,
+                20675000000,
+                20836000000,
+                21075000000,
+                21136000000,
+                21235000000,
+                21336000000,
+                21395000000,
+                21576000000,
+                21595000000,
+                21756000000,
+                21915000000,
+                22016000000,
+                22075000000,
+                22316000000,
+                22475000000,
+                22675000000,
+                22736000000,
+                22916000000,
+                23035000000,
+                23116000000,
+                23315000000,
+                23476000000,
+                23555000000,
+                23835000000,
+                23956000000,
+                24035000000,
+                24136000000,
+                24355000000,
+                24476000000,
+                24515000000,
+                24656000000,
+                24795000000,
+                24836000000,
+                24955000000,
+                25016000000,
+                25236000000,
+                25355000000,
+                25577000000,
+                25594000000,
+                25697000000,
+                25834000000,
+                25994000000,
+                26017000000,
+                26337000000,
+                26435000000,
+                26557000000,
+                26675000000,
+                26777000000,
+                26957000000,
+                27035000000,
+                27217000000,
+                27456000000,
+                27475000000,
+                27635000000,
+                27636000000,
+                27795000000,
+                27836000000,
+                28016000000,
+                28035000000,
+                28176000000,
+                28275000000,
+                28916000000,
+                28955000000,
+                29076000000,
+                29315000000,
+                29456000000,
+                29515000000,
+                29716000000,
+                29835000000,
+                29956000000,
+                30035000000,
+                30116000000,
+                30315000000,
+                30416000000,
+                30616000000,
+                30675000000,
+                30736000000,
+                30835000000,
+                31035000000,
+                31116000000,
+                31416000000,
+                31515000000,
+                31576000000,
+                31675000000,
+                31956000000,
+                31995000000,
+                32217000000,
+                32235000000,
+                32394000000,
+                32457000000,
+                32637000000,
+                32715000000,
+                32837000000,
+                32915000000,
+                33077000000,
+                33275000000,
+                33297000000,
+                33517000000,
+                33595000000,
+                33697000000,
+                33817000000,
+                33875000000,
+                34096000000,
+                34155000000,
+                34356000000,
+                34515000000,
+                34596000000,
+                34776000000,
+                34795000000,
+                34876000000
+            ],
+            "y": {
+                "bdata": "UqUcgpllXkAAAAAAAEBfQAAAAAAAgGBAQsZIm0+CYEDrETqSiIBhQAAAAAAAIGJANRLbvPX6YkAAAAAAAEBkQDCEnPf/uWRAAAAAAACAZUAYQs77/+RlQAAAAAAAIGZAQQ0A0aMkZ0AAAAAAAEBnQPOc45KZQWhAAAAAAABAaUAAAAAAAEBpQAAAAAAAQGlAXErp23p0akAAAAAAAEBrQAAAAAAAAGxAec5xycwwbEB5znHJzMBsQAAAAAAAIG1Aec5xycxgbUAAAAAAAABuQFE0odvdVW5AAAAAAACAbkAAAAAAACBvQGHYJ6FwbW9AAAAAAACgb0DbWhWXmdxvQAAAAAAAMHBAPee4ZGZgcEAAAAAAAHBwQEfNsoI6kHBAAAAAAACwcEA957hkZsBwQAAAAAAA8HBAvooI1qP+cECLV9WicDNxQAAAAAAAUHFAMEPLTrltcUAAAAAAAHBxQE0/u1ZVknFAAAAAAADAcUAAAAAAAMBxQPSK/B4sxHFA24Do5Dj+cUAAAAAAABByQH7vJUNEIHJAAAAAAAAwckBg7reamT1yQNNEe5iZVXJAAAAAAABgckBj9u+CPG1yQPTM20CefnJAAAAAAACAckAAAAAAAJByQAAAAAAAkHJAAAAAAACQckCKJnS7u5JyQIomdLu7nnJAAAAAAACgckAAAAAAAKByQAAAAAAAoHJAvKL3KSq+ckAAAAAAAMByQOqn27VgxXJAAAAAAADQckAAAAAAANByQAAAAAAA0HJAAAAAAADQckAAAAAAANByQAAAAAAA0HJAAAAAAADQckAAAAAAANByQAAAAAAA0HJAC5ABTJ+eckDvyI8v2DxyQAAAAAAAIHJA9SBOcWaBcUAAAAAAAIBwQAAAAAAAIG5AX8OLPTNYbUBfw4s9M3RqQAAAAAAAgGlAuTmVDADJaEAAAAAAAKBnQNB7YwgAbmVAAAAAAAAgZUD/GYFUZkZjQAAAAAAAIGNAAAAAAADgYkCFZAuropRiQIejSv9OvWFAAAAAAABgYUANYxxtZv5gQAAAAAAAwGBAfGlrODNbYEAAAAAAAMBfQDCEnPf/qV9A0HtjCADOXkAAAAAAAIBeQG3+UjYd9F1AJGwu7YpPXUAAAAAAAABdQNgsik4HZV1AAAAAAACAXUDZ6+kcInpeQAAAAAAAQF9Ar1kUnQ6KX0D8dRxzUBdgQAAAAAAAIGBAtrUqLjOBYEA=",
+                "dtype": "f8"
+            }
+        },
+        {
+            "line": {
+                "dash": "dot"
+            },
+            "mode": "lines",
+            "name": "HAM DRS",
+            "type": "scatter",
+            "x": [
+                20091000000,
+                20093000000,
+                20313000000,
+                20451000000,
+                20612000000,
+                20851000000,
+                20912000000,
+                21011000000,
+                21112000000,
+                21171000000,
+                21352000000,
+                21371000000,
+                21532000000,
+                21691000000,
+                21792000000,
+                21851000000,
+                22092000000,
+                22251000000,
+                22451000000,
+                22512000000,
+                22692000000,
+                22811000000,
+                22892000000,
+                23091000000,
+                23252000000,
+                23331000000,
+                23611000000,
+                23732000000,
+                23811000000,
+                23912000000,
+                24131000000,
+                24252000000,
+                24291000000,
+                24432000000,
+                24571000000,
+                24612000000,
+                24731000000,
+                24792000000,
+                25012000000,
+                25131000000,
+                25353000000,
+                25370000000,
+                25473000000,
+                25610000000,
+                25770000000,
+                25793000000,
+                26113000000,
+                26211000000,
+                26333000000,
+                26451000000,
+                26553000000,
+                26733000000,
+                26811000000,
+                26993000000,
+                27232000000,
+                27251000000,
+                27411000000,
+                27412000000,
+                27571000000,
+                27612000000,
+                27792000000,
+                27811000000,
+                27952000000,
+                28051000000,
+                28692000000,
+                28731000000,
+                28852000000,
+                29091000000,
+                29232000000,
+                29291000000,
+                29492000000,
+                29611000000,
+                29732000000,
+                29811000000,
+                29892000000,
+                30091000000,
+                30192000000,
+                30392000000,
+                30451000000,
+                30512000000,
+                30611000000,
+                30811000000,
+                30892000000,
+                31192000000,
+                31291000000,
+                31352000000,
+                31451000000,
+                31732000000,
+                31771000000,
+                31993000000,
+                32011000000,
+                32170000000,
+                32233000000,
+                32413000000,
+                32491000000,
+                32613000000,
+                32691000000,
+                32853000000,
+                33051000000,
+                33073000000,
+                33293000000,
+                33371000000,
+                33473000000,
+                33593000000,
+                33651000000,
+                33872000000,
+                33931000000,
+                34132000000,
+                34291000000,
+                34372000000,
+                34552000000,
+                34571000000,
+                34652000000,
+                34811000000,
+                34832000000
+            ],
+            "y": {
+                "bdata": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "dtype": "i1"
+            }
+        },
+        {
+            "line": {
+                "dash": "dot"
+            },
+            "mode": "lines",
+            "name": "VER DRS",
+            "type": "scatter",
+            "x": [
+                20037000000,
+                20115000000,
+                20315000000,
+                20317000000,
+                20537000000,
+                20675000000,
+                20836000000,
+                21075000000,
+                21136000000,
+                21235000000,
+                21336000000,
+                21395000000,
+                21576000000,
+                21595000000,
+                21756000000,
+                21915000000,
+                22016000000,
+                22075000000,
+                22316000000,
+                22475000000,
+                22675000000,
+                22736000000,
+                22916000000,
+                23035000000,
+                23116000000,
+                23315000000,
+                23476000000,
+                23555000000,
+                23835000000,
+                23956000000,
+                24035000000,
+                24136000000,
+                24355000000,
+                24476000000,
+                24515000000,
+                24656000000,
+                24795000000,
+                24836000000,
+                24955000000,
+                25016000000,
+                25236000000,
+                25355000000,
+                25577000000,
+                25594000000,
+                25697000000,
+                25834000000,
+                25994000000,
+                26017000000,
+                26337000000,
+                26435000000,
+                26557000000,
+                26675000000,
+                26777000000,
+                26957000000,
+                27035000000,
+                27217000000,
+                27456000000,
+                27475000000,
+                27635000000,
+                27636000000,
+                27795000000,
+                27836000000,
+                28016000000,
+                28035000000,
+                28176000000,
+                28275000000,
+                28916000000,
+                28955000000,
+                29076000000,
+                29315000000,
+                29456000000,
+                29515000000,
+                29716000000,
+                29835000000,
+                29956000000,
+                30035000000,
+                30116000000,
+                30315000000,
+                30416000000,
+                30616000000,
+                30675000000,
+                30736000000,
+                30835000000,
+                31035000000,
+                31116000000,
+                31416000000,
+                31515000000,
+                31576000000,
+                31675000000,
+                31956000000,
+                31995000000,
+                32217000000,
+                32235000000,
+                32394000000,
+                32457000000,
+                32637000000,
+                32715000000,
+                32837000000,
+                32915000000,
+                33077000000,
+                33275000000,
+                33297000000,
+                33517000000,
+                33595000000,
+                33697000000,
+                33817000000,
+                33875000000,
+                34096000000,
+                34155000000,
+                34356000000,
+                34515000000,
+                34596000000,
+                34776000000,
+                34795000000,
+                34876000000
+            ],
+            "y": {
+                "bdata": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "dtype": "i1"
+            }
+        }
+    ],
+    "layout": {
+        "hovermode": "x unified",
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Speed and DRS Usage: Hamilton vs Verstappen (Lap 38 - Wellington Straight)"
+        },
+        "xaxis": {
+            "title": {
+                "text": "Time into Lap (seconds)"
+            }
+        },
+        "yaxis": {
+            "title": {
+                "text": "Speed (km/h)"
+            }
+        }
+    }
+}

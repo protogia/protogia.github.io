@@ -1,0 +1,2043 @@
+{
+    "config": {
+        "plotlyServerURL": "https://plot.ly"
+    },
+    "data": [
+        {
+            "alignmentgroup": "True",
+            "boxpoints": "all",
+            "customdata": {
+                "bdata": "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",
+                "dtype": "f8",
+                "shape": "551, 1"
+            },
+            "hovertemplate": "Compound=MEDIUM<br>Driver=%{x}<br>LapTimeSeconds=%{y}<br>LapNumber=%{customdata[0]}<extra></extra>",
+            "legendgroup": "MEDIUM",
+            "marker": {
+                "color": "#636efa"
+            },
+            "name": "MEDIUM",
+            "notched": false,
+            "offsetgroup": "MEDIUM",
+            "orientation": "v",
+            "showlegend": true,
+            "type": "box",
+            "x": [
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA"
+            ],
+            "x0": " ",
+            "xaxis": "x",
+            "y": {
+                "bdata": "kxgEVg4dWUAv3SQGgbVXQIGVQ4tsz1dAgZVDi2zHV0Bg5dAi28lXQAAAAAAAuFdAL90kBoHFV0BEi2zn+9FXQEjhehSu51dA/Knx0k3SV0AxCKwcWtRXQD81XrpJ3FdAxSCwcmjJV0D2KFyPwsVXQClcj8L1yFdAbxKDwMrRV0Dn+6nx0u1XQIGVQ4tsr1dAd76fGi+lV0CR7Xw/Na5XQIXrUbgepVdAtMh2vp9qWkAfhetRuK5XQJzEILByuFdA8KfGSzehV0B1kxgEVq5XQJqZmZmZoVdAtMh2vp+SV0B9PzVeurleQH9qvHSTMFdAxSCwcmhBV0AX2c73U1NXQKabxCCwSldAmpmZmZkxV0AAAAAAAChXQG8Sg8DKQVdATDeJQWC1WEAfhetRuCZfQF66SQwCQ1pAnMQgsHJYWEDFILByaAFYQIlBYOXQElhAiUFg5dBKWEAv3SQGgRVYQN0kBoGVQ1hAqvHSTWJQWEBU46WbxDhYQO58PzVeClhAZmZmZmYOWEDD9ShcjwpYQM3MzMzMHFhA001iEFgJWECe76fGS/9XQG3n+6nxElhAMzMzMzMLWEDpJjEIrBRYQKJFtvP9/FdAMzMzMzPrV0A730+Nl/5YQDm0yHa+Z1lARrbz/dTYV0AhsHJokaVaQESLbOf7cVhAsp3vp8Y7WEACK4cW2U5YQC2yne+nTlhAXI/C9Sg8WECWQ4ts51NYQMP1KFyPYlhA7nw/NV5qWEC28/3UeHFYQHsUrkfhYlhAzczMzMx0WECJQWDl0FJYQESLbOf7SVhAZmZmZmY+WEApXI/C9VBYQPhT46WbPFhAsHJoke1kWEC8dJMYBEZYQKAaL90kLlhArBxaZDuXWkD4U+Olm1xYQNEi2/l+mldAMzMzMzODV0AdWmQ735dXQPLSTWIQsFdABFYOLbKdV0BKDAIrh55XQI/C9Shcr1dA9ihcj8K9V0AMAiuHFsFXQIts5/upkVdArBxaZDufV0DZzvdT46VXQHNoke18h1dACtejcD16V0DD9Shcj5JXQIlBYOXQoldAf2q8dJOQV0D+1HjpJpFXQE5iEFg5hFdAokW28/2EV0BkO99PjRdaQNEi2/l+eldAhetRuB59V0Dy0k1iEIBXQL6fGi/dfFdAlkOLbOdrV0DhehSuR2FXQNnO91PjXVdArkfhehRuV0DFILByaHFXQL6fGi/dXFdAWDm0yHZmV0BmZmZmZm5XQFg5tMh2PldAGy/dJAY5YUArhxbZzvdYQE5iEFg5VF5AhxbZzvdzV0DVeOkmMWBXQPhT46WbNFxA2/l+arxEX0BqvHSTGJxZQCPb+X5qiGBAAAAAAAAA+H9/arx0k4hhQK5H4XoUxltARIts5/sBWUCcxCCwcqhYQJqZmZmZsVhAwcqhRba7WEDD9Shcj7JYQH9qvHSTmFhAppvEILCyWECR7Xw/Nd5YQMuhRbbzxVhA1XjpJjHAWEBiEFg5tMhYQOOlm8QguFhAL90kBoHFWEC+nxov3dxYQD0K16NwzVhA2c73U+PVWECkcD0K19NYQMP1KFyP2lhAQmDl0CKjWECamZmZmRFYQLTIdr6feldASOF6FK5/V0C6SQwCK29XQBSuR+F6lFdAI9v5fmqEV0AK16NwPapXQNnO91PjlVdAsHJoke2cV0AX2c73U5NXQJ7vp8ZLp1dAoBov3SSWV0A9CtejcJ1XQKjGSzeJiVdABFYOLbJ9V0BvEoPAyplXQKwcWmQ7j1dAPzVeukmkV0AK16NwPapXQIXrUbgelVdAtMh2vp+SV0A730+Nl/5ZQGiR7Xw/nVdATmIQWDmUV0CYbhKDwIJXQHE9CtejAFtAN4lBYOX4WEA3iUFg5bBYQKabxCCw2lhAGQRWDi26WEDHSzeJQchYQDVeukkMulhAZDvfT43fWEB3vp8aL9VYQKrx0k1i0FhAFK5H4XrMWED0/dR46b5YQLgehetRwFhAGQRWDi3CWEBzaJHtfOdYQMdLN4lByFhAPQrXo3DVWEDsUbgehaNYQCUGgZVDy2FAnu+nxktPYECiRbbz/RxYQBkEVg4tKlhAHVpkO98XWEBU46WbxBhYQNEi2/l+SltAfT81Xro5WEBmZmZmZjZYQAaBlUOL7FdAYOXQIttxWkA3iUFg5ShaQAisHFpkM1hAYOXQItspWEAlBoGVQytYQBsv3SQGMVhAiUFg5dASWEDZzvdT401YQH9qvHSTOFhAAiuHFtkmWECoxks3iTFYQOxRuB6FA1hAjZduEoMwWECuR+F6FAZYQDvfT42X9ldAIbByaJH9V0AUrkfhetRXQDMzMzMz01hAiUFg5dC6V0DjpZvEIMhXQFg5tMh2rldAJQaBlUOzV0ASg8DKoaVXQDeJQWDloFdAMzMzMzOrV0DpJjEIrLxXQDvfT42XxldAPQrXo3C1V0AZBFYOLbpXQC2yne+nvldAMzMzMzOjV0AUrkfheqRXQI2XbhKDsFdAFK5H4XqEV0AdWmQ7379fQFg5tMh2BldApHA9Ctc7V0CJQWDl0CJXQDm0yHa+J1dAKVyPwvUYV0AdWmQ73zdXQDVeukkMOldAAAAAAAAA+H9SuB6F61FZQFpkO99PBVhAuB6F61EQWEBoke18P+1XQDeJQWDl6FdAukkMAivvV0CR7Xw/NQZYQKAaL90k/ldAvp8aL90UWEC4HoXrURBYQCcxCKwcClhAi2zn+6kZWEB3vp8aL/VXQG8Sg8DK+VdACtejcD3qV0CgGi/dJO5XQDvfT42X5ldApHA9CtfzV0B56SYxCOxXQHE9Ctej6FdAAiuHFtnmV0AnMQisHGpaQCUGgZVDA1hA30+Nl27yV0B56SYxCBxYQPhT46Wb3FdAwcqhRbbLV0AzMzMzM5tXQN0kBoGVK1pAokW28/1MWEArhxbZzkdYQF66SQwCM1hAUI2XbhJrWEBeukkMAlNYQPhT46WbLFhAuB6F61FAWEAAAAAAAFhYQLKd76fGa1hAEoPAyqFFWEDTTWIQWEFYQGq8dJMYLFhAgZVDi2w3WEB7FK5H4SpYQOkmMQisRFhARrbz/dRQWECiRbbz/TxYQClcj8L1MFhAN4lBYOUgWEDByqFFthNZQKrx0k1iwFlAokW28/0MWEBMN4lBYP1XQAwCK4cW6VdAH4XrUbjuV0Db+X5qvPRXQJHtfD81/ldA8KfGSzcJWECamZmZmRlYQA4tsp3vD1hAy6FFtvMFWEBSuB6F6/lXQKabxCCwClhArkfhehTuV0DpJjEIrNxXQI/C9Shc/1dA8tJNYhDwV0ACK4cW2fZXQFCNl24S+1dA5/up8dL1V0Bg5dAi2/FXQLTIdr6fslpA9P3UeOkmWEC28/3UeOFXQBSuR+F69FdAtvP91HjhV0Boke18P6VXQEJg5dAii1pAhetRuB5NWEAX2c73UytYQJZDi2znE1hAI9v5fmosWEBWDi2ynUdYQEw3iUFgHVhAWmQ7309NWEBQjZduEiNYQMuhRbbzXVhASgwCK4ceWEDLoUW28zVYQOkmMQisBFhAppvEILD6V0ACK4cW2fZXQJMYBFYOJVhAnu+nxksPWEAdWmQ73w9YQPhT46WbBFhAUrgehevxV0DLoUW28x1ZQAisHFpk01hA7nw/NV46WEBYObTIdo5XQDMzMzMzg1dAMQisHFp8V0C4HoXrUbBXQF66SQwCq1dA16NwPQqvV0CLbOf7qalXQH9qvHSTwFdAyXa+nxq/V0CBlUOLbO9XQBsv3SQGqVdAbxKDwMqxV0DdJAaBlZtXQGIQWDm0sFdAK4cW2c7XV0ACK4cW2cZXQFTjpZvEuFdAEFg5tMimV0DhehSuR5lXQCUGgZVDs1dAxSCwcmgpWkBI4XoUro9XQFpkO99PTVpAf2q8dJMIWECJQWDl0ApYQFTjpZvEEFhAI9v5fmokWEDVeOkmMSBYQKabxCCw8ldAke18PzX+V0AbL90kBglYQIGVQ4tsB1hAbef7qfHqV0C4HoXrUfhXQJhuEoPAElhAukkMAiv3V0AbL90kBvFXQIcW2c73A1hA7nw/NV7qV0BxPQrXo/hXQPLSTWIQ+FdA5/up8dItWECkcD0K1yNYQH9qvHSTOFpAy6FFtvPtV0DfT42XbupXQJqZmZmZ4VdAmpmZmZnJV0Ce76fGS/9ZQH0/NV66IVhArkfhehQeWECmm8QgsBJYQM3MzMzMhFhAQmDl0CJbWEBSuB6F60lYQBfZzvdTS1hADi2yne9vWECq8dJNYnhYQJMYBFYOPVhAWDm0yHY+WEBxPQrXoyhYQCUGgZVDA1hAjZduEoMYWED6fmq8dCNYQC/dJAaBJVhANV66SQwqWEDfT42XbhJYQBsv3SQG4VdAqvHSTWKwWEAUrkfherxXQCuHFtnOF1hAoBov3SS2V0DjpZvEIMBXQESLbOf7oVdAnMQgsHK4V0B7FK5H4cpXQPYoXI/C1VdA7nw/NV7iV0BvEoPAyulXQFyPwvUo5FdAL90kBoHVV0Bg5dAi28FXQOxRuB6F01dAsp3vp8bLV0CcxCCwcthXQKjGSzeJwVdAfT81XrqJV0AUrkfhesxeQP7UeOkmEVdA+FPjpZssV0CJQWDl0DpXQOF6FK5HOVdAMQisHFosV0AQWDm0yB5XQPhT46WbRFdA+FPjpZtEWEBt5/up8YpYQLKd76fGs1dAZmZmZmauV0CDwMqhRaZXQPCnxks3sVdAK4cW2c63V0C8dJMYBJ5XQF66SQwCs1dAmG4Sg8DCV0BeukkMAsNXQAIrhxbZxldAL90kBoG9V0CwcmiR7cRXQFpkO99PrVdAarx0kxikV0BzaJHtfLdXQCcxCKwc8ldABoGVQ4vMV0B3vp8aL6VXQAisHFpko1dAUrgeheuZV0Cyne+nxntaQM3MzMzMfFdAtMh2vp+CXECe76fGSx9XQB1aZDvfH1dA0SLb+X4KWkA5tMh2vl9aQFpkO99PJVdAAiuHFtkuV0CWQ4ts5ytXQLgehetRMFdAgZVDi2wfV0AMAiuHFklXQMl2vp8aP1dAjZduEoNQV0AEVg4tsrVfQGQ730+NX2BAAAAAAAAA+H8AAAAAAAD4f4XrUbge6WFAbef7qfHSWkBaZDvfT61YQH0/NV66YVhAJzEIrBxSWEA1XrpJDEpYQG8Sg8DKgVhA0SLb+X6aWEB/arx0k3BYQNEi2/l+ilhAiUFg5dCCWEBoke18P4VYQC2yne+ndlhA8KfGSzdpWEDNzMzMzGxYQLByaJHtZFhAppvEILBqWEAzMzMzM2tYQD81XrpJhFhAkxgEVg51WEDfT42XbrJYQMP1KFyPwlpAxSCwcmjRWEBzaJHtfH9YQCUGgZVDy1hAvp8aL90MWUAAAAAAAGBYQCUGgZVDe1hAg8DKoUWmWEAnMQisHEJYQFg5tMh2XlpABFYOLbI9XkBSuB6F61leQO58PzVeyltAiUFg5dBKV0AK16NwPWJXQOF6FK5HSVdAppvEILA6V0Aj2/l+akRXQO58PzVekldAUrgehetZV0A1XrpJDEJXQHWTGARWFl5Az/dT46VjW0BaZDvfT3VYQB1aZDvfV1hAuB6F61FIWEBzaJHtfDdYQC2yne+nHlhAd76fGi9VWECF61G4Hk1YQNEi2/l+UlhAVg4tsp2XWEC0yHa+n0JYQOxRuB6FS1hAVg4tsp1HWEDwp8ZLNzlYQHE9CtejSFhAObTIdr4/WECNl24Sg0BYQKJFtvP9XFhANV66SQxKWEAtsp3vpy5YQBBYObTItlpAiUFg5dAaWEA1XrpJDCpYQHe+nxovPVhASOF6FK4fWEBzaJHtfCdYQBSuR+F6VFhApHA9CtdLWEDXo3A9ChdYQA==",
+                "dtype": "f8"
+            },
+            "y0": " ",
+            "yaxis": "y"
+        },
+        {
+            "alignmentgroup": "True",
+            "boxpoints": "all",
+            "customdata": {
+                "bdata": "AAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAAA4QAAAAAAAADlAAAAAAAAAOkAAAAAAAAA7QAAAAAAAADxAAAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAACAR0AAAAAAAABIQAAAAAAAADZAAAAAAAAAN0AAAAAAAAA4QAAAAAAAADlAAAAAAAAAOkAAAAAAAAA7QAAAAAAAADxAAAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAANUAAAAAAAAA2QAAAAAAAADdAAAAAAAAAOEAAAAAAAAA5QAAAAAAAADpAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAADpAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAgEdAAAAAAAAASEAAAAAAAAAzQAAAAAAAADRAAAAAAAAANUAAAAAAAAA2QAAAAAAAADdAAAAAAAAAOEAAAAAAAAA5QAAAAAAAADpAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAAABAAAAAAAAACEAAAAAAAAAQQAAAAAAAABRAAAAAAAAAGEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAIkAAAAAAAAAkQAAAAAAAACZAAAAAAAAAKEAAAAAAAAAqQAAAAAAAACxAAAAAAAAAMkAAAAAAAAAzQAAAAAAAADRAAAAAAAAANUAAAAAAAAA2QAAAAAAAADdAAAAAAAAAOEAAAAAAAAA5QAAAAAAAADpAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAgEdAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAADxAAAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAACAR0AAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAAEVAAAAAAACARUAAAAAAAABGQAAAAAAAgEZAAAAAAAAAR0AAAAAAAIBHQAAAAAAAAEhAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAgEdAAAAAAAAANUAAAAAAAAA2QAAAAAAAADdAAAAAAAAAOEAAAAAAAAA5QAAAAAAAADpAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAIBCQAAAAAAAAENAAAAAAACAQ0AAAAAAAABEQAAAAAAAgERAAAAAAAAARUAAAAAAAIBFQAAAAAAAAEZAAAAAAACARkAAAAAAAABHQAAAAAAAgEdAAAAAAAAASEAAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAAAACEAAAAAAAAAQQAAAAAAAABRAAAAAAAAAGEAAAAAAAAAcQAAAAAAAACBAAAAAAAAAIkAAAAAAAAAkQAAAAAAAACZAAAAAAAAAKEAAAAAAAAAqQAAAAAAAACxAAAAAAAAALkAAAAAAAAAwQAAAAAAAADFAAAAAAAAAMkAAAAAAAAAzQAAAAAAAADRAAAAAAAAANUAAAAAAAAA2QAAAAAAAADdAAAAAAAAAOEAAAAAAAAA5QAAAAAAAADpAAAAAAAAAO0AAAAAAAAA8QAAAAAAAAD1AAAAAAAAAPkAAAAAAAAA/QAAAAAAAAEBAAAAAAACAQEAAAAAAAABBQAAAAAAAgEFAAAAAAAAAQkAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAACAR0A=",
+                "dtype": "f8",
+                "shape": "457, 1"
+            },
+            "hovertemplate": "Compound=HARD<br>Driver=%{x}<br>LapTimeSeconds=%{y}<br>LapNumber=%{customdata[0]}<extra></extra>",
+            "legendgroup": "HARD",
+            "marker": {
+                "color": "#EF553B"
+            },
+            "name": "HARD",
+            "notched": false,
+            "offsetgroup": "HARD",
+            "orientation": "v",
+            "showlegend": true,
+            "type": "box",
+            "x": [
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ANT",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "HUL",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "VER",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "RUS",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA"
+            ],
+            "x0": " ",
+            "xaxis": "x",
+            "y": {
+                "bdata": "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",
+                "dtype": "f8"
+            },
+            "y0": " ",
+            "yaxis": "y"
+        },
+        {
+            "alignmentgroup": "True",
+            "boxpoints": "all",
+            "customdata": {
+                "bdata": "AAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEdAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEdAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEdAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAAA4QAAAAAAAADlAAAAAAAAAOkAAAAAAAAA7QAAAAAAAADxAAAAAAAAAPUAAAAAAAAA+QAAAAAAAAD9AAAAAAAAAQEAAAAAAAIBAQAAAAAAAAEFAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAAQ0AAAAAAAIBDQAAAAAAAAERAAAAAAACAREAAAAAAAABFQAAAAAAAgEVAAAAAAACAQUAAAAAAAABCQAAAAAAAgEJAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAABIQAAAAAAAgEhAAAAAAAAASUAAAAAAAIBJQAAAAAAAAEpAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEhAAAAAAAAASUAAAAAAAIBJQAAAAAAAAEpAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEhAAAAAAAAASUAAAAAAAIBJQAAAAAAAAEpAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAgEdAAAAAAAAASEAAAAAAAIBIQAAAAAAAAElAAAAAAACASUAAAAAAAABKQAAAAAAAAEhAAAAAAACASEAAAAAAAABJQAAAAAAAgElAAAAAAAAASkAAAAAAAABIQAAAAAAAgEhAAAAAAAAASUAAAAAAAIBJQAAAAAAAAEpA",
+                "dtype": "f8",
+                "shape": "105, 1"
+            },
+            "hovertemplate": "Compound=SOFT<br>Driver=%{x}<br>LapTimeSeconds=%{y}<br>LapNumber=%{customdata[0]}<extra></extra>",
+            "legendgroup": "SOFT",
+            "marker": {
+                "color": "#00cc96"
+            },
+            "name": "SOFT",
+            "notched": false,
+            "offsetgroup": "SOFT",
+            "orientation": "v",
+            "showlegend": true,
+            "type": "box",
+            "x": [
+                "NOR",
+                "NOR",
+                "NOR",
+                "NOR",
+                "GAS",
+                "GAS",
+                "GAS",
+                "GAS",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "PER",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "ALO",
+                "LEC",
+                "LEC",
+                "LEC",
+                "LEC",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "STR",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "ALB",
+                "HUL",
+                "HUL",
+                "HUL",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "LAW",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "OCO",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "LIN",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "COL",
+                "HAM",
+                "HAM",
+                "HAM",
+                "HAM",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "BOR",
+                "SAI",
+                "SAI",
+                "SAI",
+                "SAI",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "HAD",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "BOT",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "PIA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA",
+                "BEA"
+            ],
+            "x0": " ",
+            "xaxis": "x",
+            "y": {
+                "bdata": "yXa+nxrXYUBiEFg5tBRiQAAAAAAAAPh/hxbZzvfXYUAfhetRuL5fQARWDi2y1VlAAAAAAAAA+H/D9Shcj3JhQPhT46WbHGJAK4cW2c4PXkDy0k1iEBBhQM/3U+OlM1tAqvHSTWKwWEAtsp3vp05aQBsv3SQG4WFAAAAAAAAA+H+YbhKDwKpZQLByaJHt9FdA+n5qvHRrXUAAAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H/pJjEIrPhhQAAAAAAAAPh/rkfhehQeYUDfT42XbppbQEjhehSuj1hAd76fGi91WkBU46WbxGhgQMUgsHJouVdA9ihcj8LFV0Db+X5qvORXQGQ730+N31dA1XjpJjHQV0AOLbKd71dYQGZmZmZmdlhAokW28/30V0C6SQwCK+9XQO58PzVe4ldAg8DKoUW+V0DdJAaBladhQMdLN4lBiFhAiUFg5dCKV0CHFtnO96NXQHNoke18n1dAI9v5fmr0XUBzaJHtfHdXQGq8dJMYrFhAF9nO91PjXUDByqFFtltXQAAAAAAAAPh/ke18PzVqYUC0yHa+nyJcQHNoke18/2BAAAAAAAAA+H+kcD0K17thQFCNl24SM2JAyXa+nxrbYUAEVg4tsoVZQOXQItv59ldAx0s3iUEoXUBGtvP91DRiQPCnxks3kVpAGy/dJAa9YEAAAAAAAAD4f1CNl24Sr2FAwcqhRbbPYUDpJjEIrIxaQKrx0k1icFtAAAAAAAAA+H+mm8QgsH5hQFpkO99PpWJAAAAAAAAA+H8AAAAAAAD4fxSuR+F65GFAAiuHFtneYUCyne+nxutZQPCnxks3kWBAAAAAAAAA+H9CYOXQIpdhQAAAAAAAAPh/SgwCK4eWWEDl0CLb+S5XQHnpJjEIXF9AzczMzMwYYkDZzvdT4zVfQFYOLbKdD2FAAAAAAAAA+H/ByqFFtsdhQARWDi2yFWJAN4lBYOV4WUB56SYxCHxcQAIrhxbZnlpA8tJNYhCoWECcxCCwckhaQH9qvHSTnGJAAAAAAAAA+H93vp8aL61XQC/dJAaBZVdA0SLb+X4SYEBiEFg5tOhhQIGVQ4tst2JAIbByaJGtWUBCYOXQIgtYQBSuR+F6PF1A",
+                "dtype": "f8"
+            },
+            "y0": " ",
+            "yaxis": "y"
+        }
+    ],
+    "layout": {
+        "boxmode": "group",
+        "legend": {
+            "title": {
+                "text": "Tyre Compound"
+            },
+            "tracegroupgap": 0
+        },
+        "template": {
+            "data": {
+                "bar": [
+                    {
+                        "error_x": {
+                            "color": "#2a3f5f"
+                        },
+                        "error_y": {
+                            "color": "#2a3f5f"
+                        },
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "bar"
+                    }
+                ],
+                "barpolar": [
+                    {
+                        "marker": {
+                            "line": {
+                                "color": "#E5ECF6",
+                                "width": 0.5
+                            },
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "barpolar"
+                    }
+                ],
+                "carpet": [
+                    {
+                        "aaxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "baxis": {
+                            "endlinecolor": "#2a3f5f",
+                            "gridcolor": "white",
+                            "linecolor": "white",
+                            "minorgridcolor": "white",
+                            "startlinecolor": "#2a3f5f"
+                        },
+                        "type": "carpet"
+                    }
+                ],
+                "choropleth": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "choropleth"
+                    }
+                ],
+                "contour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "contour"
+                    }
+                ],
+                "contourcarpet": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "contourcarpet"
+                    }
+                ],
+                "heatmap": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "heatmap"
+                    }
+                ],
+                "histogram": [
+                    {
+                        "marker": {
+                            "pattern": {
+                                "fillmode": "overlay",
+                                "size": 10,
+                                "solidity": 0.2
+                            }
+                        },
+                        "type": "histogram"
+                    }
+                ],
+                "histogram2d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2d"
+                    }
+                ],
+                "histogram2dcontour": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "histogram2dcontour"
+                    }
+                ],
+                "mesh3d": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "type": "mesh3d"
+                    }
+                ],
+                "parcoords": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "parcoords"
+                    }
+                ],
+                "pie": [
+                    {
+                        "automargin": true,
+                        "type": "pie"
+                    }
+                ],
+                "scatter": [
+                    {
+                        "fillpattern": {
+                            "fillmode": "overlay",
+                            "size": 10,
+                            "solidity": 0.2
+                        },
+                        "type": "scatter"
+                    }
+                ],
+                "scatter3d": [
+                    {
+                        "line": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatter3d"
+                    }
+                ],
+                "scattercarpet": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattercarpet"
+                    }
+                ],
+                "scattergeo": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergeo"
+                    }
+                ],
+                "scattergl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattergl"
+                    }
+                ],
+                "scattermap": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermap"
+                    }
+                ],
+                "scattermapbox": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scattermapbox"
+                    }
+                ],
+                "scatterpolar": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolar"
+                    }
+                ],
+                "scatterpolargl": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterpolargl"
+                    }
+                ],
+                "scatterternary": [
+                    {
+                        "marker": {
+                            "colorbar": {
+                                "outlinewidth": 0,
+                                "ticks": ""
+                            }
+                        },
+                        "type": "scatterternary"
+                    }
+                ],
+                "surface": [
+                    {
+                        "colorbar": {
+                            "outlinewidth": 0,
+                            "ticks": ""
+                        },
+                        "colorscale": [
+                            [
+                                0,
+                                "#0d0887"
+                            ],
+                            [
+                                0.1111111111111111,
+                                "#46039f"
+                            ],
+                            [
+                                0.2222222222222222,
+                                "#7201a8"
+                            ],
+                            [
+                                0.3333333333333333,
+                                "#9c179e"
+                            ],
+                            [
+                                0.4444444444444444,
+                                "#bd3786"
+                            ],
+                            [
+                                0.5555555555555556,
+                                "#d8576b"
+                            ],
+                            [
+                                0.6666666666666666,
+                                "#ed7953"
+                            ],
+                            [
+                                0.7777777777777778,
+                                "#fb9f3a"
+                            ],
+                            [
+                                0.8888888888888888,
+                                "#fdca26"
+                            ],
+                            [
+                                1,
+                                "#f0f921"
+                            ]
+                        ],
+                        "type": "surface"
+                    }
+                ],
+                "table": [
+                    {
+                        "cells": {
+                            "fill": {
+                                "color": "#EBF0F8"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "header": {
+                            "fill": {
+                                "color": "#C8D4E3"
+                            },
+                            "line": {
+                                "color": "white"
+                            }
+                        },
+                        "type": "table"
+                    }
+                ]
+            },
+            "layout": {
+                "annotationdefaults": {
+                    "arrowcolor": "#2a3f5f",
+                    "arrowhead": 0,
+                    "arrowwidth": 1
+                },
+                "autotypenumbers": "strict",
+                "coloraxis": {
+                    "colorbar": {
+                        "outlinewidth": 0,
+                        "ticks": ""
+                    }
+                },
+                "colorscale": {
+                    "diverging": [
+                        [
+                            0,
+                            "#8e0152"
+                        ],
+                        [
+                            0.1,
+                            "#c51b7d"
+                        ],
+                        [
+                            0.2,
+                            "#de77ae"
+                        ],
+                        [
+                            0.3,
+                            "#f1b6da"
+                        ],
+                        [
+                            0.4,
+                            "#fde0ef"
+                        ],
+                        [
+                            0.5,
+                            "#f7f7f7"
+                        ],
+                        [
+                            0.6,
+                            "#e6f5d0"
+                        ],
+                        [
+                            0.7,
+                            "#b8e186"
+                        ],
+                        [
+                            0.8,
+                            "#7fbc41"
+                        ],
+                        [
+                            0.9,
+                            "#4d9221"
+                        ],
+                        [
+                            1,
+                            "#276419"
+                        ]
+                    ],
+                    "sequential": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ],
+                    "sequentialminus": [
+                        [
+                            0,
+                            "#0d0887"
+                        ],
+                        [
+                            0.1111111111111111,
+                            "#46039f"
+                        ],
+                        [
+                            0.2222222222222222,
+                            "#7201a8"
+                        ],
+                        [
+                            0.3333333333333333,
+                            "#9c179e"
+                        ],
+                        [
+                            0.4444444444444444,
+                            "#bd3786"
+                        ],
+                        [
+                            0.5555555555555556,
+                            "#d8576b"
+                        ],
+                        [
+                            0.6666666666666666,
+                            "#ed7953"
+                        ],
+                        [
+                            0.7777777777777778,
+                            "#fb9f3a"
+                        ],
+                        [
+                            0.8888888888888888,
+                            "#fdca26"
+                        ],
+                        [
+                            1,
+                            "#f0f921"
+                        ]
+                    ]
+                },
+                "colorway": [
+                    "#636efa",
+                    "#EF553B",
+                    "#00cc96",
+                    "#ab63fa",
+                    "#FFA15A",
+                    "#19d3f3",
+                    "#FF6692",
+                    "#B6E880",
+                    "#FF97FF",
+                    "#FECB52"
+                ],
+                "font": {
+                    "color": "#2a3f5f"
+                },
+                "geo": {
+                    "bgcolor": "white",
+                    "lakecolor": "white",
+                    "landcolor": "#E5ECF6",
+                    "showlakes": true,
+                    "showland": true,
+                    "subunitcolor": "white"
+                },
+                "hoverlabel": {
+                    "align": "left"
+                },
+                "hovermode": "closest",
+                "mapbox": {
+                    "style": "light"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "#E5ECF6",
+                "polar": {
+                    "angularaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "radialaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "scene": {
+                    "xaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "yaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    },
+                    "zaxis": {
+                        "backgroundcolor": "#E5ECF6",
+                        "gridcolor": "white",
+                        "gridwidth": 2,
+                        "linecolor": "white",
+                        "showbackground": true,
+                        "ticks": "",
+                        "zerolinecolor": "white"
+                    }
+                },
+                "shapedefaults": {
+                    "line": {
+                        "color": "#2a3f5f"
+                    }
+                },
+                "ternary": {
+                    "aaxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "baxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    },
+                    "bgcolor": "#E5ECF6",
+                    "caxis": {
+                        "gridcolor": "white",
+                        "linecolor": "white",
+                        "ticks": ""
+                    }
+                },
+                "title": {
+                    "x": 0.05
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "gridcolor": "white",
+                    "linecolor": "white",
+                    "ticks": "",
+                    "title": {
+                        "standoff": 15
+                    },
+                    "zerolinecolor": "white",
+                    "zerolinewidth": 2
+                }
+            }
+        },
+        "title": {
+            "text": "Lap Time Performance per Driver and Tyre Compound"
+        },
+        "xaxis": {
+            "anchor": "y",
+            "categoryarray": [
+                "LEC",
+                "RUS",
+                "HAM",
+                "NOR",
+                "HAD",
+                "LAW",
+                "LIN",
+                "BOR",
+                "COL",
+                "GAS",
+                "PIA",
+                "BEA",
+                "OCO",
+                "PER",
+                "ANT",
+                "BOT",
+                "SAI",
+                "ALO",
+                "STR",
+                "VER",
+                "ALB",
+                "HUL"
+            ],
+            "categoryorder": "array",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Driver"
+            }
+        },
+        "yaxis": {
+            "anchor": "x",
+            "domain": [
+                0,
+                1
+            ],
+            "title": {
+                "text": "Lap Time (seconds)"
+            }
+        }
+    }
+}
