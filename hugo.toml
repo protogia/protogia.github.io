@@ -15,24 +15,7 @@ theme = 'formula1'
   category = 'categories'
   tag = 'tags'
 
-[Menu]
-[[menu.Main]]
-   identifier = "projects"
-   name = "Projects"
-   url = "/projects"
-   weight = 1
-
-[[menu.Main]]
-   identifier = "blog"
-   name = "Evaluations"
-   url = "/blog"
-   weight = 2
-
-[[menu.Main]]
-   identifier = "aboutthisblog"
-   name = "About"
-   url = "/aboutthisblog"
-   weight = 3
-
 [params]
 aboutSection = "aboutthisblog/info"
+githubURL = "https://github.com/protogia"
+linkedinURL = "https://de.linkedin.com/in/giancarlo-rizzo-069170223"
