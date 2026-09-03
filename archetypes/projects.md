@@ -6,5 +6,4 @@ draft: true
 plotly: false
 code_options: false
 categories: []
-color: '#a09f93'
 ---
