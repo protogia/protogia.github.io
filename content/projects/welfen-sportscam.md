@@ -5,7 +5,7 @@ author: 'Giancarlo Rizzo'
 draft: true
 plotly: false
 code_options: false
-categories: []
+categories: [Projects, 3D Printing, Object Detection, Rust]
 color: '#a09f93'
 ---
 

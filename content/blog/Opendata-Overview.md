@@ -3,7 +3,7 @@ title: Opendata Overview
 date: '2024-03-08T21:51:04.407437+00:00'
 author: 'Giancarlo Rizzo'
 draft: false
-categories: []
+categories: [Data, Analytics]
 color: '#a09f93'
 ---
 

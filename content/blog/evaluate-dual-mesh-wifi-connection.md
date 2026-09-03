@@ -5,7 +5,7 @@ author: 'Giancarlo Rizzo'
 draft: false
 plotly: true
 code_options: true
-categories: []
+categories: [Networks]
 color: '#a09f93'
 ---
 

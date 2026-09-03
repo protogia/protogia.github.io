@@ -5,7 +5,7 @@ author: 'Giancarlo Rizzo'
 draft: false
 plotly: false
 code_options: false
-categories: [analysing]
+categories: [Data, Analytics, Python]
 color: '#a09f93'
 ---
 

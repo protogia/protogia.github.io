@@ -5,7 +5,7 @@ author: 'Giancarlo Rizzo'
 draft: false
 plotly: true
 code_options: true
-categories: []
+categories: [Formula 1, Analytics]
 color: '#a09f93'
 ---
 
@@ -462,7 +462,7 @@ During the middle of the race, Hamilton and Russell fought hard for position. Th
 {{<details title="Show code">}}
 
 ```python
-fig = utils.plot_gap_between_d1_d2(R.laps, 'HAM', 'RUS', event_lap=34, event_label='Russell pit for puncture')
+fig = utils.plot_gap_between_d1_d2(R.laps, 'HAMlot_track ', 'RUS', event_lap=34, event_label='Russell pit for puncture')
 fig.show()
 ```
 

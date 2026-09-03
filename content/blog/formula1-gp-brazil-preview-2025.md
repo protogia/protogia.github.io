@@ -6,8 +6,7 @@ draft: false
 plotly: true
 code_options: true
 colab_url: 'https://colab.research.google.com/github/protogia/formula1-evaluations/blob/main/gp-brazil-2025-preview.ipynb'
-categories: []
-color: '#a09f93'
+categories: [Formula 1, Analytics]
 ---
 
 <a href="https://colab.research.google.com/github/protogia/formula1-evaluations/blob/main/formula1-gp-brazil-preview-2025.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
