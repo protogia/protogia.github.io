@@ -1,5 +1,5 @@
 ---
-title: 'Formula1 - GP Brazil: Review 2025'
+title: 'Formula1 - GP Brazil: 2025'
 date: '2025-12-12T12:24:21.119885+00:00'
 author: 'Giancarlo Rizzo'
 draft: false

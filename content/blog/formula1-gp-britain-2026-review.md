@@ -1,5 +1,5 @@
 ---
-title: 'Formula 1 - GP Britain 2026 Review'
+title: 'Formula1 - GP Britain: 2026'
 date: '2026-08-14T18:49:22.908695+00:00'
 author: 'Giancarlo Rizzo'
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: 'Formula 1 - GP Austria: 2026 Review'
+title: 'Formula1 - GP Austria: 2026'
 date: '2026-08-14T18:42:29.077997+00:00'
 author: 'Giancarlo Rizzo'
 draft: false
